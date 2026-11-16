@@ -1,7 +1,7 @@
 # Everything the pipeline needs to know lives here.
 # Adding an instrument or a news theme should only ever mean editing this file.
 
-start_date: "2017-01-01"   # the GDELT DOC API has no coverage before 2017
+start_date: "2017-01-01"   # GDELT's GKG 2.0 files exist from February 2015
 
 # ---------------------------------------------------------------- instruments
 # source: cboe  -> CSV published by Cboe (DATE, OPEN, HIGH, LOW, CLOSE)
@@ -9,7 +9,7 @@ start_date: "2017-01-01"   # the GDELT DOC API has no coverage before 2017
 # source: yahoo -> daily OHLC through yfinance (unofficial, used for realized vol)
 # kind: implied  -> the series is already a volatility index
 # kind: realized -> the series is a price; build_features turns it into realized vol
-# news_region must match a key under gdelt.regions.
+# news_region must match a key under news.regions.
 instruments:
   vix:
     name: VIX
@@ -45,26 +45,34 @@ instruments:
     close: {time: "17:30", tz: Europe/Berlin}
 
 # ----------------------------------------------------------------------- news
-gdelt:
-  endpoint: https://api.gdeltproject.org/api/v2/doc/doc
-  pause_seconds: 6        # GDELT asks for roughly one request every 5 seconds
-  refresh_days: 30        # re-fetch this trailing window every run (keeps daily
-                          # resolution and picks up late-indexed articles)
-  chunk_days: 365         # backfill is requested in chunks of this many days
+# News comes from GDELT's raw Global Knowledge Graph (GKG 2.0) files: one file
+# every 15 minutes, one row per article. They are plain downloads with no
+# request limit.
+news:
+  base_url: http://data.gdeltproject.org/gdeltv2/
+  # GDELT's table of news outlets and the country each one publishes from.
+  domain_lookup_url: http://data.gdeltproject.org/blog/2018-news-outlets-by-country-may2018-update/MASTER-GDELTDOMAINSBYCOUNTRY-MAY2018.TXT
 
-  # Outlets are selected by the country they publish from (FIPS codes).
+  slots_per_day: 24          # how many of the 96 daily files to read (24 = one per hour)
+  include_translated: true   # also read the files of articles translated into English
+                             # (needed for German, French, Italian and Spanish outlets)
+  lookback_days: 10          # the daily run fills any missing day in this window
+  threads: 6                 # parallel downloads
+
+  # Outlets are grouped by the country they publish from (FIPS codes).
   regions:
-    us: "sourcecountry:US"
-    europe: "(sourcecountry:UK OR sourcecountry:GM OR sourcecountry:FR OR sourcecountry:IT OR sourcecountry:SP)"
+    us: [US]
+    europe: [UK, GM, FR, IT, SP]
 
-  # GDELT GKG theme codes. A misspelled code silently returns zeros, so
-  # fetch_news prints a warning for any series that comes back empty.
+  # GDELT GKG theme codes; an article counts if it carries any code in the list.
+  # A misspelled code silently matches nothing, so fetch_news warns about any
+  # theme that never appears.
   themes:
-    stock_market: "theme:ECON_STOCKMARKET"
-    central_banks: "theme:ECON_CENTRALBANK"
-    interest_rates: "theme:ECON_INTEREST_RATES"
-    inflation: "theme:ECON_INFLATION"
-    policy_uncertainty: "theme:EPU_POLICY"
-    trade_disputes: "theme:ECON_TRADE_DISPUTE"
-    oil_prices: "theme:ECON_OILPRICE"
-    armed_conflict: "theme:ARMEDCONFLICT"
+    stock_market: [ECON_STOCKMARKET]
+    central_banks: [ECON_CENTRALBANK]
+    interest_rates: [ECON_INTEREST_RATES]
+    inflation: [ECON_INFLATION]
+    policy_uncertainty: [EPU_POLICY]
+    trade_disputes: [ECON_TRADE_DISPUTE]
+    oil_prices: [ECON_OILPRICE]
+    armed_conflict: [ARMEDCONFLICT]
