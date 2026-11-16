@@ -1,0 +1,79 @@
+# .github/workflows/daily-update.yml
+# Fetches new data, refits the models, commits the results, and redeploys the site.
+
+name: Daily update
+
+on:
+  schedule:
+    # 05:30 UTC, Tuesday to Saturday: each run processes the previous trading day,
+    # after the US close and after GDELT has finished that UTC day.
+    - cron: "30 5 * * 2-6"
+  workflow_dispatch: # manual "Run workflow" button, also useful for backfills
+
+permissions:
+  contents: write # commit updated data
+  pages: write # deploy to GitHub Pages
+  id-token: write # required by actions/deploy-pages
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Each script is incremental: it reads what is already in data/,
+      # fetches only the missing days, and appends.
+      - name: Fetch volatility indices and prices
+        run: python -m pipeline.fetch_vol
+
+      - name: Fetch GDELT news series
+        run: python -m pipeline.fetch_news
+
+      - name: Build aligned feature table
+        run: python -m pipeline.build_features
+
+      - name: Fit baseline and news models
+        run: python -m pipeline.fit
+
+      - name: Export JSON for the site
+        run: python -m pipeline.export
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data site/data
+          # Only commit when something changed (holidays produce no new rows).
+          git diff --cached --quiet || git commit -m "Daily update $(date -u +%F)"
+          git push
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
