@@ -43,8 +43,8 @@ jobs:
       - name: Fetch volatility indices and prices
         run: python -m pipeline.fetch_vol
 
-      # GDELT sometimes refuses requests from GitHub's shared machines.
-      # If that happens the run carries on and the next run fills the gap.
+      # If GDELT is unreachable the run carries on, so the volatility data and
+      # the site still update; the next run fills the gap.
       - name: Fetch GDELT news series
         continue-on-error: true
         run: python -m pipeline.fetch_news
