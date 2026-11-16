@@ -22,7 +22,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90 # the very first run backfills GDELT and takes about an hour
+    timeout-minutes: 30
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -43,7 +43,10 @@ jobs:
       - name: Fetch volatility indices and prices
         run: python -m pipeline.fetch_vol
 
+      # GDELT sometimes refuses requests from GitHub's shared machines.
+      # If that happens the run carries on and the next run fills the gap.
       - name: Fetch GDELT news series
+        continue-on-error: true
         run: python -m pipeline.fetch_news
 
       # - name: Build aligned feature table
@@ -55,8 +58,7 @@ jobs:
       # - name: Export JSON for the site
       #   run: python -m pipeline.export
 
-      # Runs even if a step above failed, so a partial backfill is kept
-      # and the next run resumes from where it stopped.
+      # Runs even if a step above failed, so whatever was fetched is kept.
       - name: Commit updated data
         if: always()
         run: |
