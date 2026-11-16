@@ -1,5 +1,5 @@
 # Fetches new data, commits it, and redeploys the site.
-# The three commented-out steps get switched on as those scripts are written.
+# The commented-out model step gets switched on once fit.py is written.
 
 name: Daily update
 
@@ -49,14 +49,14 @@ jobs:
         continue-on-error: true
         run: python -m pipeline.fetch_news
 
-      # - name: Build aligned feature table
-      #   run: python -m pipeline.build_features
+      - name: Build aligned feature table
+        run: python -m pipeline.build_features
 
       # - name: Fit baseline and news models
       #   run: python -m pipeline.fit
 
-      # - name: Export JSON for the site
-      #   run: python -m pipeline.export
+      - name: Export JSON for the site
+        run: python -m pipeline.export
 
       # Runs even if a step above failed, so whatever was fetched is kept.
       - name: Commit updated data
