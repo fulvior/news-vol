@@ -1,0 +1,70 @@
+# Everything the pipeline needs to know lives here.
+# Adding an instrument or a news theme should only ever mean editing this file.
+
+start_date: "2017-01-01"   # the GDELT DOC API has no coverage before 2017
+
+# ---------------------------------------------------------------- instruments
+# source: cboe  -> CSV published by Cboe (DATE, OPEN, HIGH, LOW, CLOSE)
+# source: stoxx -> semicolon-separated history file published by STOXX
+# source: yahoo -> daily OHLC through yfinance (unofficial, used for realized vol)
+# kind: implied  -> the series is already a volatility index
+# kind: realized -> the series is a price; build_features turns it into realized vol
+# news_region must match a key under gdelt.regions.
+instruments:
+  vix:
+    name: VIX
+    kind: implied
+    source: cboe
+    url: https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv
+    news_region: us
+    close: {time: "16:15", tz: America/New_York}
+
+  vstoxx:
+    name: VSTOXX
+    kind: implied
+    source: stoxx
+    url: https://www.stoxx.com/document/Indices/Current/HistoricalData/h_v2tx.txt
+    fallback_ticker: "^V2TX"     # tried through yfinance if the STOXX file fails
+    news_region: europe
+    close: {time: "17:30", tz: Europe/Berlin}
+
+  spx_rv:
+    name: S&P 500 realized volatility
+    kind: realized
+    source: yahoo
+    ticker: "^GSPC"
+    news_region: us
+    close: {time: "16:00", tz: America/New_York}
+
+  sx5e_rv:
+    name: EURO STOXX 50 realized volatility
+    kind: realized
+    source: yahoo
+    ticker: "^STOXX50E"
+    news_region: europe
+    close: {time: "17:30", tz: Europe/Berlin}
+
+# ----------------------------------------------------------------------- news
+gdelt:
+  endpoint: https://api.gdeltproject.org/api/v2/doc/doc
+  pause_seconds: 6        # GDELT asks for roughly one request every 5 seconds
+  refresh_days: 30        # re-fetch this trailing window every run (keeps daily
+                          # resolution and picks up late-indexed articles)
+  chunk_days: 365         # backfill is requested in chunks of this many days
+
+  # Outlets are selected by the country they publish from (FIPS codes).
+  regions:
+    us: "sourcecountry:US"
+    europe: "(sourcecountry:UK OR sourcecountry:GM OR sourcecountry:FR OR sourcecountry:IT OR sourcecountry:SP)"
+
+  # GDELT GKG theme codes. A misspelled code silently returns zeros, so
+  # fetch_news prints a warning for any series that comes back empty.
+  themes:
+    stock_market: "theme:ECON_STOCKMARKET"
+    central_banks: "theme:ECON_CENTRALBANK"
+    interest_rates: "theme:ECON_INTEREST_RATES"
+    inflation: "theme:ECON_INFLATION"
+    policy_uncertainty: "theme:EPU_POLICY"
+    trade_disputes: "theme:ECON_TRADE_DISPUTE"
+    oil_prices: "theme:ECON_OILPRICE"
+    armed_conflict: "theme:ARMEDCONFLICT"
