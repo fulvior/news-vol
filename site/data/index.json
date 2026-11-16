@@ -1,0 +1,67 @@
+{
+ "updated": "2026-11-16",
+ "instruments": [
+  {
+   "id": "vix",
+   "name": "VIX",
+   "kind": "implied",
+   "region": "us"
+  },
+  {
+   "id": "vstoxx",
+   "name": "VSTOXX",
+   "kind": "implied",
+   "region": "europe"
+  },
+  {
+   "id": "spx_rv",
+   "name": "S&P 500 realized volatility",
+   "kind": "realized",
+   "region": "us"
+  },
+  {
+   "id": "sx5e_rv",
+   "name": "EURO STOXX 50 realized volatility",
+   "kind": "realized",
+   "region": "europe"
+  }
+ ],
+ "themes": [
+  {
+   "id": "stock_market",
+   "name": "Stock market"
+  },
+  {
+   "id": "central_banks",
+   "name": "Central banks"
+  },
+  {
+   "id": "interest_rates",
+   "name": "Interest rates"
+  },
+  {
+   "id": "inflation",
+   "name": "Inflation"
+  },
+  {
+   "id": "policy_uncertainty",
+   "name": "Policy uncertainty"
+  },
+  {
+   "id": "trade_disputes",
+   "name": "Trade disputes"
+  },
+  {
+   "id": "oil_prices",
+   "name": "Oil prices"
+  },
+  {
+   "id": "armed_conflict",
+   "name": "Armed conflict"
+  }
+ ],
+ "regions": {
+  "us": "United States",
+  "europe": "Europe"
+ }
+}
