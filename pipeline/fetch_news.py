@@ -35,7 +35,8 @@ def gdelt_timeline(cfg: dict, query: str, mode: str,
         "startdatetime": start.strftime("%Y%m%d%H%M%S"),
         "enddatetime": end.strftime("%Y%m%d%H%M%S"),
     }
-    response = http_get(cfg["endpoint"], params=params)
+    # Waits of 30, 60 and 90 seconds between attempts if GDELT answers "too many requests".
+    response = http_get(cfg["endpoint"], params=params, backoff=30)
     time.sleep(cfg["pause_seconds"])
     try:
         payload = response.json()
@@ -93,10 +94,12 @@ def main() -> int:
                                                microsecond=0, tzinfo=None)
     end = today - timedelta(seconds=1)
     first = datetime.fromisoformat(config["start_date"])
-    failures, series_count = 0, 0
+    failures, series_count, in_a_row, blocked = 0, 0, 0, False
 
     for region, region_query in cfg["regions"].items():
         for theme, theme_query in cfg["themes"].items():
+            if blocked:
+                break
             series_count += 1
             label = f"{region}/{theme}"
             have = store[(store["region"] == region) & (store["theme"] == theme)]
@@ -109,8 +112,15 @@ def main() -> int:
                 new = fetch_series(cfg, f"{theme_query} {region_query}", start, end)
             except Exception as error:
                 failures += 1
+                in_a_row += 1
                 warn(f"{label}: not updated ({error})")
+                if in_a_row >= 2:
+                    # GDELT limits requests per IP address. Give up quickly instead
+                    # of retrying every series; the next run picks up the gap.
+                    blocked = True
+                    warn("GDELT is refusing requests from this machine; stopping early")
                 continue
+            in_a_row = 0
 
             new = new[new.index < today]
             if new.empty or new["articles"].sum() == 0:
@@ -129,7 +139,7 @@ def main() -> int:
             print(f"{label}: {len(new)} days fetched, through {new['date'].max():%Y-%m-%d}",
                   flush=True)
 
-    return 1 if failures == series_count else 0
+    return 1 if blocked or failures == series_count else 0
 
 
 if __name__ == "__main__":
