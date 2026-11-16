@@ -66,6 +66,8 @@ def clean(df: pd.DataFrame, start: str) -> pd.DataFrame:
     df = df.reindex(columns=COLUMNS)
     df = df.dropna(subset=["date", "close"])
     df = df[df["date"] >= pd.Timestamp(start)]
+    # Drop today's row: during market hours it is a partial day, not a close.
+    df = df[df["date"] < pd.Timestamp.now(tz="UTC").tz_localize(None).normalize()]
     df = df.drop_duplicates("date", keep="last").sort_values("date")
     df["date"] = df["date"].dt.strftime("%Y-%m-%d")
     return df.reset_index(drop=True)
