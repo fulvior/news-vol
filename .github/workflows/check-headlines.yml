@@ -1,0 +1,41 @@
+# One-off check: how many GDELT articles carry a usable headline, by year and region.
+# Start it by hand from the Actions tab. The report appears on the run's summary
+# page, and the sampled headlines can be downloaded from the bottom of that page.
+# Nothing is committed to the repository.
+
+name: Check headlines
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sample headlines
+        run: python -m pipeline.check_headlines
+
+      - name: Keep the sampled headlines
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: headline-sample
+          path: data/checks/headline_sample.csv
+          if-no-files-found: ignore
