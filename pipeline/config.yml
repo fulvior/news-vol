@@ -76,3 +76,161 @@ news:
     trade_disputes: [ECON_TRADE_DISPUTE]
     oil_prices: [ECON_OILPRICE]
     armed_conflict: [ARMEDCONFLICT]
+
+# ------------------------------------------------------------------- semantic
+# Topics defined by meaning rather than by GDELT's theme codes, scored on
+# headlines. Headlines exist in GDELT from the second half of 2019.
+#
+# Two models: a fast static one screens every headline, and a slower
+# transformer re-scores the ones that pass and measures tone. Both are
+# multilingual, so English anchors also match German, French, Italian and
+# Spanish headlines; a few non-English anchors per topic help the fast model,
+# whose cross-language matching is weaker.
+#
+# Each topic has:
+#   anchors  sentences typical of headlines on the topic
+#   calm     headlines where the topic signals easing or good news
+#   stress   headlines where it signals worsening or risk
+# Tone is how much closer a headline is to "stress" than to "calm".
+semantic:
+  screen_model: minishlab/potion-multilingual-128M
+  score_model: intfloat/multilingual-e5-small
+  score_prefix: "query: "          # the e5 models expect this before every text
+  screen_share: 0.05               # calibration: share of headlines passed to the second model per topic
+
+  topics:
+    inflation:
+      anchors:
+        - Inflation rose more than expected last month
+        - Consumer prices climb as cost of living keeps rising
+        - Core inflation eases but remains above target
+        - Food and energy prices push inflation higher
+        - L'inflazione sale ancora, rincari su bollette e carrello della spesa
+        - Inflationsrate steigt auf höchsten Stand seit Jahren
+        - La inflación se modera en el último mes
+        - L'inflation ralentit mais les prix restent élevés
+      calm:
+        - Inflation cools faster than expected
+        - Price pressures ease as inflation falls toward target
+      stress:
+        - Inflation surges to a multi-decade high
+        - Prices soar as inflation spirals out of control
+
+    monetary_policy:
+      anchors:
+        - The Federal Reserve raises interest rates by a quarter point
+        - ECB holds rates steady and signals cuts ahead
+        - Central bank chief warns rates may stay higher for longer
+        - Bond yields jump on expectations of more rate hikes
+        - La Bce alza i tassi di interesse
+        - EZB senkt den Leitzins
+        - La Reserva Federal recorta los tipos de interés
+        - La BCE maintient ses taux directeurs
+      calm:
+        - Central bank cuts rates to support the economy
+        - Fed signals a pause in rate hikes
+      stress:
+        - Central bank delivers surprise jumbo rate hike
+        - Bond market sell-off as rate hike fears mount
+
+    equity_markets:
+      anchors:
+        - Stocks fall sharply as investors flee risk
+        - Wall Street rallies to a record high
+        - European shares slide on growth worries
+        - Market volatility spikes amid sell-off
+        - Borsa Milano chiude in calo, vendite sulle banche
+        - DAX schließt mit deutlichen Verlusten
+        - El Ibex 35 cae arrastrado por la banca
+        - Le CAC 40 recule dans un marché nerveux
+      calm:
+        - Stocks rise to record highs in a calm market
+        - Shares rebound as investor fears ease
+      stress:
+        - Stock market crash wipes out billions
+        - Global markets plunge in panic selling
+
+    trade_tariffs:
+      anchors:
+        - New tariffs announced on imports from China
+        - Trade war escalates as both sides raise duties
+        - Trade talks make progress toward a deal
+        - Exporters hit by retaliatory tariffs
+        - Dazi americani, colpite le esportazioni europee
+        - Zölle belasten die deutsche Exportwirtschaft
+        - Aranceles de Estados Unidos golpean a las exportaciones
+        - Les droits de douane menacent les exportateurs français
+      calm:
+        - Trade deal reached, tariffs to be lifted
+        - Tariff truce eases trade tensions
+      stress:
+        - Trade war escalates with sweeping new tariffs
+        - Retaliatory tariffs threaten global trade
+
+    energy:
+      anchors:
+        - Oil prices jump after OPEC cuts output
+        - Natural gas prices soar in Europe
+        - Crude falls on fears of weaker demand
+        - Energy bills rise for households and businesses
+        - Prezzo del gas alle stelle, bollette in aumento
+        - Ölpreis steigt nach Förderkürzung der Opec
+        - El precio del petróleo se dispara
+        - Les prix de l'énergie flambent en Europe
+      calm:
+        - Oil prices fall as supply concerns ease
+        - Gas prices drop as storage fills up
+      stress:
+        - Oil prices spike on supply disruption fears
+        - Energy crisis deepens as gas prices hit records
+
+    geopolitics:
+      anchors:
+        - Missile strikes escalate the conflict
+        - Troops mass at the border as tensions rise
+        - Sanctions imposed after the invasion
+        - Ceasefire talks resume between the warring sides
+        - Attacco missilistico, cresce la tensione internazionale
+        - Russland greift die Ukraine mit Drohnen an
+        - Escalada militar en Oriente Medio
+        - Les tensions géopolitiques s'intensifient
+      calm:
+        - Ceasefire agreed as peace talks advance
+        - Tensions ease after diplomatic breakthrough
+      stress:
+        - War escalates with massive missile attack
+        - Fears of wider conflict as fighting spreads
+
+    banking_stress:
+      anchors:
+        - Bank shares tumble amid fears over deposits
+        - Regulators step in to rescue a failing lender
+        - Credit markets tighten as defaults rise
+        - Bank run sparks contagion fears
+        - Crisi bancaria, titoli in caduta libera
+        - "Bankenkrise: Angst vor Ansteckung wächst"
+        - Rescate bancario para evitar el contagio
+        - Les banques chutent en Bourse, crainte de contagion
+      calm:
+        - Banks report strong results and solid capital
+        - Fears of banking crisis ease after rescue
+      stress:
+        - Bank collapse sparks fears of financial contagion
+        - Depositors pull billions as bank crisis spreads
+
+    growth_labor:
+      anchors:
+        - Economy slips into recession as output shrinks
+        - Unemployment rises as companies cut jobs
+        - GDP growth beats expectations
+        - Jobs report shows strong hiring last month
+        - Il Pil italiano rallenta, rischio recessione
+        - Deutsche Wirtschaft schrumpft, Rezession droht
+        - El paro baja y el empleo crece con fuerza
+        - La croissance française ralentit au troisième trimestre
+      calm:
+        - Economy grows strongly and hiring picks up
+        - Unemployment falls to a record low
+      stress:
+        - Economy plunges into deep recession
+        - Mass layoffs as unemployment soars
