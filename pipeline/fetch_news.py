@@ -212,10 +212,27 @@ def main() -> int:
         counts = new.groupby("theme")["articles"].sum()
         for theme in counts[counts == 0].index:
             warn(f"theme '{theme}' matched no articles; check its codes in config.yml")
-    print(f"Done: {fetched} of {len(todo)} days fetched.")
-    # Fail only if not a single file could be read: that means GDELT is
-    # unreachable or the file addresses have changed, not just a gap in its archive.
-    return 0 if files_read else 1
+    skipped = len(todo) - fetched
+    print(f"Done: {fetched} of {len(todo)} days fetched"
+          + (f"; {skipped} skipped because GDELT has too few files for them." if skipped else "."))
+    if files_read:
+        return 0
+    # Not a single file read. Either these days are a gap in GDELT's archive
+    # (like 15 June to 1 July 2025), which is not a failure, or GDELT cannot be
+    # reached at all, which is. GDELT's "latest file" notice tells them apart.
+    if gdelt_reachable(cfg):
+        print("GDELT is reachable, so these days are a gap in its archive.")
+        return 0
+    warn("GDELT could not be reached")
+    return 1
+
+
+def gdelt_reachable(cfg: dict) -> bool:
+    try:
+        response = requests.get(f"{cfg['base_url']}lastupdate.txt", headers=HEADERS, timeout=30)
+        return response.ok and ".gkg.csv.zip" in response.text
+    except requests.RequestException:
+        return False
 
 
 if __name__ == "__main__":
