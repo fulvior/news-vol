@@ -136,16 +136,27 @@ class DayProcessor:
                         for t in self.topics}
         self.domain_region = load_domain_regions(self.news)
         self.no_theme = re.compile(r"(?!x)x")
+        # Each slot covers a window of the day (2 hours with 12 slots). GDELT
+        # publishes a file every 15 minutes, and during its outages some are
+        # missing, so each slot lists every 15-minute file in its window, to be
+        # tried in turn until one exists.
         step = 24 * 60 // self.sem["slots_per_day"]
-        self.slots = [f"{(i * step) // 60:02d}{(i * step) % 60:02d}00" for i in range(self.sem["slots_per_day"])]
+        self.slots = [[f"{(m // 60):02d}{(m % 60):02d}00" for m in range(i * step, (i + 1) * step, 15)]
+                      for i in range(self.sem["slots_per_day"])]
         print("Topic rules: " + ", ".join(f"{t} = {'keywords' if self.use[t] == 'keywords' else 'keywords + classifier'}"
                                           for t in self.topics), flush=True)
 
+    def first_available(self, day: date, times: list[str], feed: str, suffix: str) -> pd.DataFrame | None:
+        for t in times:
+            frame = read_file(f"{self.news['base_url']}{day:%Y%m%d}{t}{suffix}", feed, day,
+                              self.domain_region, self.no_theme)
+            if frame is not None:
+                return frame
+        return None
+
     def headlines(self, day: date, pool: ThreadPoolExecutor) -> tuple[pd.DataFrame | None, int, int]:
-        jobs = [(f"{self.news['base_url']}{day:%Y%m%d}{slot}{suffix}", feed)
-                for slot in self.slots for feed, suffix in FEEDS.items()]
-        frames = [f for f in pool.map(lambda j: read_file(j[0], j[1], day, self.domain_region, self.no_theme), jobs)
-                  if f is not None]
+        jobs = [(times, feed, suffix) for times in self.slots for feed, suffix in FEEDS.items()]
+        frames = [f for f in pool.map(lambda j: self.first_available(day, *j), jobs) if f is not None]
         if len(frames) < len(jobs) / 2:
             return None, len(frames), len(jobs)
         df = pd.concat(frames, ignore_index=True)
@@ -252,8 +263,12 @@ def main() -> int:
             if done % 5 == 0:
                 store.save()
     store.save()
-    print(f"Done: {done} of {len(todo)} days processed.")
-    return 0 if done or not todo else 1
+    skipped = len(todo) - done
+    print(f"Done: {done} of {len(todo)} days processed"
+          + (f"; {skipped} skipped because GDELT has too few files for them." if skipped else "."))
+    # Days GDELT never published are gaps in its archive, not failures of this
+    # job, so they do not fail the run. Only an error (an exception) does.
+    return 0
 
 
 if __name__ == "__main__":
