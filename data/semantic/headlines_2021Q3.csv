@@ -3255,6 +3255,52 @@ date,region,topic,kind,tone,source,title
 2021-08-14,us,monetary_policy,stressed,-0.0287,wdsm710.com,Lebanese central bank head maintains innocence against corruption charges
 2021-08-14,us,trade_tariffs,calm,0.0152,netscape.com,German Greens' chancellor candidate urges higher tariffs on Chinese imports
 2021-08-14,us,trade_tariffs,stressed,0.0152,netscape.com,German Greens' chancellor candidate urges higher tariffs on Chinese imports
+2021-08-15,europe,energy,calm,0.0040,corrieredellumbria.corr.it,"Bollette dell'acqua, in Umbria annunciati rincari fino al 17,5% entro il 2023"
+2021-08-15,europe,energy,calm,0.0576,ideal.es,El aumento de la demanda asiática dispara el precio del gas
+2021-08-15,europe,energy,stressed,0.0576,ideal.es,El aumento de la demanda asiática dispara el precio del gas
+2021-08-15,europe,energy,stressed,0.0040,corrieredellumbria.corr.it,"Bollette dell'acqua, in Umbria annunciati rincari fino al 17,5% entro il 2023"
+2021-08-15,europe,equity_markets,calm,-0.0556,stock-world.de,Deka DAX UCITS ETF: Ich hoffe Sie haben DAS noch auf dem Schirm - dax_mdax - Börsennachrichten
+2021-08-15,europe,equity_markets,calm,-0.0541,boersen-zeitung.de,Hella im Bann des neuen Eigentümers | Börsen-Zeitung
+2021-08-15,europe,equity_markets,calm,-0.0453,finanznachrichten.de,Neue Rekorde im DAX geschrieben: Trendfortsetzung nun logische Konsequenz?
+2021-08-15,europe,equity_markets,stressed,0.0353,thisismoney.co.uk,STOCKS TO WATCH: Could Informa be next prey for FTSE predators?
+2021-08-15,europe,equity_markets,stressed,-0.0291,finanznachrichten.de,DAX-Wochenplan: Was folgt auf das DAX-Allzeithoch?
+2021-08-15,europe,equity_markets,stressed,-0.0303,zazoom.it,Helbiz | dal marciapiede al Nasdaq | Il viaggio dei monopattini elettrici
+2021-08-15,europe,geopolitics,calm,-0.0984,salzgitter-zeitung.de,Polnisches Gesetz löst diplomatische Krise mit Israel aus
+2021-08-15,europe,geopolitics,calm,-0.0881,suedkurier.de,Tel Aviv/Warschau: Polnisches Gesetz löst diplomatische Krise mit Israel aus
+2021-08-15,europe,geopolitics,calm,-0.0517,cope.es,MSF confirma que continúa con sus proyectos en Afganistán a pesar de la entrada de los talibán en Kabul
+2021-08-15,europe,geopolitics,stressed,0.1269,br.de,USA und Israel Hochrisikogebiete - ab Dienstag auch Türkei
+2021-08-15,europe,geopolitics,stressed,0.1064,lexpress.fr,"Turquie: un avion bombardier d'eau russe s'écrase, huit morts"
+2021-08-15,europe,geopolitics,stressed,0.0902,guadeloupe.franceantilles.fr,Les talibans paradent à Kandahar autour d'hélicoptères américains de l'armée afghane - Toute l'actualité de la Guadeloupe sur Internet
+2021-08-15,europe,growth_labor,calm,-0.0561,ilprimatonazionale.it,"I vaccini fanno ricca la Germania: Biontech vale +0,5% al Pil tedesco"
+2021-08-15,europe,growth_labor,calm,-0.0068,agi.it,"La stima del Pil dell'Eurozona e i verbali Fed, la settimana calda dei mercati"
+2021-08-15,europe,growth_labor,calm,-0.0027,lopinion.fr,Assurance-chômage: comment le gouvernement veut faire passer sa réforme
+2021-08-15,europe,growth_labor,stressed,0.0697,toscanamedianews.it,Ferragosto in fabbrica Gkn contro i licenziamenti
+2021-08-15,europe,growth_labor,stressed,0.0092,leonoticias.com,La plantilla de LM acepta de forma mayoritaria el acuerdo que reduce los despidos a 351
+2021-08-15,europe,growth_labor,stressed,0.0052,zazoom.it,Steam Deck non avrà più vita facile | in arrivo la nuova GDP XP | portatile e potentissima console dalle prestazioni top
+2021-08-15,europe,inflation,calm,-0.0069,padovanews.it,"INFLAZIONE: COLDIRETTI, -4,9% PREZZI FRUTTA CONTRO AFA RECORD. ACQUISTI A KMZERO NEI MERCATI DI CAMPAGNA AMICA DEL VENETO"
+2021-08-15,europe,inflation,stressed,-0.0069,padovanews.it,"INFLAZIONE: COLDIRETTI, -4,9% PREZZI FRUTTA CONTRO AFA RECORD. ACQUISTI A KMZERO NEI MERCATI DI CAMPAGNA AMICA DEL VENETO"
+2021-08-15,us,energy,calm,-0.0372,bignewsnetwork.com,Oil prices drop as demand concerns persist
+2021-08-15,us,energy,calm,0.0501,kpvi.com,D.C. Digest: Oklahoma delegation dings Biden on OPEC request
+2021-08-15,us,energy,calm,0.1262,eturbonews.com,Spirit Airlines attacks record fuel prices
+2021-08-15,us,energy,stressed,0.1262,eturbonews.com,Spirit Airlines attacks record fuel prices
+2021-08-15,us,energy,stressed,0.0501,kpvi.com,D.C. Digest: Oklahoma delegation dings Biden on OPEC request
+2021-08-15,us,energy,stressed,-0.0372,bignewsnetwork.com,Oil prices drop as demand concerns persist
+2021-08-15,us,equity_markets,calm,-0.0488,mondovisione.com,Qatar Stock Exchange Listed Companies Reported QR 20.5 Billion Net Profits For The Semi-Annual Financial Statement Of 2021
+2021-08-15,us,equity_markets,calm,0.0070,oilprice.com,Where Does Wall Street Think Oil Is Heading?
+2021-08-15,us,equity_markets,calm,0.0197,publicradioeast.org,"Wall Street Is Paying Over $100,000 To Junior Bankers. For Many, That's Not Enough"
+2021-08-15,us,equity_markets,stressed,0.0197,publicradioeast.org,"Wall Street Is Paying Over $100,000 To Junior Bankers. For Many, That's Not Enough"
+2021-08-15,us,equity_markets,stressed,0.0070,oilprice.com,Where Does Wall Street Think Oil Is Heading?
+2021-08-15,us,equity_markets,stressed,-0.0488,mondovisione.com,Qatar Stock Exchange Listed Companies Reported QR 20.5 Billion Net Profits For The Semi-Annual Financial Statement Of 2021
+2021-08-15,us,geopolitics,calm,-0.0916,wtka.com,"How two mothers, united in loss, hope to bring peace in the Israeli-Palestinian conflict"
+2021-08-15,us,geopolitics,calm,-0.0778,keyt.com,"Flint, MI, leaders hope ceasefire brings changes to city"
+2021-08-15,us,geopolitics,calm,-0.0442,poandpo.com,"Norway reintroduces entry ban on Kosovo, Ukraine and North Macedonia | News"
+2021-08-15,us,geopolitics,stressed,0.0857,alipac.us,"Biden Sending 5,000 Troops To Afghanistan... Veterans Sickened Over Biden's Bungled T"
+2021-08-15,us,geopolitics,stressed,0.0604,wgal.com,"President Biden sending 1,000 more troops to Afghanistan"
+2021-08-15,us,geopolitics,stressed,0.0449,cbn.com,"Taliban Fighters Enter Kabul, US Troops Arrive for Afghanistan Evacuation"
+2021-08-15,us,inflation,calm,0.0018,investmentwatchblog.com,Rob Arnott: U.S. stocks won't even beat inflation over the next 10 years … Marc Faber: Prepare for the end … – Investment Watch
+2021-08-15,us,inflation,stressed,0.0018,investmentwatchblog.com,Rob Arnott: U.S. stocks won't even beat inflation over the next 10 years … Marc Faber: Prepare for the end … – Investment Watch
+2021-08-15,us,monetary_policy,calm,-0.0713,kilgorenewsherald.com,City of Kilgore proposes six cent tax rate increase
+2021-08-15,us,monetary_policy,stressed,-0.0713,kilgorenewsherald.com,City of Kilgore proposes six cent tax rate increase
 2021-08-16,europe,banking_stress,calm,0.0326,wiwo.de,Finanzsektor: Deutsche Bank wirbt in Asien drei Manager von der Credit Suisse ab
 2021-08-16,europe,banking_stress,stressed,0.0326,wiwo.de,Finanzsektor: Deutsche Bank wirbt in Asien drei Manager von der Credit Suisse ab
 2021-08-16,europe,energy,calm,-0.0252,larioja.com,"La factura de la luz será de 76 euros en agosto, un 35% más"
