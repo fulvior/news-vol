@@ -336,8 +336,9 @@ def main() -> int:
         member_any |= member if labels is not None else provisional_member
         section += [f"**Decision: {'keywords only' if kind == 'keywords' else f'keywords plus the {kind} classifier above {threshold:.4f}'}.**", ""]
 
-        # Tone, on the topic's headlines.
-        pool = df[member if labels is not None else provisional_member]
+        # Tone, on the topic's keyword matches: a stable set, so the tone check
+        # labels stay valid from run to run.
+        pool = df[kw]
         pool = pool.sample(min(cal["tone_sample"], len(pool)), random_state=3)
         if len(pool) >= 20:
             score = encoders["score"]
@@ -349,6 +350,30 @@ def main() -> int:
             section += [f"**Tone** (standard deviation {pool['_tone'].std():.3f}; positive means closer to stress). Most stressed:", ""]
             section += examples(ordered.iloc[::-1], "_tone", 5) + ["", "Calmest:", ""]
             section += examples(ordered, "_tone", 5) + [""]
+
+            # Tone check: the 10% most stressed and 10% calmest headlines are labelled
+            # 1 if the headline reports worsening conditions or risk, 0 otherwise.
+            tone_key = f"tone:{name}"
+            tenth = max(1, len(ordered) // 10)
+            extremes = {"tone stressed": ordered.iloc[-tenth:], "tone calm": ordered.iloc[:tenth]}
+            tone_labels = None if labels is None else labels[labels["topic"] == tone_key]
+            if tone_labels is not None and len(tone_labels):
+                by_title = dict(zip(tone_labels["title"], tone_labels["value"].astype(int)))
+                rows = ["| Extreme | Labelled | Reporting worsening or risk |", "|---|---|---|"]
+                for group, part in extremes.items():
+                    y = np.array([by_title[t] for t in part["title"] if t in by_title])
+                    lo, hi = wilson(int(y.sum()), len(y))
+                    rows.append(f"| {group.split()[1]} 10% | {len(y)} | "
+                                f"{(y.mean() if len(y) else float('nan')):.0%} ({lo:.0%}–{hi:.0%}) |")
+                section += ["Tone checked against your labels (a working tone puts most "
+                            "'worsening' headlines in the stressed tenth and few in the calm tenth):", ""] + rows + [""]
+            for group, part in extremes.items():
+                have = 0 if tone_labels is None else int(part["title"].isin(set(tone_labels["title"])).sum())
+                todo = [t for t in part["title"] if (tone_key, t) not in labelled]
+                for t in todo[: max(0, LABELS_PER_BAND - have)]:
+                    labelled.add((tone_key, t))
+                    sheet.append({"topic": tone_key, "group": group, "score": "",
+                                  "language": part.loc[part["title"] == t, "language"].iloc[0], "title": t, "label": ""})
 
         summary.append((name, int(kw.sum()), kind, threshold, additions, member.mean()))
         sections.append(section)
