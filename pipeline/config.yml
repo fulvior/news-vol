@@ -17,6 +17,7 @@ instruments:
     source: cboe
     url: https://cdn.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv
     news_region: us
+    returns_from: spx_rv          # stock index whose returns give the leverage terms
     close: {time: "16:15", tz: America/New_York}
 
   vstoxx:
@@ -26,6 +27,7 @@ instruments:
     url: https://www.stoxx.com/document/Indices/Current/HistoricalData/h_v2tx.txt
     fallback_ticker: "^V2TX"     # tried through yfinance if the STOXX file fails
     news_region: europe
+    returns_from: sx5e_rv          # stock index whose returns give the leverage terms
     close: {time: "17:30", tz: Europe/Berlin}
 
   spx_rv:
@@ -323,3 +325,22 @@ semantic:
         - Output shrinks as recession takes hold
         - Job losses mount as companies cut staff
         - Economists warn a severe downturn is coming
+
+# ---------------------------------------------------------------------- model
+# HAR models of log volatility with news regressors (pipeline/fit.py).
+model:
+  semantic_start: "2019-09-23"     # first trading day with GDELT headlines
+  hac_lags: 10                     # Newey-West lags for the standard errors
+  tone_prior: 10                   # tone, dispersion and novelty are shrunk toward their usual level
+                                   # with the weight of this many headlines (few headlines: mostly prior)
+  share_floor: 0.01                # attention is log(share + floor), share in %
+  bootstrap:
+    replications: 999
+    block_length: 20               # mean block length (trading days) of the stationary bootstrap
+    seed: 1
+  out_of_sample:
+    initial_days: 500              # first forecast after about two years
+    refit_every: 21                # re-estimate monthly
+    dm_lags: 5
+  main_spec: attention_tone        # the model whose daily news contributions the site shows
+  recent_days: 260                 # days for which contribution intervals are stored
