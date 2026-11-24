@@ -1,5 +1,4 @@
 # Fetches new data, commits it, and redeploys the site.
-# The commented-out model step gets switched on once fit.py is written.
 
 name: Daily update
 
@@ -67,8 +66,8 @@ jobs:
       - name: Build aligned feature table
         run: python -m pipeline.build_features
 
-      # - name: Fit baseline and news models
-      #   run: python -m pipeline.fit
+      - name: Fit volatility models
+        run: python -m pipeline.fit
 
       - name: Export JSON for the site
         run: python -m pipeline.export
@@ -79,7 +78,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data site/data
+          # Files rebuilt from scratch every run (feature tables, the site's JSON) are not
+          # kept in the repository: they are regenerated here and deployed directly, and
+          # committing them daily would grow the repository by hundreds of MB a year.
+          git rm -r --cached --quiet --ignore-unmatch site/data data/features data/checks
+          git add .gitignore data
           git diff --cached --quiet || git commit -m "Daily update $(date -u +%F)"
           git pull --rebase
           git push
