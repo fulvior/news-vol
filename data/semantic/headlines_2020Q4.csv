@@ -585,6 +585,82 @@ date,region,topic,kind,tone,source,title
 2020-10-08,us,trade_tariffs,stressed,0.0637,appleinsider.com,Key Apple suppliers caught in the crossfire of US-China trade war - General Discussion Discussions on AppleInsider Forums
 2020-10-08,us,trade_tariffs,stressed,0.0122,cnsnews.com,VP Pence: 'Lost the Trade War With China? Joe Biden Never Fought It'
 2020-10-08,us,trade_tariffs,stressed,0.0048,hotair.com,"Pence to Harris: ""Lost the trade war with China? Joe Biden never fought it!"""
+2020-10-09,europe,banking_stress,calm,0.0882,thetimes.co.uk,Credit Suisse chairman apologises in 'racism' row over birthday party | Business
+2020-10-09,europe,banking_stress,stressed,0.0882,thetimes.co.uk,Credit Suisse chairman apologises in 'racism' row over birthday party | Business
+2020-10-09,europe,energy,calm,0.0047,salernonotizie.it,"Salerno, iniziato il recapito bollette della TARI per il 2020"
+2020-10-09,europe,energy,calm,0.0071,handelsblatt.com,Verbraucherschützer fordern niedrigere Strompreise
+2020-10-09,europe,energy,calm,0.0393,focus.de,Google Maps: Autofahrer bekommen neue Top-Funktion für Spritpreise
+2020-10-09,europe,energy,stressed,0.0393,focus.de,Google Maps: Autofahrer bekommen neue Top-Funktion für Spritpreise
+2020-10-09,europe,energy,stressed,0.0071,handelsblatt.com,Verbraucherschützer fordern niedrigere Strompreise
+2020-10-09,europe,energy,stressed,0.0047,salernonotizie.it,"Salerno, iniziato il recapito bollette della TARI per il 2020"
+2020-10-09,europe,equity_markets,calm,-0.1331,deraktionaer.de,"DAX geht freundlich ins Wochenende – BASF, Zalando und Volkswagen im Blick"
+2020-10-09,europe,equity_markets,calm,-0.1263,wallstreet-online.de,S&P500 mit Kurs auf 3.500 Punkte
+2020-10-09,europe,equity_markets,calm,-0.1127,finanznachrichten.de,Dow Jones startet behauptet in den Freitag - Höchster Wochengewinn seit Ende August in Sicht
+2020-10-09,europe,equity_markets,stressed,0.0499,financial.de,ROUNDUP: Unions-Wirtschaftslügel warnt vor 'Belastungsorgie' für Firmen « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-09,europe,equity_markets,stressed,0.0355,parismatch.com,Pinault collection : les cracks de l'art entrent à la Bourse
+2020-10-09,europe,equity_markets,stressed,0.0292,ilmattino.it,"Napoli, scoperto il deposito del falso: 195 scarpe contraffatte e tutto il kit per le borse"
+2020-10-09,europe,geopolitics,calm,-0.1073,lefigaro.fr,Nagorny Karabakh : début des négociations entre Arménie et Azerbaïdjan à Moscou
+2020-10-09,europe,geopolitics,calm,-0.0966,welt.de,Kriegsgefangenenlager Stalag 326: Land erinnert an Befreiung
+2020-10-09,europe,geopolitics,calm,-0.0474,france24.com,Moscow hosts Armenia-Azerbaijan talks as fighting continues over Nagorno-Karabakh
+2020-10-09,europe,geopolitics,stressed,0.1270,zazoom.it,Nagorno-Karabakh | l'Azerbaigian bombarda le chiese | colpita storica cattedrale
+2020-10-09,europe,geopolitics,stressed,0.1031,hoy.es,La tecnología que declara la guerra a los kamikazes en la carretera
+2020-10-09,europe,geopolitics,stressed,0.0954,iltirreno.gelocal.it,"Civili nelle cantine, imboscate e bombe. È guerra aperta tra armeni e azeri"
+2020-10-09,europe,growth_labor,calm,-0.0411,zazoom.it,"PIL | Fitch | ""Crescita dell'Italia legata ai fondi del Recovery Fund"""
+2020-10-09,europe,growth_labor,calm,-0.0405,crowdfundinsider.com,"Qatar's GDP Expected to Contract by 4.3% in 2020, but IMF Expects Recovery Next Year, Supported by Growing Fintech and Digital Economy"
+2020-10-09,europe,growth_labor,calm,0.0022,express.co.uk,FTSE 100 LIVE: UK economy grows 2.1% in August – experts fear lockdown slowdown
+2020-10-09,europe,growth_labor,stressed,0.0421,finanznachrichten.de,"ÜBERBLICK am Abend/Konjunktur, Zentralbanken, Politik"
+2020-10-09,europe,growth_labor,stressed,0.0370,theguardian.com,UK economic growth slows in August despite 'eat out to help out'
+2020-10-09,europe,growth_labor,stressed,0.0330,ecoseven.net,"**Pil: Fitch, in 2020 per Italia crollo a -10%, debito vola al 161%**"
+2020-10-09,europe,monetary_policy,calm,-0.0061,finanznachrichten.de,"ÜBERBLICK am Abend/Konjunktur, Zentralbanken, Politik"
+2020-10-09,europe,monetary_policy,calm,0.0172,wallstreet-online.de,"Devisen: Eurokurs gestiegen - EZB-Referenzkurs: 1,1795 US-Dollar"
+2020-10-09,europe,monetary_policy,calm,0.0233,shieldsgazette.com,South Tyneside weekly coronavirus rate rises but borough falls down hotspot league table
+2020-10-09,europe,monetary_policy,stressed,0.0346,thetimes.co.uk,"Bank of England will be aggressive on second wave, says governor Andrew Bailey"
+2020-10-09,europe,monetary_policy,stressed,0.0271,finextra.com,ECB monitors cyber resilience in face of Covid-19 threat actors
+2020-10-09,europe,monetary_policy,stressed,0.0270,malverngazette.co.uk,Coronavirus infection rate rises again in Worcester
+2020-10-09,europe,trade_tariffs,calm,-0.0322,faz.net,Neue US-Zölle für Import von deutschem Alu-Blech
+2020-10-09,europe,trade_tariffs,calm,-0.0033,zazoom.it,Usa | subito dazi sull'alluminio prodotto in 18 paesi | ci sono anche Italia e Germania
+2020-10-09,europe,trade_tariffs,calm,0.0349,elnortedecastilla.es,El sector del vino en Europa y EE UU reclama el fin de los aranceles adicionales
+2020-10-09,europe,trade_tariffs,stressed,0.0349,elnortedecastilla.es,El sector del vino en Europa y EE UU reclama el fin de los aranceles adicionales
+2020-10-09,europe,trade_tariffs,stressed,-0.0033,zazoom.it,Usa | subito dazi sull'alluminio prodotto in 18 paesi | ci sono anche Italia e Germania
+2020-10-09,europe,trade_tariffs,stressed,-0.0322,faz.net,Neue US-Zölle für Import von deutschem Alu-Blech
+2020-10-09,us,energy,calm,-0.0563,mrt.com,Gas price in Midland drops below $2 mark
+2020-10-09,us,energy,calm,0.0125,forextv.com,Crude Oil Futures Close Sharply Higher
+2020-10-09,us,energy,calm,0.0162,oilandgas360.com,"Oil prices head for 10% weekly jump on North America, Norway outages"
+2020-10-09,us,energy,stressed,0.0465,oilandgas360.com,"OPEC, in major shift, says oil demand to plateau in late 2030s"
+2020-10-09,us,energy,stressed,0.0355,reuters.com,Oil prices pause in week-long surge Norwegian strike drives strong gains
+2020-10-09,us,energy,stressed,0.0249,reuters.com,Oil prices slip over 1% after Norway oil worker strike ends
+2020-10-09,us,equity_markets,calm,-0.1435,reuters.com,"Wall Street advances, gold rises as stimulus talks progress"
+2020-10-09,us,equity_markets,calm,-0.1374,sanantoniopost.com,U.S. stocks rise as energy leads gains
+2020-10-09,us,equity_markets,calm,-0.1295,msn.com,Wall Street geht mit Gewinnen ins Wochenende
+2020-10-09,us,equity_markets,stressed,0.0819,forextv.com,The Wall Street Journal: DOJ sues Yale over admissions practices for Asian-American and white applicants
+2020-10-09,us,equity_markets,stressed,0.0490,cnbc.com,Lufax files for U.S. IPO on the New York Stock Exchange
+2020-10-09,us,equity_markets,stressed,0.0341,pittsburghstar.com,American Resources Corporation Announces Closing of $13.0 Million Registered Direct Offering Priced Above the Market under Nasdaq Rules
+2020-10-09,us,geopolitics,calm,-0.1789,nytimes.com,Warring Sides in Armenia and Azerbaijan Agree to Cease-Fire Talks
+2020-10-09,us,geopolitics,calm,-0.1508,omaha.com,Russia sponsors Nagorno-Karabakh cease-fire talks
+2020-10-09,us,geopolitics,calm,-0.1359,reuters.com,Moscow talks lift Nagorno-Karabakh ceasefire hopes despite new clashes
+2020-10-09,us,geopolitics,stressed,0.1081,stamfordadvocate.com,"Man charged in Stratford home invasion, shooting"
+2020-10-09,us,geopolitics,stressed,0.0960,metro.us,"Kremlin rues ""anti-record"" as Russia's new COVID-19 cases jump to all-time high"
+2020-10-09,us,geopolitics,stressed,0.0845,businessinsider.com,What Taiwan needs to defend itself from a Chinese invasion
+2020-10-09,us,growth_labor,calm,-0.0472,kvue.com,How many people sought jobless aid last week?
+2020-10-09,us,growth_labor,calm,-0.0360,cincinnatisun.com,Gold up on more-than-expected U.S. jobless claims
+2020-10-09,us,growth_labor,calm,-0.0324,flaglerlive.com,Florida Jobless Claims Up Again to Highest Number in 4 Weeks Despite Lifted Restrictions as Layoffs Pile Up
+2020-10-09,us,growth_labor,stressed,0.0708,thewrap.com,SAG-AFTRA Announces Another Wave of Layoffs Due to Pandemic
+2020-10-09,us,growth_labor,stressed,0.0599,investing.com,Rosengren warnt: Risikoaufstockung bremst Konjunkturerholung
+2020-10-09,us,growth_labor,stressed,0.0512,thehill.com,Democratic senators offer bill to make payroll tax deferral optional for federal workers
+2020-10-09,us,inflation,calm,-0.0030,voanoticias.com,Parlamento venezolano: Inflación de septiembre se ubicó en 30%
+2020-10-09,us,inflation,stressed,-0.0030,voanoticias.com,Parlamento venezolano: Inflación de septiembre se ubicó en 30%
+2020-10-09,us,monetary_policy,calm,-0.0935,wvmetronews.com,"Powell honors officers, organizations for work in Wheeling"
+2020-10-09,us,monetary_policy,calm,-0.0718,msn.com,"RBI hits pause button again, but EM peers continue on rate cuts"
+2020-10-09,us,monetary_policy,calm,-0.0579,investing.com,WDH-Gruppe von Notenbanken umreißt Prinzipien für eigene Digitalwährungen
+2020-10-09,us,monetary_policy,stressed,0.0173,12news.com,"Man falls from Willow Gulch near Lake Powell, dies"
+2020-10-09,us,monetary_policy,stressed,0.0110,caribbeanherald.com,"Mexico's central bank forecasts ""difficult, drawn out"" economic recovery"
+2020-10-09,us,monetary_policy,stressed,-0.0017,wgbh.org,Boston Teachers Union Sues For All-Remote Learning As City's COVID Infection Rate Rises
+2020-10-09,us,trade_tariffs,calm,-0.0074,reuters.com,U.S. imposes tariffs on aluminum sheet from 18 countries
+2020-10-09,us,trade_tariffs,calm,0.0054,q13fox.com,US to impose tariffs on $1.96B worth of aluminum sheet goods: Wilbur Ross
+2020-10-09,us,trade_tariffs,calm,0.0543,reuters.com,Trump steel tariffs bring job losses to swing state Michigan
+2020-10-09,us,trade_tariffs,stressed,0.0663,nbcnews.com,"Trump steel tariffs raised prices, shriveled up demand, led to job losses, some Michigan workers say"
+2020-10-09,us,trade_tariffs,stressed,0.0543,reuters.com,Trump steel tariffs bring job losses to swing state Michigan
+2020-10-09,us,trade_tariffs,stressed,0.0054,q13fox.com,US to impose tariffs on $1.96B worth of aluminum sheet goods: Wilbur Ross
 2020-10-10,europe,equity_markets,calm,-0.0765,unternehmen-heute.de,Börse - US-Börsen im Plus - Corona mittlerweile komplett eingepreist
 2020-10-10,europe,equity_markets,calm,-0.0674,dailymail.co.uk,"Stocks climb, closing out biggest weekly gain in 3 months"
 2020-10-10,europe,equity_markets,calm,-0.0607,finanznachrichten.de,DAX und DJI: das Ende der Erholungsphase in der Herbstkorrektur naht ...
@@ -957,6 +1033,90 @@ date,region,topic,kind,tone,source,title
 2020-10-14,us,trade_tariffs,stressed,0.0204,malaymail.com,Post-Brexit trade talks on brink as time runs out | Money
 2020-10-14,us,trade_tariffs,stressed,0.0041,digitaljournal.com,UK fishermen hopeful of netting late deal in EU trade talks
 2020-10-14,us,trade_tariffs,stressed,-0.0134,reuters.com,"EU-UK trade deal difficult but still possible, source says"
+2020-10-15,europe,banking_stress,calm,0.0053,finanznachrichten.de,CREDIT SUISSE belässt UNITEDHEALTH GROUP INC auf 'Outperform'
+2020-10-15,europe,banking_stress,stressed,0.0053,finanznachrichten.de,CREDIT SUISSE belässt UNITEDHEALTH GROUP INC auf 'Outperform'
+2020-10-15,europe,energy,calm,-0.0559,rnd.de,EEG-Umlage: Keine Entlastung beim Strompreis
+2020-10-15,europe,energy,calm,-0.0547,rundschau-online.de,Dauerhafte Entlastung bei Strompreis nicht in Sicht
+2020-10-15,europe,energy,calm,-0.0331,tagesschau.de,Strompreis in Deutschland: EEG-Umlage sinkt 2021 leicht
+2020-10-15,europe,energy,stressed,0.0148,giessener-anzeiger.de,Energieverband fordert spürbare Entlastung bei Strompreisen
+2020-10-15,europe,energy,stressed,-0.0007,finanznachrichten.de,Senkung EEG-Umlage 2021 - Strompreis weiter auf hohem Niveau
+2020-10-15,europe,energy,stressed,-0.0331,tagesschau.de,Strompreis in Deutschland: EEG-Umlage sinkt 2021 leicht
+2020-10-15,europe,equity_markets,calm,-0.1519,financial.de,Neuer Corona-Rekord trotz verschärfter Regeln in Tschechien « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-15,europe,equity_markets,calm,-0.0742,wallstreet-online.de,Börse Stuttgart-News: Bonds weekly Seite 1
+2020-10-15,europe,equity_markets,calm,-0.0694,investireoggi.it,Labomar: esercitata integralmente l'opzione greenshoe - Finanza e Borsa
+2020-10-15,europe,equity_markets,stressed,0.1100,lamanchelibre.fr,"Le label des rois de la K-pop, BTS, fait une entrée fracassante à la Bourse sud-coréenne"
+2020-10-15,europe,equity_markets,stressed,0.1037,lamanchelibre.fr,"Les Bourses mondiales vacillent, entre craintes sanitaires et stimulus au point mort"
+2020-10-15,europe,equity_markets,stressed,0.1015,finanznachrichten.de,DAX Tumbles As Virus Worries Deepen
+2020-10-15,europe,geopolitics,calm,-0.0700,linkiesta.it,Il compromesso impossibile tra Armenia e Azerbaigian sul conflitto del Nagorno-Karabakh
+2020-10-15,europe,geopolitics,calm,-0.0616,zazoom.it,Nobel per la pace a Mikhail Gorbaciov | così 30 anni fa si 'celebrava' la fine della Guerra Fredda E quella di una grande illusione
+2020-10-15,europe,geopolitics,calm,-0.0491,freiewelt.net,Soldaten der Syrischen Nationalen Armee flüchten aus Bergkarabach
+2020-10-15,europe,geopolitics,stressed,0.1416,dw.com,HRW: Syria and Russia targeted civilian infrastructure | News | DW
+2020-10-15,europe,geopolitics,stressed,0.1253,dw.com,"Bombardeos de Rusia y Siria en Idlib pueden ser crímenes de lesa humanidad, según HRW | El Mundo | DW"
+2020-10-15,europe,geopolitics,stressed,0.1094,lefigaro.fr,Les libraires américains partent en guerre contre Amazon
+2020-10-15,europe,growth_labor,calm,-0.0330,finanznachrichten.de,Anträge auf Arbeitslosenhilfe in den USA steigen kurz vor Wahl an
+2020-10-15,europe,growth_labor,calm,-0.0230,unternehmen-heute.de,Unternehmen - Wöchentliche Arbeitslosenmeldungen in den USA wieder stark angestiegen
+2020-10-15,europe,growth_labor,calm,-0.0135,hoy.es,Más del 80% de las jubilaciones anticipadas proceden del desempleo
+2020-10-15,europe,growth_labor,stressed,0.0727,corrieredicomo.it,"Sindacati, stop licenziamenti fino a fine dell'emergenza – Corriere di Como"
+2020-10-15,europe,growth_labor,stressed,0.0472,yorkpress.co.uk,Union calls for hospitality support after latest job cuts
+2020-10-15,europe,growth_labor,stressed,0.0452,huffingtonpost.it,"Assolombarda: ""Stop blocco licenziamenti, impensabili organici di prima"""
+2020-10-15,europe,inflation,calm,-0.0468,investir.lesechos.fr,France: les prix à la consommation sont restés stables sur un an en septembre
+2020-10-15,europe,inflation,calm,-0.0186,investireoggi.it,Francia: ferma l'inflazione a settembre - Finanza e Borsa
+2020-10-15,europe,inflation,calm,-0.0172,finanznachrichten.de,China's Inflation Slows In September; PPI Continues To Fall
+2020-10-15,europe,inflation,stressed,0.0359,profesionaleshoy.es,"La inflación china, en mínimos de año y medio por los precios del cerdo"
+2020-10-15,europe,inflation,stressed,0.0013,zazoom.it,Francia | inflazione confermata in rallentamento a settembre
+2020-10-15,europe,inflation,stressed,0.0011,europapress.es,"La inflación china se modera al 1,7% en septiembre, su menor alza en 19 meses"
+2020-10-15,europe,monetary_policy,calm,-0.0115,finanznachrichten.de,EZB/Lagarde: Sollten uns auf zweite Corona-Welle vorbereiten
+2020-10-15,europe,monetary_policy,calm,0.0085,capital.fr,"Crédit immobilier : nouvelle baisse des taux en septembre, le nombre de prêts dégringole"
+2020-10-15,europe,monetary_policy,calm,0.0118,dailymail.co.uk,How interest rates are set to stay at record-low levels for THREE more years
+2020-10-15,europe,monetary_policy,stressed,0.0348,moneyweek.com,"The MoneyWeek Podcast: Negative interest rates, armed guards and a warehouse full of cash"
+2020-10-15,europe,monetary_policy,stressed,0.0195,elpais.com,Los bonos periféricos aceleran las caídas con la esperanza de nuevas medidas del BCE | Mercados
+2020-10-15,europe,monetary_policy,stressed,0.0118,dailymail.co.uk,How interest rates are set to stay at record-low levels for THREE more years
+2020-10-15,europe,trade_tariffs,calm,-0.0297,unternehmen-heute.de,"Diplomatie - Merkel will Brexit-Handelsabkommen ""nicht um jeden Preis"""
+2020-10-15,europe,trade_tariffs,calm,-0.0278,dtoday.de,"Merkel will Brexit-Handelsabkommen ""nicht um jeden Preis"" - Politik"
+2020-10-15,europe,trade_tariffs,calm,0.0300,cityam.com,Brexit: Macron and Merkel clash over hopes for UK trade deal
+2020-10-15,europe,trade_tariffs,stressed,0.0497,bbc.co.uk,EU leaders weigh up hard choices over Brexit trade deal
+2020-10-15,europe,trade_tariffs,stressed,0.0331,mirror.co.uk,Brexit crunch time as Boris Johnson decides whether to press ahead with trade talks
+2020-10-15,europe,trade_tariffs,stressed,0.0300,cityam.com,Brexit: Macron and Merkel clash over hopes for UK trade deal
+2020-10-15,us,energy,calm,-0.0354,investing.com,The Oil Demand Outlook Is Dismal. Will OPEC Still Unwind Production Cuts?
+2020-10-15,us,energy,calm,-0.0296,reporternews.com,Texas gas prices up half of a cent from last week
+2020-10-15,us,energy,calm,-0.0066,msn.com,Ready for a road trip? Gas prices in Missouri rank second lowest in country
+2020-10-15,us,energy,stressed,0.0334,investing.com,Oil prices hold gains after U.S. crude inventory draw
+2020-10-15,us,energy,stressed,0.0322,reuters.com,"OPEC+ panel discusses weaker oil demand outlook, Libya supply rise, sources say"
+2020-10-15,us,energy,stressed,0.0149,reuters.com,COLUMN-China's strong Sept crude imports are more bearish than bullish: Russell
+2020-10-15,us,equity_markets,calm,-0.0084,wdsm710.com,Wall Street veteran Ray McGuire to run for New York mayor
+2020-10-15,us,equity_markets,calm,-0.0043,freerepublic.com,Can the Stock Market Predict a Trump Victory?
+2020-10-15,us,equity_markets,calm,0.0085,medicinehatnews.com,"North American stock markets down in early trading, loonie also moves lower - Medicine Hat NewsMedicine Hat News"
+2020-10-15,us,equity_markets,stressed,0.1198,mrtopstep.com,Forbes: The Stock Market's Inevitable Big Plunge Approaches: How to Tell
+2020-10-15,us,equity_markets,stressed,0.1156,nytimes.com,"As Coronavirus Spread, Reports of Trump Administration's Private Briefings Fueled Stock Sell-Off"
+2020-10-15,us,equity_markets,stressed,0.0973,couriernews.com,Stocks fall on Wall Street as coronavirus spreads in Europe
+2020-10-15,us,geopolitics,calm,-0.1554,lmtonline.com,US official holds Beirut meetings after Israel-Lebanon talks
+2020-10-15,us,geopolitics,calm,-0.0813,msn.com,Afghanistan in a nutshell: Peace talks in Doha and war at home
+2020-10-15,us,geopolitics,calm,-0.0779,digitaljournal.com,Karabakh city shelled following brief ceasefire calm
+2020-10-15,us,geopolitics,stressed,0.1850,voanews.com,Militants Stage Deadly Attacks Against Pakistan Troops
+2020-10-15,us,geopolitics,stressed,0.1676,theepochtimes.com,"North Korea's Nuclear, Missile Programs Remain 'Serious Threat' to Security: Pentagon Chief"
+2020-10-15,us,geopolitics,stressed,0.1170,yahoo.com,Watch: India test fires BrahMos Extended Range Supersonic Cruise Missile
+2020-10-15,us,growth_labor,calm,-0.0938,kearneyhub.com,"In spite of recession, Buffalo County's labor market is tight, with more than 1,800 job openings"
+2020-10-15,us,growth_labor,calm,-0.0843,wfmz.com,Surveillance Company Expands Despite COVID Recession
+2020-10-15,us,growth_labor,calm,-0.0579,msn.com,"Unemployment claims remain high in Utah, report says"
+2020-10-15,us,growth_labor,stressed,0.1591,dailyprogress.com,"Recipients of unemployment benefits could see delay this week after computer system disruption, VEC warns"
+2020-10-15,us,growth_labor,stressed,0.1263,980waav.com,States See $31B of Taxes Disappear in COVID Recession
+2020-10-15,us,growth_labor,stressed,0.1147,investing.com,"Wall Street drops after surprise rise in jobless claims, stimulus impasse"
+2020-10-15,us,inflation,calm,0.0058,stltoday.com,Report: Oahu consumer prices rise amid coronavirus pandemic
+2020-10-15,us,inflation,calm,0.0336,efe.com,"La inflación china, en mínimos de año y medio por los precios del cerdo | Economía | Edición América"
+2020-10-15,us,inflation,stressed,0.0336,efe.com,"La inflación china, en mínimos de año y medio por los precios del cerdo | Economía | Edición América"
+2020-10-15,us,inflation,stressed,0.0058,stltoday.com,Report: Oahu consumer prices rise amid coronavirus pandemic
+2020-10-15,us,monetary_policy,calm,-0.0640,channelnewsasia.com,Fed's Kaplan says disadvantaged Americans need help getting back to work
+2020-10-15,us,monetary_policy,calm,-0.0128,reuters.com,Bank of England says bank buffer may need reworking to handle crises
+2020-10-15,us,monetary_policy,calm,-0.0047,bitcoin.com,Argentina's Peso Plunges After Central Bank Tightens Foreign Exchange Controls: Citizens Discuss Bitcoin Adoption
+2020-10-15,us,monetary_policy,stressed,0.0834,reuters.com,Bank of England's Cunliffe fires warning shot at hedge funds
+2020-10-15,us,monetary_policy,stressed,0.0454,businessinsider.com,Bank of Japan official downplays fears over China's digital currency
+2020-10-15,us,monetary_policy,stressed,0.0364,kdhnews.com,Bell reports 4 new active cases as incidence rate rises
+2020-10-15,us,trade_tariffs,calm,-0.0626,sfgate.com,EU: Brexit trade talks to go on past Thursday deadline
+2020-10-15,us,trade_tariffs,calm,-0.0618,chronline.com,WTO Approves European Tariffs on Boeing Jets and Other U.S. Goods
+2020-10-15,us,trade_tariffs,calm,-0.0357,marketwatch.com,Crunch summit: What the U.K. has to do to keep its EU trade talks alive
+2020-10-15,us,trade_tariffs,stressed,0.0504,stltoday.com,U.S. offers tariff truce if Airbus repays billions in aid
+2020-10-15,us,trade_tariffs,stressed,0.0372,reuters.com,"Exclusive: U.S. offers tariff truce if Airbus repays billions in aid, sources say"
+2020-10-15,us,trade_tariffs,stressed,0.0067,980waav.com,US Offers Tariff Truce If Airbus Repays Billions in Aid
 2020-10-17,europe,equity_markets,calm,-0.1146,wallstreet-online.de,Wochenausblick: DAX mit starkem Rebound. Bilanzen im Blick!
 2020-10-17,europe,equity_markets,calm,-0.0850,ilcittadinoonline.it,"Banco Bpm – Titolo in cima al Ftse Mib (+1,4%) - Il Cittadino Online"
 2020-10-17,europe,equity_markets,calm,-0.0676,financial.de,Barley hält nur Minimalkonsens über Post-Brexit-Abkommen für möglich « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
@@ -1157,6 +1317,94 @@ date,region,topic,kind,tone,source,title
 2020-10-19,us,trade_tariffs,stressed,0.0357,houmatoday.com,"Louisiana farmers took a hit from Trump's trade war, but China's imports are rising again"
 2020-10-19,us,trade_tariffs,stressed,0.0166,reuters.com,Brexit brinkmanship: UK says no to more EU trade talks
 2020-10-19,us,trade_tariffs,stressed,0.0073,timesunion.com,Most US farmers remain loyal to Trump despite pain from trade wars and COVID-19
+2020-10-20,europe,banking_stress,calm,-0.0017,finanznachrichten.de,CREDIT SUISSE belässt UBS AG auf 'Outperform'
+2020-10-20,europe,banking_stress,stressed,-0.0017,finanznachrichten.de,CREDIT SUISSE belässt UBS AG auf 'Outperform'
+2020-10-20,europe,energy,calm,-0.0382,bunkerworld.com,Bunkerworld News - Argentina's YPF cancels floating LNG terminal on low gas prices
+2020-10-20,europe,energy,calm,-0.0187,forexcrunch.com,Crude Oil Futures: Further consolidation remains in place
+2020-10-20,europe,energy,calm,0.0176,gov.uk,Road fuel prices: 21 December 2020 - National statistics announcement
+2020-10-20,europe,energy,stressed,0.0193,mirfieldreporter.co.uk,The energy price cap is changing in the UK - here's what it means for you
+2020-10-20,europe,energy,stressed,0.0176,gov.uk,Road fuel prices: 21 December 2020 - National statistics announcement
+2020-10-20,europe,energy,stressed,-0.0187,forexcrunch.com,Crude Oil Futures: Further consolidation remains in place
+2020-10-20,europe,equity_markets,calm,-0.1604,finanznachrichten.de,FTSE 100 Edges Higher In Cautious Trade
+2020-10-20,europe,equity_markets,calm,-0.1174,boursier.com,Wall Street ouvre en hausse entre espoirs de relance et résultats
+2020-10-20,europe,equity_markets,calm,-0.1112,corrieredicomo.it,"Borsa: Europa in cauto rialzo, positivi future Wall Street"
+2020-10-20,europe,equity_markets,stressed,0.0720,boursier.com,Préouverture Paris : on annonce une baisse pour un CAC40 sens dessus dessous...
+2020-10-20,europe,equity_markets,stressed,0.0668,investireoggi.it,Borse europee deboli - Finanza e Borsa - Investireoggi.it
+2020-10-20,europe,equity_markets,stressed,0.0652,finanznachrichten.de,Eröffnung: DAX weitet Verluste aus - Zweifel an US-Konjunkturpaket und Corona-Sorgen belasten
+2020-10-20,europe,geopolitics,calm,-0.0873,agenzianova.com,Nagorno-Karabakh: la Russia è pronta a organizzare colloqui fra Armenia e Azerbaigian
+2020-10-20,europe,geopolitics,calm,-0.0399,tagesspiegel.de,Arabisch-muslimische Welt und Israel: Wenn alle vom neuen Nahen Osten profitieren - Politik
+2020-10-20,europe,geopolitics,calm,-0.0392,marianne.net,Fin de l'embargo sur les armes mais l'Iran pourra-t-elle en acheter ?
+2020-10-20,europe,geopolitics,stressed,0.2059,express.co.uk,World War 3 panic: China considers INVASION of unprotected islands after dangerous stunt
+2020-10-20,europe,geopolitics,stressed,0.1560,express.co.uk,Russia launches cyber war on Tokyo Olympics | World | News
+2020-10-20,europe,geopolitics,stressed,0.1424,qds.it,"Gli Usa accusano intelligence russa di cyberattacchi ""devastanti"""
+2020-10-20,europe,growth_labor,calm,-0.0468,diariodelaltoaragon.es,"Calviño prevé que el PIB crezca más del 1,5 % hasta diciembre"
+2020-10-20,europe,growth_labor,calm,-0.0128,aktiencheck.de,DAX - US-Verhandlungen über Konjunkturpaket im Fokus ()
+2020-10-20,europe,growth_labor,calm,0.0048,nordeclair.fr,"Personnes vulnérables : diabétiques, obèses... Qui peut être légalement en chômage partiel ?"
+2020-10-20,europe,growth_labor,stressed,0.1172,finanznachrichten.de,Eröffnung: DAX weitet Verluste aus - Zweifel an US-Konjunkturpaket und Corona-Sorgen belasten
+2020-10-20,europe,growth_labor,stressed,0.0819,handelsblatt.com,"Nikkei, Topix und Co: Streit um US-Konjunkturpaket belastet Tokioter Börse"
+2020-10-20,europe,growth_labor,stressed,0.0677,prnoticias.com,MAPFRE Economics prevé una caída del PIB español cercana al 12% en un contexto de bloqueo político y fuerte erosión institucional
+2020-10-20,europe,inflation,calm,-0.0604,focus.de,Inflation: Ein kleines Wort macht der EZB den Weg frei für weniger Stabilität
+2020-10-20,europe,inflation,calm,0.0240,marketoracle.co.uk,Gold Asks Where Is The Inflation :: The Market Oracle ::
+2020-10-20,europe,inflation,stressed,0.0240,marketoracle.co.uk,Gold Asks Where Is The Inflation :: The Market Oracle ::
+2020-10-20,europe,inflation,stressed,-0.0604,focus.de,Inflation: Ein kleines Wort macht der EZB den Weg frei für weniger Stabilität
+2020-10-20,europe,monetary_policy,calm,-0.0512,pressandjournal.co.uk,Bank policymaker adds support for negative interest rates
+2020-10-20,europe,monetary_policy,calm,-0.0280,banburycake.co.uk,Josh Powell pays tribute to wife and kids killed in A40 crash
+2020-10-20,europe,monetary_policy,calm,-0.0180,focus.de,Inflation: Ein kleines Wort macht der EZB den Weg frei für weniger Stabilität
+2020-10-20,europe,monetary_policy,stressed,0.0327,express.co.uk,Monzo launches new bank account and customers can access 1.5% interest rate - full details
+2020-10-20,europe,monetary_policy,stressed,0.0035,theboltonnews.co.uk,"Bolton's 7-day coronavirus rolling rate rises, figures reveal"
+2020-10-20,europe,monetary_policy,stressed,-0.0056,handelsblatt.com,EZB: Wie sehr darf die Notenbank grüne Anleihen fördern?
+2020-10-20,europe,trade_tariffs,calm,-0.0428,bbc.com,Brexit: Have EU-UK trade talks reached a dead end?
+2020-10-20,europe,trade_tariffs,calm,0.0121,wiwo.de,Weltwirtschaft: USA und China weiter im Handelsstreit
+2020-10-20,europe,trade_tariffs,calm,0.0505,welt.de,Handelskrieg: China schuldet Amerika über eine Billion Dollar
+2020-10-20,europe,trade_tariffs,stressed,0.0505,welt.de,Handelskrieg: China schuldet Amerika über eine Billion Dollar
+2020-10-20,europe,trade_tariffs,stressed,0.0121,wiwo.de,Weltwirtschaft: USA und China weiter im Handelsstreit
+2020-10-20,europe,trade_tariffs,stressed,-0.0428,bbc.com,Brexit: Have EU-UK trade talks reached a dead end?
+2020-10-20,us,banking_stress,calm,-0.0526,sfgate.com,Signature Bank: 3Q Earnings Snapshot
+2020-10-20,us,banking_stress,calm,0.0166,mondovisione.com,US Federal Agencies Finalize Rule To Reduce The Impact Of Large Bank Failures
+2020-10-20,us,banking_stress,stressed,0.0166,mondovisione.com,US Federal Agencies Finalize Rule To Reduce The Impact Of Large Bank Failures
+2020-10-20,us,banking_stress,stressed,-0.0526,sfgate.com,Signature Bank: 3Q Earnings Snapshot
+2020-10-20,us,energy,calm,-0.0909,murrayledger.com,AAA: Western Ky. gas prices lower as demand drops
+2020-10-20,us,energy,calm,-0.0648,wmskamfm.com,AAA: Western Kentucky Gas Prices Lower as Demand Drops WMSK
+2020-10-20,us,energy,calm,-0.0489,wickedlocal.com,"AAA Northeast: Mass. gas prices down 1 cent, average $2.10 - News - Hudson Sun"
+2020-10-20,us,energy,stressed,0.0586,naturalgasintel.com,New Mexico's Reliance on Fossil Fuels Said Facing Reckoning from Volatile Oil Prices
+2020-10-20,us,energy,stressed,0.0572,reuters.com,"Worried about weak oil demand, OPEC pledges action"
+2020-10-20,us,energy,stressed,0.0523,yahoo.com,OPEC+ Vows 'Proactive' Response to Precarious Oil Market
+2020-10-20,us,equity_markets,calm,-0.1759,kob.com,Stocks moving higher on Wall Street following solid earnings
+2020-10-20,us,equity_markets,calm,-0.1563,theusnews.com,"Wall Street makes good gains, euro soars above 1.1800"
+2020-10-20,us,equity_markets,calm,-0.1460,reuters.com,Wall Street opens higher with focus on stimulus
+2020-10-20,us,equity_markets,stressed,0.0997,sanantoniopost.com,Tokyo stocks drop in morning on concerns over U.S. stimulus
+2020-10-20,us,equity_markets,stressed,0.0906,reuters.com,Japan stocks drop on caution over U.S. stimulus package
+2020-10-20,us,equity_markets,stressed,0.0667,marshallindependent.com,"Stocks fall on Wall Street as hopes for new virus aid fade | News, Sports, Jobs"
+2020-10-20,us,geopolitics,calm,-0.1178,lmtonline.com,Biden's plan to revive Iran talks could calm the Middle East – but on Israel he and Trump largely agree
+2020-10-20,us,geopolitics,calm,-0.1034,kticradio.com,"US, Russia move closer to deal to extend last nuclear arms control pact"
+2020-10-20,us,geopolitics,calm,-0.0563,mymotherlode.com,"Palestinian official Erekat in critical, stable condition"
+2020-10-20,us,geopolitics,stressed,0.1530,kmov.com,6 Russian military officers charged with a worldwide cyberattack
+2020-10-20,us,geopolitics,stressed,0.1434,msn.com,Afghan fears rise as US ends its longest war
+2020-10-20,us,geopolitics,stressed,0.1409,theridgefieldpress.com,Pentagon estimates cost of new nuclear missiles at $95.8B
+2020-10-20,us,growth_labor,calm,-0.0866,cpr.org,"Colorado Sees September Improvement In Unemployment, Labor Force Participation"
+2020-10-20,us,growth_labor,calm,-0.0236,iheart.com,Iowa Has 5th Lowest Unemployment Rate in U.S.
+2020-10-20,us,growth_labor,calm,-0.0196,blueridgenow.com,North Carolina unemployment rate rises to 7.3% in September - News - Hendersonville Times-News
+2020-10-20,us,growth_labor,stressed,0.1064,gillettenewsrecord.com,What does cutting the payroll tax mean?
+2020-10-20,us,growth_labor,stressed,0.0980,investing.com,MÄRKTE-Zweifel an US-Konjunkturpaket und Corona-Sorgen drücken Dax
+2020-10-20,us,growth_labor,stressed,0.0956,reuters.com,"Finnair cuts 700 jobs, layoffs continue for thousands"
+2020-10-20,us,inflation,calm,-0.0069,theusnews.com,ExCore Finance: Implementing a Protocol without Inflation
+2020-10-20,us,inflation,calm,0.0074,reuters.com,"Exclusive: BOJ to cut growth, inflation forecasts as pandemic pain persists - sources"
+2020-10-20,us,inflation,calm,0.0117,reuters.com,"EXCLUSIVE-BOJ to downgrade growth, inflation forecasts - sources"
+2020-10-20,us,inflation,stressed,0.0253,theepochtimes.com,Inflation Is Always and Everywhere a Monetary Phenomenon
+2020-10-20,us,inflation,stressed,0.0117,reuters.com,"EXCLUSIVE-BOJ to downgrade growth, inflation forecasts - sources"
+2020-10-20,us,inflation,stressed,0.0074,reuters.com,"Exclusive: BOJ to cut growth, inflation forecasts as pandemic pain persists - sources"
+2020-10-20,us,monetary_policy,calm,-0.0339,metro.us,"U.S. low-income lending rules should promote affordable housing, Fed official says"
+2020-10-20,us,monetary_policy,calm,-0.0338,thetimes-tribune.com,"Scranton parking revenue continues to suffer, but operators don't plan 2021 rate hike"
+2020-10-20,us,monetary_policy,calm,-0.0331,reuters.com,Fed's Evans says recovery could stall without more fiscal stimulus
+2020-10-20,us,monetary_policy,stressed,0.0243,reuters.com,"ECB would have 1 trillion euros of bonds to buy after axing polluters, study finds"
+2020-10-20,us,monetary_policy,stressed,0.0084,msn.com,"NC COVID-19 hospitalizations surpass 1,200 for first time since July; daily positive test rate rises to 7.4%"
+2020-10-20,us,monetary_policy,stressed,0.0031,reuters.com,"BoE's Vlieghe eyes more stimulus, open to negative rates"
+2020-10-20,us,trade_tariffs,calm,-0.1022,reuters.com,"U.S., Britain upbeat as trade talks enter new round"
+2020-10-20,us,trade_tariffs,calm,-0.0813,reuters.com,UK says trade talks with U.S. are intensifying
+2020-10-20,us,trade_tariffs,calm,-0.0476,msn.com,G'day UK: Australia trade deal to increase freedom of movement downunder
+2020-10-20,us,trade_tariffs,stressed,0.0135,reuters.com,'Extremely damaging' no deal in Brexit trade talks would cut Bentley's profits
+2020-10-20,us,trade_tariffs,stressed,-0.0161,forextv.com,GBP/USD: Market Participants' Confidence Over A Trade Deal Will Be Severely Tested; Staying Short – MUFG
+2020-10-20,us,trade_tariffs,stressed,-0.0476,msn.com,G'day UK: Australia trade deal to increase freedom of movement downunder
 2020-10-21,europe,banking_stress,calm,-0.0590,tradingsat.com,Credit Suisse : Signe un partenariat dans la finance durable
 2020-10-21,europe,banking_stress,stressed,-0.0590,tradingsat.com,Credit Suisse : Signe un partenariat dans la finance durable
 2020-10-21,europe,energy,calm,-0.0335,forexcrunch.com,Crude Oil Futures: Further upside lacks conviction
@@ -1239,6 +1487,1088 @@ date,region,topic,kind,tone,source,title
 2020-10-21,us,monetary_policy,stressed,0.0024,reuters.com,Lagarde turns to civil society in ECB transformation effort
 2020-10-21,us,trade_tariffs,calm,-0.0418,msn.com,"India, Taiwan consider trade deal; Beijing asks New Delhi to respect 'One China policy'"
 2020-10-21,us,trade_tariffs,stressed,-0.0418,msn.com,"India, Taiwan consider trade deal; Beijing asks New Delhi to respect 'One China policy'"
+2020-10-22,europe,banking_stress,calm,0.0447,handelsblatt.com,Credit Suisse: Zahl der Millionäre in Deutschland ist gestiegen
+2020-10-22,europe,banking_stress,stressed,0.0447,handelsblatt.com,Credit Suisse: Zahl der Millionäre in Deutschland ist gestiegen
+2020-10-22,europe,energy,calm,-0.0332,stokesentinel.co.uk,How to cut energy bills as 37% say they won't afford them this winter
+2020-10-22,europe,energy,calm,-0.0008,boersennews.de,Ölpreise geben weiter nach - US-Öl wieder unter 40 Dollar
+2020-10-22,europe,energy,calm,0.0134,getsurrey.co.uk,Vegan 'green' café opening in Staines will host cycle repairs and advice on energy bills
+2020-10-22,europe,energy,stressed,0.0402,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Moneysupermarket takes Q3 hit from tighter lending, energy prices"
+2020-10-22,europe,energy,stressed,0.0269,nuovavenezia.gelocal.it,"Caritas, è boom di richieste per cibo e bollette Moraglia: «Aprite la vostra casa a un povero»"
+2020-10-22,europe,energy,stressed,0.0259,thewestmorlandgazette.co.uk,Government announces measures to cap energy bills to stop consumers paying too much
+2020-10-22,europe,equity_markets,calm,-0.1621,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Rentokil returns to M&A as Q3 trading improves"
+2020-10-22,europe,equity_markets,calm,-0.1278,investir.lesechos.fr,Wall Street avance prudemment à l'ouverture grâce aux résultats
+2020-10-22,europe,equity_markets,calm,-0.1046,la-croix.com,"La Bourse de Paris repasse dans le vert (+0,25%)"
+2020-10-22,europe,equity_markets,stressed,0.0674,parisguardian.com,Asia stocks slip with US stimulus unlikely before election
+2020-10-22,europe,equity_markets,stressed,0.0654,ansa.it,"Borsa: Covid deprime Europa, Milano perde lo 0,67% - Economia"
+2020-10-22,europe,equity_markets,stressed,0.0593,thetimes.co.uk,FTSE hits six-month low
+2020-10-22,europe,geopolitics,calm,-0.1195,epochtimes.de,Saad Hariri erneut zum libanesischen Regierungschef ernannt
+2020-10-22,europe,geopolitics,calm,-0.1122,aktiencheck.de,Innenminister wollen Ende des Abschiebestopps nach Syrien ()
+2020-10-22,europe,geopolitics,calm,-0.0530,zazoom.it,Tra Miguel Bosé e l'ex compagno è guerra legale per la paternità
+2020-10-22,europe,geopolitics,stressed,0.1485,notizie.it,"Afghanistan, raid aereo fa strage di bambini in una moschea"
+2020-10-22,europe,geopolitics,stressed,0.1237,nicematin.com,Le Suffren tire son premier missile de croisière au large des côtes landaises
+2020-10-22,europe,geopolitics,stressed,0.1220,zazoom.it,Coronavirus | allarme di Guerra | manca personale e la sanità di base in tilt
+2020-10-22,europe,growth_labor,calm,-0.1012,boersennews.de,Neuanträge auf Arbeitslosenhilfe in den USA weiter auf hohem Niveau
+2020-10-22,europe,growth_labor,calm,-0.0516,pymesyautonomos.com,"El sector del 'delivery', cada vez más en auge: en 2020, aportan más de 708 millones de euros al PIB español"
+2020-10-22,europe,growth_labor,calm,-0.0462,finanznachrichten.de,Norway Jobless Rate Unexpectedly Rises In August
+2020-10-22,europe,growth_labor,stressed,0.1328,bbc.com,Asia suffering 'worst recession in living memory'
+2020-10-22,europe,growth_labor,stressed,0.0826,tgcom24.mediaset.it,"Coronavirus, sindacati: ""Nulla di fatto a incontro su cig e licenziamenti"""
+2020-10-22,europe,growth_labor,stressed,0.0792,ilmattino.it,"Licenziamenti: blocco prolungato fino al 31 gennaio, ma i sindacati chiedono di arrivare a metà maggio. Senza esito l'incontro col Governo"
+2020-10-22,europe,inflation,calm,-0.0111,jeuneafrique.com,"Croissance, inflation… La (relative) résistance de l'UEMOA – Jeune Afrique"
+2020-10-22,europe,inflation,stressed,-0.0111,jeuneafrique.com,"Croissance, inflation… La (relative) résistance de l'UEMOA – Jeune Afrique"
+2020-10-22,europe,monetary_policy,calm,-0.0224,handelsblatt.com,Türkische Notenbank verzichtet auf Zinserhöhung – Lira gibt nach
+2020-10-22,europe,monetary_policy,stressed,-0.0224,handelsblatt.com,Türkische Notenbank verzichtet auf Zinserhöhung – Lira gibt nach
+2020-10-22,europe,trade_tariffs,calm,-0.0497,scotsman.com,Scottish products set for new protections as UK and Japan sign post-Brexit trade deal
+2020-10-22,europe,trade_tariffs,calm,-0.0402,clactonandfrintongazette.co.uk,'Intensive' Brexit trade talks resume in London as deal deadline looms
+2020-10-22,europe,trade_tariffs,calm,-0.0362,standard.co.uk,Michel Barnier travels to UK in final bid to get a post-Brexit trade deal
+2020-10-22,europe,trade_tariffs,stressed,0.0396,express.co.uk,Brexit news: EU warned to fix trade talks and drop spiteful attitude as 'Europe needs UK!' | Politics | News
+2020-10-22,europe,trade_tariffs,stressed,-0.0192,europapress.es,Fepex cifra en 198 millones anuales el pago de aranceles en el caso de no haber acuerdo comercial en el Brexit
+2020-10-22,europe,trade_tariffs,stressed,-0.0207,energylivenews.com,Bulb launches 'UK's first major 100% renewable smart prepayment tariff'
+2020-10-22,us,energy,calm,-0.0604,iheart.com,Florida Gas Prices Fall for 16th Straight Day
+2020-10-22,us,energy,calm,-0.0423,reuters.com,Strom- und Gaspreise ziehen im ersten Halbjahr merklich an
+2020-10-22,us,energy,calm,-0.0338,oilprice.com,Clean Energy Is Canceling Gas Plants - Renewables - Oil Price Community
+2020-10-22,us,energy,stressed,0.0243,investing.com,Short-Term Oil Prices At Mercy Of Election Results. Here's Why
+2020-10-22,us,energy,stressed,-0.0243,y101radio.com,MO Help For Past-Due and Future Energy Bills Available
+2020-10-22,us,energy,stressed,-0.0338,oilprice.com,Clean Energy Is Canceling Gas Plants - Renewables - Oil Price Community
+2020-10-22,us,equity_markets,calm,-0.1369,foxbusiness.com,"Stocks rise on improving jobs data; AT&T, Tesla shine"
+2020-10-22,us,equity_markets,calm,-0.1138,reuters.com,"S&P 500, Nasdaq edge higher as investors cling to stimulus hopes"
+2020-10-22,us,equity_markets,calm,-0.0833,globenewswire.com,"Trip.com Group's ""LIVE for Trip"" month-long campaign to further boost travel recovery Nasdaq:TCOM"
+2020-10-22,us,equity_markets,stressed,0.1128,investing.com,Opening Bell: Global Selloff On U.S. Election Fears; Oil Up; Dollar Steadies
+2020-10-22,us,equity_markets,stressed,0.0825,reuters.com,"Singapore fuel oil stocks slip, exports to Saudi resurface"
+2020-10-22,us,equity_markets,stressed,0.0726,netscape.com,Wall Street drops in choppy trade as investors look for stimulus - Netscape Money & Business
+2020-10-22,us,geopolitics,calm,-0.1339,heritage.org,Arab-Israeli Normalization Is the Way to Peace With Palestinians
+2020-10-22,us,geopolitics,calm,-0.0736,knpr.org,"Armenia, Azerbaijan Accuse Each Other Of Breaking Latest Cease-Fire Within Minutes"
+2020-10-22,us,geopolitics,calm,-0.0551,wibqam.com,"India, U.S. set for military pact on satellite data during Pompeo visit"
+2020-10-22,us,geopolitics,stressed,0.1713,msn.com,Chinese Military Teases Hypersonic Missiles Amid Invasion Speculation
+2020-10-22,us,geopolitics,stressed,0.1587,msn.com,"U.S. Detects Rise in Russian, Iranian Hacks Before Elections"
+2020-10-22,us,geopolitics,stressed,0.1189,msn.com,"Voting across the US live updates: Iran sent email threats to Florida voters, DNI says; Russia also trying to meddle; mail delays persist"
+2020-10-22,us,growth_labor,calm,-0.0654,chicagotribune.com,"Recovering from pandemic, economic growth are issues in race in Illinois House 97th District"
+2020-10-22,us,growth_labor,calm,-0.0490,msn.com,Auckland Council job cuts help save $78m: 'A really good start'
+2020-10-22,us,growth_labor,calm,-0.0489,accesswdun.com,Jobless rate for Gainesville metro inches up to 4%
+2020-10-22,us,growth_labor,stressed,0.1334,meadvilletribune.com,US jobless claims drop
+2020-10-22,us,growth_labor,stressed,0.1168,netscape.com,U.S. weekly jobless claims push lower; many exhausting their benefits
+2020-10-22,us,growth_labor,stressed,0.0941,bondbuyer.com,"Chicago turns to scoop-and-toss, tax hikes, and job cuts to manage coronavirus wounds"
+2020-10-22,us,inflation,calm,-0.0027,reuters.com,"Commodities headed for bull market in 2021 on inflation fears, stimulus - Goldman Sachs"
+2020-10-22,us,inflation,calm,0.0042,wibqam.com,"Commodities headed for bull market in 2021 on inflation fears, stimulus: Goldman Sachs"
+2020-10-22,us,inflation,calm,0.0070,malaymail.com,UK inflation rises as cheap virus meal scheme ends | Money
+2020-10-22,us,inflation,stressed,0.0070,malaymail.com,UK inflation rises as cheap virus meal scheme ends | Money
+2020-10-22,us,inflation,stressed,0.0042,wibqam.com,"Commodities headed for bull market in 2021 on inflation fears, stimulus: Goldman Sachs"
+2020-10-22,us,inflation,stressed,-0.0027,reuters.com,"Commodities headed for bull market in 2021 on inflation fears, stimulus - Goldman Sachs"
+2020-10-22,us,monetary_policy,calm,-0.0947,chicagotribune.com,Progressive rolls back auto rate cuts - Chicago Tribune
+2020-10-22,us,monetary_policy,calm,-0.0518,chron.com,Turkey central bank keeps rate on hold despite currency drop
+2020-10-22,us,monetary_policy,calm,-0.0341,reuters.com,BoE's Haldane says UK spending 'remarkably resilient'
+2020-10-22,us,monetary_policy,stressed,0.0863,etfdailynews.com,"The Number To Know To Gauge Interest Rate Sensitivity (SHY, TLT)"
+2020-10-22,us,monetary_policy,stressed,0.0629,nationalreview.com,"Google Under Attack, the Fed Frets about Risk -- The Capital Note"
+2020-10-22,us,monetary_policy,stressed,0.0213,efe.com,"Saracho quería vender el Popular o lo ""estampaba"" en el BCE, dice un exdirectivo | Economía"
+2020-10-22,us,trade_tariffs,calm,-0.0790,rawlinstimes.com,UK-EU trade talks back on after bloc offers olive branch
+2020-10-22,us,trade_tariffs,stressed,-0.0790,rawlinstimes.com,UK-EU trade talks back on after bloc offers olive branch
+2020-10-23,europe,energy,calm,0.0195,finanznachrichten.de,"Technavio Research: Global Crude Oil Flow Improvers Market 2020-2024 | Size, Share, Trends, Analysis and Forecast"
+2020-10-23,europe,energy,stressed,0.0195,finanznachrichten.de,"Technavio Research: Global Crude Oil Flow Improvers Market 2020-2024 | Size, Share, Trends, Analysis and Forecast"
+2020-10-23,europe,equity_markets,calm,-0.1300,investireoggi.it,"Piazza Affari positiva in avvio. Bene Pirelli e bancari. FTSE MIB +0,9% - Finanza e Borsa"
+2020-10-23,europe,equity_markets,calm,-0.1237,finanznachrichten.de,EUREX/DAX-Future leichter - Stabilisierung im Abwärtstrend
+2020-10-23,europe,equity_markets,calm,-0.1207,europapress.es,"El Ibex 35 amanece con una subida del 0,12% y recupera los 6.800 enteros"
+2020-10-23,europe,equity_markets,stressed,0.1314,thetimes.co.uk,Doctors ready to revolt over Royal College of Physicians book sell-off
+2020-10-23,europe,equity_markets,stressed,0.0591,investireoggi.it,I 6 migliori e i 6 peggiori titoli secondo l'analisi tecnica tra i 100 piu' liquidi del mercato - Finanza e Borsa
+2020-10-23,europe,equity_markets,stressed,0.0565,finanza.com,Intel affonda in Borsa dopo bilancio: titolo -9%. Delusione per data-center e Internet of Things
+2020-10-23,europe,geopolitics,calm,-0.1123,bbc.co.uk,Libya rivals sign ceasefire deal in Geneva
+2020-10-23,europe,geopolitics,calm,-0.0929,openpr.de,Jetzt: Erzähl-Café über die ersten Jahre nach dem Krieg
+2020-10-23,europe,geopolitics,calm,-0.0869,rheinpfalz.de,Debatte über Abschiebestopp nach Syrien - Politik
+2020-10-23,europe,geopolitics,stressed,0.1290,diariocordoba.com,Un ataque con drones en Siria deja al menos 14 yihadistas muertos
+2020-10-23,europe,geopolitics,stressed,0.0929,mainpost.de,22 Tote nach US-Drohnenangriff im Nordwesten Syriens
+2020-10-23,europe,geopolitics,stressed,0.0890,lemonde.fr,La Tanzanie ciblée par une attaque revendiquée par l'Etat islamique
+2020-10-23,europe,growth_labor,calm,-0.0315,elperiodicomediterraneo.com,El desempleo afecta ya a uno de cada cuatro jóvenes de Castellón
+2020-10-23,europe,growth_labor,calm,0.0073,francetvinfo.fr,"Covid-19, couvre-feu, licenciements : la revue de presse en régions"
+2020-10-23,europe,growth_labor,calm,0.0208,bo.de,Wirtschaft Elektromobilität Weitere Daimler-Werke könnten von Stellenabbau betroffen sein Nachrichten der Ortenau
+2020-10-23,europe,growth_labor,stressed,0.1328,bbc.com,Asia suffering 'worst recession in living memory'
+2020-10-23,europe,growth_labor,stressed,0.1000,ilgazzettino.it,"Manovra e nodo licenziamenti, fumata nera Governo-Sindacati"
+2020-10-23,europe,growth_labor,stressed,0.0580,finanza.com,"Eurozona: ""idea di scivolare in recessione eserciterà maggiore pressione su Bce"" (Ihs Markit)"
+2020-10-23,europe,inflation,calm,-0.0141,boersennews.de,WDH/Japan: Verbraucherpreise fallen etwas schwächer
+2020-10-23,europe,inflation,calm,0.0043,profesionaleshoy.es,"El IPC de Japón bajó un 0,3 % en septiembre | Profesionales Hoy"
+2020-10-23,europe,inflation,calm,0.0159,ilmessaggero.it,"Giappone, l'inflazione rallenta ancora a settembre"
+2020-10-23,europe,inflation,stressed,0.0159,ilmessaggero.it,"Giappone, l'inflazione rallenta ancora a settembre"
+2020-10-23,europe,inflation,stressed,0.0043,profesionaleshoy.es,"El IPC de Japón bajó un 0,3 % en septiembre | Profesionales Hoy"
+2020-10-23,europe,inflation,stressed,-0.0141,boersennews.de,WDH/Japan: Verbraucherpreise fallen etwas schwächer
+2020-10-23,europe,monetary_policy,calm,-0.0432,sueddeutsche.de,Devisen und Rohstoffe - Türkische Lira verliert nach Zinsentscheid - Wirtschaft
+2020-10-23,europe,monetary_policy,calm,-0.0158,welt.de,EZB – Europäische Zentralbank: Digitaler Euro kann stabile Währung sein
+2020-10-23,europe,monetary_policy,calm,0.0042,kentonline.co.uk,What are negative interest rates and can they help the economy?
+2020-10-23,europe,monetary_policy,stressed,0.0519,borehamwoodtimes.co.uk,Barclays warns negative interest rates could hurt its UK profits
+2020-10-23,europe,monetary_policy,stressed,0.0342,thescarboroughnews.co.uk,"Daily figure of 20 new Covid cases pushes Scarborough's total to more than 1,100, as infection rate rises"
+2020-10-23,europe,monetary_policy,stressed,0.0207,thisislancashire.co.uk,Fed-up residents near school say 'abusive' parents are making their lives a misery
+2020-10-23,europe,trade_tariffs,calm,-0.0919,dw.com,Kenya negotiates free trade deal with US | Business| Economy and finance news from a German perspective | DW
+2020-10-23,europe,trade_tariffs,calm,-0.0298,express.co.uk,Pound to euro exchange rate: Sterling remains unchanged as Brexit trade talks continue | Travel News | Travel
+2020-10-23,europe,trade_tariffs,stressed,-0.0298,express.co.uk,Pound to euro exchange rate: Sterling remains unchanged as Brexit trade talks continue | Travel News | Travel
+2020-10-23,europe,trade_tariffs,stressed,-0.0919,dw.com,Kenya negotiates free trade deal with US | Business| Economy and finance news from a German perspective | DW
+2020-10-23,us,energy,calm,-0.0358,econintersect.com,"23Oct2020 Midday Update: DOW Sinks By 160 Points Midday As Fiscal-stimulus Hopes Fizzle, Nasdaq Down -0.3%, WTI Crude Slips 39.84, US Dollar Remains Weak At 92.88"
+2020-10-23,us,energy,calm,-0.0310,dentonrc.com,Gas prices up across region while statewide average remains flat
+2020-10-23,us,energy,calm,-0.0050,reuters.com,"MOVES-Mitsui hires two crude, condensate traders in Singapore - sources"
+2020-10-23,us,energy,stressed,0.0478,oilandgas360.com,"Sudan to join UAE, Bahrain in recognizing Israel - Another step in stabilizing oil prices through peace."
+2020-10-23,us,energy,stressed,0.0431,forbes.com,Magellan Midstream Stock To Gain From Improving Crude Oil Demand
+2020-10-23,us,energy,stressed,0.0413,reuters.com,Oil above $42 as possible OPEC+ cut extension offsets demand concern
+2020-10-23,us,equity_markets,calm,-0.1759,tribtown.com,Stocks moving higher on Wall Street following solid earnings
+2020-10-23,us,equity_markets,calm,-0.1406,reuters.com,BÖRSEN-TICKER-Zahlen von Renault kommen gut an
+2020-10-23,us,equity_markets,calm,-0.1233,cincinnatisun.com,"U.S. stocks rally on stimulus hopes, rise in energy shares"
+2020-10-23,us,equity_markets,stressed,0.0762,dailydot.com,Wall Street Journal Articles Debunks Its Own Op-Eds
+2020-10-23,us,equity_markets,stressed,0.0689,foxbusiness.com,"Dow, Nasdaq drop sharply as Intel sinks"
+2020-10-23,us,equity_markets,stressed,0.0455,fool.com,3 Top Stocks That Aren't on Wall Street's Radar
+2020-10-23,us,geopolitics,calm,-0.1933,washingtontimes.com,"Sudan, Israel agree to normalize diplomatic relations"
+2020-10-23,us,geopolitics,calm,-0.1738,msn.com,Trump: Israel and Sudan 'have agreed to make peace'
+2020-10-23,us,geopolitics,calm,-0.1737,washingtonpost.com,"Israel and Sudan agree on diplomatic ties, Trump says"
+2020-10-23,us,geopolitics,stressed,0.1741,klik1240.com,US embassy in Turkey warns of potential terror attack threat in Istanbul
+2020-10-23,us,geopolitics,stressed,0.1669,voanews.com,"US Links Threatening Emails to Iran, Russia"
+2020-10-23,us,geopolitics,stressed,0.1458,thesmokinggun.com,Man Arrested After Calling 911 To Alert Authorities About Alien Invasion
+2020-10-23,us,growth_labor,calm,-0.0405,reuters.com,Firmenbilanzen und Konjunkturdaten geben Börsen Auftrieb
+2020-10-23,us,growth_labor,calm,-0.0327,wtma.com,Recession risk grows as Covid-19 cases continue to surge
+2020-10-23,us,growth_labor,calm,-0.0305,marketwatch.com,3.3 Million Receiving Pandemic Unemployment Benefits
+2020-10-23,us,growth_labor,stressed,0.1036,orlandosentinel.com,"Once again, an Orlando CEO warns of layoffs if Democrats win"
+2020-10-23,us,growth_labor,stressed,0.0977,marketwatch.com,"Here's how much Americans will owe in unpaid rent by December because of pandemic-related unemployment, according to a Fed study"
+2020-10-23,us,growth_labor,stressed,0.0826,orlandosentinel.com,Man fired from Orlando firm had talked to TV about letter warning of layoffs if Biden was elected: report
+2020-10-23,us,inflation,calm,-0.0142,reuters.com,RBNZ core inflation at 1.7% in third quarter
+2020-10-23,us,inflation,calm,0.0007,reuters.com,Japan's consumer prices continue to slide on deflationary pressure from COVID-19
+2020-10-23,us,inflation,calm,0.0056,forbes.com,From Penny Candy To The Dollar Menu –The Impact Of Inflation On Markets
+2020-10-23,us,inflation,stressed,0.0639,bitcoin.com,8 Countries Stricken With Rampant Inflation See Bitcoin Prices Touch All-Time Highs
+2020-10-23,us,inflation,stressed,0.0419,stripes.com,Floods and drought are destroying crops and sparking food inflation
+2020-10-23,us,inflation,stressed,0.0414,wacotrib.com,US cities with the highest cost-of-living adjusted salaries
+2020-10-23,us,monetary_policy,calm,-0.0596,sfgate.com,Utility commission weighs natural gas rate increase request
+2020-10-23,us,monetary_policy,calm,-0.0437,gdnonline.com,Cricket: England players agree 15% pay cut as pandemic hits ECB revenues
+2020-10-23,us,monetary_policy,calm,-0.0319,reuters.com,Kazakhstan central bank seen holding policy rate unchanged: Reuters poll
+2020-10-23,us,monetary_policy,stressed,0.0728,msn.com,Swedish Central Bank Reveals Grim View of Latest Covid Trend
+2020-10-23,us,monetary_policy,stressed,0.0505,bondbuyer.com,"The Fed, market volatility and asset bubbles"
+2020-10-23,us,monetary_policy,stressed,0.0278,einnews.com,"POLL-Brazil central bank to leave rates unchanged, too early for hawkish view - Brazil Business Today"
+2020-10-23,us,trade_tariffs,calm,-0.1049,qctimes.com,"Japan, Britain sign free trade deal for post-Brexit era"
+2020-10-23,us,trade_tariffs,calm,-0.0996,yahoo.com,U.K. Signs Trade Deal With Japan as Brexit Talks Heat Up
+2020-10-23,us,trade_tariffs,calm,-0.0888,reuters.com,Großbritannien schließt mit Japan erstes großes Handelsabkommen in Zeit nach dem Brexit
+2020-10-23,us,trade_tariffs,stressed,0.0574,yahoo.com,"Opinion: No, Mr. President, China is still not paying the tariffs you slapped on Chinese goods"
+2020-10-23,us,trade_tariffs,stressed,-0.0391,msn.com,FTSE 100 set to rise as Boris Johnson hails trade deal with Japan - Britain's first since Brexit vote
+2020-10-23,us,trade_tariffs,stressed,-0.0491,reuters.com,Both sides want EU trade deal but UK sovereignty must be respected - minister
+2020-10-24,europe,equity_markets,calm,-0.0890,financial.de,Erstmals über 15 000 Corona-Neuinfektionen in Tschechien « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-24,europe,equity_markets,calm,-0.0764,invezz.com,"Daseke, Inc. Share Price | NASDAQ:DSKE Quote & News"
+2020-10-24,europe,equity_markets,calm,-0.0587,invezz.com,Kodiak Sciences Inc. Share Price | NASDAQ:KOD Quote & News
+2020-10-24,europe,equity_markets,stressed,-0.0214,financial.de,Staatssekretär Jäger mit Coronavirus infiziert – Treffen mit Spahn « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-24,europe,equity_markets,stressed,-0.0277,financial.de,Merkel: Gebot der Stunde heißt Kontakte reduzieren « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-24,europe,equity_markets,stressed,-0.0329,fool.co.uk,Cheap shares: this FTSE 100 stock has surged 11% in a month. Would I buy now?
+2020-10-24,europe,geopolitics,calm,-0.1021,asianews.it,ISRAEL - SUDAN - USA Trump: Israel and Sudan will normalize diplomatic relations
+2020-10-24,europe,geopolitics,calm,-0.0923,finanznachrichten.de,Iran verurteilt Normalisierung zwischen Israel und Sudan
+2020-10-24,europe,geopolitics,calm,-0.0652,express.co.uk,"China news: China hopeful of Russia military alliance 'positive', with 'no limit' | World | News"
+2020-10-24,europe,geopolitics,stressed,0.1156,dailymail.co.uk,South China Sea: Beijing claims its soldiers launched 'dozens of missiles' during a live-fire drill
+2020-10-24,europe,geopolitics,stressed,0.0650,meteoweb.eu,"Accadde oggi: il 24 ottobre 1917 la battaglia di Caporetto, la disastrosa sconfitta italiana durante la I Guerra Mondiale"
+2020-10-24,europe,geopolitics,stressed,0.0463,express.co.uk,China news: China's brutal war with UK unveiled as navy 'obliterated within a day' | World | News
+2020-10-24,europe,growth_labor,calm,0.0056,halesowennews.co.uk,£millions earmarked for Dudley jobless
+2020-10-24,europe,growth_labor,stressed,0.0056,halesowennews.co.uk,£millions earmarked for Dudley jobless
+2020-10-24,europe,trade_tariffs,calm,-0.0890,maldonandburnhamstandard.co.uk,Post-Brexit trade talks continuing through the weekend
+2020-10-24,europe,trade_tariffs,calm,-0.0654,express.co.uk,Brexit news: UK breakthrough as trade talks could enter crucial 'tunnel' phase | Politics | News
+2020-10-24,europe,trade_tariffs,calm,-0.0149,express.co.uk,Brexit news: The three key issues which could see trade talks go either way this weekend | Politics | News
+2020-10-24,europe,trade_tariffs,stressed,0.0474,heraldscotland.com,US trade deal protests: London activists condemn 'toxic' Donald Trump
+2020-10-24,europe,trade_tariffs,stressed,0.0445,diariosigloxxi.com,Maroto defiende la posibilidad de imponer aranceles a EEUU a partir del lunes pese a su escenario electoral
+2020-10-24,europe,trade_tariffs,stressed,0.0420,halsteadgazette.co.uk,Activists condemn 'toxic' Trump in protest against trade deal with US
+2020-10-24,us,energy,calm,-0.0454,sfgate.com,"Gas prices down slightly in New Jersey, across the nation"
+2020-10-24,us,energy,calm,-0.0411,oilprice.com,OPEC Meeting Ends Without Firm Decision On Output Cuts
+2020-10-24,us,energy,calm,-0.0090,oilprice.com,Oil Prices Aren't Going Anywhere Until The Election
+2020-10-24,us,energy,stressed,-0.0090,oilprice.com,Oil Prices Aren't Going Anywhere Until The Election
+2020-10-24,us,energy,stressed,-0.0411,oilprice.com,OPEC Meeting Ends Without Firm Decision On Output Cuts
+2020-10-24,us,energy,stressed,-0.0454,sfgate.com,"Gas prices down slightly in New Jersey, across the nation"
+2020-10-24,us,equity_markets,calm,-0.0399,reuters.com,Wall Street Week Ahead: More U.S. companies offer earnings guidance despite pandemic
+2020-10-24,us,equity_markets,calm,0.0131,newyorktelegraph.com,Dow Jones dips while Nasdaq and S&P 500 make modest gains
+2020-10-24,us,equity_markets,calm,0.0313,laosnews.net,Wall Street directionless as stimulus package remains elusive
+2020-10-24,us,equity_markets,stressed,0.0832,magicvalley.com,3 Reasons Not to Worry About a Stock Market Crash After the Election
+2020-10-24,us,equity_markets,stressed,0.0810,fool.com,"Lloyd Blankfein Has Thoughts on Trump, Biden, and the Stock Market"
+2020-10-24,us,equity_markets,stressed,0.0313,laosnews.net,Wall Street directionless as stimulus package remains elusive
+2020-10-24,us,geopolitics,calm,-0.1277,aljazeera.com,"'Libya deserves better': Hope, doubts follow ceasefire deal | Middle East"
+2020-10-24,us,geopolitics,calm,-0.1262,reuters.com,Trump envoy hopes Israeli-Arab peace deals will continue whatever the U.S. election result
+2020-10-24,us,geopolitics,calm,-0.1006,humanitariannews.org,Sudan: Khartoum to Normalise Ties With Israel
+2020-10-24,us,geopolitics,stressed,0.1247,bignewsnetwork.com,Pakistan invasion in 1947 brought killing of thousands
+2020-10-24,us,geopolitics,stressed,0.1179,freerepublic.com,"When Fake News Becomes Fake History – the Cuban Missile Crisis, 58 Years Ago This Week"
+2020-10-24,us,geopolitics,stressed,0.0662,courrierinternational.com,"En Israël, une révolte rose contre Nétanyahou"
+2020-10-24,us,growth_labor,calm,-0.0360,albanyherald.com,Unemployment benefits surpass $15 billion in Georgia
+2020-10-24,us,growth_labor,calm,-0.0189,kroc.com,Rochester Area Unemployment Rate Has Dropped Over 50% Since May
+2020-10-24,us,growth_labor,calm,0.0042,heralddemocrat.com,Sherman-Denison saw an increase in unemployment in September
+2020-10-24,us,growth_labor,stressed,0.0964,washingtontimes.com,Missouri unemployment staff cut before spring claim surge
+2020-10-24,us,growth_labor,stressed,0.0811,harrisondaily.com,"Hourlong waits. 120,000 unanswered calls in one day. How unemployment claims overwhelmed Missouri"
+2020-10-24,us,growth_labor,stressed,0.0542,iheart.com,Iowans no longer eligible for unemployment Extended Benefits program
+2020-10-24,us,inflation,calm,0.0414,sott.net,"Floods, drought are destroying crops and sparking food inflation -- Earth Changes -- Sott.net"
+2020-10-24,us,inflation,stressed,0.0414,sott.net,"Floods, drought are destroying crops and sparking food inflation -- Earth Changes -- Sott.net"
+2020-10-24,us,monetary_policy,calm,-0.0588,almomento.net,Discurso Gobernador Valdez Albizu por 73 aniversario del Banco Central
+2020-10-24,us,monetary_policy,calm,-0.0353,ctpost.com,Conn. positivity rate increases to 2.9 percent
+2020-10-24,us,monetary_policy,calm,-0.0265,internationallawoffice.com,Premium interest rate payable to creditors which file claims before Italian courts
+2020-10-24,us,monetary_policy,stressed,0.0234,prowrestling.net,"10/23 Powell's WWE Friday Night Smackdown audio review: The final push for Hell in a Cell, Roman Reigns lays out the consequences for his WWE Universal Title match with Jey Uso, Seth Rollins vs. Murphy, Law and Otis, Bianca Belair vs. Zelina Vega"
+2020-10-24,us,monetary_policy,stressed,-0.0026,news-herald.com,Incumbent Juanita Brent challenged by Jerry V. Powell in Ohio House 12th District race
+2020-10-24,us,monetary_policy,stressed,-0.0265,internationallawoffice.com,Premium interest rate payable to creditors which file claims before Italian courts
+2020-10-24,us,trade_tariffs,calm,-0.0790,beaumontenterprise.com,UK-EU trade talks back on after bloc offers olive branch
+2020-10-24,us,trade_tariffs,calm,0.1351,princeton.edu,"Book Talk: ""Trade Wars Are Class Wars: How Rising Inequality Distorts the Global Economy and Threatens International Peace"""
+2020-10-24,us,trade_tariffs,stressed,0.1351,princeton.edu,"Book Talk: ""Trade Wars Are Class Wars: How Rising Inequality Distorts the Global Economy and Threatens International Peace"""
+2020-10-24,us,trade_tariffs,stressed,-0.0790,beaumontenterprise.com,UK-EU trade talks back on after bloc offers olive branch
+2020-10-25,europe,banking_stress,calm,0.0317,thetimes.co.uk,Republic of Ireland in Credit Suisse's top 10 list of richest countries | Ireland
+2020-10-25,europe,banking_stress,stressed,0.0317,thetimes.co.uk,Republic of Ireland in Credit Suisse's top 10 list of richest countries | Ireland
+2020-10-25,europe,energy,calm,-0.0056,finanznachrichten.de,WTI erneut unter Druck und Chancen auf der Chartunterseite
+2020-10-25,europe,energy,calm,0.0483,deutsche-wirtschafts-nachrichten.de,Wegen CO2-Abgabe: Die Gaspreise werden im kommenden Jahr deutlich steigen - deutsche-wirtschafts-nachrichten.de
+2020-10-25,europe,energy,stressed,0.0483,deutsche-wirtschafts-nachrichten.de,Wegen CO2-Abgabe: Die Gaspreise werden im kommenden Jahr deutlich steigen - deutsche-wirtschafts-nachrichten.de
+2020-10-25,europe,energy,stressed,-0.0056,finanznachrichten.de,WTI erneut unter Druck und Chancen auf der Chartunterseite
+2020-10-25,europe,equity_markets,calm,0.0776,ilmessaggero.it,"Rivela maxi-frode a Wall Street, 114 milioni di dollari alla gola profonda"
+2020-10-25,europe,equity_markets,stressed,0.0776,ilmessaggero.it,"Rivela maxi-frode a Wall Street, 114 milioni di dollari alla gola profonda"
+2020-10-25,europe,geopolitics,calm,-0.0539,theguardian.com,Treaty to ban nuclear weapons made official with 50th UN signatory
+2020-10-25,europe,geopolitics,calm,-0.0490,zonebourse.com,Le traité interdisant les armes nucléaires va entrer en vigueur
+2020-10-25,europe,geopolitics,calm,-0.0472,rainews.it,​Entra in vigore il trattato su proibizione armi nucleari
+2020-10-25,europe,geopolitics,stressed,0.1358,ilsussidiario.net,"GUERRE STELLARI/ Così gli Usa useranno le armi ""satellitari"" Ue contro Cina e Russia"
+2020-10-25,europe,geopolitics,stressed,0.0770,zazoom.it,Meteo oggi domenica 25 ottobre | una giornata di tregua | c'è il sole ma anche la nebbia
+2020-10-25,europe,geopolitics,stressed,0.0640,dw.com,Lukashenko: Belarus and Russia will face external threats together | News | DW
+2020-10-25,europe,growth_labor,calm,-0.0016,as.com,Unemployment benefits California: how many people are still waiting and when will they receive it?
+2020-10-25,europe,growth_labor,calm,0.0060,elblogsalmon.com,Winter is coming ¿viene una segunda recesión este invierno?
+2020-10-25,europe,growth_labor,calm,0.0702,dailymail.co.uk,Britain on brink of double-dip recession due to Covid
+2020-10-25,europe,growth_labor,stressed,0.1119,ilsussidiario.net,"SPILLO/ Ex Ilva e Piombino, il silenzio sull'acciaio che fa perdere Pil al Paese"
+2020-10-25,europe,growth_labor,stressed,0.0702,dailymail.co.uk,Britain on brink of double-dip recession due to Covid
+2020-10-25,europe,growth_labor,stressed,0.0060,elblogsalmon.com,Winter is coming ¿viene una segunda recesión este invierno?
+2020-10-25,europe,monetary_policy,calm,-0.0329,theguardian.com,"Like Pyrrhus, Johnson loves to lay claim to victories, all of which are at our expense | Jonathan Powell"
+2020-10-25,europe,monetary_policy,stressed,-0.0329,theguardian.com,"Like Pyrrhus, Johnson loves to lay claim to victories, all of which are at our expense | Jonathan Powell"
+2020-10-25,europe,trade_tariffs,calm,-0.0655,thetimes.co.uk,Brexit: Michel Barnier stays on in London for more talks on EU trade deal
+2020-10-25,europe,trade_tariffs,calm,-0.0594,eureporter.co,"EU negotiators expect to resume trade talks with UK, EU sources say"
+2020-10-25,europe,trade_tariffs,stressed,-0.0594,eureporter.co,"EU negotiators expect to resume trade talks with UK, EU sources say"
+2020-10-25,europe,trade_tariffs,stressed,-0.0655,thetimes.co.uk,Brexit: Michel Barnier stays on in London for more talks on EU trade deal
+2020-10-25,us,energy,calm,-0.0479,seekingalpha.com,Non-OPEC Oil Production Starts To Rebound
+2020-10-25,us,energy,calm,-0.0220,news957.com,Average US gas price falls 3 cents to $2.22/gallon
+2020-10-25,us,energy,calm,0.0114,yahoo.com,4 Oil Stocks To Buy as the Price of Crude Stabilizes
+2020-10-25,us,energy,stressed,0.0570,reuters.com,Brazil soars to China's No. 3 crude oil supplier in September
+2020-10-25,us,energy,stressed,0.0114,yahoo.com,4 Oil Stocks To Buy as the Price of Crude Stabilizes
+2020-10-25,us,energy,stressed,-0.0220,news957.com,Average US gas price falls 3 cents to $2.22/gallon
+2020-10-25,us,equity_markets,calm,-0.0734,etfdailynews.com,Tips For Trading Rising Range Patterns In The S&P 500 Index
+2020-10-25,us,equity_markets,calm,0.0126,thestreet.com,Bearish Bets: 2 Nasdaq Stocks You Should Consider Shorting This Week
+2020-10-25,us,equity_markets,calm,0.0286,nationalreview.com,Hunter Biden Corruption Not Contradicted by Wall Street Journal
+2020-10-25,us,equity_markets,stressed,0.1010,zerohedge.com,The Mother Of All Stock Market Bubbles
+2020-10-25,us,equity_markets,stressed,0.0690,stltoday.com,5 Reasons Not to Worry About Another Stock Market Crash
+2020-10-25,us,equity_markets,stressed,0.0288,mondovisione.com,Amman Stock Exchange: Thursday Is A Public Holiday (Prophet Mohammed's Birth)
+2020-10-25,us,geopolitics,calm,-0.1931,channelnewsasia.com,"Armenia, Azerbaijan agree anew to ceasefire: US"
+2020-10-25,us,geopolitics,calm,-0.1805,fox29.com,"Hoping for peaceful resolution, Armenia and Azerbaijan agree to ceasefire, Secretary Pompeo says"
+2020-10-25,us,geopolitics,calm,-0.0785,abc13.com,Armenia-Azerbaijan conflict: New cease-fire announced
+2020-10-25,us,geopolitics,stressed,0.1279,netscape.com,New fighting flares over Nagorno-Karabakh as Aliyev warns against Russian involvement
+2020-10-25,us,geopolitics,stressed,0.1061,nationalinterest.org,"War Ready: Russia Is Giving Its Old Tanks New, Bigger Guns"
+2020-10-25,us,geopolitics,stressed,0.0814,nationalinterest.org,"North Korea, China and Iran: The Axis of Missiles?"
+2020-10-25,us,growth_labor,calm,-0.0054,marketwatch.com,Here's why the U.S. could be looking at 'severely' limited economic growth even after the pandemic
+2020-10-25,us,growth_labor,calm,0.0154,shreveporttimes.com,Bossier City man among COVID-19 unemployment fraud arrests
+2020-10-25,us,growth_labor,calm,0.0189,telegraphherald.com,Older workers face higher unemployment amid virus pandemic
+2020-10-25,us,growth_labor,stressed,0.0804,clarksvilleonline.com,"Clarksville, TN Online Tennessee Unemployment Rates drop in every County in September"
+2020-10-25,us,growth_labor,stressed,0.0767,wgbh.org,Boston FBI Warns Against Pandemic Unemployment Assistance Fraud
+2020-10-25,us,growth_labor,stressed,0.0626,clarksvilleonline.com,Tennessee Unemployment Rates drop in every County in September
+2020-10-25,us,inflation,calm,-0.0149,reuters.com,Mexico annual inflation cools in September
+2020-10-25,us,inflation,stressed,-0.0149,reuters.com,Mexico annual inflation cools in September
+2020-10-25,us,trade_tariffs,calm,0.0135,marketwatch.com,Trade war with China didn't boost U.S. manufacturing
+2020-10-25,us,trade_tariffs,calm,0.0318,thestreet.com,Trump tariffs failed to achieve goals
+2020-10-25,us,trade_tariffs,calm,0.0378,msn.com,Trump promised to win the trade war with China. He failed
+2020-10-25,us,trade_tariffs,stressed,0.0378,msn.com,Trump promised to win the trade war with China. He failed
+2020-10-25,us,trade_tariffs,stressed,0.0318,thestreet.com,Trump tariffs failed to achieve goals
+2020-10-25,us,trade_tariffs,stressed,0.0135,marketwatch.com,Trade war with China didn't boost U.S. manufacturing
+2020-10-26,europe,banking_stress,calm,-0.0091,finanznachrichten.de,CREDIT SUISSE belässt Adidas auf 'Underperform'
+2020-10-26,europe,banking_stress,calm,0.0063,finanznachrichten.de,CREDIT SUISSE belässt Uniper auf 'Neutral'
+2020-10-26,europe,banking_stress,stressed,0.0063,finanznachrichten.de,CREDIT SUISSE belässt Uniper auf 'Neutral'
+2020-10-26,europe,banking_stress,stressed,-0.0091,finanznachrichten.de,CREDIT SUISSE belässt Adidas auf 'Underperform'
+2020-10-26,europe,energy,calm,0.0009,boersennews.de,Ölpreise geben weiter nach
+2020-10-26,europe,energy,calm,0.0083,financial.de,Ölpreise geben weiter nach – US-Öl unter 39 Dollar « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-26,europe,energy,calm,0.0293,tecnoandroid.it,Contatori: boom di evasione fiscale con i trucchi per falsare le bollette
+2020-10-26,europe,energy,stressed,0.0571,dailyrecord.co.uk,Family Fortunes viewers in shock over contestant's crude answer to 'something you put in your mouth'
+2020-10-26,europe,energy,stressed,0.0466,mirror.co.uk,Family Fortunes contestant stuns fans over crude answer to 'something you put in your mouth'
+2020-10-26,europe,energy,stressed,0.0293,tecnoandroid.it,Contatori: boom di evasione fiscale con i trucchi per falsare le bollette
+2020-10-26,europe,equity_markets,calm,-0.0916,financial.de,Ölpreise geben weiter nach – US-Öl unter 39 Dollar « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-26,europe,equity_markets,calm,-0.0881,finanza.com,PIAZZA AFFARI: stand by in attesa degli eventi
+2020-10-26,europe,equity_markets,calm,-0.0850,aktiencheck.de,S&P500 - 10er-EMA bleibt im Fokus () | aktiencheck.de
+2020-10-26,europe,equity_markets,stressed,0.0965,eveningexpress.co.uk,FTSE 100 slides as poor Wall Street opening drags London markets lower
+2020-10-26,europe,equity_markets,stressed,0.0769,epochtimes.de,Deutschlands wertvollster Konzern stürzt an der Börse ab – 30 Milliarden Euro in Luft aufgelöst
+2020-10-26,europe,equity_markets,stressed,0.0756,swr.de,SAP-Aktie bricht ein und belastet den DAX
+2020-10-26,europe,geopolitics,calm,-0.1706,bbc.co.uk,Nagorno-Karabakh conflict: Armenia and Azerbaijan agree US-brokered ceasefire
+2020-10-26,europe,geopolitics,calm,-0.0860,dw.com,"Nagorno-Karabakh: Azerbaijan, Armenia accuse each other of breaking cease-fire | News | DW"
+2020-10-26,europe,geopolitics,calm,-0.0751,diariosigloxxi.com,Sudán inicio el reemplazo de tropas de la UNAMID de cara al fin del mandato de la misión en diciembre
+2020-10-26,europe,geopolitics,stressed,0.1180,swr.de,Opferzahl nach russischen Angriffen in Syrien steigt
+2020-10-26,europe,geopolitics,stressed,0.0992,rhein-zeitung.de,Aktivisten: Mehr als 30 Tote bei russischen Luftangriffen in Syrien - Newsticker
+2020-10-26,europe,geopolitics,stressed,0.0969,express.co.uk,World War 3: UK subs outnumbered by Russia's in Putin's new Cold War move ? | UK | News
+2020-10-26,europe,growth_labor,calm,-0.0876,southwalesargus.co.uk,ONS report unemployment benefit claims on rise in Newport
+2020-10-26,europe,growth_labor,calm,-0.0540,liberation.fr,"Toujours pas enterrée, la réforme de l'assurance chômage est à nouveau reportée"
+2020-10-26,europe,growth_labor,calm,-0.0493,lalsace.fr,Social. Assurance chômage : nouveau report de 3 mois de l'application de la réforme
+2020-10-26,europe,growth_labor,stressed,0.1064,express.co.uk,Will the UK have a second recession? Economists warn of 'double dip'
+2020-10-26,europe,growth_labor,stressed,0.0662,hna.de,In sechs deutschen Daimler-Werken droht Stellenabbau - Betriebsrat alarmiert
+2020-10-26,europe,growth_labor,stressed,0.0601,lepoint.fr,"Nouveau report de la réforme de l'assurance chômage, les syndicats réclament l'abandon"
+2020-10-26,europe,inflation,calm,-0.0282,sharewise.com,DGAP-News: CPI PROPERTY GROUP - Update on the Second Wave of COVID-19
+2020-10-26,europe,inflation,stressed,-0.0282,sharewise.com,DGAP-News: CPI PROPERTY GROUP - Update on the Second Wave of COVID-19
+2020-10-26,europe,monetary_policy,calm,-0.0381,finanza.lastampa.it,"Russia: banca centrale conferma tassi, ma non esclude altri tagli"
+2020-10-26,europe,monetary_policy,calm,-0.0357,funds-europe.com,Central Bank of Ireland rebukes firms on governance failings
+2020-10-26,europe,monetary_policy,calm,-0.0227,handelsblatt.com,EZB-Ratssitzung am Donnerstag: Legt die Notenbank nach?
+2020-10-26,europe,monetary_policy,stressed,0.0631,finanza.com,"Euro alla finestra prima del meeting Bce: Lagarde ""potrebbe rilevare aumento rischi dopo evoluzione contagi"""
+2020-10-26,europe,monetary_policy,stressed,0.0156,europapress.es,Roldán (AEB) confía en que el BCE levante el veto a los dividendos y avisa del severo estigma sobre el sector
+2020-10-26,europe,monetary_policy,stressed,0.0096,handelsblatt.com,EZB-Strafzinsen sind laut Bundesbank-Analyse gar nicht so schlimm
+2020-10-26,europe,trade_tariffs,calm,0.0072,express.co.uk,Brexit news: US-UK trade deal 'difficult to conclude' if EU deal is not reached | Politics | News
+2020-10-26,europe,trade_tariffs,stressed,0.0072,express.co.uk,Brexit news: US-UK trade deal 'difficult to conclude' if EU deal is not reached | Politics | News
+2020-10-26,us,energy,calm,-0.0536,benzinga.com,Mid-Afternoon Market Update: Crude Oil Down Over 3%; SAP Shares Slide On Lowered Outlook
+2020-10-26,us,energy,calm,-0.0500,houstonchronicle.com,Gas prices slip again
+2020-10-26,us,energy,calm,-0.0462,burlingtonfreepress.com,Gas prices: Trend continues down in BTV with lowest price at $1.89
+2020-10-26,us,energy,stressed,0.0539,wkzo.com,Brazil soars to China's No. 3 crude oil supplier in September | WKZO | Everything Kalamazoo
+2020-10-26,us,energy,stressed,0.0493,oilandgas360.com,China's PE imports from Iran surge in September - one of the OPEC problems of quota control
+2020-10-26,us,energy,stressed,0.0404,reuters.com,Tax hikes may help Russian oil majors stomach OPEC output curbs
+2020-10-26,us,equity_markets,calm,-0.0759,reuters.com,BÖRSEN-TICKER-Türkische Lira erneut auf Rekordtief zum Dollar
+2020-10-26,us,equity_markets,calm,-0.0582,investorplace.com,7 Strong Nasdaq Stocks to Buy Before They Keep Marching Higher
+2020-10-26,us,equity_markets,calm,-0.0167,therepublic.com,Tax abatement approved for Nikkei MC Aluminum America
+2020-10-26,us,equity_markets,stressed,0.1518,adn.com,US stock markets tumble to worst day in a month amid continuing coronavirus economic damage
+2020-10-26,us,equity_markets,stressed,0.1333,wcfcourier.com,US stocks tumble toward worst day in a month amid virus woes
+2020-10-26,us,equity_markets,stressed,0.1227,msn.com,S&P 500 Heads for Its Biggest Decline in a Month: Markets Wrap
+2020-10-26,us,geopolitics,calm,-0.1676,newyorktelegraph.com,UN chief welcomes Armenia-Azerbaijan agreement on ceasefire
+2020-10-26,us,geopolitics,calm,-0.1046,wdsm710.com,"Pompeo says Libya ceasefire agreement a ""courageous step"""
+2020-10-26,us,geopolitics,calm,-0.0765,mymotherlode.com,"Palestinians push for international conference, US is open"
+2020-10-26,us,geopolitics,stressed,0.1620,msn.com,Airstrike in northwestern Syria kills over 50 rebel fighters
+2020-10-26,us,geopolitics,stressed,0.1432,bignewsnetwork.com,U.S. airstrike kills 5 Taliban militants near Afghan capital
+2020-10-26,us,geopolitics,stressed,0.1415,trust.org,"Russian COVID-19 tally hits new high, Kremlin warns regions ..."
+2020-10-26,us,growth_labor,calm,-0.1134,lmtonline.com,"Comment: Oil and gas, environmental stewardship remain key to economic growth"
+2020-10-26,us,growth_labor,calm,-0.0696,parkrecord.com,"Park City-area unemployment rate rises, evidence of stalling job gains"
+2020-10-26,us,growth_labor,calm,-0.0519,reuters.com,Exclusive: German govt raises 2020 GDP forecast to -5.5% - source
+2020-10-26,us,growth_labor,stressed,0.1155,timestelegram.com,"Remington Arms workers on layoffs: 'Apparently, I wasn't worth anything'"
+2020-10-26,us,growth_labor,stressed,0.1096,superiortelegram.com,Payments start going out under Trump administration's unemployment supplement
+2020-10-26,us,growth_labor,stressed,0.0577,reuters.com,Studie - Harter Brexit stürzt Großbritannien 2021 in die Rezession
+2020-10-26,us,monetary_policy,calm,-0.0290,msn.com,Testing times: Five questions for the ECB
+2020-10-26,us,monetary_policy,calm,-0.0093,insurancejournal.com,W.R. Berkley Says Rate Increases Averaging 14.5% Contributed to Solid 3Q Results
+2020-10-26,us,monetary_policy,calm,-0.0062,reuters.com,"From climate change to equality, Lagarde turns ECB more political"
+2020-10-26,us,monetary_policy,stressed,0.0674,investing.com,Reunión del BCE: 5 cosas a vigilar esta semana en los mercados
+2020-10-26,us,monetary_policy,stressed,0.0264,reuters.com,Cross-border mergers in Europe would help diversify banks: ECB's de Cos
+2020-10-26,us,monetary_policy,stressed,0.0250,prowrestling.net,"Powell's WWE Hell in a Cell Hit List: Drew McIntyre vs. Randy Orton in a HIAC match for the WWE Championship, Bayley vs. Sasha Banks in a HIAC match for the Smackdown Women's Championship, Roman Reigns vs. Jey Uso in an I Quit match inside HIAC for the WWE Universal Championship"
+2020-10-26,us,trade_tariffs,calm,-0.0413,metro.us,Vietnam PM urges Trump to take objective view in trade dispute
+2020-10-26,us,trade_tariffs,calm,0.0201,sandiegosun.com,Trump's trade war - what was it good for? Not much
+2020-10-26,us,trade_tariffs,calm,0.0241,msn.com,US Did Not Benefit From Trade War With China: WSJ
+2020-10-26,us,trade_tariffs,stressed,0.0448,oann.com,U.S. appeals WTO ruling on its multi-billion tariffs on China
+2020-10-26,us,trade_tariffs,stressed,0.0241,msn.com,US Did Not Benefit From Trade War With China: WSJ
+2020-10-26,us,trade_tariffs,stressed,0.0201,sandiegosun.com,Trump's trade war - what was it good for? Not much
+2020-10-27,europe,banking_stress,calm,-0.0438,aktiencheck.de,Credit Suisse hebt Ziel für Brenntag - 'Outperform' ()
+2020-10-27,europe,banking_stress,calm,-0.0072,finanznachrichten.de,CREDIT SUISSE belässt SAP SE auf 'Outperform'
+2020-10-27,europe,banking_stress,calm,0.0197,finanznachrichten.de,CREDIT SUISSE belässt APPLE INC auf 'Neutral'
+2020-10-27,europe,banking_stress,stressed,0.0414,forexcrunch.com,USD/CHF: Support at the 0.9000 year low is coming into focus – Credit Suisse
+2020-10-27,europe,banking_stress,stressed,0.0197,finanznachrichten.de,CREDIT SUISSE belässt APPLE INC auf 'Neutral'
+2020-10-27,europe,banking_stress,stressed,-0.0072,finanznachrichten.de,CREDIT SUISSE belässt SAP SE auf 'Outperform'
+2020-10-27,europe,energy,calm,-0.0101,poundsterlinglive.com,Canadian Dollar Buoyed by Firmer Oil Prices and Markets ahead of Bank of Canada Decision
+2020-10-27,europe,energy,stressed,-0.0101,poundsterlinglive.com,Canadian Dollar Buoyed by Firmer Oil Prices and Markets ahead of Bank of Canada Decision
+2020-10-27,europe,equity_markets,calm,-0.1260,elcomercio.es,El Ibex amanece al alza impulsada por Santander y recupera los 6.800
+2020-10-27,europe,equity_markets,calm,-0.1136,finanznachrichten.de,"TRENDUMFRAGE/DAX zum Xetra-Schluss 0,6 Prozent höher erwartet"
+2020-10-27,europe,equity_markets,calm,-0.1042,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Gresham House Energy Storage Fund reports uptick in NAV per share in Q3"
+2020-10-27,europe,equity_markets,stressed,0.0721,boursier.com,Wall Street déprimé avant les GAFAM
+2020-10-27,europe,equity_markets,stressed,0.0619,borsaitaliana.it,A picco Wall Street - Borsa Italiana
+2020-10-27,europe,equity_markets,stressed,0.0611,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Hunting Q3 results hurt by pandemic-led decline in energy demand"
+2020-10-27,europe,geopolitics,calm,-0.0756,lefigaro.fr,Le Soudan divisé face à l'annonce d'une normalisation avec Israël
+2020-10-27,europe,geopolitics,calm,-0.0601,lamanchelibre.fr,Calvados. Il frappe sa compagne alors qu'il est en libération conditionnelle
+2020-10-27,europe,geopolitics,calm,-0.0549,mundodeportivo.com,"El Bayern, a seguir con lo suyo en Rusia"
+2020-10-27,europe,geopolitics,stressed,0.2009,dailymail.co.uk,US threatens to destroy any Iranian missiles shipped to Venezuela
+2020-10-27,europe,geopolitics,stressed,0.1046,dailymail.co.uk,Militant killed by own explosive device in Turkey near Syria border
+2020-10-27,europe,geopolitics,stressed,0.0634,badisches-tagblatt.de,UN-Bericht: Weniger zivile Opfer im Afghanistankrieg
+2020-10-27,europe,growth_labor,calm,-0.0886,finanznachrichten.de,Spain's Jobless Rate Highest Since 2018
+2020-10-27,europe,growth_labor,calm,-0.0633,lenouveleconomiste.fr,"Création d'emplois, taux de chômage, mode d'emploi"
+2020-10-27,europe,growth_labor,calm,-0.0487,boursier.com,"Repli de 11,5% du chômage au troisième trimestre en France"
+2020-10-27,europe,growth_labor,stressed,0.1236,dailymail.co.uk,Figures show Australia could be out of the coronavirus-driven recession already
+2020-10-27,europe,growth_labor,stressed,0.0725,ottopagine.it,Landini: Chiediamo reiterazione Cig e blocco licenziamenti
+2020-10-27,europe,growth_labor,stressed,0.0594,zazoom.it,"Coronavirus | Cgil | ""Blocco licenziamenti | senza lavoro non si rilancia il paese"""
+2020-10-27,europe,inflation,calm,0.0420,efeagro.com,Los precios en el supermercado suben por encima del IPC en pandemia
+2020-10-27,europe,inflation,stressed,0.0420,efeagro.com,Los precios en el supermercado suben por encima del IPC en pandemia
+2020-10-27,europe,monetary_policy,calm,-0.0115,boursier.com,La BCE tranchera sur les dividendes des banques après le 10 décembre
+2020-10-27,europe,monetary_policy,calm,-0.0110,finanznachrichten.de,EZB: Unternehmenskredite wachsen im September mit konstantem Tempo
+2020-10-27,europe,monetary_policy,calm,-0.0064,boursier.com,Banques : la question des dividendes étudiée mi-décembre par la BCE
+2020-10-27,europe,monetary_policy,stressed,0.0501,forexcrunch.com,ECB Preview: Three charts show why Lagarde could send EUR/USD tumbling
+2020-10-27,europe,monetary_policy,stressed,0.0358,aol.co.uk,"Low interest rates 'challenge' banking sector, says HSBC"
+2020-10-27,europe,monetary_policy,stressed,0.0195,poundsterlinglive.com,Canadian Dollar Buoyed by Firmer Oil Prices and Markets ahead of Bank of Canada Decision
+2020-10-27,europe,trade_tariffs,calm,-0.0048,zazoom.it,L'Organizzazione mondiale del commercio ha autorizzato l'Unione Europea a imporre dazi per 3 | 4 miliardi di euro agli Stati Uniti per i sussidi concessi a Boeing
+2020-10-27,europe,trade_tariffs,calm,0.0025,express.co.uk,Brexit news: Should Boris pull out of EU trade talks TOMORROW? | Politics | News
+2020-10-27,europe,trade_tariffs,stressed,0.0025,express.co.uk,Brexit news: Should Boris pull out of EU trade talks TOMORROW? | Politics | News
+2020-10-27,europe,trade_tariffs,stressed,-0.0048,zazoom.it,L'Organizzazione mondiale del commercio ha autorizzato l'Unione Europea a imporre dazi per 3 | 4 miliardi di euro agli Stati Uniti per i sussidi concessi a Boeing
+2020-10-27,us,energy,calm,-0.0390,patch.com,Average IB Area Gas Price Drops For 8th Time In 9 Days
+2020-10-27,us,energy,calm,-0.0274,wickedlocal.com,AAA Northeast: Mass. gas prices hold steady at $2.10 - News - Wicked Local Upton
+2020-10-27,us,energy,calm,0.0043,reuters.com,Column: Asia's crude demand ex-China shows tentative recovery signs
+2020-10-27,us,energy,stressed,0.0381,lmtonline.com,U.S. oil producers bet on $42 oil prices in 2021
+2020-10-27,us,energy,stressed,0.0354,wsj.com,Oil Industry Bristles at Biden's Pledge to Transition Away From Crude
+2020-10-27,us,energy,stressed,0.0320,medicinehatnews.com,Higher oil prices fuel PrairieSky Royalty third quarter earnings and revenue rebound - Medicine Hat NewsMedicine Hat News
+2020-10-27,us,equity_markets,calm,-0.1463,investing.com,MÄRKTE-Wall Street stabilisiert - Chipsektor im Blick
+2020-10-27,us,equity_markets,calm,-0.1274,reuters.com,"S&P 500, Nasdaq rise as earnings take center stage"
+2020-10-27,us,equity_markets,calm,-0.0729,oann.com,Wall Street futures rebound from Monday's selloff as earnings take center stage
+2020-10-27,us,equity_markets,stressed,0.1118,globegazette.com,"Deaths rise, stocks plunge, as feared wave of COVID-19 cases hits nearly every state"
+2020-10-27,us,equity_markets,stressed,0.1038,forbes.com,Here's Why The Stock Market Doesn't Care About Next Week's Election
+2020-10-27,us,equity_markets,stressed,0.0943,foxbusiness.com,Asian shares slide after Wall Street has worse showing in a month
+2020-10-27,us,geopolitics,calm,-0.1413,bignewsnetwork.com,"Syria, Iraq discuss means to enhance bilateral relations"
+2020-10-27,us,geopolitics,calm,-0.0815,reuters.com,Armenia says Karabakh forces quit town as U.S.-backed ceasefire appears to fail
+2020-10-27,us,geopolitics,calm,-0.0573,wsls.com,"Armenia, Azerbaijan report more fighting despite cease-fire"
+2020-10-27,us,geopolitics,stressed,0.1694,lagrandeobserver.com,Airstrike in northwestern Syria kills more than 50 rebel fighters
+2020-10-27,us,geopolitics,stressed,0.1054,pressreleasepoint.com,"Dozens of casualties treated following deadly airstrike in Idlib, northwestern Syria"
+2020-10-27,us,geopolitics,stressed,0.0910,zerohedge.com,"Russian Airstrikes Obliterate Turkish-Backed 'Rebel' Camp In Idlib, Killing Over 60"
+2020-10-27,us,growth_labor,calm,-0.0712,investing.com,"Atlanta Fed: GDPNow-Modell schätzt BIP-Wachstum im dritten Quartal auf 36,2%"
+2020-10-27,us,growth_labor,calm,-0.0669,reuters.com,Brazil eyes GDP per capita growth of 37% over next decade
+2020-10-27,us,growth_labor,calm,-0.0667,timesunion.com,Schenectady approves compromise budget with no layoffs and smaller tax hike
+2020-10-27,us,growth_labor,stressed,0.1301,abqjournal.com,"Allen Theatres closing all locations, layoffs to affect 450 employees"
+2020-10-27,us,growth_labor,stressed,0.0987,iheart.com,Florida Kennel Club Announces Layoffs after Greyhound Racing Ban | NewsRadio WIOD
+2020-10-27,us,growth_labor,stressed,0.0930,nj.com,Did N.J. Labor make a mistake with some $300 unemployment payouts?
+2020-10-27,us,monetary_policy,calm,-0.0180,reuters.com,EZB - Banken erwarten anziehende Kreditnachfrage zum Jahresende
+2020-10-27,us,monetary_policy,calm,0.0086,reuters.com,HSBC to revamp business model as lower interest rates hit profit
+2020-10-27,us,monetary_policy,calm,0.0144,cheatsheet.com,Not Only Did Julia Child Never Meet Julie Powell -- She Also Didn't Like Her
+2020-10-27,us,monetary_policy,stressed,0.0144,cheatsheet.com,Not Only Did Julia Child Never Meet Julie Powell -- She Also Didn't Like Her
+2020-10-27,us,monetary_policy,stressed,0.0086,reuters.com,HSBC to revamp business model as lower interest rates hit profit
+2020-10-27,us,monetary_policy,stressed,-0.0180,reuters.com,EZB - Banken erwarten anziehende Kreditnachfrage zum Jahresende
+2020-10-27,us,trade_tariffs,calm,-0.0955,reuters.com,EU's Barnier resumes Brexit trade talks in London
+2020-10-27,us,trade_tariffs,calm,-0.0573,reuters.com,"Bharti Airtel posts highest-ever quarterly revenue on higher tariffs, data usage"
+2020-10-27,us,trade_tariffs,calm,0.0205,yahoo.com,China Ramps Up Imports From U.S. as Trade Deal Target Looms
+2020-10-27,us,trade_tariffs,stressed,0.0630,euronews.com,"La scure dei dazi sull'export di vino francese, i viticoltori sperano che Trump perda"
+2020-10-27,us,trade_tariffs,stressed,0.0581,wsj.com,"CFOs Brace for Trade Tensions, More Tariffs After Election"
+2020-10-27,us,trade_tariffs,stressed,0.0489,nonpareilonline.com,"From Beijing to Brussels, Trump's trade wars at a glance"
+2020-10-28,europe,banking_stress,calm,0.0059,finanznachrichten.de,CREDIT SUISSE belässt BP auf 'Outperform'
+2020-10-28,europe,banking_stress,stressed,0.0059,finanznachrichten.de,CREDIT SUISSE belässt BP auf 'Outperform'
+2020-10-28,europe,energy,calm,-0.0107,handelsblatt.com,Rohstoffe: Ölpreise zeigen sich schwach
+2020-10-28,europe,energy,calm,0.0034,finanznachrichten.de,Schwache Ölpreise dämpfen deutsche Importpreise im September
+2020-10-28,europe,energy,calm,0.0347,finanzaonline.com,"Boom scorte e paura lockdown da COVID affossano prezzi petrolio: WTI -4,5% a $37"
+2020-10-28,europe,energy,stressed,0.0347,finanzaonline.com,"Boom scorte e paura lockdown da COVID affossano prezzi petrolio: WTI -4,5% a $37"
+2020-10-28,europe,energy,stressed,0.0034,finanznachrichten.de,Schwache Ölpreise dämpfen deutsche Importpreise im September
+2020-10-28,europe,energy,stressed,-0.0107,handelsblatt.com,Rohstoffe: Ölpreise zeigen sich schwach
+2020-10-28,europe,equity_markets,calm,-0.1265,aktiencheck.de,DAX: Stay-Low-Scheine mit 29%-Chance unterhalb von 13.400 Punkten ()
+2020-10-28,europe,equity_markets,calm,-0.1056,financial.de,Prognose angehoben: Delivery Hero liefert zuverlässig « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2020-10-28,europe,equity_markets,calm,-0.0979,finanza.lastampa.it,Diasorin prosegue rally in Borsa
+2020-10-28,europe,equity_markets,stressed,0.1497,eveningexpress.co.uk,Global markets plunge as virus fears drag FTSE to six-month low
+2020-10-28,europe,equity_markets,stressed,0.1142,lefigaro.fr,"La Bourse de Tokyo finit en légère baisse, victime des incertitudes mondiales"
+2020-10-28,europe,equity_markets,stressed,0.1048,lefigaro.fr,"La Bourse de Milan perd plus de 3%, suite aux inquiétudes liées à la pandémie"
+2020-10-28,europe,geopolitics,calm,-0.0730,focus.de,"""Es braut sich Krieg zusammen!"" - So packend wird das letzte ""Sabrina""-Kapitel bei Netflix - Kultur"
+2020-10-28,europe,geopolitics,calm,-0.0584,granthamjournal.co.uk,South Kesteven District Council pays tribute to black wartime troops during World War Two
+2020-10-28,europe,geopolitics,calm,-0.0492,n-tv.de,Wieder Genehmigungen erteilt: Deutsche Waffen gehen an Kriegsparteien
+2020-10-28,europe,geopolitics,stressed,0.1360,express.co.uk,India China war: India sends ship to region in bold defiance of Beijing - WW3 alert | World | News
+2020-10-28,europe,geopolitics,stressed,0.1017,lepoint.fr,L'Azerbaïdjan accuse l'Arménie d'avoir tué 21 civils dans une attaque de missiles
+2020-10-28,europe,geopolitics,stressed,0.0907,express.co.uk,North Korea invasion triggering Korean War is 'undeniable historical fact' | World | News
+2020-10-28,europe,growth_labor,calm,-0.1052,ilroma.net,"PIL: ASSOLOMBARDA, IN LOMBARDIA -10,2% NEL 2020, POI +6,9% IN 2021 (2)"
+2020-10-28,europe,growth_labor,calm,-0.1045,ilroma.net,"PIL: ASSOLOMBARDA, IN LOMBARDIA -10,2% NEL 2020, POI +6,9% IN 2021"
+2020-10-28,europe,growth_labor,calm,-0.0603,soester-anzeiger.de,Dortmund: Arbeitsloser geht irren Schritt - Erfolg trotz Corona
+2020-10-28,europe,growth_labor,stressed,0.1384,aol.co.uk,Boeing makes deeper job cuts as aircraft business slows
+2020-10-28,europe,growth_labor,stressed,0.1165,finanzaonline.com,"Boeing soffre perdita meno delle attese, ma annuncia migliaia licenziamenti a causa crisi COVID-19"
+2020-10-28,europe,growth_labor,stressed,0.0630,bbc.com,Why this recession disproportionately affects women
+2020-10-28,europe,inflation,calm,-0.0095,funds-europe.com,Tabula unveils US-linked inflation fixed income ETF
+2020-10-28,europe,inflation,calm,0.0067,invezz.com,AUD/USD ticks higher as Australian inflation bounces back
+2020-10-28,europe,inflation,calm,0.0130,currencynews.co.uk,Pound South African Rand (GBP/ZAR) Exchange Rate Climbs on Surprise SA Inflation Dip
+2020-10-28,europe,inflation,stressed,0.0171,sky.com,Retail prices continue to slide as competition keeps food inflation low
+2020-10-28,europe,inflation,stressed,0.0130,currencynews.co.uk,Pound South African Rand (GBP/ZAR) Exchange Rate Climbs on Surprise SA Inflation Dip
+2020-10-28,europe,inflation,stressed,0.0067,invezz.com,AUD/USD ticks higher as Australian inflation bounces back
+2020-10-28,europe,monetary_policy,calm,-0.0288,finanznachrichten.de,Wirtschaftskalender: Lockdowns und BoC-Zinsentscheid
+2020-10-28,europe,monetary_policy,calm,-0.0138,politikexpress.de,BVR mit Blick auf Corona-Maßnahmen: Bundesregierung muss betroffenen Mittelstand unterstützen / EZB sollte Freibeträge beim Negativzins erhöhen - Politikexpress
+2020-10-28,europe,monetary_policy,calm,0.0010,ig.com,ECB Meeting Preview: Lockdowns Fuel Calls For Fresh Action
+2020-10-28,europe,monetary_policy,stressed,0.0456,telegraph.co.uk,Zopa launches first credit card but experts warn against its 'sub prime' 34.9pc interest rate
+2020-10-28,europe,monetary_policy,stressed,0.0177,bicesteradvertiser.net,Covid rate rise in EVERY Oxfordshire area and Oxford not top
+2020-10-28,europe,monetary_policy,stressed,0.0132,somersetcountygazette.co.uk,Covid-19 infection rate rises in all four Somerset districts
+2020-10-28,europe,trade_tariffs,calm,-0.0305,exchangerates.org.uk,"Brexit Update: Trade Deal Hopes Continue, Internal Market Bill Likely To Be Rejected By HoL"
+2020-10-28,europe,trade_tariffs,calm,-0.0077,express.co.uk,Brexit news: Boris Johnson told to pull the UK out of EU trade talks as time runs out | Politics | News
+2020-10-28,europe,trade_tariffs,stressed,-0.0077,express.co.uk,Brexit news: Boris Johnson told to pull the UK out of EU trade talks as time runs out | Politics | News
+2020-10-28,europe,trade_tariffs,stressed,-0.0305,exchangerates.org.uk,"Brexit Update: Trade Deal Hopes Continue, Internal Market Bill Likely To Be Rejected By HoL"
+2020-10-28,us,energy,calm,-0.0470,reuters.com,"TSX opens lower as U.S. crude stockpile, virus cases hit energy shares"
+2020-10-28,us,energy,calm,-0.0003,msn.com,"Oil plunges over 5% to four-month low as pandemic surges, U.S. crude output soars"
+2020-10-28,us,energy,calm,0.0126,oklahoman.com,"Oklahoma oil prices and drilling report for Oct. 28, 2020"
+2020-10-28,us,energy,stressed,0.0848,oilprice.com,Oil Prices Rise As Another Storm Rocks U.S. Gulf Coast
+2020-10-28,us,energy,stressed,0.0796,msn.com,Iraq's Crumbling Economy Is Becoming a Threat to OPEC
+2020-10-28,us,energy,stressed,0.0687,investmentwatchblog.com,Oil Prices Plunge 5% As Demand Fears Intensify – Investment Watch
+2020-10-28,us,equity_markets,calm,-0.0550,mondovisione.com,Quarterly Statement Q3/2020 - Deutsche Börse Group Further On Secular Growth Track In A Challenging Market Environment
+2020-10-28,us,equity_markets,calm,-0.0542,benzinga.com,"(DJIA), SPDR S&P 500 ETF (ETF:SPY) - How Trump's Stock Market Return Compares To Obama, Bush And Other Past Presidents"
+2020-10-28,us,equity_markets,calm,-0.0408,therepublic.com,Cloud growth helps Microsoft beat Wall Street expectations
+2020-10-28,us,equity_markets,stressed,0.1338,cnn.com,Dow and S&P 500 log worst day since June
+2020-10-28,us,equity_markets,stressed,0.1231,therepublic.com,"Global stocks slide amid worries over virus cases, US aid"
+2020-10-28,us,equity_markets,stressed,0.1170,channelnewsasia.com,Global stocks sink as coronavirus lockdowns loom
+2020-10-28,us,geopolitics,calm,-0.1269,reuters.com,"Israel, Lebanon hold second round of sea border talks"
+2020-10-28,us,geopolitics,calm,-0.1106,cnsnews.com,Trump's Israel-Sudan Deal Erodes Arab League's Rejection of Israel; Proves John Kerry Wrong
+2020-10-28,us,geopolitics,calm,-0.0857,jdsupra.com,Calif. Housing Laws Amended by 2020 Bills | Best Best & Krieger LLP
+2020-10-28,us,geopolitics,stressed,0.2193,foxnews.com,US Embassy in Saudi Arabia warns of potential missile attack in capital city
+2020-10-28,us,geopolitics,stressed,0.1819,cbn.com,CBN News Witnesses War Crimes: Azeri Missiles Target Hospital and Homes as Armenians Face Another 'Existential Threat'
+2020-10-28,us,geopolitics,stressed,0.1594,sandiegouniontribune.com,Turkey threatens new military operation into Syria
+2020-10-28,us,growth_labor,calm,-0.0939,marketwatch.com,Third-Quarter GDP Growth Will Look Huge. Don't Be Deceived.
+2020-10-28,us,growth_labor,calm,-0.0706,openpr.com,Unexpected Growth Seen in PAYROLL SOFTWARE MARKET TO DELIVER
+2020-10-28,us,growth_labor,calm,-0.0175,ktvz.com,Oregonians jobless due to COVID-19 may be eligible for health insurance aid
+2020-10-28,us,growth_labor,stressed,0.1496,reuters.com,"Boeing deepens job cuts as profit slumps on 737 MAX, COVID crises"
+2020-10-28,us,growth_labor,stressed,0.1424,dailyrepublic.com,"As losses mount, Boeing almost doubles planned job cuts [The Seattle Times]"
+2020-10-28,us,growth_labor,stressed,0.1309,wsj.com,"Singapore's Downturn May Be Deeper, Longer Than Previous Recessions, MAS Says"
+2020-10-28,us,inflation,calm,-0.0538,medicinehatnews.com,"Bank of Canada set to release updated outlook for economy, inflation - Medicine Hat NewsMedicine Hat News"
+2020-10-28,us,inflation,stressed,-0.0538,medicinehatnews.com,"Bank of Canada set to release updated outlook for economy, inflation - Medicine Hat NewsMedicine Hat News"
+2020-10-28,us,monetary_policy,calm,-0.0270,medicinehatnews.com,"Bank of Canada set to release updated outlook for economy, inflation - Medicine Hat NewsMedicine Hat News"
+2020-10-28,us,monetary_policy,calm,-0.0225,msn.com,Ex-N.Y. Fed Chief Dudley Says Economic Outlook Is Deteriorating
+2020-10-28,us,monetary_policy,calm,-0.0207,msn.com,Cambodia officially launches digital currency backed by central bank
+2020-10-28,us,monetary_policy,stressed,0.0177,jdsupra.com,The Central Bank's CP86 Day of Reckoning – What You Need To Know | Dechert LLP
+2020-10-28,us,monetary_policy,stressed,0.0164,reuters.com,Canada says pandemic aid has limits as central bank warns of long-slog to recovery
+2020-10-28,us,monetary_policy,stressed,0.0055,reuters.com,Firm hired to audit Lebanon central bank has not received all requested info: sources
+2020-11-01,europe,energy,calm,-0.0057,lamontagne.fr,"Prix du gaz, trêve hivernale... Ce qui change au 1er novembre 2020"
+2020-11-01,europe,energy,calm,0.0000,midilibre.fr,"Prix du gaz, du tabac, frais bancaires et trêve hivernale : tout ce qui change au 1er novembre"
+2020-11-01,europe,energy,calm,0.0037,francetvinfo.fr,"Prix du gaz, du tabac, frais bancaires, trêve hivernale... Ce qui change ce 1er novembre"
+2020-11-01,europe,energy,stressed,0.0037,francetvinfo.fr,"Prix du gaz, du tabac, frais bancaires, trêve hivernale... Ce qui change ce 1er novembre"
+2020-11-01,europe,energy,stressed,0.0000,midilibre.fr,"Prix du gaz, du tabac, frais bancaires et trêve hivernale : tout ce qui change au 1er novembre"
+2020-11-01,europe,energy,stressed,-0.0057,lamontagne.fr,"Prix du gaz, trêve hivernale... Ce qui change au 1er novembre 2020"
+2020-11-01,europe,equity_markets,calm,-0.0802,cityam.com,Weekly outlook: FTSE heavyweights in spotlight as election day arrives : CityAM
+2020-11-01,europe,equity_markets,calm,-0.0378,finanznachrichten.de,"Börse Daily am Sonntag mit DAX, Deutsche Bank, Daimler, Amazon, Nike, Nvidia, TeamViewer, Palladium"
+2020-11-01,europe,equity_markets,stressed,-0.0378,finanznachrichten.de,"Börse Daily am Sonntag mit DAX, Deutsche Bank, Daimler, Amazon, Nike, Nvidia, TeamViewer, Palladium"
+2020-11-01,europe,equity_markets,stressed,-0.0802,cityam.com,Weekly outlook: FTSE heavyweights in spotlight as election day arrives : CityAM
+2020-11-01,europe,geopolitics,calm,-0.0112,firstonline.info,Usa: la nomina della Barrett e la guerra dei Koch al sistema giudiziario
+2020-11-01,europe,geopolitics,calm,0.0115,vosgesmatin.fr,"Long format. 34.000 soldats américains reposent en Lorraine : les cimetières militaires américains de nos régions, un lieu d'Histoire pour ne jamais oublier"
+2020-11-01,europe,geopolitics,calm,0.0154,rheinpfalz.de,Emmanuel Macron wirft Türkei «kriegerisches Verhalten» vor - Politik
+2020-11-01,europe,geopolitics,stressed,0.0701,larazon.es,"La nueva versión del terrorismo yihadista: unidos por el odio, el islam radical y acogidos en Europa"
+2020-11-01,europe,geopolitics,stressed,0.0640,penarthtimes.co.uk,Indian troops kill top rebel commander in disputed Kashmir region
+2020-11-01,europe,geopolitics,stressed,0.0639,bbc.co.uk,"Nagorno-Karabakh: Nearly 5,000 dead in conflict, Putin says"
+2020-11-01,europe,growth_labor,calm,0.0364,20minutes.fr,"Coronavirus : Avec le reconfinement, Bercy table sur un déficit public à 11,3 % du PIB en 2020"
+2020-11-01,europe,growth_labor,calm,0.0605,qds.it,Il Covid-19 e il blocco dei licenziamenti fino al 31 dicembre
+2020-11-01,europe,growth_labor,calm,0.1088,expansion.com,"CEOE ve inoportuno ""disparar"" el gasto público y los impuestos con esta recesión"
+2020-11-01,europe,growth_labor,stressed,0.1327,laopiniondemalaga.es,Denuncian traslados y despidos en Los Prados
+2020-11-01,europe,growth_labor,stressed,0.1088,expansion.com,"CEOE ve inoportuno ""disparar"" el gasto público y los impuestos con esta recesión"
+2020-11-01,europe,growth_labor,stressed,0.0605,qds.it,Il Covid-19 e il blocco dei licenziamenti fino al 31 dicembre
+2020-11-01,europe,inflation,calm,-0.0049,europe1.fr,Une nouvelle (et dernière) hausse des prix du tabac ce dimanche
+2020-11-01,europe,inflation,stressed,-0.0049,europe1.fr,Une nouvelle (et dernière) hausse des prix du tabac ce dimanche
+2020-11-01,europe,monetary_policy,calm,0.0040,publico.es,Resultados trimestrales: La gran banca redobla su presión sobre el BCE para que levante la prohibición de repartir dividendos
+2020-11-01,europe,monetary_policy,calm,0.0308,mirror.co.uk,"Jenny Powell, 52, says she gets mistaken for 19-year-old daughter's twin"
+2020-11-01,europe,monetary_policy,calm,0.0616,cityam.com,Taxpayers to bear brunt as lenders hike interest rates on emergency loans : CityAM
+2020-11-01,europe,monetary_policy,stressed,0.0616,cityam.com,Taxpayers to bear brunt as lenders hike interest rates on emergency loans : CityAM
+2020-11-01,europe,monetary_policy,stressed,0.0308,mirror.co.uk,"Jenny Powell, 52, says she gets mistaken for 19-year-old daughter's twin"
+2020-11-01,europe,monetary_policy,stressed,0.0040,publico.es,Resultados trimestrales: La gran banca redobla su presión sobre el BCE para que levante la prohibición de repartir dividendos
+2020-11-01,us,energy,calm,-0.0338,gwinnettdailypost.com,Gas prices below $2: Coming to a gas station near you
+2020-11-01,us,energy,stressed,-0.0338,gwinnettdailypost.com,Gas prices below $2: Coming to a gas station near you
+2020-11-01,us,equity_markets,calm,0.0077,kxly.com,3 Things the Stock Market Cares More About Than Who Becomes President
+2020-11-01,us,equity_markets,calm,0.0310,reuters.com,"Wall Street Week Ahead: Big tech stocks may face post-election headwinds, no matter who wins"
+2020-11-01,us,equity_markets,calm,0.0589,fool.com,Trump vs Biden: How Do Elections Affect the Stock Market?
+2020-11-01,us,equity_markets,stressed,0.1065,wsj.com,The Only Consensus on Wall Street Is Tuesday's Elections Will Be Felt for Years to Come
+2020-11-01,us,equity_markets,stressed,0.0589,fool.com,Trump vs Biden: How Do Elections Affect the Stock Market?
+2020-11-01,us,equity_markets,stressed,0.0310,reuters.com,"Wall Street Week Ahead: Big tech stocks may face post-election headwinds, no matter who wins"
+2020-11-01,us,geopolitics,calm,-0.0334,wvik.org,"Azerbaijan, Armenia Trade Accusations Of Breaking Cease-Fire In Nagorno-Karabakh"
+2020-11-01,us,geopolitics,calm,-0.0279,heraldglobe.com,Pakistan violates ceasefire in J-K's Poonch
+2020-11-01,us,geopolitics,calm,-0.0126,twinkietown.com,"Rival Roundup, Vol. 3: La Russ, La Russ, La Russa's been hired"
+2020-11-01,us,geopolitics,stressed,0.1137,zerohedge.com,Savage Corp To Shield High-Value Targets With AI-Drone Killing Missiles
+2020-11-01,us,geopolitics,stressed,0.1059,nationalinterest.org,"Russia's Su-27 Flanker May Be Old, But NATO Still Fears It For Good Reason"
+2020-11-01,us,geopolitics,stressed,0.1013,myheraldreview.com,"Russian election threat potent, but interference so far slim"
+2020-11-01,us,growth_labor,calm,-0.0233,fox17online.com,"185,000 Michiganders have non-monetary issues preventing unemployment payments"
+2020-11-01,us,growth_labor,calm,-0.0172,thewesterlysun.com,"After a pandemic layoff, Ali Pendola found her passion: refinishing furniture"
+2020-11-01,us,growth_labor,calm,0.0128,bu.edu,GDP Center Hosts Event on COVID-19 in Latin America and Africa | The Frederick S. Pardee School of Global Studies
+2020-11-01,us,growth_labor,stressed,0.1236,mcall.com,Possible job cuts announced at Pennsylvania state universities
+2020-11-01,us,growth_labor,stressed,0.0581,richmond.com,Richmond region's jobless rate declined in September as overall labor force contracted
+2020-11-01,us,growth_labor,stressed,0.0371,fool.com,Is RH a Recession-Proof Stock? | The Motley Fool
+2020-11-01,us,monetary_policy,calm,-0.0480,listindiario.com,El Banco Central mantiene en 3.00% su tasa de política monetaria anual y dice alza de precios es transitoria
+2020-11-01,us,monetary_policy,stressed,-0.0480,listindiario.com,El Banco Central mantiene en 3.00% su tasa de política monetaria anual y dice alza de precios es transitoria
+2020-11-02,europe,banking_stress,calm,0.0665,finanza.lastampa.it,Denaro sui titoli bancari. Nuovi rumor spingono MPS
+2020-11-02,europe,banking_stress,stressed,0.0665,finanza.lastampa.it,Denaro sui titoli bancari. Nuovi rumor spingono MPS
+2020-11-02,europe,equity_markets,calm,-0.1582,finanznachrichten.de,MÄRKTE EUROPA/Börsen halten Gewinne - Ocado sehr fest
+2020-11-02,europe,equity_markets,calm,-0.1563,finanznachrichten.de,DAX zieht am Mittag deutlich an - Heidelbergcement vorne
+2020-11-02,europe,equity_markets,calm,-0.1410,handelsblatt.com,"Nikkei, Topix und Co: Asia-Börsen – Erholung dank starker Wirtschaftsdaten aus China"
+2020-11-02,europe,equity_markets,stressed,0.0956,fool.co.uk,Stock market crash 2020: a once-in-a-lifetime chance to get rich?
+2020-11-02,europe,equity_markets,stressed,0.0947,firstonline.info,L'Est re delle Borse: Covid e voto Usa pesano sull'Occidente
+2020-11-02,europe,equity_markets,stressed,0.0801,capital.fr,"Le géant de l'immobilier Unibail-Rodamco-Westfield (URW) plonge en Bourse, le confinement inquiète"
+2020-11-02,europe,geopolitics,calm,-0.0680,independent.co.uk,Bangladesh Islamists give government 24-hour ultimatum to sever diplomatic ties with France
+2020-11-02,europe,geopolitics,calm,-0.0409,welt.de,"Großmachtpläne der Türkei: „Wenn die ihr Imperium wieder errichten wollen – bitte schön. Aber nicht bei uns"""
+2020-11-02,europe,geopolitics,calm,-0.0126,welt.de,"Bundeswehr und Gesellschaft: „Wenn dieses Land eine Armee haben will, dann braucht sie Krieger"""
+2020-11-02,europe,geopolitics,stressed,0.1582,dailymail.co.uk,Chinese state TV releases footage of soldiers launching multiple missiles
+2020-11-02,europe,geopolitics,stressed,0.0999,ansa.it,"Covid: Russia, 18.257 casi e 238 morti in 24 ore - Europa"
+2020-11-02,europe,geopolitics,stressed,0.0813,bildderfrau.de,Kriegt man von zu wenig Schlaf Falten? - bildderfrau.de
+2020-11-02,europe,growth_labor,calm,-0.1137,finanznachrichten.de,Europa-Verlauf: Robuste Konjunkturdaten sorgen für starken Wochenstart
+2020-11-02,europe,growth_labor,calm,-0.0839,wallstreet-online.de,ROUNDUP/Aktien Europa: Robuste Konjunkturdaten sorgen für starken Wochenstart Seite 1
+2020-11-02,europe,growth_labor,calm,-0.0247,ideal.es,¿Son compatibles la prestación por desempleo y la pensión de jubilación?
+2020-11-02,europe,growth_labor,stressed,0.0579,tuttomercatoweb.com,"Emergenza Covid19, il Ministro Gualtieri: ""Intesa su blocco licenziamenti e cassa integrazione"""
+2020-11-02,europe,growth_labor,stressed,0.0271,20minutos.es,"La Covid-19 deja en evidencia la falta de protección de las empleadas del hogar, sin derecho a prestación por desempleo"
+2020-11-02,europe,growth_labor,stressed,0.0220,letelegramme.fr,« Nous n'échapperons pas au chômage partiel » : inquiétude au Leclerc de Quéven - Économie
+2020-11-02,europe,monetary_policy,calm,-0.0178,mufclatest.com,Where Are They Now? Nick Powell – raw talent and skill was not quite enough for his to succeed at United
+2020-11-02,europe,monetary_policy,stressed,-0.0178,mufclatest.com,Where Are They Now? Nick Powell – raw talent and skill was not quite enough for his to succeed at United
+2020-11-02,us,banking_stress,calm,0.0034,itbusinessnet.com,LabCorp Is Scheduled to Present at the 29th Annual Credit Suisse Virtual Healthcare Conference |
+2020-11-02,us,banking_stress,calm,0.1055,reuters.com,Mozambique to seek extradition of ex-Credit Suisse bankers involved in $2 billion debt scandal
+2020-11-02,us,banking_stress,stressed,0.1055,reuters.com,Mozambique to seek extradition of ex-Credit Suisse bankers involved in $2 billion debt scandal
+2020-11-02,us,banking_stress,stressed,0.0034,itbusinessnet.com,LabCorp Is Scheduled to Present at the 29th Annual Credit Suisse Virtual Healthcare Conference |
+2020-11-02,us,energy,calm,-0.0658,pbn.com,R.I. gas prices decline 2 cents from last week - Providence Business News
+2020-11-02,us,energy,calm,-0.0606,valdostatoday.com,Georgia gas prices on the decline
+2020-11-02,us,energy,calm,-0.0516,kfgo.com,Gas prices still dropping in North Dakota
+2020-11-02,us,energy,stressed,0.0594,msn.com,OPEC boosts output as new virus wave sends oil crashing
+2020-11-02,us,energy,stressed,0.0549,gwinnettdailypost.com,Oil prices tumble as lockdowns stoke recession fears
+2020-11-02,us,energy,stressed,0.0084,iheart.com,Friday Gas Prices | KYKR-FM
+2020-11-02,us,equity_markets,calm,-0.1432,investing.com,DAX aktuell: Gute Konjunkturdaten heben Stimmung
+2020-11-02,us,equity_markets,calm,-0.1237,sfgate.com,Wall Street abre con fuerte alza
+2020-11-02,us,equity_markets,calm,-0.1232,laosnews.net,1st LD Writethru: S.Korean stocks rise on positive Chinese economic data
+2020-11-02,us,equity_markets,stressed,0.1492,marketwatch.com,The Stock Market Had Its Worst Week in Months. Here's What Could Happen This Week.
+2020-11-02,us,equity_markets,stressed,0.1380,marketwatch.com,Stock Market Suffered Its Worst Week Since March. Here's What Hit It.
+2020-11-02,us,equity_markets,stressed,0.1285,marketwatch.com,"The next bear market will be the worst in at least 78 years, warns co-founder of Soros's legendary Quantum Fund"
+2020-11-02,us,geopolitics,calm,-0.1220,aljazeera.com,How the world reacted to Libya ceasefire deal
+2020-11-02,us,geopolitics,calm,-0.1196,mysanantonio.com,"Libya's warring sides meet, discuss implementing cease-fire"
+2020-11-02,us,geopolitics,calm,0.0034,washingtontimes.com,"Elin Suleymanov, Azerbaijan ambassador, denies Syria sends militants to Armenia fight"
+2020-11-02,us,geopolitics,stressed,0.0932,americamagazine.org,Turkey's involvement in Armenia is dangerous. Could Christians face another genocide?
+2020-11-02,us,geopolitics,stressed,0.0844,durangoherald.com,Indian troops kill top rebel commander in Kashmir fighting
+2020-11-02,us,geopolitics,stressed,0.0753,dailyrepublic.com,"Azerbajani army destroys of forces of Armenian troops with airstrikes [Trend News Agency, Baku, Azerbaijan]"
+2020-11-02,us,growth_labor,calm,-0.1138,iheart.com,Midwest economic growth at 16-year high | NewsRadio 1110 KFAB
+2020-11-02,us,growth_labor,calm,-0.1063,investing.com,DAX aktuell: Gute Konjunkturdaten heben Stimmung
+2020-11-02,us,growth_labor,calm,-0.0815,tribtown.com,"This Week: Construction spending, Uber earns, jobs report"
+2020-11-02,us,growth_labor,stressed,0.1265,bedfordgazette.com,Possible job cuts announced at Pennsylvania universities
+2020-11-02,us,growth_labor,stressed,0.1154,gwinnettdailypost.com,Oil prices tumble as lockdowns stoke recession fears
+2020-11-02,us,growth_labor,stressed,0.1036,iheart.com,Layoffs Coming To State System Of Higher Education
+2020-11-02,us,monetary_policy,calm,-0.0316,oklahomastar.com,"Gold holds advance ahead of US election, Fed's policy meeting"
+2020-11-02,us,monetary_policy,calm,-0.0273,reuters.com,"Economía chilena cae 5,3% en septiembre todavía afectada por coronavirus: Banco Central"
+2020-11-02,us,monetary_policy,calm,-0.0253,reuters.com,ECB's Rehn calls for regular monetary policy strategy review
+2020-11-02,us,monetary_policy,stressed,0.0726,marketpulse.com,USD/JPY calm ahead of BoJ minutes - MarketPulse
+2020-11-02,us,monetary_policy,stressed,0.0253,kvor.com,Fed's Powell Faces Uncertain Fate Whether Biden or Trump Wins
+2020-11-02,us,monetary_policy,stressed,0.0244,cpbj.com,PPL Dec. 1 rate hike will affect small business - Central Penn Business Journal
+2020-11-02,us,trade_tariffs,calm,-0.0925,reuters.com,Britain working to close significant gaps with EU in trade talks: PM's spokesman
+2020-11-02,us,trade_tariffs,stressed,-0.0925,reuters.com,Britain working to close significant gaps with EU in trade talks: PM's spokesman
+2020-11-04,europe,banking_stress,calm,-0.0086,finanznachrichten.de,CREDIT SUISSE belässt Adyen auf 'Outperform'
+2020-11-04,europe,banking_stress,calm,0.0045,finanznachrichten.de,CREDIT SUISSE belässt BAYER AG auf 'Neutral'
+2020-11-04,europe,banking_stress,calm,0.0074,finanznachrichten.de,CREDIT SUISSE belässt Siemens Gamesa auf 'Neutral'
+2020-11-04,europe,banking_stress,stressed,0.0074,finanznachrichten.de,CREDIT SUISSE belässt Siemens Gamesa auf 'Neutral'
+2020-11-04,europe,banking_stress,stressed,0.0045,finanznachrichten.de,CREDIT SUISSE belässt BAYER AG auf 'Neutral'
+2020-11-04,europe,banking_stress,stressed,-0.0086,finanznachrichten.de,CREDIT SUISSE belässt Adyen auf 'Outperform'
+2020-11-04,europe,energy,calm,-0.0167,dailymail.co.uk,Sainsbury's drops fuel prices by 2p a litre for petrol and 3p for diesel in time for lockdown
+2020-11-04,europe,energy,calm,-0.0118,thecourier.co.uk,Second supermarket cuts fuel prices amid drop in wholesale costs
+2020-11-04,europe,energy,calm,-0.0100,carlukegazette.co.uk,Asda and Sainsbury's cut fuel prices as experts predict 5p drop within a fortnight
+2020-11-04,europe,energy,stressed,-0.0068,wetherbynews.co.uk,Asda cuts fuel prices as experts predict 5p drop within a fortnight
+2020-11-04,europe,energy,stressed,-0.0100,carlukegazette.co.uk,Asda and Sainsbury's cut fuel prices as experts predict 5p drop within a fortnight
+2020-11-04,europe,energy,stressed,-0.0118,thecourier.co.uk,Second supermarket cuts fuel prices amid drop in wholesale costs
+2020-11-04,europe,equity_markets,calm,-0.1474,wallstreet-online.de,DAX zieht über 12.200 Punkte hoch
+2020-11-04,europe,equity_markets,calm,-0.1313,teleborsa.it,Milano prosegue piatta con le altre Borse europee
+2020-11-04,europe,equity_markets,calm,-0.1029,rnd.de,Dow Jones gewinnt mehr als 2 Prozent am Wahltag hinzu
+2020-11-04,europe,equity_markets,stressed,0.1063,lesechos.fr,"L'IPO d'Ant Group suspendue, Alibaba chute lourdement en Bourse"
+2020-11-04,europe,equity_markets,stressed,0.0980,vozpopuli.com,El Ibex se desploma tras la denuncia de Trump de fraude electoral en EEUU
+2020-11-04,europe,equity_markets,stressed,0.0910,theguardian.com,Stock markets rattled by uncertainty over US presidential election
+2020-11-04,europe,geopolitics,calm,-0.1097,euobserver.com,"Nato and EU silent on Turkey, despite Armenia's appeal"
+2020-11-04,europe,geopolitics,calm,-0.0679,ecoaltomolise.net,"4 Novembre, Agnone ricorda fine prima Guerra Mondiale con cerimonia sobria"
+2020-11-04,europe,geopolitics,calm,-0.0519,rundschau-online.de,Stadt- und Gemeinderäte in Rhein-Berg: Kaum noch Politiker der Kriegsgeneration
+2020-11-04,europe,geopolitics,stressed,0.2606,kentonline.co.uk,Night of terror sees Arriva buses in Medway and Gravesend trick-or-treaters come under attack from missile throwing youths
+2020-11-04,europe,geopolitics,stressed,0.0735,dw.com,Ethiopia nears war in Tigray as Abiy sends in troops | Africa | DW
+2020-11-04,europe,geopolitics,stressed,0.0600,ilfoglio.it,"""L'Europa difenda la civiltà dai barbari islamisti"". Parla l'imam Chalghoumi"
+2020-11-04,europe,growth_labor,calm,-0.1190,burnleyexpress.net,Free employment and training support to address rise in youth unemployment in Burnley and Padiham
+2020-11-04,europe,growth_labor,calm,-0.0714,suedtirolnews.it,"Arbeitsloser Gärtner sucht sich neue ""Einnahmequelle"" – Südtirol News"
+2020-11-04,europe,growth_labor,calm,-0.0657,finanznachrichten.de,PwC-Studie: Blockchain beflügelt globales BIP
+2020-11-04,europe,growth_labor,stressed,0.1292,eveningexpress.co.uk,Unite furious over Lloyds Banking Group job cuts
+2020-11-04,europe,growth_labor,stressed,0.0814,andaluciainformacion.es,Casado acusa a Sánchez de echar gasolina a la recesión con los presupuestos
+2020-11-04,europe,growth_labor,stressed,0.0540,diariopalentino.es,"El Banco de España prevé una caída del PIB del 12,6% | Todas las noticias de Palencia"
+2020-11-04,europe,inflation,calm,-0.0272,borsaitaliana.it,"Ocse: inflazione annuale nell'area stabile all'1,3% a settembre"
+2020-11-04,europe,inflation,calm,0.0039,faz.net,Bundesbank-Umfragen: Angst vor Inflation nimmt offenbar wieder ab
+2020-11-04,europe,inflation,stressed,0.0039,faz.net,Bundesbank-Umfragen: Angst vor Inflation nimmt offenbar wieder ab
+2020-11-04,europe,inflation,stressed,-0.0272,borsaitaliana.it,"Ocse: inflazione annuale nell'area stabile all'1,3% a settembre"
+2020-11-04,europe,monetary_policy,calm,-0.0254,handelsblatt.com,Aufsichtsräte: IG-BCE-Chef will Macht der Kapitaleigner brechen
+2020-11-04,europe,monetary_policy,calm,-0.0082,focus.de,Türkei: Notenbank verkauft Goldreserven - um so die Lira zu stützen
+2020-11-04,europe,monetary_policy,calm,0.0012,ifamagazine.com,Will we see negative interest rates after tomorrow's MPC meeting?
+2020-11-04,europe,monetary_policy,stressed,0.0484,cityam.com,Eyes turn to the Federal Reserve as markets await US election result : CityAM
+2020-11-04,europe,monetary_policy,stressed,0.0127,britainnews.net,Lower interest rates give renters the edge to buy property
+2020-11-04,europe,monetary_policy,stressed,0.0033,teleborsa.it,"Eurogruppo appoggia BCE su euro digitale. Regling su MES: ""Nessun effetto stigma"""
+2020-11-04,europe,trade_tariffs,calm,-0.1157,cotswoldjournal.co.uk,Barnier to update European Parliament on Brexit trade deal progress
+2020-11-04,europe,trade_tariffs,calm,-0.0249,yourlocalguardian.co.uk,'Very serious' gaps remain between UK and EU positions in trade talks
+2020-11-04,europe,trade_tariffs,calm,0.0031,independent.co.uk,EU: Brexit trade talks still face 'too many difficulties'
+2020-11-04,europe,trade_tariffs,stressed,0.0072,ilfattoquotidiano.it,"Elezioni Usa 2020, l'economia ha contato più del Covid. Deregulation, tagli fiscali e guerra dei dazi: i risultati dei quattro anni di Trump"
+2020-11-04,europe,trade_tariffs,stressed,0.0031,independent.co.uk,EU: Brexit trade talks still face 'too many difficulties'
+2020-11-04,europe,trade_tariffs,stressed,-0.0249,yourlocalguardian.co.uk,'Very serious' gaps remain between UK and EU positions in trade talks
+2020-11-04,us,banking_stress,calm,-0.0090,prnewswire.com,"Credit Suisse Announces Coupon Payments and Expected Coupon Payments on Credit Suisse X-Links® Exchange Traded Notes (the ""ETNs"")"
+2020-11-04,us,banking_stress,calm,0.0172,prnewswire.com,BioMarin to Participate in the Credit Suisse 29th Annual Virtual Healthcare Conference on November 10 at 12:30pm ET
+2020-11-04,us,banking_stress,stressed,0.0172,prnewswire.com,BioMarin to Participate in the Credit Suisse 29th Annual Virtual Healthcare Conference on November 10 at 12:30pm ET
+2020-11-04,us,banking_stress,stressed,-0.0090,prnewswire.com,"Credit Suisse Announces Coupon Payments and Expected Coupon Payments on Credit Suisse X-Links® Exchange Traded Notes (the ""ETNs"")"
+2020-11-04,us,energy,calm,-0.0539,marketwatch.com,EIA reports a weekly decline of 8 million barrels in U.S. crude supplies
+2020-11-04,us,energy,calm,-0.0305,clarksvilleonline.com,"AAA reports Tennessee Gas Price Average drops Four Cents - Clarksville, TN Online"
+2020-11-04,us,energy,calm,-0.0154,go.com,"Closing prices for crude oil, gold and other commodities"
+2020-11-04,us,energy,stressed,0.0712,oilprice.com,Oil Prices Soar On Major Crude Draw
+2020-11-04,us,energy,stressed,0.0615,reuters.com,OPEC and Russia study deeper oil cuts - two sources
+2020-11-04,us,energy,stressed,0.0511,marketwatch.com,"Oil prices rise, brushing off unclear U.S. presidential election outcome"
+2020-11-04,us,equity_markets,calm,-0.0856,reuters.com,Stocks rally as Wall Street cheers potential gridlock
+2020-11-04,us,equity_markets,calm,-0.0830,reuters.com,Wall Street surges on tech boost as presidential race remains undecided
+2020-11-04,us,equity_markets,calm,-0.0766,politico.com,Wall Street notches second-best Election Day of trading
+2020-11-04,us,equity_markets,stressed,0.0986,channelnewsasia.com,Wall Street executives fret as US presidential election is too close to call
+2020-11-04,us,equity_markets,stressed,0.0985,reuters.com,Wall Street executives fret as U.S. presidential election is too close to call
+2020-11-04,us,equity_markets,stressed,0.0921,seattlepi.com,Stock markets wobble on uncertainty in US election
+2020-11-04,us,geopolitics,calm,-0.0995,reuters.com,Turkey pulling back from second Syrian military post - sources
+2020-11-04,us,geopolitics,calm,-0.0825,reuters.com,Russia says it will consider Iranian proposal to end Nagorno-Karabakh conflict
+2020-11-04,us,geopolitics,calm,-0.0397,msn.com,Malawi to open Israel embassy in Jerusalem
+2020-11-04,us,geopolitics,stressed,0.1594,apnews.com,Turkey threatens new military operation into Syria
+2020-11-04,us,geopolitics,stressed,0.1199,zerohedge.com,French Airstrikes Kill Over 50 Islamic Fighters In Mali Following Paris & Nice Attacks
+2020-11-04,us,geopolitics,stressed,0.1025,yahoo.com,Israeli armed forces gun down attacker in West Bank's Nablus
+2020-11-04,us,growth_labor,calm,-0.1258,openpr.com,Payroll - HR Solutions and Services Market to See Huge Growth
+2020-11-04,us,growth_labor,calm,-0.0347,nhregister.com,"Belle Meade Family Dentistry Treats Gum Recession in Nashville, TN with Minimally Invasive Gum Graft Alternative"
+2020-11-04,us,growth_labor,calm,-0.0255,msn.com,"Elections, anxiety, unemployment, liquor, and Chinese food: Americans' top Google searches on Election Day reflect a nation on edge"
+2020-11-04,us,growth_labor,stressed,0.1049,awfulannouncing.com,"The rumored ESPN layoffs are reportedly coming this week, with a focus on those behind the camera"
+2020-11-04,us,growth_labor,stressed,0.0861,wtaq.com,U.S. private payrolls growth slows in October: ADP
+2020-11-04,us,growth_labor,stressed,0.0733,reuters.com,U.S. private payrolls growth slows in October - ADP
+2020-11-04,us,monetary_policy,calm,-0.0580,greenevillesun.com,Holly Powell Joins Greene County 4-H Program
+2020-11-04,us,monetary_policy,calm,-0.0281,sfgate.com,Carlos Gimenez wins House seat over Rep. Mucarsel-Powell
+2020-11-04,us,monetary_policy,calm,0.0038,washingtontimes.com,Carlos Gimenez beats Debbie Mucarsel-Powell in Florida House race
+2020-11-04,us,monetary_policy,stressed,0.0385,reuters.com,"UPDATE 1-COVID-19 restrictions may lead to economic contraction in Europe, ECB's De Cos says"
+2020-11-04,us,monetary_policy,stressed,0.0350,reuters.com,Big-tech's stablecoins may hurt privacy and innovation - ECB
+2020-11-04,us,monetary_policy,stressed,0.0264,reuters.com,"COVID-19 restrictions could mean fourth quarter contraction in parts of EU, ECB's De Cos says"
+2020-11-04,us,trade_tariffs,calm,-0.0535,reuters.com,UK hopes for Australia trade deal 'within months' - trade minister
+2020-11-04,us,trade_tariffs,calm,-0.0167,reuters.com,"EU, UK so far fail to bridge gaps to secure trade deal"
+2020-11-04,us,trade_tariffs,calm,0.0031,clickondetroit.com,EU: Brexit trade talks still face 'too many difficulties'
+2020-11-04,us,trade_tariffs,stressed,0.0712,reuters.com,China trade body urges 'retrospective tariffs' on Australian wine
+2020-11-04,us,trade_tariffs,stressed,0.0500,hawaiipublicradio.org,Asia Minute: Australia Facing Chinese Trade Tensions
+2020-11-04,us,trade_tariffs,stressed,0.0344,reuters.com,Australia's Treasury Wine says China trade body urges retrospective import tariffs
+2020-11-05,europe,energy,calm,-0.0314,forexcrunch.com,"WTI looks weaker, remains capped by $40.00"
+2020-11-05,europe,energy,calm,-0.0199,aktiencheck.de,Ölpreise geben nach - US-Wahl weiterhin offen ()
+2020-11-05,europe,energy,calm,-0.0090,livecharts.co.uk,Crude Oil - Oil down over 1% as markets whipsawed by U.S. election uncertainty
+2020-11-05,europe,energy,stressed,0.0298,gov.uk,Road fuel prices: 9 November 2020 - National statistics announcement
+2020-11-05,europe,energy,stressed,0.0011,wiwo.de,Ölpreise geben nach – US-Wahlen weiterhin offen
+2020-11-05,europe,energy,stressed,-0.0090,livecharts.co.uk,Crude Oil - Oil down over 1% as markets whipsawed by U.S. election uncertainty
+2020-11-05,europe,equity_markets,calm,-0.1796,moz.de,Börse in Frankfurt: Dax weiter stark - Gelassenheit am Markt
+2020-11-05,europe,equity_markets,calm,-0.1296,rnd.de,US-Börsen setzen unbeirrt Erholungskurs fort
+2020-11-05,europe,equity_markets,calm,-0.1271,firstonline.info,"Snam migliora l'utile, Tenaris vola in Borsa"
+2020-11-05,europe,equity_markets,stressed,0.0673,fool.co.uk,How I'm using the stock market crash of 2020 to help me retire wealthy
+2020-11-05,europe,equity_markets,stressed,0.0662,fool.co.uk,Market crash 2020: I'd buy today's cheap UK shares for the new bull market
+2020-11-05,europe,equity_markets,stressed,0.0312,focus.de,"Daniel Stelter mahnt Politik: „Ohne Umdenken werden wir ein ärmeres Land sein"" - Börse"
+2020-11-05,europe,geopolitics,calm,-0.1034,unternehmen-heute.de,Politik - Anklage wegen Kriegsverbrechen: Kosovos Präsident tritt zurück
+2020-11-05,europe,geopolitics,calm,-0.0944,rnd.de,Kosovo: Präsident Thaci tritt zurück - nach Kriegsverbrecher-Anklage
+2020-11-05,europe,geopolitics,calm,-0.0858,abendzeitung-muenchen.de,Kriegsverbrecher-Anklage: Kosovos Präsident tritt zurück
+2020-11-05,europe,geopolitics,stressed,0.1951,midlothianadvertiser.co.uk,Warning after missiles thrown at fire crew attending Danderhall bonfire
+2020-11-05,europe,geopolitics,stressed,0.0619,lci.fr,#StopTheSteal : la guerre des fake news dans les camps Biden et Trump
+2020-11-05,europe,geopolitics,stressed,0.0605,livesicilia.it,"Sicilia arancione, guerra di dati all'orizzonte tra Roma e Palermo"
+2020-11-05,europe,growth_labor,calm,-0.0720,theguardian.com,UK campaigners set out plan to meet Paris agreement and beat Covid recession
+2020-11-05,europe,growth_labor,calm,-0.0272,finanznachrichten.de,EU-Kommission stellt neue Konjunkturprognose vor
+2020-11-05,europe,growth_labor,calm,-0.0127,forexcrunch.com,BoE Bailey: We are not in the middle of a double-dip recession
+2020-11-05,europe,growth_labor,stressed,0.0847,keighleynews.co.uk,Bank 'to unleash another £100bn of QE' as double-dip recession fears mount
+2020-11-05,europe,growth_labor,stressed,0.0781,dailymail.co.uk,Bank of England to print £100bn of cash as double-dip recession looms
+2020-11-05,europe,growth_labor,stressed,0.0741,dailymail.co.uk,"Number of Americans applying for jobless aid drops to 751,000"
+2020-11-05,europe,inflation,calm,0.0040,finanznachrichten.de,Dutch Inflation Rises In October
+2020-11-05,europe,inflation,stressed,0.0040,finanznachrichten.de,Dutch Inflation Rises In October
+2020-11-05,europe,monetary_policy,calm,-0.0256,boursier.com,"Banques : la BoE augmente son QE, statu quo de la Norges Bank"
+2020-11-05,europe,monetary_policy,calm,-0.0249,forexcrunch.com,BoE Bailey: We are not in the middle of a double-dip recession
+2020-11-05,europe,monetary_policy,calm,-0.0233,finanznachrichten.de,Fed-Beschlüsse: US-Notenbank dürfte nach der Wahl zunächst abwarten
+2020-11-05,europe,monetary_policy,stressed,0.0648,spectator.co.uk,The Bank of England's terrifying economic projections
+2020-11-05,europe,monetary_policy,stressed,0.0462,dailymail.co.uk,Bank of England to print £100bn of cash as double-dip recession looms
+2020-11-05,europe,monetary_policy,stressed,0.0460,funds-europe.com,BoE stimulus package sparks concerns over UK economy
+2020-11-05,europe,trade_tariffs,calm,-0.0346,londonmercury.com,"UK, EU admit wide gaps in post-Brexit trade talks"
+2020-11-05,europe,trade_tariffs,calm,-0.0070,londonmercury.com,EU: Brexit Trade Talks Still Face 'Too Many Difficulties'
+2020-11-05,europe,trade_tariffs,stressed,-0.0070,londonmercury.com,EU: Brexit Trade Talks Still Face 'Too Many Difficulties'
+2020-11-05,europe,trade_tariffs,stressed,-0.0346,londonmercury.com,"UK, EU admit wide gaps in post-Brexit trade talks"
+2020-11-05,us,energy,calm,-0.0291,reuters.com,BP reappoints Wise as head of crude trading in latest reshuffle
+2020-11-05,us,energy,calm,-0.0162,reuters.com,Saudi Arabia cuts December crude official prices to Asia
+2020-11-05,us,energy,calm,-0.0081,reuters.com,"UPDATE 2-Russian rouble, stocks lifted by U.S. election, oil price recovery"
+2020-11-05,us,energy,stressed,0.0562,reuters.com,"UPDATE 1-Libya crude output rises to about 850,000 bpd, says oil source"
+2020-11-05,us,energy,stressed,-0.0081,reuters.com,"UPDATE 2-Russian rouble, stocks lifted by U.S. election, oil price recovery"
+2020-11-05,us,energy,stressed,-0.0162,reuters.com,Saudi Arabia cuts December crude official prices to Asia
+2020-11-05,us,equity_markets,calm,-0.1142,channelnewsasia.com,"Stocks rally again, Treasuries gain as Biden edges towards US election win"
+2020-11-05,us,equity_markets,calm,-0.1125,reuters.com,"Analysts' View: Stocks rally again, Treasuries gain as Biden edges towards U.S. election win"
+2020-11-05,us,equity_markets,calm,-0.1039,forextv.com,Cannabis stocks surge in premarket trade
+2020-11-05,us,equity_markets,stressed,0.0629,fool.com,"Why AstraZeneca, Bristol Myers Squibb, and Eli Lilly Stocks Jumped Today"
+2020-11-05,us,equity_markets,stressed,0.0600,wjcl.com,The Nasdaq is skyrocketing. Here's what it might mean for the economy
+2020-11-05,us,equity_markets,stressed,0.0486,reuters.com,"Tech, health stocks rise, cyclicals fall on prospects of divided U.S. Congress"
+2020-11-05,us,geopolitics,calm,-0.0974,sfgate.com,Kosovo: Presidente renuncia por cargos de crímenes de guerra
+2020-11-05,us,geopolitics,calm,-0.0242,pbs.org,Libya's rivals urge U.N. Security Council to back cease-fire
+2020-11-05,us,geopolitics,calm,-0.0100,washingtontimes.com,Pentagon: Taliban violence 'could undermine the agreement' with U.S.
+2020-11-05,us,geopolitics,stressed,0.1580,msn.com,Iran's New Underground Missile Base Looks Mildly Terrifying. See for Yourself.
+2020-11-05,us,geopolitics,stressed,0.0928,newsweek.com,Iran Shows Off New Long-Range Missile System That Will 'Shake' Enemy When Fired
+2020-11-05,us,geopolitics,stressed,0.0910,earthquakenewstoday.com,"Light earthquake 4.9 mag, 79 km S of Krasnyy Chikoy, Russia"
+2020-11-05,us,growth_labor,calm,-0.1710,johnsoncitypress.com,"Johnson City Commission winners prioritize economic growth, education"
+2020-11-05,us,growth_labor,calm,-0.1202,wacotrib.com,"Waco Mayor-elect Meek sets sights on economic growth, equity"
+2020-11-05,us,growth_labor,calm,-0.1001,iadb.org,Caring for people: an opportunity for economic growth
+2020-11-05,us,growth_labor,stressed,0.1447,wmbfnews.com,"ESPN announces 300 layoffs, citing 'disruption' amid virus"
+2020-11-05,us,growth_labor,stressed,0.1117,journalstar.com,Indonesia officially in recession as GDP fall amid pandemic
+2020-11-05,us,growth_labor,stressed,0.0910,reuters.com,U.S. weekly jobless claims fall marginally
+2020-11-05,us,inflation,calm,-0.0148,forextv.com,Philippine Inflation At 3-Month High
+2020-11-05,us,inflation,calm,0.0045,yahoo.com,Hanke's Inflation Dashboard: Measurements vs. Forecasts
+2020-11-05,us,inflation,calm,0.0071,reuters.com,UPDATE 1-Brazil's inflation spike is temporary but bears monitoring - cenbank chief
+2020-11-05,us,inflation,stressed,0.0071,reuters.com,UPDATE 1-Brazil's inflation spike is temporary but bears monitoring - cenbank chief
+2020-11-05,us,inflation,stressed,0.0045,yahoo.com,Hanke's Inflation Dashboard: Measurements vs. Forecasts
+2020-11-05,us,inflation,stressed,-0.0148,forextv.com,Philippine Inflation At 3-Month High
+2020-11-05,us,monetary_policy,calm,-0.0640,forextv.com,"Bank Of England Boost Stimulus, Cuts Outlook"
+2020-11-05,us,monetary_policy,calm,-0.0388,expressnews.com,BCE: 3Q Earnings Snapshot
+2020-11-05,us,monetary_policy,calm,-0.0341,reuters.com,UPDATE 2-Norway to keep interest rates on hold until clear signs of normalisation
+2020-11-05,us,monetary_policy,stressed,0.0690,zerohedge.com,"Bank of England Surprises With £50BN More QE Than Expected, Sterling Jumps Anyway"
+2020-11-05,us,monetary_policy,stressed,0.0503,forextv.com,USD/JPY calm ahead of BoJ minutes
+2020-11-05,us,monetary_policy,stressed,0.0256,foxbusiness.com,"Whether election win is Trump or Biden, Fed Chair Powell still a rainmaker"
+2020-11-05,us,trade_tariffs,calm,-0.0130,reuters.com,EU's Barnier says 'very serious' gaps still in Brexit trade talks
+2020-11-05,us,trade_tariffs,calm,-0.0122,msn.com,A Biden win cuts risk of trade wars and helps make America green(ish) again
+2020-11-05,us,trade_tariffs,calm,0.0031,wdio.com,EU: Brexit trade talks still face 'too many difficulties'
+2020-11-05,us,trade_tariffs,stressed,0.0031,wdio.com,EU: Brexit trade talks still face 'too many difficulties'
+2020-11-05,us,trade_tariffs,stressed,-0.0122,msn.com,A Biden win cuts risk of trade wars and helps make America green(ish) again
+2020-11-05,us,trade_tariffs,stressed,-0.0130,reuters.com,EU's Barnier says 'very serious' gaps still in Brexit trade talks
+2020-11-09,europe,banking_stress,calm,-0.0490,elpais.com,Credit Suisse refuerza su apuesta por España con una nueva división | Compañías
+2020-11-09,europe,banking_stress,stressed,-0.0490,elpais.com,Credit Suisse refuerza su apuesta por España con una nueva división | Compañías
+2020-11-09,europe,energy,calm,0.0114,invezz.com,How to Trade Oil | Crude Oil Trading Tips 2020
+2020-11-09,europe,energy,calm,0.0115,handelsblatt.com,Ölpreise starten die Woche mit deutlichen Kursgewinnen
+2020-11-09,europe,energy,stressed,0.0115,handelsblatt.com,Ölpreise starten die Woche mit deutlichen Kursgewinnen
+2020-11-09,europe,energy,stressed,0.0114,invezz.com,How to Trade Oil | Crude Oil Trading Tips 2020
+2020-11-09,europe,equity_markets,calm,-0.1626,finanznachrichten.de,DAX legt am Mittag deutlich zu - Bayer vorne
+2020-11-09,europe,equity_markets,calm,-0.1280,bresciaoggi.it,"Borsa Hong Kong apre a +1,73% con Biden"
+2020-11-09,europe,equity_markets,calm,-0.1073,finanznachrichten.de,DAX nach Biden-Sieg deutlich im Plus erwartet - das ist heute wichtig
+2020-11-09,europe,equity_markets,stressed,0.0830,fool.co.uk,Stock market crash: 3 reasons why I'd buy cheap UK shares right now
+2020-11-09,europe,equity_markets,stressed,0.0529,ilsussidiario.net,BORSE & MERCATI/ Le speranze e i timori sul rally di fine anno
+2020-11-09,europe,equity_markets,stressed,0.0410,investireoggi.it,Il rialzo di Poste ha subito una battuta d'arresto - Finanza e Borsa
+2020-11-09,europe,geopolitics,calm,-0.0791,crema.laprovinciacr.it,"Usa 2020, Confagricoltura: 'Ripartiamo dal dialogo per porre fine alla guerra dei dazi'"
+2020-11-09,europe,geopolitics,calm,-0.0712,agenzianova.com,Corea del Sud: governo celebra il 70mo anniversario della Guerra di Corea
+2020-11-09,europe,geopolitics,calm,-0.0616,diariodecadiz.es,La 'guerra' de Toñi Salazar con su ex marido
+2020-11-09,europe,geopolitics,stressed,0.0907,lexpress.fr,"Après avoir fait près de 200 morts ou disparus, la tempête Eta frappe la Floride"
+2020-11-09,europe,geopolitics,stressed,0.0861,latribune.fr,"Irak: Attaque contre un poste militaire à Bagdad, 11 morts"
+2020-11-09,europe,geopolitics,stressed,0.0855,leggo.it,"Roma, ressa in via del Corso. L'Assessore D'Amato: «Siamo in guerra, così si aiuta solo il virus a colpire di più»"
+2020-11-09,europe,growth_labor,calm,-0.0674,oxfordmail.co.uk,Scheme to get young people jobs in Oxfordshire as unemployment rises
+2020-11-09,europe,growth_labor,calm,-0.0549,invezz.com,USD/CHF rises as focus shifts to Swiss unemployment and Pfizer vaccine
+2020-11-09,europe,growth_labor,calm,-0.0331,latribune.fr,La BdF prévoit désormais une contraction entre 9% et 10% du PIB en 2020
+2020-11-09,europe,growth_labor,stressed,0.0723,ansa.it,"Covid: Cgia, Pil Molise 'scivola' indietro di 32 anni - Notizie - Molise"
+2020-11-09,europe,growth_labor,stressed,0.0633,vozpopuli.com,Una ONG cercana a IU prepara cientos de despidos tras fichar a una directiva afín
+2020-11-09,europe,growth_labor,stressed,0.0339,finanznachrichten.de,"Arbeitslosenquote verharrt im Oktober bei 3,2 Prozent"
+2020-11-09,europe,inflation,calm,-0.0044,invezz.com,"Economic calendar preview: RBNZ rate decision, ECB annual forum, US inflation"
+2020-11-09,europe,inflation,stressed,-0.0044,invezz.com,"Economic calendar preview: RBNZ rate decision, ECB annual forum, US inflation"
+2020-11-09,europe,monetary_policy,calm,-0.0148,wired.co.uk,Why the Bank of England should give everyone a free account
+2020-11-09,europe,monetary_policy,calm,-0.0143,invezz.com,"Economic calendar preview: RBNZ rate decision, ECB annual forum, US inflation"
+2020-11-09,europe,monetary_policy,calm,-0.0119,employeebenefits.co.uk,Voluntary living wage rate increases to £9.50 an hour
+2020-11-09,europe,monetary_policy,stressed,-0.0060,thisiswiltshire.co.uk,Swindon's Covid-19 contact tracing success rate rises
+2020-11-09,europe,monetary_policy,stressed,-0.0119,employeebenefits.co.uk,Voluntary living wage rate increases to £9.50 an hour
+2020-11-09,europe,monetary_policy,stressed,-0.0143,invezz.com,"Economic calendar preview: RBNZ rate decision, ECB annual forum, US inflation"
+2020-11-09,europe,trade_tariffs,calm,-0.1048,bbc.co.uk,Brexit: EU and UK negotiators resume trade talks in London
+2020-11-09,europe,trade_tariffs,calm,-0.0430,bbc.com,"Brexit: Trade talks with the EU are over, says No 10"
+2020-11-09,europe,trade_tariffs,calm,-0.0404,zazoom.it,L' Ue presenta il ' conto di Trump' a Biden | 4 miliardi di dazi sui prodotti Usa
+2020-11-09,europe,trade_tariffs,stressed,0.0348,elnortedecastilla.es,La UE activará sus aranceles contra EE UU mientras espera un cese de hostilidades de Biden
+2020-11-09,europe,trade_tariffs,stressed,0.0252,crema.laprovinciacr.it,"Usa 2020, Confagricoltura: 'Ripartiamo dal dialogo per porre fine alla guerra dei dazi'"
+2020-11-09,europe,trade_tariffs,stressed,0.0228,somersetlive.co.uk,Vodafone launches new £10 tariff for people on Universal Credit
+2020-11-09,us,energy,calm,-0.0203,columbian.com,Average U.S. gas price falls 3 cents to $2.19 per gallon
+2020-11-09,us,energy,calm,-0.0171,msn.com,"Libya won't join OPEC quotas until its output steadies, says NOC chief"
+2020-11-09,us,energy,calm,-0.0131,tampabay.com,Florida gas prices hit five-month low amid coronavirus surge concerns
+2020-11-09,us,energy,stressed,0.0874,laprensalatina.com,"Oil demand to increase by 6.5 million bpd in 2021, says OPEC"
+2020-11-09,us,energy,stressed,0.0762,houstonchronicle.com,Post-election oil rally could send gasoline prices higher
+2020-11-09,us,energy,stressed,0.0673,reuters.com,"Global stocks hit record highs, crude prices jump, on vaccine progress"
+2020-11-09,us,equity_markets,calm,-0.1186,reuters.com,Wall Street hits record highs as vaccine trial results raise hopes
+2020-11-09,us,equity_markets,calm,-0.1118,chroniclejournal.com,"North American stock market soar higher in late-morning trading, loonie gains"
+2020-11-09,us,equity_markets,calm,-0.1069,deperu.com,Las bolsas europeas abren en fuerte alza tras la victoria de Biden
+2020-11-09,us,equity_markets,stressed,0.1048,marketwatch.com,Investors dash for trash as FTSE 100 spikes nearly 6%
+2020-11-09,us,equity_markets,stressed,0.0901,usatoday.com,Stock market: Biggest winners and losers in a Joe Biden administration
+2020-11-09,us,equity_markets,stressed,0.0715,nancyonnorwalk.com,Zoning Commission hears plans for Wall Street Place development; Milligan raises concerns
+2020-11-09,us,geopolitics,calm,-0.0731,courrierinternational.com,"Après avoir gagné le prix Nobel de la paix, le Premier ministre éthiopien entre en guerre"
+2020-11-09,us,geopolitics,calm,-0.0724,mynorthwest.com,Kremlin: Putin won't congratulate Biden until challenges end
+2020-11-09,us,geopolitics,calm,-0.0519,reuters.com,"China, Russia hold off on congratulating Biden; U.S. allies rally round"
+2020-11-09,us,geopolitics,stressed,0.1415,kesq.com,Russian soldier kills three officers in attack at military base
+2020-11-09,us,geopolitics,stressed,0.1280,gdnonline.com,"Middle East News: Gunmen kill at least 11 in attack on Iraqi army post in Baghdad, sources say"
+2020-11-09,us,geopolitics,stressed,0.1201,wbrz.com,Russian soldier guns down three officers in attack at military base
+2020-11-09,us,growth_labor,calm,-0.0538,courrierinternational.com,Expatriation et chômage : les conditions et les démarches pour y avoir droit
+2020-11-09,us,growth_labor,calm,-0.0175,wkmi.com,Michigan Unemployment Insurance Agency Gets Temporary Director
+2020-11-09,us,growth_labor,calm,0.0021,aei.org,Unemployment rate keeps falling faster than projected | American Enterprise Institute
+2020-11-09,us,growth_labor,stressed,0.0676,allaccess.com,"ESPN Layoffs Include 'Dan LeBatard Show With Stugotz' Producer Chris Cote, Other ESPN ..."
+2020-11-09,us,growth_labor,stressed,0.0447,expressnews.com,"Election, pandemic, layoffs: Busy at Memphis Crisis Center"
+2020-11-09,us,growth_labor,stressed,0.0385,kpvi.com,Unemployment Across the United States
+2020-11-09,us,inflation,calm,-0.0318,seenews.com,Moldova's c-bank cuts key rate to 2.65% on disinflationary pressure
+2020-11-09,us,inflation,calm,0.0281,coindesk.com,Debate Rages on Whether a Digital Dollar Will Unleash Inflation
+2020-11-09,us,inflation,calm,0.0426,gazette.com,Colorado Springs cost of living surges to 23-year high
+2020-11-09,us,inflation,stressed,0.0426,gazette.com,Colorado Springs cost of living surges to 23-year high
+2020-11-09,us,inflation,stressed,0.0281,coindesk.com,Debate Rages on Whether a Digital Dollar Will Unleash Inflation
+2020-11-09,us,inflation,stressed,-0.0318,seenews.com,Moldova's c-bank cuts key rate to 2.65% on disinflationary pressure
+2020-11-09,us,monetary_policy,calm,-0.0459,agrinews-pubs.com,"Federal Reserve survey: Prices, government support lift expectations"
+2020-11-09,us,monetary_policy,calm,-0.0370,reuters.com,BoE right to leave climate issues aside in COVID response: Bailey
+2020-11-09,us,monetary_policy,calm,-0.0183,msn.com,Turkey's New Central Bank Governor Signals No Immediate Action
+2020-11-09,us,monetary_policy,stressed,0.0666,itbusinessnet.com,"Record Low Interest Rates Mask Underlying Problems in Mortgage Industry, J.D. Power Finds |"
+2020-11-09,us,monetary_policy,stressed,0.0620,zerohedge.com,"With 10Y Yields Soaring, Traders Start Pricing In Rate Hikes"
+2020-11-09,us,monetary_policy,stressed,0.0586,forextv.com,Pound US Dollar Exchange Rate Rises As US Election Outcome Boost Risk Sentiment
+2020-11-09,us,trade_tariffs,calm,-0.1044,theepochtimes.com,'Goodwill on Both Sides' of Brexit Trade Talks as Negotiations Resume in London
+2020-11-09,us,trade_tariffs,calm,-0.0942,reuters.com,"UK sees goodwill for Brexit trade deal, open to 'sensible' fishing compromise"
+2020-11-09,us,trade_tariffs,calm,-0.0441,seattlepi.com,Alert: EU agrees to put tariffs on up to $4 billion worth of US goods and services over illegal Boeing aid
+2020-11-09,us,trade_tariffs,stressed,0.0607,msn.com,Germany Considers Delaying a $4 Billion Tariff Strike on the U.S.
+2020-11-09,us,trade_tariffs,stressed,0.0323,agriculture.com,"UPDATE 1-Boeing calls EU tariff decision 'disappointing,' urges moves to resolve dispute"
+2020-11-09,us,trade_tariffs,stressed,0.0255,wtka.com,"Europe just hit the US with $4 billion in new tariffs, but Biden could reduce tensions"
+2020-11-10,europe,banking_stress,calm,-0.0536,aktiencheck.de,Credit Suisse hebt Ziel für Siemens Healthineers - 'Outperform' ()
+2020-11-10,europe,banking_stress,calm,0.0071,finanznachrichten.de,CREDIT SUISSE belässt MICROSOFT CORP auf 'Outperform'
+2020-11-10,europe,banking_stress,stressed,0.0071,finanznachrichten.de,CREDIT SUISSE belässt MICROSOFT CORP auf 'Outperform'
+2020-11-10,europe,banking_stress,stressed,-0.0536,aktiencheck.de,Credit Suisse hebt Ziel für Siemens Healthineers - 'Outperform' ()
+2020-11-10,europe,energy,calm,0.0089,energyvoice.com,Oil price rally loses shine as virus surge offsets vaccine optimism - News for the Oil and Gas Sector
+2020-11-10,europe,energy,stressed,0.0089,energyvoice.com,Oil price rally loses shine as virus surge offsets vaccine optimism - News for the Oil and Gas Sector
+2020-11-10,europe,equity_markets,calm,-0.0855,investireoggi.it,"Giappone: in ottobre Economy Watchers cresciuto a 54,5 punti - Finanza e Borsa"
+2020-11-10,europe,equity_markets,calm,-0.0819,standard.co.uk,Stock market rally continues in London and New York
+2020-11-10,europe,equity_markets,calm,-0.0806,express.co.uk,FTSE 100 LIVE: Index surges and European stocks reach 8-month high amid Covid vaccine
+2020-11-10,europe,equity_markets,stressed,0.0706,finanza.lastampa.it,Piazza Affari: performance negativa per Zignago Vetro
+2020-11-10,europe,equity_markets,stressed,0.0632,finanza.lastampa.it,Piazza Affari: scambi negativi per Mutuionline
+2020-11-10,europe,equity_markets,stressed,0.0621,standard.co.uk,FTSE 100 set to fall after roaring ahead on Pfizer Covid 19 vaccine
+2020-11-10,europe,geopolitics,calm,-0.1620,telegraph.co.uk,Armenia and Azerbaijan agree ceasefire deal as Russia deploys peacekeepers
+2020-11-10,europe,geopolitics,calm,-0.1072,zazoom.it,Nagorno-Karabakh | raggiunto accordo per il cessate il fuoco tra Armenia e Azerbaigian
+2020-11-10,europe,geopolitics,calm,-0.0895,sofoot.com,"Cameroun, la guerre des langues n'en finit plus"
+2020-11-10,europe,geopolitics,stressed,0.0882,elperiodicoextremadura.com,Un conflicto regional interno amenaza con una guerra civil en Etiopía
+2020-11-10,europe,geopolitics,stressed,0.0835,lanazione.it,"Pontremoli, ospedale Covid: è guerra - Cronaca"
+2020-11-10,europe,geopolitics,stressed,0.0759,forres-gazette.co.uk,Wildlife enthusiast Alan Tissiman on Moray's annual invasion of pink-footed geese
+2020-11-10,europe,growth_labor,calm,-0.1496,sudouest.fr,"Le taux de chômage progresse fortement en France au troisième trimestre, avec +9%"
+2020-11-10,europe,growth_labor,calm,-0.1340,letelegramme.fr,Le taux de chômage en forte hausse au troisième trimestre à 9 %
+2020-11-10,europe,growth_labor,calm,-0.1328,lexpansion.lexpress.fr,Le taux de chômage atteint 9% après une nette hausse au troisième trimestre
+2020-11-10,europe,growth_labor,stressed,0.1162,tagesschau.de,ZEW-Index fällt weiter: Wachsende Sorge um Konjunkturerholung
+2020-11-10,europe,growth_labor,stressed,0.0701,dw.com,″Cinco sabios″ alemanes: recesión menos fuerte de lo pronosticado | Europa al día | DW
+2020-11-10,europe,growth_labor,stressed,0.0265,esdiario.com,"Bruselas eleva la caída de nuestro PIB al 12,4%"
+2020-11-10,europe,inflation,calm,0.0048,invezz.com,USD/CNY: Yuan holds steady as China inflation tumbles to 11-year low
+2020-11-10,europe,inflation,calm,0.0453,aktiencheck.de,China: Inflation so schwach wie seit 2009 nicht mehr ()
+2020-11-10,europe,inflation,calm,0.0504,finanza.lastampa.it,"Cina, inflazione ottobre cresce al ritmo più basso dal 2009"
+2020-11-10,europe,inflation,stressed,0.0504,finanza.lastampa.it,"Cina, inflazione ottobre cresce al ritmo più basso dal 2009"
+2020-11-10,europe,inflation,stressed,0.0453,aktiencheck.de,China: Inflation so schwach wie seit 2009 nicht mehr ()
+2020-11-10,europe,inflation,stressed,0.0048,invezz.com,USD/CNY: Yuan holds steady as China inflation tumbles to 11-year low
+2020-11-10,europe,monetary_policy,calm,-0.0402,finextra.com,SumUp obtains e-money licence from the Central Bank of Ireland
+2020-11-10,europe,monetary_policy,calm,-0.0308,finanznachrichten.de,New Zealand Rate Decision On Tap For Wednesday
+2020-11-10,europe,monetary_policy,calm,-0.0022,chorley-guardian.co.uk,Record number of redundancies as UK jobless rate rises to 4.8 per cent
+2020-11-10,europe,monetary_policy,stressed,0.1323,standard.co.uk,FTSE 100 leaps again as Pfizer Covid vaccine banishes fears of negative interest rates
+2020-11-10,europe,monetary_policy,stressed,0.0046,runrun.es,The Central Bank of Venezuela: Official Squeezer of Venezuelan Gold
+2020-11-10,europe,monetary_policy,stressed,-0.0022,chorley-guardian.co.uk,Record number of redundancies as UK jobless rate rises to 4.8 per cent
+2020-11-10,europe,trade_tariffs,calm,-0.0279,ultimahora.es,La UE impondrá desde este martes aranceles a productos de EEUU por valor de 3.360 millones
+2020-11-10,europe,trade_tariffs,stressed,-0.0279,ultimahora.es,La UE impondrá desde este martes aranceles a productos de EEUU por valor de 3.360 millones
+2020-11-10,us,energy,calm,-0.0805,mississippivalleypublishing.com,Decline of Iowa gas prices may be short-lived
+2020-11-10,us,energy,calm,-0.0578,wphm.net,Gas prices fall to below $2 a gallon locally
+2020-11-10,us,energy,calm,-0.0534,observer-reporter.com,"Gas prices decline again in Washington, region"
+2020-11-10,us,energy,stressed,0.0493,reuters.com,Reuters Summit: Vitol CEO says Biden's environmental agenda could push oil prices higher
+2020-11-10,us,energy,stressed,0.0321,oklahoman.com,"COVID-19 vaccine announcement boosts Oklahoma energy stocks, oil prices"
+2020-11-10,us,energy,stressed,0.0168,investing.com,Citibank Forecasts $49 WTI For 2021
+2020-11-10,us,equity_markets,calm,-0.0874,reuters.com,S&P 500 eases after vaccine news rally
+2020-11-10,us,equity_markets,calm,-0.0839,foxbusiness.com,Texas Gov. Abbott welcomes major stock exchanges to Austin
+2020-11-10,us,equity_markets,calm,-0.0802,reuters.com,"The S&P 500 retreats, crude gains as vaccine hopes boost recovery bets"
+2020-11-10,us,equity_markets,stressed,0.1124,zerohedge.com,"Global Rally Fizzles, Nasdaq Tumbles As Pfizer Vaccine Skepticism Emerges"
+2020-11-10,us,equity_markets,stressed,0.1043,msn.com,S&P 500 Drops After Big Rally Amid Tech Selloff: Markets Wrap
+2020-11-10,us,equity_markets,stressed,0.0997,mediate.com,Future Group asks Indian Stock Exchanges to Disregard Singapore Arbitral Panel's Ruling
+2020-11-10,us,geopolitics,calm,-0.2163,yahoo.com,"Armenia, Azerbaijan agree to Kremlin-sponsored Nagorno-Karabakh peace deal"
+2020-11-10,us,geopolitics,calm,-0.1821,cbsnews.com,"Russia brokers Armenia-Azerbaijan ceasefire, but only 1 side is happy"
+2020-11-10,us,geopolitics,calm,-0.1758,msn.com,"Armenia and Azerbaijan agree to a Russia-negotiated ceasefire, marking a formal end to Nagorno-Karabakh conflict for now"
+2020-11-10,us,geopolitics,stressed,0.1305,nationalinterest.org,Yak-130: This Old Russia Jet Has All the Weapons To Smash any Army
+2020-11-10,us,geopolitics,stressed,0.1156,military.com,More National Guard Troops Activated in Preparation for Election Day Unrest
+2020-11-10,us,geopolitics,stressed,0.1102,nationalinterest.org,Hypersonic Missiles Are Set to Give the B-52 Stratofortress a New Lease on Life
+2020-11-10,us,growth_labor,calm,-0.1047,ncnewspress.com,Nebraskans 50-plus are set to fuel state's economic growth for 30 years
+2020-11-10,us,growth_labor,calm,-0.1031,reuters.com,"Saudi economy contracts 4.2% in third quarter, improves from second quarter"
+2020-11-10,us,growth_labor,calm,-0.0884,washingtontimes.com,"UK unemployment rises increases to 4.8%, highest since 2016"
+2020-11-10,us,growth_labor,stressed,0.1254,wcoapensacola.com,Republican National Committee staff blindsided by layoffs
+2020-11-10,us,growth_labor,stressed,0.1096,reuters.com,"UPDATE 2-Philippines economy shrinks by more than expected in Q3, but govt says ""worst is over"""
+2020-11-10,us,growth_labor,stressed,0.0760,marinelink.com,Meyer Turku Announces Shipyard Layoffs
+2020-11-10,us,inflation,calm,-0.0450,fundsforngos.org,"CPI offering up to USD 30,000 to support local NGOs and CBOs of Myanmar"
+2020-11-10,us,inflation,calm,0.0265,reuters.com,"China's inflation fails to perk up, defies broader recovery"
+2020-11-10,us,inflation,stressed,0.0265,reuters.com,"China's inflation fails to perk up, defies broader recovery"
+2020-11-10,us,inflation,stressed,-0.0450,fundsforngos.org,"CPI offering up to USD 30,000 to support local NGOs and CBOs of Myanmar"
+2020-11-10,us,monetary_policy,calm,-0.0677,reuters.com,"Fed's George says growth to moderate, policy appropriate"
+2020-11-10,us,monetary_policy,calm,-0.0451,reuters.com,Euro zone budget aid may need to be stepped up: ECB's Knot
+2020-11-10,us,monetary_policy,calm,-0.0356,reuters.com,Fed's Rosengren says important to prevent buildup of financial imbalances
+2020-11-10,us,monetary_policy,stressed,0.0582,eenews.net,FINANCE: Federal Reserve warns of climate 'fire sale'
+2020-11-10,us,monetary_policy,stressed,0.0363,netscape.com,No more fiscal firehose? That might be okay by the Fed - Netscape Money & Business
+2020-11-10,us,monetary_policy,stressed,0.0212,pionline.com,Climate change added to Fed's financial risk report
+2020-11-10,us,trade_tariffs,calm,0.0039,pantagraph.com,EU puts tariffs on US but hopes for change with Biden
+2020-11-10,us,trade_tariffs,calm,0.0202,nytimes.com,Europe to Impose Tariffs in 16-Year Trade Fight With U.S.
+2020-11-10,us,trade_tariffs,calm,0.0612,kmjnow.com,Boeing Eyes 737 MAX's US Return as Europe Tariffs Loom
+2020-11-10,us,trade_tariffs,stressed,0.0612,kmjnow.com,Boeing Eyes 737 MAX's US Return as Europe Tariffs Loom
+2020-11-10,us,trade_tariffs,stressed,0.0202,nytimes.com,Europe to Impose Tariffs in 16-Year Trade Fight With U.S.
+2020-11-10,us,trade_tariffs,stressed,0.0039,pantagraph.com,EU puts tariffs on US but hopes for change with Biden
+2020-11-11,europe,equity_markets,calm,-0.1257,finanza.com,"Piazza Affari prosegue i rialzi, Tim scatta in avanti dopo i conti"
+2020-11-11,europe,equity_markets,calm,-0.0926,finanznachrichten.de,DAX legt am Mittag zu - Impfstoff-Euphorie hält an
+2020-11-11,europe,equity_markets,calm,-0.0843,stockmarketwire.com,FTSE still getting a vaccine boost | 11 November 2020
+2020-11-11,europe,equity_markets,stressed,0.0369,055firenze.it,"Firenze, ruba il portafoglio dalla borsa di una dipendente dell'Università: denunciato"
+2020-11-11,europe,equity_markets,stressed,0.0338,elperiodicodearagon.com,"Un tercio de los consejeros del Ibex ha renunciado a 17,5 millones por el covid-19"
+2020-11-11,europe,equity_markets,stressed,0.0216,eleconomista.es,El rally de las bolsas europeas pierde fuerza: el Ibex 35 duda en los 7.700 puntos
+2020-11-11,europe,geopolitics,calm,-0.1235,diariosigloxxi.com,La agencia de la ONU en Palestina se queda sin
+2020-11-11,europe,geopolitics,calm,-0.1075,spiegel.de,Bergkarabach: Armenien verliert bei Waffenruhe-Abkommen
+2020-11-11,europe,geopolitics,calm,-0.0971,andaluciainformacion.es,"Díaz niega ""guerra fría"" con Ferraz: ""Mi relación con Sánchez es muy fluida"""
+2020-11-11,europe,geopolitics,stressed,0.0937,express.co.uk,World War 2: Churchill's worst-case defence plan for Nazi invasion of UK mapped in detail | UK | News
+2020-11-11,europe,geopolitics,stressed,0.0765,messaggeroveneto.gelocal.it,"Non solo guerre e carestie, anche il cambiamento climatico crea le migrazioni"
+2020-11-11,europe,geopolitics,stressed,0.0656,vozpopuli.com,Rusia sube su apuesta en la guerra de las vacunas del coronavirus: asegura que 'Sputnik V' es un 92% efectiva
+2020-11-11,europe,growth_labor,calm,0.0099,primapress.it,"Capasa (Camera Moda): ""Non capisco perchè non esiste un ministro della Moda. Siamo una voce importante del Pil"""
+2020-11-11,europe,growth_labor,calm,0.0553,diariodecadiz.es,El OEA ve perdida la recuperación del verano y mantiene la caída del PIB andaluz en el 15%
+2020-11-11,europe,growth_labor,calm,0.1016,genova24.it,"ArcelorMittal, esplode la rabbia degli operai: 500 in piazza contro serrata e licenziamenti DIRETTA"
+2020-11-11,europe,growth_labor,stressed,0.1023,screendaily.com,WarnerMedia starts job cuts under new structure
+2020-11-11,europe,growth_labor,stressed,0.1016,genova24.it,"ArcelorMittal, esplode la rabbia degli operai: 500 in piazza contro serrata e licenziamenti DIRETTA"
+2020-11-11,europe,growth_labor,stressed,0.0553,diariodecadiz.es,El OEA ve perdida la recuperación del verano y mantiene la caída del PIB andaluz en el 15%
+2020-11-11,europe,inflation,calm,-0.0466,cityam.com,Embattled Turkish lira rallies after Erdogan pledges stability and lower inflation
+2020-11-11,europe,inflation,calm,0.0355,theguardian.com,"Sure, Australia's inflation rate is low – but the devil is in the detail | Greg Jericho"
+2020-11-11,europe,inflation,stressed,0.0355,theguardian.com,"Sure, Australia's inflation rate is low – but the devil is in the detail | Greg Jericho"
+2020-11-11,europe,inflation,stressed,-0.0466,cityam.com,Embattled Turkish lira rallies after Erdogan pledges stability and lower inflation
+2020-11-11,europe,monetary_policy,calm,-0.0254,britainnews.net,New Zealand Central Bank announces actions to shore up economy
+2020-11-11,europe,monetary_policy,calm,0.0021,bridgwatermercury.co.uk,Covid-19 infection rate rises in three of Somerset's four districts
+2020-11-11,europe,monetary_policy,calm,0.0195,bournemouthecho.co.uk,"Muscliff Primary, LeAF Academy, Baden-Powell, Broadstone First and St James' First affected"
+2020-11-11,europe,monetary_policy,stressed,0.0492,deutsche-wirtschafts-nachrichten.de,Dax wegen Aussicht auf Corona-Impfstoff auf Erholungskurs - heute spricht Lagarde
+2020-11-11,europe,monetary_policy,stressed,0.0195,bournemouthecho.co.uk,"Muscliff Primary, LeAF Academy, Baden-Powell, Broadstone First and St James' First affected"
+2020-11-11,europe,monetary_policy,stressed,0.0021,bridgwatermercury.co.uk,Covid-19 infection rate rises in three of Somerset's four districts
+2020-11-11,europe,trade_tariffs,calm,-0.0835,bbc.co.uk,Post-Brexit trade talks to continue next week
+2020-11-11,europe,trade_tariffs,calm,-0.0012,dailymail.co.uk,EU insists November 19 is final deadline for Brexit trade deal
+2020-11-11,europe,trade_tariffs,calm,0.0196,decanter.com,Will a Biden presidency cut US tariffs on EU wine?
+2020-11-11,europe,trade_tariffs,stressed,0.0864,express.co.uk,Brexit latest: Huge US trade deal warning as Biden phone call leaves sour taste | Politics | News
+2020-11-11,europe,trade_tariffs,stressed,0.0196,decanter.com,Will a Biden presidency cut US tariffs on EU wine?
+2020-11-11,europe,trade_tariffs,stressed,-0.0012,dailymail.co.uk,EU insists November 19 is final deadline for Brexit trade deal
+2020-11-11,us,banking_stress,calm,-0.0040,mrtopstep.com,"Need to Know: Here are the 2 big signals that stocks need to keep moving higher, says Credit Suisse's top equity strategist – MrTopStep.com LLC"
+2020-11-11,us,banking_stress,calm,0.0112,businessinsider.com,"Stock picks to buy, 13 cheap names with stable growth: Credit Suisse"
+2020-11-11,us,banking_stress,stressed,0.0112,businessinsider.com,"Stock picks to buy, 13 cheap names with stable growth: Credit Suisse"
+2020-11-11,us,banking_stress,stressed,-0.0040,mrtopstep.com,"Need to Know: Here are the 2 big signals that stocks need to keep moving higher, says Credit Suisse's top equity strategist – MrTopStep.com LLC"
+2020-11-11,us,energy,calm,-0.0475,localmemphis.com,Gas prices are dropping across Tennessee before the holidays
+2020-11-11,us,energy,calm,-0.0257,houstonchronicle.com,Oil prices jump to 2-month high as stockpiles decline - HoustonChronicle.com
+2020-11-11,us,energy,calm,-0.0162,upi.com,OPEC says oil demand in 2020 down by almost 10M barrels per day
+2020-11-11,us,energy,stressed,0.0425,marketwatch.com,"Oil prices jump, boosted by vaccine hopes and drop in U.S. crude inventories"
+2020-11-11,us,energy,stressed,0.0414,oilprice.com,Russia: It's Too Early To Talk About Tweaking OPEC+ Deal
+2020-11-11,us,energy,stressed,0.0414,mrt.com,OPEC task got harder with Libya at 1.1 million barrels a Day
+2020-11-11,us,equity_markets,calm,-0.1421,reuters.com,FTSE 100 edges higher on vaccine optimism; Flutter gains on upbeat forecast
+2020-11-11,us,equity_markets,calm,-0.0979,reuters.com,"Wall Street gains in pivot back to tech, crude extends its rally"
+2020-11-11,us,equity_markets,calm,-0.0625,smdailyjournal.com,"S&P 500 climbs toward record, including Big Tech this time"
+2020-11-11,us,equity_markets,stressed,0.1229,wtaq.com,Analysis: Fear on the wild frontier as riskier stock markets left trailing
+2020-11-11,us,equity_markets,stressed,0.1099,msn.com,Alibaba Leads Chinese Internet Selloff Nearing $290 Billion
+2020-11-11,us,equity_markets,stressed,0.0891,newsmax.com,China Tech Selloff Swells to $290 Billion on Antitrust Rules
+2020-11-11,us,geopolitics,calm,-0.1679,startribune.com,Israeli parliament ratifies diplomatic pact with Bahrain
+2020-11-11,us,geopolitics,calm,-0.1525,metro.us,"Israel, Lebanon resume talks on disputed maritime border"
+2020-11-11,us,geopolitics,calm,-0.1471,msn.com,Nagorno-Karabakh peace deal: Anger mounts in Armenia as PM Nikol Pashinyan agrees to cede disputed land to Azerbaijan
+2020-11-11,us,geopolitics,stressed,0.0809,f4wonline.com,"B&V&C&G: Retro WCW Invasion RAW from July 2, 2001 -- THE FAMOUS TACOMA RAW -- plus Granny!"
+2020-11-11,us,geopolitics,stressed,0.0667,washingtontimes.com,Putin: Russia built bunker to withstand a nuclear attack
+2020-11-11,us,geopolitics,stressed,0.0560,cagesideseats.com,"Rumor Roundup: Braun Strowman, Tribute to the Troops, SmackDown, more!"
+2020-11-11,us,growth_labor,calm,-0.0738,laosnews.net,Vietnam targets GDP growth of 6 pct in 2021: top legislature
+2020-11-11,us,growth_labor,calm,-0.0637,journalnow.com,Initial unemployment benefit claims on rise again in N.C.
+2020-11-11,us,growth_labor,calm,-0.0613,forextv.com,South Korea Jobless Rate Increases In October
+2020-11-11,us,growth_labor,stressed,0.1254,ktvz.com,Republican National Committee staff blindsided by layoffs
+2020-11-11,us,growth_labor,stressed,0.0761,forbes.com,Unemployment's Clouds Threaten More Recession
+2020-11-11,us,growth_labor,stressed,0.0692,thecrimson.com,Boston Fed President Lectures on Pandemic Recession | News
+2020-11-11,us,inflation,calm,-0.0483,msn.com,Ghana Inflation Edges Closer to Target as Rate Drops Third Month
+2020-11-11,us,inflation,stressed,-0.0483,msn.com,Ghana Inflation Edges Closer to Target as Rate Drops Third Month
+2020-11-11,us,monetary_policy,calm,-0.0719,reuters.com,Fed's Rosengren says fiscal aid should include help for state and local governments
+2020-11-11,us,monetary_policy,calm,-0.0574,msn.com,Thai Government Asks Central Bank to Manage Baht to Aid Exports
+2020-11-11,us,monetary_policy,calm,-0.0410,biztimes.com,The interview: Deneine Powell
+2020-11-11,us,monetary_policy,stressed,0.0519,econotimes.com,"FxWirePro: NZD/USD spikes over 1% to test 0.69 handle, kiwi buoyed as markets price out negative interest rates following Orr's less dovish comments"
+2020-11-11,us,monetary_policy,stressed,0.0393,jdsupra.com,Federal Reserve Expands Scope and Eligibility of Main Street Lending Program | Arent Fox
+2020-11-11,us,monetary_policy,stressed,0.0211,humanitariannews.org,Ceres Accelerator Commends U.S. Federal Reserve for Affirming Climate Change As a Risk to Financial Stability
+2020-11-11,us,trade_tariffs,calm,-0.0664,lexology.com,Indonesia: More support from the Government of Indonesia in the form of import duty facilities in light of the COVID-19 outbreak
+2020-11-11,us,trade_tariffs,calm,-0.0555,reuters.com,EU-UK trade talks set to go past mid-November deadline - sources
+2020-11-11,us,trade_tariffs,calm,-0.0548,malaymail.com,Sources: EU-UK trade talks set to go past mid-November deadline | Money
+2020-11-11,us,trade_tariffs,stressed,0.0822,katcountry989.com,Ryanair would not expect to pay Boeing tariffs
+2020-11-11,us,trade_tariffs,stressed,0.0128,altenergymag.com,"Uptake of Time of Use tariffs still low, but set to increase"
+2020-11-11,us,trade_tariffs,stressed,0.0100,reuters.com,Asian leaders to sign China-backed trade deal amid U.S. election uncertainty
+2020-11-12,europe,energy,calm,-0.0546,forexcrunch.com,Crude Oil Futures: Further downside stays on the cards
+2020-11-12,europe,energy,calm,-0.0500,finanznachrichten.de,Crude Oil Futures Settle Lower
+2020-11-12,europe,energy,calm,-0.0412,yourlocalguardian.co.uk,Save money on your energy bills without switching
+2020-11-12,europe,energy,stressed,0.0477,express.co.uk,Prince William and Kate Middleton facing eye-watering cost of royal homes' energy bills
+2020-11-12,europe,energy,stressed,-0.0061,stuttgarter-zeitung.de,Monitoringbericht: Lieferantenwechsel hilft gegen hohe Strompreise
+2020-11-12,europe,energy,stressed,-0.0062,rheinpfalz.de,Lieferantenwechsel hilft gegen hohe Strompreise - Wirtschaft
+2020-11-12,europe,equity_markets,calm,-0.1149,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Qinetiq expects revenue boost after strong H1"
+2020-11-12,europe,equity_markets,calm,-0.0942,investegate.co.uk,"Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines National Grid sees profit increase but remains cautious on outlook"
+2020-11-12,europe,equity_markets,calm,-0.0659,ansa.it,"Borsa:Wall Street apre in altalena, Dj -0,60%, Nasdaq +0,18% - Economia"
+2020-11-12,europe,equity_markets,stressed,0.1079,stokesentinel.co.uk,Controversial plan unveiled to sell-off these publicly-owned fields for housing to fund £1.3m crematorium extension
+2020-11-12,europe,equity_markets,stressed,0.1057,trend-online.com,Piazza Affari debole. Male Pirelli e petroliferi
+2020-11-12,europe,equity_markets,stressed,0.0681,forexcrunch.com,Wall Street Close: COVID pandemic cases surging sink US stocks
+2020-11-12,europe,geopolitics,calm,-0.1531,france24.com,Nagorno-Karabakh: 'Everyone benefits from Russia-brokered ceasefire deal except Armenia'
+2020-11-12,europe,geopolitics,calm,-0.0754,ipreunion.com,Actualités du monde : Financement libyen: Takieddine retire ses accusations contre Sarkozy
+2020-11-12,europe,geopolitics,calm,-0.0651,publico.es,Nagorno Karabaj: Los combates entre Armenia y Azerbaiyán continúan a la espera de la mediación del secretario de Estado de EEUU
+2020-11-12,europe,geopolitics,stressed,0.1695,euractiv.com,Lithuania wary of incident at Belarus nuclear plant
+2020-11-12,europe,geopolitics,stressed,0.1377,thetimes.co.uk,Blasts at Russian-built Astravyets nuclear plant in Belarus
+2020-11-12,europe,geopolitics,stressed,0.1150,lastampa.it,"Noi italiani, nemici di noi stessi"
+2020-11-12,europe,growth_labor,calm,-0.1032,welt.de,Stellenabbau und umfangreiches Sparprogramm bei SGL Carbon
+2020-11-12,europe,growth_labor,calm,-0.0930,sueddeutsche.de,Chemie - Wiesbaden - Stellenabbau und umfangreiches Sparprogramm bei SGL Carbon - Wirtschaft
+2020-11-12,europe,growth_labor,calm,-0.0563,investir.lesechos.fr,"Le PIB du Royaume-Uni a rebondi de 15,5% au T3 par rapport au T2"
+2020-11-12,europe,growth_labor,stressed,0.1455,thetimes.co.uk,Economists warn of double‑dip recession as GDP growth peters out
+2020-11-12,europe,growth_labor,stressed,0.0673,thisismoney.co.uk,BUSINESS LIVE: GDP surges by 15.5%; WH Smith records massive loss
+2020-11-12,europe,growth_labor,stressed,0.0667,deutsche-wirtschafts-nachrichten.de,Dax zeigt sich heute Morgen unruhig - am Nachmittag kommen US-Konjunkturdaten
+2020-11-12,europe,inflation,calm,-0.0330,weser-kurier.de,Inflationsrate zum dritten Mal in diesem Jahr negativ - Wirtschaft: Aktuelle Nachrichten und Berichte
+2020-11-12,europe,inflation,calm,-0.0282,wn.de,Verbraucherpreise: Inflationsrate zum dritten Mal in diesem Jahr negativ - Wirtschaft
+2020-11-12,europe,inflation,calm,-0.0221,solinger-tageblatt.de,Inflationsrate zum dritten Mal in diesem Jahr negativ
+2020-11-12,europe,inflation,stressed,0.0067,boursier.com,L'inflation reste en territoire négatif en Allemagne
+2020-11-12,europe,inflation,stressed,0.0043,finanznachrichten.de,Deutsche HVPI-Inflation sinkt im Oktober noch tiefer
+2020-11-12,europe,inflation,stressed,0.0022,handelsblatt.com,Inflationsrate: Verbraucherpreise in Deutschland erneut gesunken
+2020-11-12,europe,monetary_policy,calm,-0.0637,forexcrunch.com,Powell speech: Income disparities hold back US economy
+2020-11-12,europe,monetary_policy,calm,-0.0368,forexcrunch.com,BoE's Woods: No intention to waken bank capital rules after Brexit
+2020-11-12,europe,monetary_policy,calm,-0.0325,wallstreet-online.de,"Wirtschaftskalender: Politisches Panel mit Lagarde, Powell und Bailey"
+2020-11-12,europe,monetary_policy,stressed,0.0387,forexcrunch.com,"EUR/USD: Winter wave weighs on the euro, but Moderna Powell may power it up"
+2020-11-12,europe,monetary_policy,stressed,0.0287,zazoom.it,Il virus non molla Lagarde pronta a tutto nel segno di Draghi
+2020-11-12,europe,monetary_policy,stressed,0.0048,sky.com,Brexit: Bank of England governor fears lack of 'goodwill' if there's no trade deal
+2020-11-12,europe,trade_tariffs,calm,-0.0784,theguardian.com,Trudeau upbeat over prospects of trade deal with UK by end of year
+2020-11-12,europe,trade_tariffs,calm,-0.0558,express.co.uk,Brexit trade deal could be done 'in days' with UK Cabinet hopeful of deal in next week | Politics | News
+2020-11-12,europe,trade_tariffs,calm,-0.0041,exchangerates.org.uk,Brexit Latest: Pound Sterling Hit By Profit Taking As Trade Deal Deadline Set To Be Missed
+2020-11-12,europe,trade_tariffs,stressed,0.0602,sky.com,Brexit: Bank of England governor fears lack of 'goodwill' if there's no trade deal
+2020-11-12,europe,trade_tariffs,stressed,0.0563,diariodeburgos.es,La UE presiona en la guerra comercial con aranceles a EEUU | Noticias Diario de Burgos
+2020-11-12,europe,trade_tariffs,stressed,0.0543,dailymail.co.uk,What trade war? 800 million Chinese shoppers snapped up $1billion of Australian goods
+2020-11-12,us,banking_stress,calm,0.0248,thehendersonnews.com,TI CEO Rich Templeton to speak at Credit Suisse investor conference
+2020-11-12,us,banking_stress,stressed,0.0248,thehendersonnews.com,TI CEO Rich Templeton to speak at Credit Suisse investor conference
+2020-11-12,us,energy,calm,-0.0454,econintersect.com,"11Nov2020 Market Close: SP 500, Nasdaq Close In The Green As Investors Buy Tech Shares Beaten Up This Week, DOW Closes Flat Down 23 Points, WTI Crude Slips 41.53"
+2020-11-12,us,energy,calm,-0.0211,chron.com,OPEC+ focuses on delay to output hike of three to six months
+2020-11-12,us,energy,calm,-0.0154,smdailyjournal.com,"Closing prices for crude oil, gold and other commodities"
+2020-11-12,us,energy,stressed,0.0702,oilprice.com,Saudi Arabia And Iraq Agree To Intensify OPEC Cooperation
+2020-11-12,us,energy,stressed,0.0671,oilprice.com,Growing Crude Inventories Put A Cap On Oil Prices
+2020-11-12,us,energy,stressed,0.0655,msn.com,Oil Prices Rise On Hopes Of OPEC+ Extending Supply Curbs
+2020-11-12,us,equity_markets,calm,-0.0950,reuters.com,Nasdaq closes higher with technology stocks back in favor
+2020-11-12,us,equity_markets,calm,-0.0888,investing.com,"Los índices de Japón cierran al alza; el Nikkei 225 avanza un 0,68%"
+2020-11-12,us,equity_markets,calm,-0.0524,go.com,History points to post-election gains for Wall Street
+2020-11-12,us,equity_markets,stressed,0.1216,local10.com,Wall Street scuffles as worsening pandemic slows its rally
+2020-11-12,us,equity_markets,stressed,0.1186,businessinsider.com,"Wall Street's war on traders over use of WhatsApp, WeChat"
+2020-11-12,us,equity_markets,stressed,0.1073,thestreet.com,Dow Falls for a Second Day as Virus Surge Worries Wall Street
+2020-11-12,us,geopolitics,calm,-0.0651,sfchronicle.com,EU snubs Russia-backed event on returning refugees to Syria
+2020-11-12,us,geopolitics,calm,-0.0498,msn.com,"GOP lawmaker presses for withdrawal of troops from Afghanistan, Iraq"
+2020-11-12,us,geopolitics,calm,-0.0287,humanitariannews.org,CAR: Les communautés du nord-est de la RCA décident d'enterrer définitivement la hache de guerre
+2020-11-12,us,geopolitics,stressed,0.1084,abc57.com,"Police arrest suspect in attempted home invasion, shots fired"
+2020-11-12,us,geopolitics,stressed,0.1054,businessinsider.com,6 US troops killed in helicopter crash off Egyptian coast
+2020-11-12,us,geopolitics,stressed,0.0922,washingtonexaminer.com,ABC correspondent floats conspiracy theory that Trump is preparing to deploy federal troops
+2020-11-12,us,growth_labor,calm,-0.0906,ksl.com,"New unemployment claims move higher in Utah, remain at historically high levels"
+2020-11-12,us,growth_labor,calm,-0.0677,yahoo.com,"ONS: UK GDP grows by 15.5% in Q3 2020, marking partial COVID recovery"
+2020-11-12,us,growth_labor,calm,-0.0443,reuters.com,Russian economy contracts 3.6% year-on-year in third quarter
+2020-11-12,us,growth_labor,stressed,0.1184,zerohedge.com,"Once ""Immune"" To The Pandemic, The Financial Industry Is About To Face A Wave Of Layoffs"
+2020-11-12,us,growth_labor,stressed,0.1108,ksl.com,US weekly jobless claims drop to 7-month low
+2020-11-12,us,growth_labor,stressed,0.1066,sfgate.com,"Millions Face Loss of Jobless Aid: 'Without It, I'm Dead in the Water'"
+2020-11-12,us,inflation,calm,-0.0247,paymentssource.com,Bitcoin's set to benefit from stimulus inflation
+2020-11-12,us,inflation,calm,-0.0234,reuters.com,U.S. labor market gradually healing; inflation remains tame
+2020-11-12,us,inflation,calm,-0.0221,msn.com,Inflationsrate zum dritten Mal in diesem Jahr negativ
+2020-11-12,us,inflation,stressed,0.0204,thedutchharborfisherman.com,Defunding PCE would gut a lifeline for rural Alaska
+2020-11-12,us,inflation,stressed,-0.0003,local10.com,"US consumer prices unchanged in October, lowest in 5 months"
+2020-11-12,us,inflation,stressed,-0.0037,marketwatch.com,"Consumer prices flat in October, CPI shows, points to weak inflation"
+2020-11-12,us,monetary_policy,calm,-0.0608,reuters.com,"Romania's central bank holds rates, cuts hard currency reserve requirements"
+2020-11-12,us,monetary_policy,calm,-0.0577,reuters.com,"REFILE-UPDATE 2-Romania's central bank holds rates, cuts hard currency reserve requirements"
+2020-11-12,us,monetary_policy,calm,-0.0426,reuters.com,BoE's Bailey hopes for 'goodwill' after Brexit transition ends
+2020-11-12,us,monetary_policy,stressed,0.0388,investing.com,¿Nuevo mensaje de Lagarde? 5 claves de este jueves en Europa
+2020-11-12,us,monetary_policy,stressed,0.0343,metro.us,"BOJ's monetary policy can play bigger role in COVID-19 world, says central bank policymaker"
+2020-11-12,us,monetary_policy,stressed,0.0301,washingtonpost.com,Covid Crisis Brings Regime Change for World's Central Banks
+2020-11-12,us,trade_tariffs,calm,-0.0976,reuters.com,Sunak says: There's a Brexit trade deal to be done
+2020-11-12,us,trade_tariffs,calm,-0.0816,malaymail.com,Trudeau: Canada/UK trade deal could be done by year end | Money
+2020-11-12,us,trade_tariffs,calm,-0.0784,msn.com,Trudeau upbeat over prospects of trade deal with UK by end of year
+2020-11-12,us,trade_tariffs,stressed,0.0853,reuters.com,"Boeing loses more 737 MAX orders, eyes jet's U.S. return but Europe tariffs loom"
+2020-11-12,us,trade_tariffs,stressed,0.0819,reuters.com,"Losing more 737 MAX orders, Boeing eyes jet's U.S. return but Europe tariffs loom"
+2020-11-12,us,trade_tariffs,stressed,0.0504,dairyherd.com,"On Heels of Retaliatory Tariffs, Dairy Industry Craves EU Trade Deal"
 2020-11-18,europe,energy,calm,-0.0437,normanno.com,"Rimborso utenze a Messina, Gioveni: «Si estenda alle bollette in scadenza a luglio»"
 2020-11-18,europe,energy,calm,-0.0354,nuovavenezia.gelocal.it,Bollette di gas e luce per 16 mila auro. Annullate a un anziano non autosufficiente
 2020-11-18,europe,energy,calm,-0.0086,boersennews.de,Ölpreise geben etwas nach
