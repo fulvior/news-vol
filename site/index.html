@@ -112,6 +112,62 @@
     .toggle button { flex: 1; padding-left: 0.3rem; padding-right: 0.3rem; }
     .header-link.optional { display: none; }
   }
+
+  /* ---- model section ------------------------------------------------------ */
+  :root {
+    --t-inflation: #b0602f; --t-monetary_policy: #2c4a6e; --t-equity_markets: #5d7a35;
+    --t-trade_tariffs: #7d4f91; --t-energy: #b58b1e; --t-geopolitics: #973636;
+    --t-banking_stress: #2f7f7c; --t-growth_labor: #67625a;
+  }
+  :root[data-theme="dark"] {
+    --t-inflation: #dc9668; --t-monetary_policy: #86abd6; --t-equity_markets: #9fbf6e;
+    --t-trade_tariffs: #b893cc; --t-energy: #d9b552; --t-geopolitics: #d57b74;
+    --t-banking_stress: #6fc0bb; --t-growth_labor: #b2aca2;
+  }
+  .model { margin-top: 4.5rem; padding-top: 2.5rem; border-top: 1px solid var(--rule); }
+  .model h2 { font-size: 2rem; margin-top: 0; line-height: 1.2; }
+  .model h3 { font-size: 1.3rem; font-weight: 500; margin: 3rem 0 0.4rem; }
+  .model .intro { color: var(--ink-muted); max-width: 64ch; margin-top: 0.6rem; }
+  .model .controls { margin-top: 1.75rem; }
+  .model .finding { margin-top: 1.5rem; }
+  .legend { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; margin-top: 0.7rem; font-family: var(--ui); font-size: 0.64rem; color: var(--ink-muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .legend i { width: 0.7rem; height: 0.7rem; border-radius: 2px; display: inline-block; }
+  #drivers { width: 100%; touch-action: pan-y; cursor: pointer; }
+  #drivers svg, #coefs svg { display: block; width: 100%; height: auto; overflow: visible; }
+  #drivers text, #coefs text { font-family: var(--mono); font-size: 10.5px; fill: var(--ink-faint); }
+  #drivers .total { fill: none; stroke: var(--ink); stroke-width: 1.3; stroke-linejoin: round; }
+  #drivers .selected { stroke: var(--ink); stroke-width: 1; stroke-dasharray: 2 3; }
+  #coefs .label { font-family: var(--ui); font-size: 11.5px; fill: var(--ink-muted); }
+  #coefs .col-title { font-family: var(--ui); font-size: 11.5px; fill: var(--ink); }
+
+  .day { margin-top: 1.5rem; border-left: 3px solid var(--ink); padding: 0.2rem 0 0.2rem 1.1rem; }
+  .day h4 { font-size: 1.15rem; font-weight: 500; }
+  .day .sub { font-family: var(--ui); font-size: 0.66rem; color: var(--ink-muted); margin-top: 0.15rem; }
+  .day ol { list-style: none; margin-top: 0.9rem; display: grid; gap: 0.9rem; }
+  .day li { display: grid; grid-template-columns: 11rem 1fr; gap: 0.2rem 1.2rem; }
+  .day .topic { font-family: var(--ui); font-size: 0.72rem; color: var(--ink); display: flex; gap: 0.45rem; align-items: baseline; }
+  .day .topic i { width: 0.6rem; height: 0.6rem; border-radius: 2px; flex: none; transform: translateY(1px); }
+  .day .effect { font-family: var(--mono); font-size: 0.66rem; color: var(--ink-muted); display: block; margin-top: 0.15rem; }
+  .day .heads { font-size: 0.92rem; line-height: 1.45; }
+  .day .heads p + p { margin-top: 0.3rem; }
+  .day .heads .src { font-family: var(--ui); font-size: 0.6rem; color: var(--ink-faint); margin-left: 0.3rem; white-space: nowrap; }
+  .day .heads .kind { font-family: var(--ui); font-size: 0.6rem; color: var(--ink-muted); margin-right: 0.35rem; }
+  .day .none { font-size: 0.9rem; color: var(--ink-faint); font-style: italic; }
+
+  .table-wrap { overflow-x: auto; margin-top: 0.8rem; }
+  table.models { border-collapse: collapse; font-family: var(--ui); font-size: 0.7rem; min-width: 640px; width: 100%; }
+  table.models th, table.models td { text-align: right; padding: 0.5rem 0.6rem; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+  table.models th:first-child, table.models td:first-child { text-align: left; white-space: normal; min-width: 15rem; }
+  table.models th { font-weight: 500; color: var(--ink-muted); vertical-align: bottom; }
+  table.models tr.main td { color: var(--ink); font-weight: 600; }
+  table.models td { color: var(--ink-muted); font-variant-numeric: tabular-nums; }
+  .table-note { font-family: var(--mono); font-size: 0.58rem; color: var(--ink-faint); margin-top: 0.6rem; line-height: 1.6; max-width: 90ch; }
+
+  @media (max-width: 720px) {
+    .day li { grid-template-columns: 1fr; }
+    .model h2 { font-size: 1.6rem; }
+  }
 </style>
 </head>
 <body>
@@ -165,6 +221,53 @@
 
   <p class="finding" id="finding"></p>
 
+  <section class="model" aria-labelledby="model-title">
+    <h2 id="model-title">What moves volatility, day by day</h2>
+    <p class="intro">A statistical model first predicts each day’s volatility from its own recent history and from recent falls in the stock market. The bars below show how much the day’s news then pushed volatility above or below that prediction, topic by topic. Select a day to read the headlines behind it.</p>
+
+    <div class="controls">
+      <div class="control">
+        <label for="model-instrument">Market</label>
+        <select id="model-instrument"></select>
+      </div>
+      <div class="control">
+        <span class="control-name" id="timing-name">News used</span>
+        <div class="toggle" id="timing" role="group" aria-labelledby="timing-name">
+          <button type="button" data-value="explain" aria-pressed="true">Same day</button>
+          <button type="button" data-value="forecast" aria-pressed="false">Day before</button>
+        </div>
+      </div>
+      <div class="control">
+        <span class="control-name" id="model-range-name">Period</span>
+        <div class="toggle" id="model-range" role="group" aria-labelledby="model-range-name">
+          <button type="button" data-value="3" aria-pressed="true">3 months</button>
+          <button type="button" data-value="12" aria-pressed="false">1 year</button>
+          <button type="button" data-value="0" aria-pressed="false">Since 2019</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="finding" id="model-finding"></p>
+
+    <div class="chart-wrapper">
+      <div class="readout" id="drivers-readout"></div>
+      <div id="drivers" role="img" aria-label="Daily contribution of each news topic to volatility, in percent, with the total as a line"></div>
+      <div class="legend" id="drivers-legend"></div>
+      <p class="chart-source">Each bar is the news model’s estimate of how much each topic raised (above zero) or lowered (below zero) volatility that day, compared with a day of usual news. The line is the total. Over longer periods, bars are weekly or monthly averages.</p>
+    </div>
+
+    <div class="day" id="day" aria-live="polite"></div>
+
+    <h3>Which news matters</h3>
+    <p class="intro" id="coefs-intro">The effect on volatility of one standard deviation more coverage of a topic (attention), or of a more stressed tone in that coverage (tone), with 95% bootstrap intervals. Filled dots stay significant after adjusting for testing many topics at once.</p>
+    <div class="chart-wrapper"><div id="coefs" role="img" aria-label="Estimated effect of attention and tone for each topic, with intervals"></div></div>
+
+    <h3>How much the news adds</h3>
+    <p class="intro" id="table-intro"></p>
+    <div class="table-wrap"><table class="models" id="models-table"></table></div>
+    <p class="table-note" id="table-note"></p>
+  </section>
+
   <section class="notes">
     <h2>How to read this</h2>
     <dl>
@@ -178,7 +281,7 @@
       <dd>It compares day-to-day changes in the two series over the period shown. It describes how they move together and says nothing yet about which one leads.</dd>
     </dl>
     <h2>What comes next</h2>
-    <p>The next step is a model that first accounts for volatility’s own persistence and then measures what the news adds, with a daily breakdown of which themes pushed volatility up or down.</p>
+    <p>Further model families: GARCH models of daily returns with news in the variance equation, and a model that separates short-lived volatility from a slow-moving component driven by sustained coverage.</p>
   </section>
 </main>
 
@@ -425,6 +528,384 @@
     });
   }
 
+
+  // ==== model section ======================================================
+  var mstate = { instrument: null, mode: 'explain', months: 3, selectedDate: null, selected: null };
+  var mcache = {}, hcache = {}, model = null, mview = null;
+
+  function signed(v, digits) {
+    if (v == null || isNaN(v)) return '–';
+    var s = Math.abs(v).toFixed(digits);
+    return (v > 0 ? '+' : v < 0 ? '−' : '') + s;
+  }
+  function pctOf(logEffect) { return 100 * (Math.exp(logEffect) - 1); }
+  function topicName(id) {
+    var t = (index.topics || []).filter(function (x) { return x.id === id; })[0];
+    return t ? t.name : id;
+  }
+  function topicColor(id) { return 'var(--t-' + id + ', var(--ink-muted))'; }
+  function pValue(p) { return p == null ? '–' : p < 0.001 ? '< 0.001' : p.toFixed(3); }
+
+  function loadModel(id) {
+    if (mcache[id]) return Promise.resolve(mcache[id]);
+    return fetch('data/model_' + id + '.json').then(function (r) {
+      if (!r.ok) throw new Error('missing');
+      return r.json();
+    }).then(function (d) { mcache[id] = d; return d; });
+  }
+  function loadHeadlines(region, year) {
+    var key = region + '_' + year;
+    if (!hcache[key]) {
+      hcache[key] = fetch('data/headlines/' + key + '.json')
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .catch(function () { return {}; });
+    }
+    return hcache[key];
+  }
+
+  // Days in the chosen period, grouped into weeks when the period is long.
+  function computeModelView() {
+    var m = model.modes[mstate.mode], n = m.dates.length, start = 0;
+    var times = m.dates.map(toTime);
+    if (mstate.months > 0) {
+      var last = new Date(times[n - 1]);
+      var cut = Date.UTC(last.getUTCFullYear(), last.getUTCMonth() - mstate.months, last.getUTCDate());
+      while (start < n - 1 && times[start] < cut) start++;
+    }
+    // Long periods are grouped: weekly averages beyond about 14 months, monthly beyond about 28.
+    var span = n - start, group = span > 600 ? 'month' : span > 300 ? 'week' : 'day', items = [], i;
+    var keyOf = function (k) {
+      if (group === 'day') return k;
+      if (group === 'month') return m.dates[k].slice(0, 7);
+      var d = new Date(times[k]);
+      return times[k] - ((d.getUTCDay() + 6) % 7) * 864e5;      // the Monday of that week
+    };
+    var add = function (lo, hi) {
+      var item = { lo: lo, hi: hi, last: hi, values: {}, total: 0, time: times[hi] };
+      model.topics.forEach(function (t) {
+        var s = 0; for (var k = lo; k <= hi; k++) s += m.contributions[t][k] || 0;
+        item.values[t] = s / (hi - lo + 1);
+      });
+      var tot = 0; for (var k = lo; k <= hi; k++) tot += m.contributions_total[k] || 0;
+      item.total = tot / (hi - lo + 1);
+      items.push(item);
+    };
+    var lo = start;
+    for (i = start; i < n; i++) {
+      if (i === n - 1 || keyOf(i + 1) !== keyOf(i)) { add(lo, i); lo = i + 1; }
+    }
+    var weekly = group;
+    mview = { m: m, times: times, items: items, weekly: weekly };
+  }
+
+  function drawDrivers() {
+    var box = $('drivers'), v = mview, m = v.m;
+    box.textContent = '';
+    var W = Math.max(300, box.clientWidth), narrow = W < 560;
+    var mg = { left: narrow ? 38 : 46, right: 10, top: 12, bottom: 26 };
+    var H = narrow ? 260 : 320, ph = H - mg.top - mg.bottom, pw = W - mg.left - mg.right;
+    var svg = svgEl('svg', { viewBox: '0 0 ' + W + ' ' + H, width: W, height: H });
+    var lo = 0, hi = 0;
+    v.items.forEach(function (it) {
+      var up = 0, down = 0;
+      model.topics.forEach(function (t) { var x = it.values[t]; if (x > 0) up += x; else down += x; });
+      hi = Math.max(hi, up, it.total); lo = Math.min(lo, down, it.total);
+    });
+    var pad = (hi - lo) * 0.06 || 1; hi += pad; lo -= pad;
+    var y = function (val) { return mg.top + (hi - val) / (hi - lo) * ph; };
+    var n = v.items.length, slot = pw / n, bw = Math.max(1, slot * (n > 120 ? 0.9 : 0.72));
+    var xc = function (k) { return mg.left + slot * (k + 0.5); };
+    var ticks = niceTicks(lo, hi, narrow ? 4 : 5), step = ticks.length > 1 ? ticks[1] - ticks[0] : 1;
+    ticks.forEach(function (tv) {
+      svg.appendChild(svgEl('line', { x1: mg.left, x2: mg.left + pw, y1: y(tv), y2: y(tv), 'class': 'grid' }));
+      svg.appendChild(svgEl('text', { x: mg.left - 7, y: y(tv) + 3.5, 'text-anchor': 'end' }, tickLabel(tv, step) + '%'));
+    });
+    v.items.forEach(function (it, k) {
+      var up = 0, down = 0;
+      model.topics.forEach(function (t) {
+        var val = it.values[t]; if (!val) return;
+        var a = val > 0 ? up : down, b = a + val;
+        if (val > 0) up = b; else down = b;
+        svg.appendChild(svgEl('rect', { x: xc(k) - bw / 2, width: bw, y: y(Math.max(a, b)),
+          height: Math.max(0.5, Math.abs(y(a) - y(b))), fill: topicColor(t) }));
+      });
+    });
+    svg.appendChild(svgEl('line', { x1: mg.left, x2: mg.left + pw, y1: y(0), y2: y(0), stroke: 'var(--ink-muted)', 'stroke-width': 1 }));
+    var path = v.items.map(function (it, k) { return (k ? 'L' : 'M') + xc(k).toFixed(1) + ' ' + y(it.total).toFixed(1); }).join('');
+    svg.appendChild(svgEl('path', { d: path, 'class': 'total' }));
+
+    // time axis
+    var t0 = v.items[0].time, t1 = v.items[n - 1].time, days = (t1 - t0) / 864e5;
+    var stepMonths = days > 365 * 3 ? 12 : days > 500 ? 6 : days > 200 ? 2 : 1, lastX = -1e9, base = mg.top + ph;
+    v.items.forEach(function (it, k) {
+      var d = new Date(it.time), prev = k ? new Date(v.items[k - 1].time) : null;
+      if (!prev || d.getUTCMonth() === prev.getUTCMonth()) return;
+      var mo = d.getUTCMonth(), yr = d.getUTCFullYear();
+      if (stepMonths >= 12 ? mo !== 0 : mo % stepMonths !== 0) return;
+      var px = xc(k); if (px - lastX < 36) return;
+      svg.appendChild(svgEl('text', { x: px, y: base + 16, 'text-anchor': 'middle' }, mo === 0 || stepMonths >= 12 ? String(yr) : MONTHS[mo]));
+      lastX = px;
+    });
+
+    // selection marker and pointer
+    var selK = -1;
+    v.items.forEach(function (it, k) { if (mstate.selected != null && mstate.selected >= it.lo && mstate.selected <= it.hi) selK = k; });
+    if (selK >= 0) svg.appendChild(svgEl('line', { x1: xc(selK), x2: xc(selK), y1: mg.top, y2: base, 'class': 'selected' }));
+    var cursor = svgEl('line', { y1: mg.top, y2: base, 'class': 'cursor', visibility: 'hidden' });
+    var hit = svgEl('rect', { x: mg.left, y: mg.top, width: pw, height: ph, fill: 'transparent' });
+    svg.appendChild(cursor); svg.appendChild(hit);
+    var nearest = function (ev) {
+      var rect = svg.getBoundingClientRect();
+      var k = Math.floor(((ev.clientX - rect.left) * (W / rect.width) - mg.left) / slot);
+      return Math.max(0, Math.min(n - 1, k));
+    };
+    hit.addEventListener('pointermove', function (ev) {
+      var k = nearest(ev);
+      cursor.setAttribute('x1', xc(k)); cursor.setAttribute('x2', xc(k)); cursor.setAttribute('visibility', 'visible');
+      driversReadout(v.items[k]);
+    });
+    hit.addEventListener('pointerleave', function () { cursor.setAttribute('visibility', 'hidden'); driversReadout(null); });
+    hit.addEventListener('click', function (ev) {
+      mstate.selected = v.items[nearest(ev)].last; mstate.selectedDate = m.dates[mstate.selected];
+      drawDrivers(); showDay();
+    });
+    box.appendChild(svg);
+    driversReadout(null);
+  }
+
+  function driversReadout(item) {
+    var box = $('drivers-readout'), v = mview;
+    box.textContent = '';
+    if (!item) {
+      var s = document.createElement('span');
+      s.textContent = 'Point at a bar to read it; select it to see the headlines.';
+      box.appendChild(s); return;
+    }
+    var span = function (text, color) {
+      var s = document.createElement('span'); s.textContent = text;
+      if (color) s.style.color = color; box.appendChild(s);
+    };
+    var m = v.m;
+    span(v.weekly === 'week' ? 'Week to ' + longDate(m.dates[item.last])
+      : v.weekly === 'month' ? MONTHS[+m.dates[item.last].slice(5, 7) - 1] + ' ' + m.dates[item.last].slice(0, 4) + ' (average)'
+      : longDate(m.dates[item.last]));
+    span('news total ' + signed(item.total, 1) + '%');
+    model.topics.slice().sort(function (a, b) { return Math.abs(item.values[b]) - Math.abs(item.values[a]); })
+      .slice(0, 3).forEach(function (t) { span(topicName(t) + ' ' + signed(item.values[t], 1) + '%', topicColor(t)); });
+  }
+
+  function drawLegend() {
+    var box = $('drivers-legend'); box.textContent = '';
+    model.topics.forEach(function (t) {
+      var s = document.createElement('span'), i = document.createElement('i');
+      i.style.background = topicColor(t); s.appendChild(i); s.append(topicName(t)); box.appendChild(s);
+    });
+  }
+
+  // ---- the selected day ----------------------------------------------------
+  function showDay() {
+    var box = $('day'), m = mview.m, i = mstate.selected;
+    if (i == null) { box.textContent = ''; return; }
+    var date = m.dates[i], recent = m.dates.indexOf(m.recent_start);
+    var rows = model.topics.map(function (t) {
+      var ci = (recent >= 0 && i >= recent) ? [m.recent_ci[t].low[i - recent], m.recent_ci[t].high[i - recent]] : null;
+      return { t: t, v: m.contributions[t][i], ci: ci };
+    }).sort(function (a, b) { return Math.abs(b.v) - Math.abs(a.v); });
+    var shown = rows.filter(function (r) { return Math.abs(r.v) >= 0.2; }).slice(0, 5);
+
+    // Headlines: the trading day itself, or the latest earlier day for "Day before".
+    var candidates = [];
+    if (mstate.mode === 'explain') candidates = [date];
+    else for (var back = 1; back <= 4; back++) {
+      var dd = new Date(toTime(date) - back * 864e5);
+      candidates.push(dd.toISOString().slice(0, 10));
+    }
+    var years = candidates.map(function (d) { return d.slice(0, 4); }).filter(function (y, k, a) { return a.indexOf(y) === k; });
+    Promise.all(years.map(function (y) { return loadHeadlines(model.region, y); })).then(function (files) {
+      if (mstate.selected !== i) return;            // the visitor already moved on
+      var merged = {}; files.forEach(function (f) { for (var k in f) merged[k] = f[k]; });
+      var newsDate = candidates.filter(function (d) { return merged[d]; })[0];
+      box.textContent = '';
+      var h = document.createElement('h4');
+      h.textContent = longDate(date) + ': news ' + (m.contributions_total[i] >= 0 ? 'raised' : 'lowered') + ' volatility by about '
+        + Math.abs(m.contributions_total[i]).toFixed(1) + '%';
+      box.appendChild(h);
+      var sub = document.createElement('p'); sub.className = 'sub';
+      sub.textContent = (m.vol[i] != null ? model.name + ' ' + m.vol[i].toFixed(2) + '. ' : '')
+        + (mstate.mode === 'explain' ? 'Headlines from the same day.' : 'Headlines from ' + (newsDate ? longDate(newsDate) : 'the days before') + '.')
+        + (shown.length ? '' : ' No topic moved volatility by more than 0.2% that day.');
+      box.appendChild(sub);
+      if (!shown.length) return;
+      var ol = document.createElement('ol');
+      shown.forEach(function (r) {
+        var li = document.createElement('li');
+        var left = document.createElement('div');
+        var topic = document.createElement('span'); topic.className = 'topic';
+        var sw = document.createElement('i'); sw.style.background = topicColor(r.t);
+        topic.appendChild(sw); topic.append(topicName(r.t));
+        var eff = document.createElement('span'); eff.className = 'effect';
+        eff.textContent = signed(r.v, 1) + '%' + (r.ci ? ' (' + signed(r.ci[0], 1) + ' to ' + signed(r.ci[1], 1) + ')' : '');
+        left.appendChild(topic); left.appendChild(eff);
+        var heads = document.createElement('div'); heads.className = 'heads';
+        var entry = newsDate && merged[newsDate][r.t];
+        var list = entry ? (r.v >= 0 ? entry.s.slice(0, 2).concat(entry.c.slice(0, 1)) : entry.c.slice(0, 2).concat(entry.s.slice(0, 1))) : [];
+        if (!list.length) {
+          var none = document.createElement('p'); none.className = 'none';
+          none.textContent = 'No headlines on this topic that day: its effect comes from the lack of coverage.';
+          heads.appendChild(none);
+        }
+        list.forEach(function (x, k) {
+          var p = document.createElement('p');
+          var kind = document.createElement('span'); kind.className = 'kind';
+          kind.textContent = (x[0] >= 0 ? 'stressed' : 'calm');
+          var src = document.createElement('span'); src.className = 'src'; src.textContent = x[1];
+          p.appendChild(kind); p.append(x[2]); p.appendChild(src);
+          heads.appendChild(p);
+        });
+        li.appendChild(left); li.appendChild(heads); ol.appendChild(li);
+      });
+      box.appendChild(ol);
+    });
+  }
+
+  // ---- coefficients ----------------------------------------------------------
+  function drawCoefs() {
+    var box = $('coefs'), m = model.modes[mstate.mode];
+    box.textContent = '';
+    var spec = m.specs.filter(function (s) { return s.id === m.main_spec; })[0];
+    var cols = [['attention', 'Attention'], ['tone', 'Tone']];
+    var get = function (t, measure) {
+      return spec.coefficients.filter(function (c) { return c.topic === t && c.measure === measure; })[0];
+    };
+    var W = Math.max(300, box.clientWidth), narrow = W < 560;
+    var labelW = narrow ? 96 : 130, gap = 26, rowH = 26, top = 30;
+    var H = top + model.topics.length * rowH + 26;
+    var colW = (W - labelW - gap) / 2;
+    var svg = svgEl('svg', { viewBox: '0 0 ' + W + ' ' + H, width: W, height: H });
+    model.topics.forEach(function (t, r) {
+      svg.appendChild(svgEl('text', { x: 0, y: top + r * rowH + rowH / 2 + 4, 'class': 'label' }, topicName(t)));
+    });
+    cols.forEach(function (col, c) {
+      var x0 = labelW + c * (colW + gap), lo = 0, hi = 0;
+      model.topics.forEach(function (t) {
+        var e = get(t, col[0]); if (!e) return;
+        lo = Math.min(lo, pctOf(e.ci[0])); hi = Math.max(hi, pctOf(e.ci[1]));
+      });
+      var pad = (hi - lo) * 0.08 || 1; lo -= pad; hi += pad;
+      var x = function (v) { return x0 + (v - lo) / (hi - lo) * colW; };
+      svg.appendChild(svgEl('text', { x: x0, y: 12, 'class': 'col-title' }, col[1]));
+      var ticks = niceTicks(lo, hi, narrow ? 2 : 4), step = ticks.length > 1 ? ticks[1] - ticks[0] : 1;
+      ticks.forEach(function (tv) {
+        svg.appendChild(svgEl('line', { x1: x(tv), x2: x(tv), y1: top - 4, y2: H - 22, 'class': 'grid' }));
+        svg.appendChild(svgEl('text', { x: x(tv), y: H - 8, 'text-anchor': 'middle' }, tickLabel(tv, step) + '%'));
+      });
+      svg.appendChild(svgEl('line', { x1: x(0), x2: x(0), y1: top - 4, y2: H - 22, stroke: 'var(--ink-muted)', 'stroke-width': 1 }));
+      model.topics.forEach(function (t, r) {
+        var e = get(t, col[0]); if (!e) return;
+        var cy = top + r * rowH + rowH / 2, sig = e.p_holm != null && e.p_holm < 0.05;
+        svg.appendChild(svgEl('line', { x1: x(pctOf(e.ci[0])), x2: x(pctOf(e.ci[1])), y1: cy, y2: cy, stroke: topicColor(t), 'stroke-width': 2 }));
+        var dot = svgEl('circle', { cx: x(pctOf(e.estimate)), cy: cy, r: 4.5, stroke: topicColor(t), 'stroke-width': 1.8,
+          fill: sig ? topicColor(t) : 'var(--paper)' });
+        dot.appendChild(svgEl('title', {}, topicName(t) + ', ' + col[0] + ': ' + signed(pctOf(e.estimate), 1) + '% per standard deviation ('
+          + signed(pctOf(e.ci[0]), 1) + ' to ' + signed(pctOf(e.ci[1]), 1) + '); adjusted p ' + pValue(e.p_holm)));
+        svg.appendChild(dot);
+      });
+    });
+    box.appendChild(svg);
+  }
+
+  // ---- comparison table and the headline sentence ----------------------------
+  function drawTable() {
+    var m = model.modes[mstate.mode], oos = (m.out_of_sample || {}).specs || {}, forecast = mstate.mode === 'forecast';
+    var t = $('models-table'); t.textContent = '';
+    var head = ['Model', 'Share of daily variation explained', 'Added by the news', 'News effect is zero, p'];
+    if (forecast) head = head.concat(['Out-of-sample gain', 'Forecast loss vs baseline', 'Better than baseline, p']);
+    var tr = document.createElement('tr');
+    head.forEach(function (h) { var th = document.createElement('th'); th.textContent = h; tr.appendChild(th); });
+    var thead = document.createElement('thead'); thead.appendChild(tr); t.appendChild(thead);
+    var tbody = document.createElement('tbody');
+    m.specs.forEach(function (s) {
+      var row = document.createElement('tr'); if (s.id === m.main_spec) row.className = 'main';
+      var o = oos[s.id] || {}, base = s.id === 'har';
+      var cells = [s.label.replace('LHAR baseline', 'Baseline: history and market falls').replace('LHAR +', 'Baseline +'),
+        (100 * s.r2).toFixed(1) + '%', base ? '–' : signed(100 * s.r2_gain, 1) + ' pts', base ? '–' : pValue(s.wald_p)];
+      if (forecast) cells = cells.concat([base ? '–' : signed(100 * o.r2_oos, 1) + '%',
+        base ? '–' : signed(100 * (o.qlike_ratio - 1), 1) + '%', base ? '–' : pValue(o.dm_qlike_p)]);
+      cells.forEach(function (c) { var td = document.createElement('td'); td.textContent = c; row.appendChild(td); });
+      tbody.appendChild(row);
+    });
+    t.appendChild(tbody);
+    $('table-intro').textContent = forecast
+      ? 'Using only news published before each trading day. The out-of-sample columns refit the models every month on past data and forecast the following month, which is the honest test of forecasting.'
+      : 'Using the news of the trading day itself. This describes how news and volatility move together on the same day; part of the market news simply reports the market’s own move.';
+    $('table-note').textContent = 'Sample ' + longDate(m.sample.start) + ' to ' + longDate(m.sample.end) + ', ' + m.sample.days + ' trading days. '
+      + 'p values from Newey-West standard errors (joint test of all news terms)' + (forecast ? ' and Diebold-Mariano tests on QLIKE loss (one-sided)' : '') + '. '
+      + 'Volatility is modelled in logs; the baseline uses its daily, weekly and monthly lags and past negative stock returns.';
+  }
+
+  function modelFinding() {
+    var m = model.modes[mstate.mode], el = $('model-finding');
+    var get = function (id) { return m.specs.filter(function (s) { return s.id === id; })[0]; };
+    var base = get('har'), main = get(m.main_spec), nonMarket = get('non_market');
+    var name = model.kind === 'implied' ? 'the ' + model.name : model.name;
+    el.textContent = '';
+    if (mstate.mode === 'explain') {
+      el.append('On the same day, news raises the share of ' + name + '’s daily variation the model explains from '
+        + (100 * base.r2).toFixed(1) + '% to ' + (100 * main.r2).toFixed(1) + '%.');
+      var small = document.createElement('small');
+      small.textContent = (nonMarket ? 'News other than reports on the stock market itself accounts for ' + (100 * nonMarket.r2_gain).toFixed(1) + ' points of that. ' : '')
+        + 'Same-day news describes association: it can react to the market as much as move it.';
+      el.appendChild(small);
+    } else {
+      var o = ((m.out_of_sample || {}).specs || {})[m.main_spec] || {};
+      var better = o.qlike_ratio < 1, sig = o.dm_qlike_p != null && o.dm_qlike_p < 0.05;
+      el.append('With only the previous day’s news, forecasts of ' + name + ' are '
+        + (better ? Math.abs(100 * (o.qlike_ratio - 1)).toFixed(1) + '% more accurate' : Math.abs(100 * (o.qlike_ratio - 1)).toFixed(1) + '% less accurate')
+        + ' than the baseline’s out of sample, ' + (better && sig ? 'a significant improvement.' : better ? 'but the gain is not significant.' : 'so the news does not help forecasting.'));
+      var note = document.createElement('small');
+      note.textContent = model.kind === 'implied'
+        ? 'Implied volatility comes from option prices, which already reflect yesterday’s news, so little is left for the news to add.'
+        : 'Accuracy is measured with QLIKE, the standard loss for volatility forecasts, from ' + longDate(m.out_of_sample.start) + '.';
+      el.appendChild(note);
+    }
+  }
+
+  // ---- wiring ------------------------------------------------------------------
+  function renderModel() {
+    if (!model || !model.modes[mstate.mode]) return;
+    computeModelView();
+    var m = mview.m, found = mstate.selectedDate ? m.dates.indexOf(mstate.selectedDate) : -1;
+    mstate.selected = found >= 0 ? found : m.dates.length - 1;
+    mstate.selectedDate = m.dates[mstate.selected];
+    modelFinding(); drawLegend(); drawDrivers(); showDay(); drawCoefs(); drawTable();
+  }
+  function refreshModel() {
+    loadModel(mstate.instrument).then(function (d) { model = d; renderModel(); })
+      .catch(function () {
+        model = null;
+        $('model-finding').textContent = 'The model results are not on the site yet. They are written by the “Daily update” run; once it has finished, reload this page.';
+        ['drivers', 'drivers-readout', 'drivers-legend', 'day', 'coefs', 'models-table'].forEach(function (id) { $(id).textContent = ''; });
+      });
+  }
+  function bindModelToggle(id, key, numeric) {
+    $(id).addEventListener('click', function (ev) {
+      var btn = ev.target.closest('button'); if (!btn) return;
+      [].forEach.call(this.querySelectorAll('button'), function (b) { b.setAttribute('aria-pressed', b === btn ? 'true' : 'false'); });
+      mstate[key] = numeric ? +btn.dataset.value : btn.dataset.value;
+      renderModel();
+    });
+  }
+  function startModel() {
+    index.instruments.forEach(function (i) { $('model-instrument').add(new Option(i.name, i.id)); });
+    mstate.instrument = index.instruments[0].id;
+    $('model-instrument').addEventListener('change', function () { mstate.instrument = this.value; refreshModel(); });
+    bindModelToggle('timing', 'mode', false);
+    bindModelToggle('model-range', 'months', true);
+    var timer;
+    window.addEventListener('resize', function () { clearTimeout(timer); timer = setTimeout(function () { if (model) { drawDrivers(); drawCoefs(); } }, 120); });
+    refreshModel();
+  }
+
   $('theme-btn').addEventListener('click', function () {
     var dark = document.documentElement.getAttribute('data-theme') === 'dark';
     if (dark) document.documentElement.removeAttribute('data-theme'); else document.documentElement.setAttribute('data-theme', 'dark');
@@ -448,6 +929,7 @@
     var timer;
     window.addEventListener('resize', function () { clearTimeout(timer); timer = setTimeout(function () { if (current) draw(); }, 120); });
     refresh();
+    startModel();
   }).catch(fail);
 })();
 </script>
