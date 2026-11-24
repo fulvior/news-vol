@@ -1,0 +1,721 @@
+date,region,topic,kind,tone,source,title
+2019-09-22,europe,banking_stress,calm,0.0826,thesun.co.uk,Thomas Cook set to 'go into administration after last-ditch talks to slash £200m owed to lenders fail'
+2019-09-22,europe,banking_stress,stressed,0.0826,thesun.co.uk,Thomas Cook set to 'go into administration after last-ditch talks to slash £200m owed to lenders fail'
+2019-09-22,europe,energy,calm,-0.0040,nw.de,Warum die Strompreise in diesem Jahr so hoch sind wie nie
+2019-09-22,europe,energy,stressed,-0.0040,nw.de,Warum die Strompreise in diesem Jahr so hoch sind wie nie
+2019-09-22,europe,equity_markets,calm,-0.0518,aktiencheck.de,Global X NASDAQ-100 Covered Call ETF: Das sieht interessant aus! ()
+2019-09-22,europe,equity_markets,calm,-0.0012,agenzianova.com,Egitto: a ottobre sarà annunciata creazione prima borsa merci
+2019-09-22,europe,equity_markets,calm,0.0267,cityam.com,Hong Kong stock exchange drafts in bankers to aid charm offensive for LSE bid
+2019-09-22,europe,equity_markets,stressed,0.0274,fool.co.uk,"Have £1,000 to invest? 3 reasons I'd buy FTSE 100 shares instead of opening a Cash ISA"
+2019-09-22,europe,equity_markets,stressed,0.0267,cityam.com,Hong Kong stock exchange drafts in bankers to aid charm offensive for LSE bid
+2019-09-22,europe,equity_markets,stressed,-0.0012,agenzianova.com,Egitto: a ottobre sarà annunciata creazione prima borsa merci
+2019-09-22,europe,geopolitics,calm,-0.0583,notiziegeopolitiche.net,Siria. Delegazione di parlamentari incontra Bashar al-Assad
+2019-09-22,europe,geopolitics,calm,-0.0486,lexpress.fr,Trump et ses opposants relancent les hostilités sur son appel controversé avec l'Ukraine
+2019-09-22,europe,geopolitics,calm,-0.0219,kreisbote.de,"Putin: Schamane kritisiert Russland-Präsident als „Dämon"" - Einweisung in Psychiatrie"
+2019-09-22,europe,geopolitics,stressed,0.1373,metronews.it,"Iran, attacco agli Usa che inviano truppe in Arabia"
+2019-09-22,europe,geopolitics,stressed,0.0722,notiziegeopolitiche.net,Libia. Scontri e bombardamenti a sud di Tripoli | Notizie Geopolitiche
+2019-09-22,europe,geopolitics,stressed,0.0603,lefigaro.fr,Le scandale des appels au président ukrainien empoisonne Washington
+2019-09-22,europe,growth_labor,calm,-0.0023,helmstedter-nachrichten.de,Hartz IV: So viele Syrer bekommen Arbeitslosengeld
+2019-09-22,europe,growth_labor,stressed,-0.0023,helmstedter-nachrichten.de,Hartz IV: So viele Syrer bekommen Arbeitslosengeld
+2019-09-22,europe,monetary_policy,calm,-0.0312,usinenouvelle.com,"La BCE prendra probablement de nouvelles mesures, selon Vasle"
+2019-09-22,europe,monetary_policy,stressed,-0.0312,usinenouvelle.com,"La BCE prendra probablement de nouvelles mesures, selon Vasle"
+2019-09-22,us,energy,calm,-0.0045,oilprice.com,Why Oil Prices Didn't Go Much Higher This Week
+2019-09-22,us,energy,stressed,-0.0045,oilprice.com,Why Oil Prices Didn't Go Much Higher This Week
+2019-09-22,us,equity_markets,calm,0.0862,reuters.com,Some WeWork directors considering removal of Adam Neumann as CEO - Wall Street Journal
+2019-09-22,us,equity_markets,stressed,0.0862,reuters.com,Some WeWork directors considering removal of Adam Neumann as CEO - Wall Street Journal
+2019-09-22,us,geopolitics,calm,-0.0931,krdo.com,Trump says he discussed Biden with Ukrainian president
+2019-09-22,us,geopolitics,calm,-0.0815,wtvr.com,Trump says he discussed Biden with Ukrainian leader
+2019-09-22,us,geopolitics,calm,-0.0283,ibtimes.com,UN Syria Envoy Arrives In Damascus
+2019-09-22,us,geopolitics,stressed,0.1638,sailingscuttlebutt.com,This missile is aimed at Auckland >> Scuttlebutt Sailing News
+2019-09-22,us,geopolitics,stressed,0.1107,wsj.com,"In a British Invasion, 'Downton Abbey' Leads the Weekend Box Office"
+2019-09-22,us,geopolitics,stressed,0.0882,fox59.com,Armed veteran confronts home invasion suspect in Oklahoma
+2019-09-22,us,growth_labor,calm,-0.0955,wtaq.com,UAE expects 2.4% GDP growth in 2019: central bank | News
+2019-09-22,us,growth_labor,calm,0.1272,nwitimes.com,Steelmakers struggle as layoffs and idlings return: 'U.S. Steel's got some real problems'
+2019-09-22,us,growth_labor,stressed,0.1272,nwitimes.com,Steelmakers struggle as layoffs and idlings return: 'U.S. Steel's got some real problems'
+2019-09-22,us,growth_labor,stressed,-0.0955,wtaq.com,UAE expects 2.4% GDP growth in 2019: central bank | News
+2019-09-22,us,monetary_policy,calm,-0.0215,reuters.com,La BCE prendra probablement de nouvelles mesures - Vasle
+2019-09-22,us,monetary_policy,calm,-0.0121,wtaq.com,UAE expects 2.4% GDP growth in 2019: central bank | News
+2019-09-22,us,monetary_policy,calm,0.0042,whtc.com,Green bonds can be central bank reserve assets: BIS | News
+2019-09-22,us,monetary_policy,stressed,0.0355,whtc.com,Acceptance of negative interest rates 'vaguely troubling': BIS | News
+2019-09-22,us,monetary_policy,stressed,0.0288,news-daily.com,A dissenting voice emerges at the Federal Reserve
+2019-09-22,us,monetary_policy,stressed,0.0042,whtc.com,Green bonds can be central bank reserve assets: BIS | News
+2019-09-22,us,trade_tariffs,calm,-0.0912,theepochtimes.com,Australian PM Says All Nations to Benefit From a Fair US–China Trade Deal
+2019-09-22,us,trade_tariffs,calm,0.0560,investing.com,"Week Ahead: Trade Tensions Will Keep Markets Volatile, Investors Cautious"
+2019-09-22,us,trade_tariffs,calm,0.0585,theepochtimes.com,Stephen Moore: How the 2020 Election Impacts the US China Trade War [Eagle Council Special]
+2019-09-22,us,trade_tariffs,stressed,0.0699,investing.com,"The Bell Ringers Podcast: Trade Wars, Oil Wars, Streaming Wars"
+2019-09-22,us,trade_tariffs,stressed,0.0638,reuters.com,Republican casino magnate Adelson cautioned Trump on trade war with China: WSJ
+2019-09-22,us,trade_tariffs,stressed,0.0585,theepochtimes.com,Stephen Moore: How the 2020 Election Impacts the US China Trade War [Eagle Council Special]
+2019-09-23,europe,banking_stress,calm,-0.0377,finanznachrichten.de,ANALYSE-FLASH: Credit Suisse hebt Telefonica Deutschland auf 'Neutral'
+2019-09-23,europe,banking_stress,stressed,-0.0377,finanznachrichten.de,ANALYSE-FLASH: Credit Suisse hebt Telefonica Deutschland auf 'Neutral'
+2019-09-23,europe,energy,calm,0.0256,mtv.co.uk,Jake Paul Slams An MMA Fighter Who Made A Crude Comment About Tana Mongeau
+2019-09-23,europe,energy,calm,0.0720,dailymail.co.uk,Middle East tensions lift oil prices more than 1%
+2019-09-23,europe,energy,calm,0.1107,forexcrunch.com,"Tensions in Middle East are on the rise, Oil prices a major focus"
+2019-09-23,europe,energy,stressed,0.1107,forexcrunch.com,"Tensions in Middle East are on the rise, Oil prices a major focus"
+2019-09-23,europe,energy,stressed,0.0720,dailymail.co.uk,Middle East tensions lift oil prices more than 1%
+2019-09-23,europe,energy,stressed,0.0256,mtv.co.uk,Jake Paul Slams An MMA Fighter Who Made A Crude Comment About Tana Mongeau
+2019-09-23,europe,equity_markets,calm,-0.1299,finanznachrichten.de,Handelsstreit stimmt Anleger vorsichtig - US-Börsen schließen uneinheitlich: Der anhaltenden Handelsstreit ...
+2019-09-23,europe,equity_markets,calm,-0.1157,ideas-news.de,ideas News: DAX-Future: Mini-Konsolidierung weiterhin intakt
+2019-09-23,europe,equity_markets,calm,-0.1068,faz.net,Börse Stuttgart: Regulierter Handelsplatz für Kryptos
+2019-09-23,europe,equity_markets,stressed,0.0943,blitzquotidiano.it,"Juventus perde l'8% in Borsa, pesano aumento di capitale e ultimo bilancio"
+2019-09-23,europe,equity_markets,stressed,0.0932,lefigaro.fr,Le gendarme de la Bourse américaine accuse Ghosn d'avoir caché 140 millions de dollars de rémunération
+2019-09-23,europe,equity_markets,stressed,0.0685,tgcom24.mediaset.it,"Borse, Europa si appesantisce con frenata economia Germania"
+2019-09-23,europe,geopolitics,calm,-0.0827,eleconomista.es,Fin de la 'guerra del cava': el Gobierno cede y da el control a Cataluña
+2019-09-23,europe,geopolitics,calm,-0.0486,la-croix.com,Trump et ses opposants relancent les hostilités sur son appel controversé avec l'Ukraine
+2019-09-23,europe,geopolitics,calm,-0.0420,elperiodico.com,Thomas Cook: Mayor repatriación británicos Segunda Guerra Mundial
+2019-09-23,europe,geopolitics,stressed,0.1325,thesun.co.uk,Watch as UFC commentator hide under desk as raging fans in Mexico chuck bottles and missiles – The Sun
+2019-09-23,europe,geopolitics,stressed,0.1223,leparisien.fr,Afghanistan : 40 civils tués dans une frappe aérienne
+2019-09-23,europe,geopolitics,stressed,0.1093,northumberlandgazette.co.uk,Sam Fender announces huge home region show at Utilita Arena in Newcastle after Hypersonic Missiles hits number one
+2019-09-23,europe,growth_labor,calm,-0.0966,gazzettadimantova.gelocal.it,"Nautica, il contributo del comparto al Pil cresce del 10,6%"
+2019-09-23,europe,growth_labor,calm,-0.0953,avvenire.it,"L'Istat aggiorna il metodo e la crescita del Pil 2018 scende al +0,8%"
+2019-09-23,europe,growth_labor,calm,-0.0913,bmj.com,"Increase investment in primary healthcare by 1% of GDP, says WHO"
+2019-09-23,europe,growth_labor,stressed,0.1144,gds.it,"Conti, l'Istat rivede al ribasso le stime su Pil e deficit del 2018"
+2019-09-23,europe,growth_labor,stressed,0.0956,kentonline.co.uk,"Thomas Cook collapses, leaving Kent employees jobless and tourists stranded"
+2019-09-23,europe,growth_labor,stressed,0.0954,menorca.info,El sector del calzado teme una recesión por el estancamiento de las ventas
+2019-09-23,europe,inflation,calm,0.0200,transferwise.com,Cost of Living in Croatia - TransferWise
+2019-09-23,europe,inflation,stressed,0.0200,transferwise.com,Cost of Living in Croatia - TransferWise
+2019-09-23,europe,monetary_policy,calm,-0.0605,fxmarketalerts.com,Forex Analysis - US Fed's Daly - Supported rate cut to offset headwinds
+2019-09-23,europe,monetary_policy,calm,-0.0407,farodevigo.es,El BCE no ve signos de repunte de la economía de la eurozona
+2019-09-23,europe,monetary_policy,calm,-0.0209,boursier.com,Etats-Unis : la Fed à la manoeuvre pour éviter une crise de liquidités
+2019-09-23,europe,monetary_policy,stressed,0.0505,forexcrunch.com,USD/JPY Forecast September 23-27 – Investors Eye BoJ Minutes U.S. GDP
+2019-09-23,europe,monetary_policy,stressed,0.0207,fool.co.uk,Low interest rates: what do they mean for our investments?
+2019-09-23,europe,monetary_policy,stressed,0.0162,fxmarketalerts.com,Forex Analysis - US Fed's Bullard - Favors 25bps more easing this year
+2019-09-23,europe,trade_tariffs,calm,-0.0666,finanznachrichten.de,Handelsstreit stimmt Anleger vorsichtig - US-Börsen schließen uneinheitlich: Der anhaltenden Handelsstreit ...
+2019-09-23,europe,trade_tariffs,calm,-0.0434,crn.de,Handelskrieg zwischen USA und China: Keine baldige Lösung in Sicht
+2019-09-23,europe,trade_tariffs,calm,0.0014,jerseyeveningpost.com,Johnson to tell Trump the NHS is not on the table in post-Brexit trade deal
+2019-09-23,europe,trade_tariffs,stressed,0.0840,mittelbayerische.de,Dax schwächer wegen Dämpfer im Zollstreit
+2019-09-23,europe,trade_tariffs,stressed,0.0761,rundschau-online.de,Dax startet schwächer wegen Dämpfer im Zollstreit
+2019-09-23,europe,trade_tariffs,stressed,0.0607,finanzen.net,Aktien Frankfurt Eröffnung: Dax startet schwächer wegen Dämpfer im Zollstreit
+2019-09-23,us,banking_stress,calm,-0.0304,nrtoday.com,Four Senior Wealth Managers Join First Republic in Los Angeles
+2019-09-23,us,banking_stress,calm,0.0587,mrtopstep.com,"Credit Suisse's Thiam, Rohner blast reports of Khan incident as sensational"
+2019-09-23,us,banking_stress,calm,0.0612,reuters.com,"Swiss probe incident involving ex-Credit Suisse banker Khan, private detectives"
+2019-09-23,us,banking_stress,stressed,0.0612,reuters.com,"Swiss probe incident involving ex-Credit Suisse banker Khan, private detectives"
+2019-09-23,us,banking_stress,stressed,0.0587,mrtopstep.com,"Credit Suisse's Thiam, Rohner blast reports of Khan incident as sensational"
+2019-09-23,us,banking_stress,stressed,-0.0304,nrtoday.com,Four Senior Wealth Managers Join First Republic in Los Angeles
+2019-09-23,us,energy,calm,-0.0591,econintersect.com,"23Sep2019 Pre-Market Commentary: Wall Street Futures Are Down, DOW Futures Down 50 Points, SP 500 Down -0.1%, WTI Crude Slips Into The 57 Handle"
+2019-09-23,us,energy,calm,-0.0366,ifiberone.com,Washington Weekly Gas Price Update
+2019-09-23,us,energy,calm,-0.0363,feednavigator.com,Valine use in low crude protein broiler chicken diets
+2019-09-23,us,energy,stressed,0.0720,reuters.com,Middle East tensions lift oil prices more than 1%
+2019-09-23,us,energy,stressed,0.0703,prweb.com,"Tackling the Global Energy Crisis, One CPUcoin at a time - Global Cryptocurrency Exchange ProBit Lists CPUcoin"
+2019-09-23,us,energy,stressed,0.0514,wsjm.com,Gas Prices Surge 17¢ Per Gallon Statewide
+2019-09-23,us,equity_markets,calm,-0.1107,reuters.com,"Wall Street edges higher with Apple, though economic data mixed"
+2019-09-23,us,equity_markets,calm,-0.0927,reuters.com,MÄRKTE-Handelssorgen drücken Stimmung an der Börse
+2019-09-23,us,equity_markets,calm,-0.0825,wfmz.com,"US stocks rise, led by technology and household goods shares"
+2019-09-23,us,equity_markets,stressed,0.1119,nasdaq.com,DAX Deep In The Red On Growth Worries
+2019-09-23,us,equity_markets,stressed,0.1088,reuters.com,Futures muted after Wall Street's worst day in about two weeks
+2019-09-23,us,equity_markets,stressed,0.0967,nasdaq.com,European stocks sink after weak business surveys
+2019-09-23,us,geopolitics,calm,-0.1330,seattletimes.com,China says Taliban envoys discussed Afghanistan peace effort
+2019-09-23,us,geopolitics,calm,-0.0920,cleveland.com,Trump admits discussing Biden with Ukrainian president: A.M. News Links
+2019-09-23,us,geopolitics,calm,-0.0892,trust.org,Trump says he's not taking talk of impeachment over Ukraine ...
+2019-09-23,us,geopolitics,stressed,0.1548,stripes.com,Three US troops wounded in apparent insider attack in Afghanistan
+2019-09-23,us,geopolitics,stressed,0.1347,readingeagle.com,"Police: Home invasion suspect fatally shot, another wounded"
+2019-09-23,us,geopolitics,stressed,0.1273,chron.com,Police: 3 stabbed in home invasion
+2019-09-23,us,growth_labor,calm,-0.1103,equitablegrowth.org,Public investment is crucial to strengthening U.S. economic growth and tackling inequality
+2019-09-23,us,growth_labor,calm,-0.0729,kjzz.com,Utah unemployment rate remains steady at 2.8% in August
+2019-09-23,us,growth_labor,calm,-0.0709,mrtopstep.com,"Chicago Fed ""Index Points to a Pickup in Economic Growth in August"""
+2019-09-23,us,growth_labor,stressed,0.1407,zerohedge.com,"""Simply Awful"": German PMI Plunges To 7-Year Low As Manufacturing Recession Accelerates, Spreads To Services"
+2019-09-23,us,growth_labor,stressed,0.1109,cbpp.org,"In a Recession, Put Deficit Concerns Aside"
+2019-09-23,us,growth_labor,stressed,0.1031,patch.com,Worcester Red Cross Employees Face Layoffs
+2019-09-23,us,inflation,calm,-0.0319,reuters.com,SONDEO-Inflación interanual México se habría desacelerado por novena quincena consecutiva
+2019-09-23,us,inflation,calm,-0.0141,econotimes.com,"FxWirePro: USD/SGD remains well supported below 1.3790 mark, Singapore's CPI data in focus"
+2019-09-23,us,inflation,stressed,-0.0141,econotimes.com,"FxWirePro: USD/SGD remains well supported below 1.3790 mark, Singapore's CPI data in focus"
+2019-09-23,us,inflation,stressed,-0.0319,reuters.com,SONDEO-Inflación interanual México se habría desacelerado por novena quincena consecutiva
+2019-09-23,us,monetary_policy,calm,-0.0911,reuters.com,Fed's Daly says rate cuts are helping to offset headwinds
+2019-09-23,us,monetary_policy,calm,-0.0839,wpxi.com,European Central Bank chief: governments must help economy
+2019-09-23,us,monetary_policy,calm,-0.0764,wnax.com,SD Senator Mike Rounds Supports Federal Reserve Policy
+2019-09-23,us,monetary_policy,stressed,0.0598,reuters.com,Incoming ECB President Lagarde: Trade tensions biggest threat to global economy
+2019-09-23,us,monetary_policy,stressed,0.0308,reuters.com,"Bce, tensioni commerciali prima minaccia economia globale - Lagarde"
+2019-09-23,us,monetary_policy,stressed,0.0227,pottsmerc.com,Robert Samuelson: The odd couple -- Trump and Powell
+2019-09-23,us,trade_tariffs,calm,-0.1613,reuters.com,Chinese farm official says 'good outcome' from trade talks - state media
+2019-09-23,us,trade_tariffs,calm,-0.1481,wdsm710.com,Chinese farm official says 'good outcome' from trade talks: state media | News
+2019-09-23,us,trade_tariffs,calm,-0.0883,reuters.com,"UK-U.S. trade deal to be struck by July, Trump and PM Johnson agree - The Sun"
+2019-09-23,us,trade_tariffs,stressed,0.1029,reuters.com,Incoming ECB President Lagarde: Trade tensions biggest threat to global economy
+2019-09-23,us,trade_tariffs,stressed,0.0935,airlinegeeks.com,Airbus and Boeing Behind U.S./EU Tariff Threats
+2019-09-23,us,trade_tariffs,stressed,0.0835,actionnewsjax.com,"Asian shares fall as Iran, China-US trade tensions loom"
+2019-09-24,europe,banking_stress,calm,0.0534,thetimes.co.uk,Metro Bank shares tumble 35 per cent after it scraps bond issue
+2019-09-24,europe,banking_stress,stressed,0.0534,thetimes.co.uk,Metro Bank shares tumble 35 per cent after it scraps bond issue
+2019-09-24,europe,energy,calm,-0.0652,offshore-technology.com,Oil prices drop due to weak manufacturing data
+2019-09-24,europe,energy,calm,-0.0321,iltirreno.gelocal.it,Tornano a salire le bollette di luce e gas
+2019-09-24,europe,energy,calm,-0.0305,wallstreet-online.de,Ölpreise bauen Verluste aus
+2019-09-24,europe,energy,stressed,0.0332,ilfoglio.it,Aumentano le bollette di luce e gas
+2019-09-24,europe,energy,stressed,0.0317,ilfattoquotidiano.it,"Bollette, l'authority dell'energia: ""Da ottobre incremento del 2,6% per l'elettricità e del 3,9% per il gas per i clienti in tutela"""
+2019-09-24,europe,energy,stressed,0.0268,bildderfrau.de,Rekord-Energiepreise: Strom ist so teuer wie nie!
+2019-09-24,europe,equity_markets,calm,-0.1613,lne.es,El Ibex abre al alza y recupera los 9.100 puntos
+2019-09-24,europe,equity_markets,calm,-0.1587,dailymail.co.uk,"Rebound in banks, trade sentiment boosts FTSE 100;..."
+2019-09-24,europe,equity_markets,calm,-0.1142,ansa.it,Borsa: Asia positiva dopo dati Pmi Usa - Economia
+2019-09-24,europe,equity_markets,stressed,0.0965,ansa.it,"Borsa: Milano in stallo, male le banche - Economia"
+2019-09-24,europe,equity_markets,stressed,0.0637,lefigaro.fr,"Wall Street, redoutant une procédure de destitution, termine en baisse"
+2019-09-24,europe,equity_markets,stressed,0.0634,ansa.it,"Borsa Londra al palo, frena Francoforte - Economia"
+2019-09-24,europe,geopolitics,calm,-0.0994,maville.com,La Syrie se dote d'un Comité constitutionnel mais la paix est encore loin
+2019-09-24,europe,geopolitics,calm,-0.0765,rfi.fr,Iran: le Pakistan affirme avoir été chargé par Trump d'une médiation auprès de l'Iran
+2019-09-24,europe,geopolitics,calm,-0.0606,focus.de,USA lassen russische Diplomaten nicht zur UN-Vollversammlung
+2019-09-24,europe,geopolitics,stressed,0.1434,dailymail.co.uk,Air strikes kill around 16 in Yemen's Houthi-controlled...
+2019-09-24,europe,geopolitics,stressed,0.1244,france3-regions.francetvinfo.fr,Thons géants pêchés en Normandie et invasion de méduses sur nos plages : surpêche et changement climatique en cause
+2019-09-24,europe,geopolitics,stressed,0.0868,braunschweiger-zeitung.de,Jäger im Osten Russlands von Tiger getötet
+2019-09-24,europe,growth_labor,calm,-0.1305,mz-web.de,Gute Entwicklung: Sachsen-Anhalts Wirtschaftswachstum über Bundesschnitt
+2019-09-24,europe,growth_labor,calm,-0.0834,sueddeutsche.de,Deutsche Wirtschaft - Lichtblick für die Konjunktur - Wirtschaft
+2019-09-24,europe,growth_labor,calm,-0.0197,dailymail.co.uk,Bank of Spain slashes this year's economic growth outlook
+2019-09-24,europe,growth_labor,stressed,0.0831,finanznachrichten.de,Eurasia-Chef fürchtet geopolitische und wirtschaftliche Rezession
+2019-09-24,europe,growth_labor,stressed,0.0715,publico.es,"DESACELERACIÓN DEL PIB: El Banco de España alerta del ""notable debilitamiento"" de la economía y rebaja sus previsiones de crecimiento hasta 2021"
+2019-09-24,europe,growth_labor,stressed,0.0529,wallstreetitalia.com,"Super-ricchi accumulano cash, in vista della recessione"
+2019-09-24,europe,inflation,calm,-0.0025,terre-net.fr,"Hausse des prix du soja et du maïs, léger recul pour le blé"
+2019-09-24,europe,inflation,stressed,-0.0025,terre-net.fr,"Hausse des prix du soja et du maïs, léger recul pour le blé"
+2019-09-24,europe,monetary_policy,calm,-0.0553,thetimes.co.uk,"Corporation tax revenue not sustainable, says Central Bank"
+2019-09-24,europe,monetary_policy,calm,-0.0215,eleconomista.es,El BCE se quedará sin deuda alemana para comprar en menos de un año
+2019-09-24,europe,monetary_policy,calm,-0.0183,finanza.lastampa.it,"Bank of Japan, attuale politica monetaria appropriata. Kuroda: pronti a intervenire se necessario"
+2019-09-24,europe,monetary_policy,stressed,0.0290,borsainside.com,Per Christine Lagarde ombre sull'economia globale a causa della trade war
+2019-09-24,europe,monetary_policy,stressed,0.0101,lepoint.fr,Artus - Les 13 effets négatifs des taux d'intérêt très bas dans la zone euro
+2019-09-24,europe,monetary_policy,stressed,0.0028,eleconomista.es,"Banca March: ""En Europa quedan por venir cinco años de tipos de interés negativos"""
+2019-09-24,europe,trade_tariffs,calm,-0.1024,ansa.it,"Dazi:Di Maio, un bene rapporto con Trump - Ultima Ora"
+2019-09-24,europe,trade_tariffs,calm,-0.0661,actionforex.com,"US-China Trade Talks to Continue in Two Weeks, Euro Look into German Ifo"
+2019-09-24,europe,trade_tariffs,calm,-0.0263,financial.de,ROUNDUP/Aktien New York: Gewinne dank beruhigender Signale im Handelsstreit « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2019-09-24,europe,trade_tariffs,stressed,0.1210,borsainside.com,Per Christine Lagarde ombre sull'economia globale a causa della trade war
+2019-09-24,europe,trade_tariffs,stressed,0.0855,today.it,"Grana Padano e Parmigiano Reggiano, allarme export per i dazi Usa: ""Rischiamo di scomparire"""
+2019-09-24,europe,trade_tariffs,stressed,0.0774,ragusaoggi.it,"DAZI USA, ALLARME CONSORZIO PARMIGIANO REGGIANO""RISCHIO CROLLO CONSUMI"""
+2019-09-24,us,banking_stress,calm,0.1149,yahoo.com,Metro Bank shares hit new record low as bond sale scrapped
+2019-09-24,us,banking_stress,stressed,0.1149,yahoo.com,Metro Bank shares hit new record low as bond sale scrapped
+2019-09-24,us,energy,calm,-0.0508,reuters.com,"Oil prices fall due to weak economic data, Saudi output recovery"
+2019-09-24,us,energy,calm,-0.0363,yahoo.com,"Oil Prices Lower, Saudi Supply Disruption Limits Losses"
+2019-09-24,us,energy,calm,-0.0093,k105.com,Kentucky Gas Prices Spike in Aftermath of Attacks in Saudi Arabia; Local Prices Lower this Week
+2019-09-24,us,energy,stressed,0.0936,decaturdaily.com,Oil prices jump as attack on Saudi plant jolts supply
+2019-09-24,us,energy,stressed,0.0657,apg-wi.com,"Attack, hurricanes could continue to push up gas prices"
+2019-09-24,us,energy,stressed,0.0428,kittanningpaper.com,| Gas Prices Take Another Jump
+2019-09-24,us,equity_markets,calm,-0.1800,accesswdun.com,Stocks rise on trade talk optimism; tech stocks gain
+2019-09-24,us,equity_markets,calm,-0.1657,reuters.com,Wall Street opens higher as easing trade concerns boost techs
+2019-09-24,us,equity_markets,calm,-0.1380,reuters.com,China stocks rise on stimulus hopes; trade uncertainty caps gains
+2019-09-24,us,equity_markets,stressed,0.1331,cnn.com,Why Wall Street fell out of love with Netflix
+2019-09-24,us,equity_markets,stressed,0.0916,newsviewsnreviews.com,News Views and Reviews | U.S. stocks slide off weaker consumer confidence
+2019-09-24,us,equity_markets,stressed,0.0899,reuters.com,"S&P 500 hits two-week low on Trump impeachment call, weak consumer data"
+2019-09-24,us,geopolitics,calm,-0.1453,trust.org,Trump sees path to peace with Iran even as he denounces ...
+2019-09-24,us,geopolitics,calm,-0.1014,gdnonline.com,"World News: Trump, at the U.N., denounces Iran but says there is a path to peace"
+2019-09-24,us,geopolitics,calm,-0.0920,newsmax.com,Trump Says He Withheld Ukraine Aid Over Dispute With Europe
+2019-09-24,us,geopolitics,stressed,0.1467,trust.org,Air strikes kill around 16 in Yemen's Houthi-controlled ...
+2019-09-24,us,geopolitics,stressed,0.1459,laraza.com,"""34 millones de muertos"": La devastación que causaría una guerra nuclear entre Rusia y EEUU"
+2019-09-24,us,geopolitics,stressed,0.1444,uconn.edu,'Wake-up Call': Drone Strikes in Saudi Arabia Show Urgency of UConn Research
+2019-09-24,us,growth_labor,calm,-0.1370,azbusinessdaily.com,Arizona's non-farm payroll employees increases by 2.8% since last year
+2019-09-24,us,growth_labor,calm,-0.1369,azbusinessdaily.com,Arizona's non-farm payroll employees increases by 2.4% since last year
+2019-09-24,us,growth_labor,calm,-0.1326,azbusinessdaily.com,Arizona's non-farm payroll employees increases by 2.7% since last year
+2019-09-24,us,growth_labor,stressed,0.1355,businessinsider.com,The 'Tesla of China' craters 30% after announcing a bigger-than-expected loss and thousands of job cuts (NIO)
+2019-09-24,us,growth_labor,stressed,0.1339,tnonline.com,KME announces layoffs at Nesquehoning facility
+2019-09-24,us,growth_labor,stressed,0.1061,politicususa.com,Trump Calls Recession A Democratic Witch Hunt When Asked About Ukraine
+2019-09-24,us,inflation,calm,-0.0042,reuters.com,Mexico's central bank seen cutting rates more aggressively as inflation cools
+2019-09-24,us,inflation,calm,0.0006,koco.com,"Drug prices for seniors once again rose faster than inflation, report says"
+2019-09-24,us,inflation,calm,0.0010,reuters.com,ECB must look beyond labor data in quest for inflation: de Guindos
+2019-09-24,us,inflation,stressed,0.0012,wsau.com,Saudi consumer prices fall in August for eighth month in a row | News
+2019-09-24,us,inflation,stressed,0.0010,reuters.com,ECB must look beyond labor data in quest for inflation: de Guindos
+2019-09-24,us,inflation,stressed,0.0006,koco.com,"Drug prices for seniors once again rose faster than inflation, report says"
+2019-09-24,us,monetary_policy,calm,-0.0753,newsmax.com,U.S. Fed Policymakers Say Lower Rates Are Helping
+2019-09-24,us,monetary_policy,calm,-0.0713,trust.org,Disney Parks West President Catherine Powell to step down
+2019-09-24,us,monetary_policy,calm,-0.0434,reuters.com,Kenya central bank says banking sector consolidation to continue - Agricultural Commodities
+2019-09-24,us,monetary_policy,stressed,0.0672,kvor.com,"Trump's attacks on the Fed are moving markets, study shows"
+2019-09-24,us,monetary_policy,stressed,0.0577,yahoo.com,Asian Markets Rise; Lagarde Says Trade War Is Biggest Hurdle on Economy
+2019-09-24,us,monetary_policy,stressed,0.0471,ibtimes.com,Federal Reserve News: Long-Term Cash Injected Into Banking System
+2019-09-24,us,trade_tariffs,calm,-0.1041,washingtonpost.com,Asian shares edge higher as China-US trade talks planned
+2019-09-24,us,trade_tariffs,calm,-0.0955,1049maxcountry.com,"USMCA, China Trade Talks Advancing This Week"
+2019-09-24,us,trade_tariffs,calm,-0.0908,reuters.com,"Trump says hopes China, U.S. can reach trade deal"
+2019-09-24,us,trade_tariffs,stressed,0.1407,cnn.com,The trade war keeps weighing on consumer confidence. And that's a risk for the US economy
+2019-09-24,us,trade_tariffs,stressed,0.1127,albanyherald.com,Anthony Scaramucci is worried about the trade war
+2019-09-24,us,trade_tariffs,stressed,0.0919,theepochtimes.com,"Trump Slams China, Defends 'Massive Tariffs' in UN Speech"
+2019-09-25,europe,banking_stress,calm,-0.1045,capitalmadrid.com,"Credit Suisse apoya los ""bonos de transición sostenibles"" para acelerar la sostenibilidad"
+2019-09-25,europe,banking_stress,calm,-0.0001,finanzen.net,Nike Outperform (Credit Suisse Group) 25.09.2019 | Analyse
+2019-09-25,europe,banking_stress,calm,0.0356,livecharts.co.uk,Broker Forecasts - Broker Forecast - Credit Suisse issues a broker note on Frontier Developments Plc
+2019-09-25,europe,banking_stress,stressed,0.0356,livecharts.co.uk,Broker Forecasts - Broker Forecast - Credit Suisse issues a broker note on Frontier Developments Plc
+2019-09-25,europe,banking_stress,stressed,-0.0001,finanzen.net,Nike Outperform (Credit Suisse Group) 25.09.2019 | Analyse
+2019-09-25,europe,banking_stress,stressed,-0.1045,capitalmadrid.com,"Credit Suisse apoya los ""bonos de transición sostenibles"" para acelerar la sostenibilidad"
+2019-09-25,europe,energy,calm,-0.0296,offshore-technology.com,Oil prices drop after Trump's comments douse optimism on trade talks
+2019-09-25,europe,energy,calm,-0.0284,eleconomista.es,"Arabia Saudí restaura su capacidad de bombeo tras los ataques y el precio del petróleo baja un 1,5%"
+2019-09-25,europe,energy,calm,-0.0257,forexcrunch.com,WTI falls to test 50 and 200-DMA support area
+2019-09-25,europe,energy,stressed,0.0541,larazon.es,El coste de la factura de la luz se incrementará en diez comunidades
+2019-09-25,europe,energy,stressed,0.0432,radiortm.it,D'Antona e Abbate: è scontro a Modica per le bollette idriche
+2019-09-25,europe,energy,stressed,0.0226,wallstreet-online.de,MARKTAUSBLICK: Ölpreis-Absturz denkbar!
+2019-09-25,europe,equity_markets,calm,-0.1142,borsaitaliana.it,Positivo il Mercato americano - Borsa Italiana
+2019-09-25,europe,equity_markets,calm,-0.0973,boursedirect.fr,"La Bourse de Paris se maintient dans le vert sans grande conviction (+0,24%)"
+2019-09-25,europe,equity_markets,calm,-0.0904,frankenpost.de,Das Einhorn aus Schwaben - Teamviewer geht an die Börse
+2019-09-25,europe,equity_markets,stressed,0.1062,winsfordguardian.co.uk,North Sea cod to lose 'blue tick' sustainability label as fish stocks fall
+2019-09-25,europe,equity_markets,stressed,0.0811,guardian-series.co.uk,North Sea cod to lose 'blue tick' sustainability label as fish stocks fall | East London and West Essex Guardian Series
+2019-09-25,europe,equity_markets,stressed,0.0781,zazoom.it,Avvio debole per le Borse europee su impeachment Trump
+2019-09-25,europe,geopolitics,calm,-0.0777,wallstreetitalia.com,"Guerra dazi, Trump: ""Non accetterò cattivo accordo con la Cina"""
+2019-09-25,europe,geopolitics,calm,-0.0693,badische-zeitung.de,Nato: Vorerst keine Truppen-Reduzierung in Afghanistan - Brennpunkte
+2019-09-25,europe,geopolitics,calm,-0.0685,lamontagne.fr,Frénésie diplomatique à l'ONU dans l'espoir d'une rencontre Trump-Rohani
+2019-09-25,europe,geopolitics,stressed,0.1437,alaraby.co.uk,US airstrike kills 11 IS militants in southern Libya
+2019-09-25,europe,geopolitics,stressed,0.1224,elconfidencial.com,"¿Qué pasaría en caso de guerra nuclear? 91,5 millones de víctimas en solo 5 horas"
+2019-09-25,europe,geopolitics,stressed,0.1027,latribune.fr,"Frappe américaine contre l'EI en Libye, 11 morts"
+2019-09-25,europe,growth_labor,calm,-0.0333,telegraph.co.uk,"Greta Thunberg is wrong: economic growth is friend to the environment, not foe"
+2019-09-25,europe,growth_labor,calm,-0.0150,finanzen.net,Scholz: Klimapaket bedeutet auch kleines Konjunkturprogramm
+2019-09-25,europe,growth_labor,calm,-0.0049,boersennews.de,dpa-AFX Überblick: KONJUNKTUR vom 25.09.2019
+2019-09-25,europe,growth_labor,stressed,0.1232,vozpopuli.com,Las bolsas europeas se tambalean por temor a una recesión y las palabras de Trump
+2019-09-25,europe,growth_labor,stressed,0.0421,finanznachrichten.de,"ÜBERBLICK am Abend/Konjunktur, Zentralbanken, Politik"
+2019-09-25,europe,growth_labor,stressed,0.0408,trend-online.com,Pil: l'Istat conferma le difficoltà dell'Italia
+2019-09-25,europe,inflation,calm,-0.0142,morningstar.co.uk,"""Low Cost Funds Help Me Beat Inflation"""
+2019-09-25,europe,inflation,stressed,-0.0142,morningstar.co.uk,"""Low Cost Funds Help Me Beat Inflation"""
+2019-09-25,europe,monetary_policy,calm,-0.0847,actionforex.com,"RBNZ stands pat, maintains easing bias without hints on imminent rate cut"
+2019-09-25,europe,monetary_policy,calm,-0.0475,boursier.com,BCE: L'Italien Panetta seul candidat pour remplacer Coeuré
+2019-09-25,europe,monetary_policy,calm,-0.0396,forexcrunch.com,Mexico: Central bank to cut tomorrow and also in November and Decemeber - BBVA
+2019-09-25,europe,monetary_policy,stressed,0.0175,thisismoney.co.uk,How to invest in the new era of falling interest rates: Investing Show
+2019-09-25,europe,monetary_policy,stressed,-0.0010,socialeurope.eu,Top of Lagarde's ECB to-do list: stop QE and democratise monetary policy – Jens van 't Klooster
+2019-09-25,europe,monetary_policy,stressed,-0.0041,lesechos.fr,Pourquoi il faudra bien écouter ce que la Fed a à nous dire
+2019-09-25,europe,trade_tariffs,calm,-0.0424,actionforex.com,Trump will not accept a bad trade deal with China
+2019-09-25,europe,trade_tariffs,calm,-0.0227,offshore-technology.com,Oil prices drop after Trump's comments douse optimism on trade talks
+2019-09-25,europe,trade_tariffs,calm,-0.0184,wallstreetitalia.com,"Guerra dazi, Trump: ""Non accetterò cattivo accordo con la Cina"""
+2019-09-25,europe,trade_tariffs,stressed,0.1038,zazoom.it,Dazi | Coldiretti | allarme per la scure di Trump sul Made in Italy
+2019-09-25,europe,trade_tariffs,stressed,0.0591,parisguardian.com,Economic outlook for Asian countries dimmed by U.S.-China trade war
+2019-09-25,europe,trade_tariffs,stressed,-0.0184,wallstreetitalia.com,"Guerra dazi, Trump: ""Non accetterò cattivo accordo con la Cina"""
+2019-09-25,us,banking_stress,calm,0.0256,themarketsdaily.com,"Jane Street Group LLC Purchases 87,551 Shares of Credit Suisse Group AG (NYSE:CS)"
+2019-09-25,us,banking_stress,calm,0.0485,euronews.com,Credit Suisse aims to wrap up probe into Khan incident this week - source
+2019-09-25,us,banking_stress,calm,0.0997,yahoo.com,Credit Suisse Spy Drama Signals a Deeper Malaise
+2019-09-25,us,banking_stress,stressed,0.0997,yahoo.com,Credit Suisse Spy Drama Signals a Deeper Malaise
+2019-09-25,us,banking_stress,stressed,0.0485,euronews.com,Credit Suisse aims to wrap up probe into Khan incident this week - source
+2019-09-25,us,banking_stress,stressed,0.0256,themarketsdaily.com,"Jane Street Group LLC Purchases 87,551 Shares of Credit Suisse Group AG (NYSE:CS)"
+2019-09-25,us,energy,calm,-0.0541,reuters.com,CANADA STOCKS-TSX futures slip on lower oil prices
+2019-09-25,us,energy,calm,-0.0415,rigzone.com,Oil Prices Settle Lower
+2019-09-25,us,energy,calm,-0.0334,northernstar.info,The Latest: Saudi minister: 50% of crude reduction restored
+2019-09-25,us,energy,stressed,0.0567,oilandgas360.com,Another Crude Inventory Build - Increase of 2.4 Million Barrels
+2019-09-25,us,energy,stressed,0.0429,moneyshow.com,Impeachment is Bearish Crude Oil
+2019-09-25,us,energy,stressed,0.0421,iheart.com,Southland Gas Prices Rise Sharply
+2019-09-25,us,equity_markets,calm,-0.1286,elexpresso.com,Nike alcanza su máximo en la Bolsa de Nueva York por buenos resultados
+2019-09-25,us,equity_markets,calm,-0.1234,efe.com,Nike alcanza su máximo en la Bolsa de Nueva York por buenos resultados | Economía | Edición USA
+2019-09-25,us,equity_markets,calm,-0.1177,siouxcityjournal.com,Stocks rise as Trump indicates trade deal could be near
+2019-09-25,us,equity_markets,stressed,0.1191,nasdaq.com,The Square Stock Selloff is an Overreaction
+2019-09-25,us,equity_markets,stressed,0.1069,nasdaq.com,DAX Tumbles On Trade Worries
+2019-09-25,us,equity_markets,stressed,0.0997,yahoo.com,FTSE heads for biggest loss in a month amid impeachment market turmoil
+2019-09-25,us,geopolitics,calm,-0.0883,beaumontenterprise.com,"'No Pressure,' Trump Insists, While Sitting With Ukraine's Zelensky at U.N."
+2019-09-25,us,geopolitics,calm,-0.0758,wyso.org,"Iran's Rouhani Touts Gulf Peace Plan, Says It Would Start With U.S. Troops Leaving"
+2019-09-25,us,geopolitics,calm,-0.0757,aljazeera.com,"Skipping UNGA, Putin and Maduro hold talks in Russia"
+2019-09-25,us,geopolitics,stressed,0.1712,nola.com,Nutria invasion threatens California's water supply: 'The way they multiply -- jeez'
+2019-09-25,us,geopolitics,stressed,0.1659,newyorktelegraph.com,Zelenskiy Warns World Leaders Over Russia's 'War Against Ukraine'
+2019-09-25,us,geopolitics,stressed,0.1405,reuters.com,"Air strikes maim, scar Yemen's children"
+2019-09-25,us,growth_labor,calm,-0.1078,appeal-democrat.com,Area unemployment rate improves in August
+2019-09-25,us,growth_labor,calm,-0.0026,marketwatch.com,"Family Offices Expect Recession, Boost Cash Reserves"
+2019-09-25,us,growth_labor,calm,0.0455,investmentwatchblog.com,World's Wealthiest Families Stockpiling Cash as Recession Fears Grow… PUMP: Fed adds $105 billion in cash to banking system – Investment Watch
+2019-09-25,us,growth_labor,stressed,0.0889,theartnewspaper.com,Global recession looms—but there's a new twist
+2019-09-25,us,growth_labor,stressed,0.0873,reuters.com,Italia chiuderà probabilmente 2019 con deficit/Pil al 2% - Misiani
+2019-09-25,us,growth_labor,stressed,0.0726,glennbeck.com,"The Fed, banks printing money to 'prevent' trouble: Recession WILL come soon"
+2019-09-25,us,inflation,calm,-0.0031,reuters.com,"EN BREVE-""Que el carro camine sin calentarse"": AMLO celebra baja inflación en México"
+2019-09-25,us,inflation,calm,0.0119,wkzo.com,ECB must look beyond labor data in quest for inflation: de Guindos | News
+2019-09-25,us,inflation,calm,0.0762,bangordailynews.com,"They wanted a home. Instead, they learned the human cost of living in Maine's most distressed neighborhood. — Maine Focus — Bangor Daily News — BDN Maine"
+2019-09-25,us,inflation,stressed,0.0762,bangordailynews.com,"They wanted a home. Instead, they learned the human cost of living in Maine's most distressed neighborhood. — Maine Focus — Bangor Daily News — BDN Maine"
+2019-09-25,us,inflation,stressed,0.0119,wkzo.com,ECB must look beyond labor data in quest for inflation: de Guindos | News
+2019-09-25,us,inflation,stressed,-0.0031,reuters.com,"EN BREVE-""Que el carro camine sin calentarse"": AMLO celebra baja inflación en México"
+2019-09-25,us,monetary_policy,calm,-0.1004,gephardtdaily.com,Utah officials make changes to the Lake Powell Pipeline to reduce costs
+2019-09-25,us,monetary_policy,calm,-0.0808,reuters.com,Evans says two rate cuts have Fed 'well-positioned' at this point
+2019-09-25,us,monetary_policy,calm,-0.0748,yahoo.com,Philippines to Cut Anew as Thailand Holds: Rate Decision Guide
+2019-09-25,us,monetary_policy,stressed,0.0680,wraltechwire.com,"Duke professor: Trump's attacks on Fed are moving markets, interest rates"
+2019-09-25,us,monetary_policy,stressed,0.0372,iheart.com,Diabetes Death Rate Rises After Hurricanes in USF Study | Florida News
+2019-09-25,us,monetary_policy,stressed,0.0300,seekingalpha.com,FLOT: Avoid Interest Rate Volatility With This ETF
+2019-09-25,us,trade_tariffs,calm,-0.1506,fb.org,Farmers Commend Agreement on Japanese Trade Deal
+2019-09-25,us,trade_tariffs,calm,-0.1105,kobi5.com,U.S. reaches trade deal with Japan - KOBI-TV NBC5 / KOTI-TV NBC2
+2019-09-25,us,trade_tariffs,calm,-0.1043,wnax.com,South Dakota Pork President Pleased With Signing Of Trade Deal With Japan
+2019-09-25,us,trade_tariffs,stressed,0.1175,yahoo.com,How Trump's trade war with China is creating pre-holiday chaos for retailer
+2019-09-25,us,trade_tariffs,stressed,0.1126,yahoo.com,South Korea-Japan trade war as big a threat to Australia as US-China
+2019-09-25,us,trade_tariffs,stressed,0.1075,kwit.org,A Mysterious Pencil Factory Sharpens Focus On Tariff Scams
+2019-09-26,europe,banking_stress,calm,0.0520,manager-magazin.de,"Credit Suisse: Privatstreit v Tidjane Thiam, Iqbal Khan Bankenaffären-Basis"
+2019-09-26,europe,banking_stress,stressed,0.0520,manager-magazin.de,"Credit Suisse: Privatstreit v Tidjane Thiam, Iqbal Khan Bankenaffären-Basis"
+2019-09-26,europe,energy,calm,0.0009,wallstreet-online.de,Ölpreise geben weiter nach
+2019-09-26,europe,energy,calm,0.0124,vosgesmatin.fr,France - Monde | Prix de l'électricité : une hausse de 4% dès janvier ?
+2019-09-26,europe,energy,calm,0.0157,francesoir.fr,Prix de l'électricité : vers une hausse de 4% en janvier 2020 ?
+2019-09-26,europe,energy,stressed,0.0581,sueddeutsche.de,Erdöl - Der Ölpreis beruhigt sich - Wirtschaft
+2019-09-26,europe,energy,stressed,0.0233,offshore-technology.com,Oil prices remain steady on increasing supply concerns
+2019-09-26,europe,energy,stressed,0.0166,boersennews.de,Ölpreise kalt erwischt. WTI Oil auf Tauchstation
+2019-09-26,europe,equity_markets,calm,-0.1811,parisguardian.com,Local bourse firmer as blue chips rebound
+2019-09-26,europe,equity_markets,calm,-0.1473,finanznachrichten.de,DAX startet leicht im Plus - Wirecard vorne
+2019-09-26,europe,equity_markets,calm,-0.1268,noticiasbancarias.com,"El Ibex 35 cede un 0,24% al inicio de sesión"
+2019-09-26,europe,equity_markets,stressed,0.1303,journalauto.com,Carlos Ghosn paie un million de dollars pour solder la plainte de la Bourse aux USA
+2019-09-26,europe,equity_markets,stressed,0.1118,lefigaro.fr,"Wall Street en baisse, lestée par les craintes autour d'une destitution et du commerce"
+2019-09-26,europe,equity_markets,stressed,0.0615,lesechos.fr,Incendies de Californie : la guerre entre seigneurs de Wall Street s'intensifie
+2019-09-26,europe,geopolitics,calm,-0.0879,alaraby.co.uk,Palestinian family evicted from Jerusalem home after losing decad
+2019-09-26,europe,geopolitics,calm,-0.0865,20minutos.es,"El alcalde de Salamanca satisfecho por la ""promoción impagable"" de la ciudad en 'Mientras dure la guerra'"
+2019-09-26,europe,geopolitics,calm,-0.0741,ln-online.de,Polens Ex-Außenminister Sikorski: Russland-Sanktionen sind richtig
+2019-09-26,europe,geopolitics,stressed,0.1642,unionesarda.it,Possibile invasione di cimici asiatiche: l'allarme di Coldiretti
+2019-09-26,europe,geopolitics,stressed,0.1358,diariovasco.com,Invasión de robots en Elgoibar
+2019-09-26,europe,geopolitics,stressed,0.1278,multiplayer.it,"Call of Duty: Modern Warfare, terroristi, armi chimiche e sc..."
+2019-09-26,europe,growth_labor,calm,-0.0968,noticiasbancarias.com,La AIReF espera un crecimiento económico del 2%
+2019-09-26,europe,growth_labor,calm,-0.0734,finanzen.net,Wachstum erwartet: GEA-Aktie gewinnt: GEA verschärft Stellenabbau und setzt sich neue Mittelfristziele | Nachricht
+2019-09-26,europe,growth_labor,calm,-0.0668,welt.de,Sozialplan für Stellenabbau bei Goodyear vereinbart
+2019-09-26,europe,growth_labor,stressed,0.1367,parisguardian.com,AMCU's Mathunjwa: Government to blame for Sibanye job cuts
+2019-09-26,europe,growth_labor,stressed,0.0743,eleconomista.es,Wall Street cotiza indeciso tras el dato de PIB de Estados Unidos
+2019-09-26,europe,growth_labor,stressed,0.0549,manager-magazin.de,GEA Group: Stellenabbau und Spartenverkauf soll Maschinenbauer durch die Krise bringen
+2019-09-26,europe,inflation,calm,0.0211,exchangerates.org.uk,Disappointing ZA Inflation Leaves Pound Sterling South African Rand (GBP/ZAR) Exchange Rate Muted
+2019-09-26,europe,inflation,stressed,0.0211,exchangerates.org.uk,Disappointing ZA Inflation Leaves Pound Sterling South African Rand (GBP/ZAR) Exchange Rate Muted
+2019-09-26,europe,monetary_policy,calm,-0.0663,spiegel.de,EZB-Zinspolitik: Sparkasse München kündigt Sparverträge
+2019-09-26,europe,monetary_policy,calm,-0.0565,afropages.fr,"La Banque Centrale organise, du 30 septembre au 3 octobre 2019, à Dakar, une concertation régionale dans le cadre de la mise en œuvre du Projet d'interopérabilité des services financiers numériques dans l'UEMOA"
+2019-09-26,europe,monetary_policy,calm,-0.0499,noticiasbancarias.com,El Banco Central de China no prevé modificar su política monetaria
+2019-09-26,europe,monetary_policy,stressed,0.0660,cmcmarkets.com,Trouble at the ECB?| CMC Markets
+2019-09-26,europe,monetary_policy,stressed,0.0620,marketoracle.co.uk,The Disaster of Negative Interest Rates :: The Market Oracle ::
+2019-09-26,europe,monetary_policy,stressed,0.0558,mittelstandcafe.de,"Börsen-Zeitung: Verbrannte Erde, Kommentar zur EZB von Mark Schrörs - Mittelstand Cafe"
+2019-09-26,europe,trade_tariffs,calm,-0.1411,wallstreet-online.de,Aktien Europa Schluss: Gewinne dank positivem Signal im Handelsstreit Seite 1
+2019-09-26,europe,trade_tariffs,calm,-0.0702,focus.de,dpa-AFX Börsentag auf einen Blick: Hoffnung im Handelsstreit
+2019-09-26,europe,trade_tariffs,calm,-0.0684,boersennews.de,Aktien Frankfurt Eröffnung: Stabilisiert dank neuer Zollstreit-Hoffnung
+2019-09-26,europe,trade_tariffs,stressed,0.1503,thelocal.it,How Trump's tariffs are threatening Italy's Parmesan cheese makers
+2019-09-26,europe,trade_tariffs,stressed,0.0496,economia24ore.it,"Bce, rischi crescita Eurozona, pesano dazi e Brexit - Economia generale Roma"
+2019-09-26,europe,trade_tariffs,stressed,0.0100,elperiodicomediterraneo.com,El azulejo se promociona en Asia ante el riesgo de aranceles de Trump
+2019-09-26,us,banking_stress,calm,0.0263,wkrb13.com,United Capital Financial Advisers LLC Grows Stock Holdings in First Republic Bank (NYSE:FRC)
+2019-09-26,us,banking_stress,calm,0.0299,modernreaders.com,Head to Head Analysis: Futu (NASDAQ:FHL) vs. Credit Suisse Group (NASDAQ:CS)
+2019-09-26,us,banking_stress,calm,0.0526,dailypolitical.com,Silver Bull Resources (TSE:SVB) Hits New 12-Month Low at $0.10
+2019-09-26,us,banking_stress,stressed,0.0961,investmentwatchblog.com,Who Will Foot the Bill If More of China's Troubled Regional Banks Fail? – Investment Watch
+2019-09-26,us,banking_stress,stressed,0.0526,dailypolitical.com,Silver Bull Resources (TSE:SVB) Hits New 12-Month Low at $0.10
+2019-09-26,us,banking_stress,stressed,0.0299,modernreaders.com,Head to Head Analysis: Futu (NASDAQ:FHL) vs. Credit Suisse Group (NASDAQ:CS)
+2019-09-26,us,energy,calm,-0.0129,kfyo.com,Texas Gas Prices Are Beginning to Stabilize
+2019-09-26,us,energy,calm,-0.0002,marketwatch.com,"Carnival's stock tumbles after downbeat outlook on fuel price spike overshadows profit, revenue beats"
+2019-09-26,us,energy,calm,0.0090,oilprice.com,WTI price required for profitable operation? - Oil (General)
+2019-09-26,us,energy,stressed,0.0308,reuters.com,European crude palm oil prices to rise to $620/T by Q2 2020- analyst Fry
+2019-09-26,us,energy,stressed,0.0196,yahoo.com,WTI Midland crude hits 7-month high as new Permian pipelines start up -traders
+2019-09-26,us,energy,stressed,0.0187,kcrg.com,New area gas stations open sparking gas price competition in Cedar Rapids neighborhood
+2019-09-26,us,equity_markets,calm,-0.1016,businessinsider.com,Stocks rally on fresh hopes of a US-China trade deal
+2019-09-26,us,equity_markets,calm,-0.0916,pantagraph.com,Asian stocks rise after Trump trade deal remark
+2019-09-26,us,equity_markets,calm,-0.0904,yahoo.com,Das Einhorn aus Schwaben - Teamviewer geht an die Börse
+2019-09-26,us,equity_markets,stressed,0.1033,investing.com,"Wall Street drops on tech slide, Washington turmoil"
+2019-09-26,us,equity_markets,stressed,0.0950,yahoo.com,Cruise Stocks Sink as Carnival Lowers 2019 Profit Guidance
+2019-09-26,us,equity_markets,stressed,0.0877,oann.com,Wall Street drops as turmoil in Washington outweighs trade optimism
+2019-09-26,us,geopolitics,calm,-0.1790,trust.org,Russia says it will help revive Afghan peace talks between ...
+2019-09-26,us,geopolitics,calm,-0.1701,reuters.com,"Russia says it will help revive Afghan peace talks between Taliban, U.S."
+2019-09-26,us,geopolitics,calm,-0.0807,en.trend.az,"Azerbaijan, Russia discuss issues of military-technical co-op"
+2019-09-26,us,geopolitics,stressed,0.1967,news9.com,Police Investigating After Deadly Home Invasion In NE OKC; Suspects At Large
+2019-09-26,us,geopolitics,stressed,0.1509,beaumontenterprise.com,Blaze rages on Russian trawler in northern Norway
+2019-09-26,us,geopolitics,stressed,0.1331,fox61.com,3 women arrested in connection to a home invasion in Hamden
+2019-09-26,us,growth_labor,calm,-0.1095,reuters.com,"Crecimiento económico EEUU sube 2,0% en segundo trimestre"
+2019-09-26,us,growth_labor,calm,-0.1084,wuwf.org,Ridge: Partner with Cyber Security for Economic Growth
+2019-09-26,us,growth_labor,calm,-0.0924,hudsonvalleycountry.com,Unemployment Rates Increase Across the Hudson Valley
+2019-09-26,us,growth_labor,stressed,0.1362,yahoo.com,Europe's Funds Are Hunkering Down in Bonds for Coming Recession
+2019-09-26,us,growth_labor,stressed,0.1078,wjon.com,SCSU Faculty Association Protesting Layoffs with March
+2019-09-26,us,growth_labor,stressed,0.0920,ktbs.com,Louisiana Economist predicts job cuts for Shreveport-Bossier
+2019-09-26,us,inflation,calm,-0.0325,wibqam.com,Fed's Clarida says inflation expectations in line with mandate | News
+2019-09-26,us,inflation,calm,-0.0210,reuters.com,UPDATE 1-Hungary central bank trims key inflation forecasts for 2019 and 2020
+2019-09-26,us,inflation,calm,-0.0203,businessinsider.com,Malta Producer Price Inflation Slows In August
+2019-09-26,us,inflation,stressed,0.0353,malaymail.com,Inflation by stealth: How Japan's firms fight the frugal retail psyche | Money
+2019-09-26,us,inflation,stressed,0.0041,yahoo.com,Banco Central de Brasil prevé inflación bajo objetivo hasta 2021
+2019-09-26,us,inflation,stressed,-0.0203,businessinsider.com,Malta Producer Price Inflation Slows In August
+2019-09-26,us,monetary_policy,calm,-0.0634,observertoday.com,"No tax rate hike in proposed county budget | News, Sports, Jobs"
+2019-09-26,us,monetary_policy,calm,-0.0605,reuters.com,UPDATE 1-Kenya parliament rejects request to remove interest rate caps
+2019-09-26,us,monetary_policy,calm,-0.0548,reuters.com,Egypt's central bank makes second consecutive cut to key rates
+2019-09-26,us,monetary_policy,stressed,0.0431,marketpulse.com,"US Open – Trade Optimism, Impeachment Analysis, Fed's Evans, Oil sinks, Gold steadies - MarketPulse"
+2019-09-26,us,monetary_policy,stressed,0.0398,marketwatch.com,These bank stocks could be crushed if the Fed keeps lowering interest rates
+2019-09-26,us,monetary_policy,stressed,0.0355,investmentwatchblog.com,The Fed is no longer talking about zero-bound but effective lower bound. What's the difference? Where is it? – Investment Watch
+2019-09-26,us,trade_tariffs,calm,-0.1587,msn.com,US and Japan agree initial trade deal
+2019-09-26,us,trade_tariffs,calm,-0.1101,reuters.com,China says in close communication with U.S. over October trade talks
+2019-09-26,us,trade_tariffs,calm,-0.0959,kdal610.com,China says in close communication with U.S. over October trade talks | News | NewsTalk 610 AM & 103.9 FM KDAL
+2019-09-26,us,trade_tariffs,stressed,0.1489,theintelligencer.com,Investors slam the brakes as trade war fogs forecasts
+2019-09-26,us,trade_tariffs,stressed,0.1075,ktep.org,A Mysterious Pencil Factory Sharpens Focus On Tariff Scams
+2019-09-26,us,trade_tariffs,stressed,0.0940,reuters.com,Mexico markets slump on worries about Trump inquiry and trade deal
+2019-09-27,europe,banking_stress,calm,-0.0058,forexcrunch.com,EUR/USD: Better Awaiting Bounces Into 1.0950/60 To Sell- Credit Suisse
+2019-09-27,europe,banking_stress,stressed,-0.0058,forexcrunch.com,EUR/USD: Better Awaiting Bounces Into 1.0950/60 To Sell- Credit Suisse
+2019-09-27,europe,energy,calm,-0.0267,zazoom.it,Iva giù sulle bollette ma potrebbe salire il prelievo al 22 per cento sui beni di lusso
+2019-09-27,europe,energy,calm,0.0109,businessandtech.com,Bollette più salate per luce e gas
+2019-09-27,europe,energy,calm,0.0223,wallstreet-online.de,"Royal Dutch Shell, BP, Gazprom und Co.: So kurzlebig war der Ölpreis-Saudi-Aramco-Effekt!"
+2019-09-27,europe,energy,stressed,0.0486,cityindex.co.uk,Crude Oil: Iran the New Hotspot as Saudi Supply Shock Spike Erased
+2019-09-27,europe,energy,stressed,0.0223,wallstreet-online.de,"Royal Dutch Shell, BP, Gazprom und Co.: So kurzlebig war der Ölpreis-Saudi-Aramco-Effekt!"
+2019-09-27,europe,energy,stressed,0.0109,businessandtech.com,Bollette più salate per luce e gas
+2019-09-27,europe,equity_markets,calm,-0.1407,finanznachrichten.de,DAX startet im Plus - Infineon-Aktie lässt kräftig nach
+2019-09-27,europe,equity_markets,calm,-0.1264,24matins.fr,"Wall Street ouvre en hausse, misant à nouveau sur les négociations commerciales"
+2019-09-27,europe,equity_markets,calm,-0.1118,cn24tv.it,Conclusa con successo la VI Borsa del Turismo della CCIAA
+2019-09-27,europe,equity_markets,stressed,0.1050,investir.lesechos.fr,"Les craintes liées à ""l'affaire ukrainienne"" font baisser Wall Street"
+2019-09-27,europe,equity_markets,stressed,0.0638,investegate.co.uk,"FE Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Pathfinder Minerals books loss; eyes Mozambique sell down"
+2019-09-27,europe,equity_markets,stressed,0.0478,investegate.co.uk,"FE Investegate | Company News | Corporate, London Stock Exchange, Regulatory News Headlines Remote Monitored Systems books loss as project delay hurts revenue"
+2019-09-27,europe,geopolitics,calm,-0.1046,fai.informazione.it,Libya: Khalifa Haftar dice che è aperto al dialogo mentre i combattimenti continuano » Guerre nel Mo
+2019-09-27,europe,geopolitics,calm,-0.0867,elcorreodeburgos.com,Maduro dice que el apoyo militar de Rusia a Venezuela sigue firme
+2019-09-27,europe,geopolitics,calm,-0.0753,fifetoday.co.uk,Fife becomes fifth authority to back nuclear weapons treaty
+2019-09-27,europe,geopolitics,stressed,0.1915,dailystar.co.uk,Russia and China both test supersonic cruise missiles in warning to US
+2019-09-27,europe,geopolitics,stressed,0.1271,lci.fr,Les menaces de Donald Trump au lanceur d'alerte en pleine affaire ukrainienne
+2019-09-27,europe,geopolitics,stressed,0.1143,getsurrey.co.uk,"Gatwick Airport drone attack: £790,000 spent on investigation but police still don't know who's responsible"
+2019-09-27,europe,growth_labor,calm,-0.0754,forexcrunch.com,Canada: July GDP data will attract the most attention – NFB
+2019-09-27,europe,growth_labor,calm,-0.0550,atlantico.fr,"France: la dette publique s'est stabilisée à 99,5% du PIB au 2ème trimestre (Insee)"
+2019-09-27,europe,growth_labor,calm,-0.0427,aise.it,STRATEGIE NEL MONDO DEL LAVORO: A BOSTON IL NUOVO SEMINARIO DI PIB E COMITES
+2019-09-27,europe,growth_labor,stressed,0.0848,dagospia.com,"germania, la recessione tedesca dovrebbe preoccuparci molto. il motivo? la (non) strategia che..."
+2019-09-27,europe,growth_labor,stressed,0.0779,mz-web.de,Mehr Arbeitslose?: Experten geben düstere Prognose für Arbeitsmarkt
+2019-09-27,europe,growth_labor,stressed,0.0683,agenzianova.com,Brasile: Ipea riduce le previsioni di crescita economica del 2019 e 2020
+2019-09-27,europe,inflation,calm,-0.0438,actionforex.com,Fed Clarida: Inflation expectations reside in price stability range
+2019-09-27,europe,inflation,calm,-0.0254,atlantico.fr,"France: l'inflation ralentit légèrement à 0,9%, en septembre sur un an (Insee, provisoire)"
+2019-09-27,europe,inflation,calm,-0.0153,lesechos.fr,Electricité : le gouvernement n'activera pas son arme anti-hausse des prix
+2019-09-27,europe,inflation,stressed,-0.0153,lesechos.fr,Electricité : le gouvernement n'activera pas son arme anti-hausse des prix
+2019-09-27,europe,inflation,stressed,-0.0254,atlantico.fr,"France: l'inflation ralentit légèrement à 0,9%, en septembre sur un an (Insee, provisoire)"
+2019-09-27,europe,inflation,stressed,-0.0438,actionforex.com,Fed Clarida: Inflation expectations reside in price stability range
+2019-09-27,europe,monetary_policy,calm,-0.0648,theguardian.com,Bank of England hints at interest rate cut even without no-deal Brexit
+2019-09-27,europe,monetary_policy,calm,-0.0524,investmentweek.co.uk,Brexit Blog: BoE sets scene for further interest rate cut
+2019-09-27,europe,monetary_policy,calm,-0.0416,forexcrunch.com,Mexico: Central bank can cut an additional 200bp without having a significant impact on MXN - BBVA
+2019-09-27,europe,monetary_policy,stressed,0.0226,actionforex.com,GBP/USD Outlook:Extended Weakness On BoE Rate Cut Signals Eyes Daily Cloud Base
+2019-09-27,europe,monetary_policy,stressed,0.0062,wiwo.de,Merkel soll Lagarde vor Ernennung auf solideren Kurs einschwören
+2019-09-27,europe,monetary_policy,stressed,-0.0023,finanzen.net,"ÜBERBLICK am Mittag/Konjunktur, Zentralbanken, Politik"
+2019-09-27,europe,trade_tariffs,calm,-0.0968,thepigsite.com,US and Japan agree trade deal but what are the terms?
+2019-09-27,europe,trade_tariffs,calm,-0.0282,theyworkforyou.com,Gas Tariffs Code (Amendment) (EU Exit) Regulations 2019 - Motion to Approve: 26 Sep 2019: House of Lords debates
+2019-09-27,europe,trade_tariffs,calm,0.0054,sassarinotizie.com,"Dazi: Bellanova, 'vanno scongiurati, serve azione coesa Governo' | SassariNotizie 24 ore"
+2019-09-27,europe,trade_tariffs,stressed,0.1401,lancashiretelegraph.co.uk,"Energy firms risk misleading customers with 'green' tariffs, Which? says"
+2019-09-27,europe,trade_tariffs,stressed,0.1064,boersennews.de,China droht USA vor UN-Vollversammlung mit Vergeltung im Handelskrieg
+2019-09-27,europe,trade_tariffs,stressed,0.0950,iltirreno.gelocal.it,«Materiali artificiali e dazi sono i nemici delle imprese»
+2019-09-27,us,banking_stress,calm,0.0040,nasdaq.com,First Republic Bank Breaks Above 200-Day Moving Average - Bullish for FRC
+2019-09-27,us,banking_stress,stressed,0.0040,nasdaq.com,First Republic Bank Breaks Above 200-Day Moving Average - Bullish for FRC
+2019-09-27,us,energy,calm,-0.0340,reuters.com,Oil prices headed for weekly loss on demand jitters
+2019-09-27,us,energy,calm,-0.0293,euronews.com,"Oil prices fall as supply risk premium fades, demand outlook drags"
+2019-09-27,us,energy,calm,-0.0292,econintersect.com,"27Sep2019 Pre-Market Commentary: Wall Street To Open Fractionally Higher, DOW Up 52 Points, WTI Slips To 55.20, Gold Below 1500, Consumer Spending Barely Rises"
+2019-09-27,us,energy,stressed,0.0862,nasdaq.com,Global oil shipping rates soar as U.S. supertanker sanctions rattle crude trade
+2019-09-27,us,energy,stressed,0.0527,gcaptain.com,Tanker Rates Soar as U.S. Sanctions Rattle Crude Trade – gCaptain
+2019-09-27,us,energy,stressed,0.0526,freightwaves.com,"Port Report: truckers beware – IMO 2020 will cause fuel prices to ""go through the roof"""
+2019-09-27,us,equity_markets,calm,-0.1775,reuters.com,Wall Street opens higher as financials rise
+2019-09-27,us,equity_markets,calm,-0.1292,tucson.com,Markets Right Now: Stocks open higher on Wall Street
+2019-09-27,us,equity_markets,calm,-0.1184,reuters.com,"Wall Street ouvre en hausse, portée par le commerce"
+2019-09-27,us,equity_markets,stressed,0.1310,reuters.com,Wall Street drops as White House weighs delisting Chinese companies
+2019-09-27,us,equity_markets,stressed,0.1217,reuters.com,"S&P, Nasdaq dragged down by Micron's downbeat outlook"
+2019-09-27,us,equity_markets,stressed,0.1132,marketwatch.com,Alibaba and Other China Stocks Plunge on Report White House Is Taking Aim
+2019-09-27,us,geopolitics,calm,-0.1218,diariolibre.com,España lamenta que conflicto palestino-israelí siga sin solución política
+2019-09-27,us,geopolitics,calm,-0.0877,yahoo.com,Saudi Arabia Agrees to Limited Cease-Fire in Yemen War
+2019-09-27,us,geopolitics,calm,-0.0846,hotair.com,Kremlin to Trump: About our conversations and transcripts ...
+2019-09-27,us,geopolitics,stressed,0.1865,readingeagle.com,"Japan sees N Korea missile, China space activity as threat"
+2019-09-27,us,geopolitics,stressed,0.1814,wpxi.com,"Japan sees NKorea missile, China space activity as threat"
+2019-09-27,us,geopolitics,stressed,0.1780,reuters.com,"Missiles, drones may steal the show at Beijing military parade"
+2019-09-27,us,growth_labor,calm,-0.1228,caribbeanherald.com,Tourism is engine to boost economic growth: President
+2019-09-27,us,growth_labor,calm,-0.0931,markets.co,Brookfield Infrastructure (BIP) Receives a Buy from RBC Capital
+2019-09-27,us,growth_labor,calm,-0.0347,yahoo.com,Two Emerging Markets Are Ready for the Next Global Recession
+2019-09-27,us,growth_labor,stressed,0.1367,orlandoecho.com,AMCU's Mathunjwa: Government to blame for Sibanye job cuts
+2019-09-27,us,growth_labor,stressed,0.1319,businessinsider.com,HSBC says rate cuts aren't enough — governments need to spend to escape recession
+2019-09-27,us,growth_labor,stressed,0.1004,freerepublic.com,Wilbur Ross: Left-wing media trying to 'trigger a recession'
+2019-09-27,us,inflation,calm,-0.0481,reuters.com,Indonesia's September inflation rate seen stable at 3.52%: Reuters poll
+2019-09-27,us,inflation,calm,-0.0380,reuters.com,UPDATE 2-Euro zone bonds notch up strong week as inflation expectations tumble
+2019-09-27,us,inflation,calm,-0.0354,wtvbam.com,Thai September headline inflation rate seen easing to 0.44%: Reuters poll | News
+2019-09-27,us,inflation,stressed,0.0355,caribbeanherald.com,IMF: Zimbabwe has the highest inflation rate in the world
+2019-09-27,us,inflation,stressed,0.0137,upi.com,"Health insurance premiums, deductibles rising faster than wages, inflation"
+2019-09-27,us,inflation,stressed,-0.0238,commonwealthfund.org,"Key Provisions of Proposals on Drug Price Negotiation, Inflation Rebates, and Medicare Part D Redesign"
+2019-09-27,us,monetary_policy,calm,-0.0699,yahoo.com,Philippines Central Bank Makes Good on Rate-Cut Pledge
+2019-09-27,us,monetary_policy,calm,-0.0575,njbiz.com,Port Authority approves toll rate increase
+2019-09-27,us,monetary_policy,calm,-0.0545,nasdaq.com,"Brazil needs to do more to reduce cost of credit, central bank chief says"
+2019-09-27,us,monetary_policy,stressed,0.0790,prisonplanet.com,Prison Planet.com » QE4: The Fed Pumped $75 Billion MORE Into The Market
+2019-09-27,us,monetary_policy,stressed,0.0666,wkrb13.com,Susquehanna International Group LLP Has $1.37 Million Holdings in iShares Interest Rate Hedged High Yield Bond ETF (NYSEARCA:HYGH)
+2019-09-27,us,monetary_policy,stressed,0.0307,howestreet.com,The Disaster of Negative Interest Rates
+2019-09-27,us,trade_tariffs,calm,-0.1146,ksnblocal4.com,Farmers welcome new US Japan Trade Deal
+2019-09-27,us,trade_tariffs,calm,-0.1124,wlds.com,LaHood Commends U.S.-Japan Trade Deal
+2019-09-27,us,trade_tariffs,calm,-0.0900,reuters.com,Pelosi says 'moving ahead' on trade deal; Mexico optimistic
+2019-09-27,us,trade_tariffs,stressed,0.1561,businessinsider.com,Here's how Trump's trade war is threatening the backbone of the US economy
+2019-09-27,us,trade_tariffs,stressed,0.1411,cnbc.com,EXPLAINER-The jet subsidy row that threatens transatlantic tariff war
+2019-09-27,us,trade_tariffs,stressed,0.1209,aljazeera.com,'A lose-lose game': Airbus CEO warns of aviation trade war danger | News
+2019-09-28,europe,banking_stress,calm,0.1166,thetimes.co.uk,Bankers' feud at heart of Credit Suisse spy scandal | Business
+2019-09-28,europe,banking_stress,stressed,0.1166,thetimes.co.uk,Bankers' feud at heart of Credit Suisse spy scandal | Business
+2019-09-28,europe,energy,calm,-0.0116,investireoggi.it,Prescrizione bollette acqua di due anni a partire da Gennaio 2020
+2019-09-28,europe,energy,calm,0.0495,lvz.de,Klimakrise: CDU-Politiker fordert Spritpreise von zwei Euro
+2019-09-28,europe,energy,stressed,0.0495,lvz.de,Klimakrise: CDU-Politiker fordert Spritpreise von zwei Euro
+2019-09-28,europe,energy,stressed,-0.0116,investireoggi.it,Prescrizione bollette acqua di due anni a partire da Gennaio 2020
+2019-09-28,europe,equity_markets,calm,-0.0931,invertia.com,"""El Ibex marcará una mejora de tendencia cuando supere los 9.290"""
+2019-09-28,europe,equity_markets,calm,-0.0732,eleconomista.es,"CIE, MásMóvil y Ferrovial, las mejores opciones para la Liga Ibex esta temporada"
+2019-09-28,europe,equity_markets,calm,-0.0568,actu.fr,Mayenne : vide-garages et bourse aux vélos dimanche 29 septembre à Mayenne
+2019-09-28,europe,equity_markets,stressed,0.0548,zazoom.it,Mercati sempre più a rischio bolla L' onda che allarma le Borse
+2019-09-28,europe,equity_markets,stressed,0.0039,milanofinanza.it,Ftse Mib: pericoloso il ritorno sotto i 21.750 punti
+2019-09-28,europe,equity_markets,stressed,-0.0173,milanofinanza.it,Piazza Affari chiude sopra la parità - MilanoFinanza.it
+2019-09-28,europe,geopolitics,calm,-0.1443,penarthtimes.co.uk,Trump's envoy to Ukraine resigns as impeachment gathers pace
+2019-09-28,europe,geopolitics,calm,-0.0693,zazoom.it,"Usa, Ucrainagate: si dimette Volker"
+2019-09-28,europe,geopolitics,calm,-0.0667,bresciaoggi.it,Si dimette l'inviato Usa in Ucraina
+2019-09-28,europe,geopolitics,stressed,0.1399,challenges.fr,Pourquoi les châteaux partent en guerre contre les éoliennes
+2019-09-28,europe,geopolitics,stressed,0.1249,alterinfo.net,La guerre contre le monde : les machines militaires industrielles font plus pour l'urgence climatique qu'on pourrait le croire
+2019-09-28,europe,geopolitics,stressed,0.1246,wired.it,L'invasione dei deepfake: tutti quelli di cui forse non vi ricordate
+2019-09-28,europe,growth_labor,calm,-0.0475,oggitreviso.it,Bacardi: nuova sede italiana a Milano e progetto contro disoccupazione giovani. | Oggi Treviso | News | Il quotidiano con le notizie di Treviso e Provincia: Oggitreviso
+2019-09-28,europe,growth_labor,calm,0.0025,volksstimme.de,Arbeitslosigkeit bei Älteren geht weiter zurück
+2019-09-28,europe,growth_labor,calm,0.0057,quasimezzogiorno.org,Diritti di proprieta' intellettuale: industrie che generano PIL – Quasi Mezzogiorno
+2019-09-28,europe,growth_labor,stressed,0.0678,afropages.fr,Mali : Débordement des ordures à Bamako et licenciements massifs à OZONE-MALI : La Mairie du District sommée à prendre ses responsabilités
+2019-09-28,europe,growth_labor,stressed,0.0372,thecourier.co.uk,Hotel chef left jobless after breaking collar bone on 'cracked' Dundee pavement
+2019-09-28,europe,growth_labor,stressed,0.0359,welt.de,Einschätzung von Experten: Arbeitslosigkeit in Bayern sinkt
+2019-09-28,europe,monetary_policy,calm,-0.0224,telegraph.co.uk,Bank of England hawk Saunders says rates could be cut even if UK gets Brexit deal
+2019-09-28,europe,monetary_policy,calm,0.0083,thetimes.co.uk,Pound falls after Bank expert warns of Brexit-induced rate cut
+2019-09-28,europe,monetary_policy,stressed,0.0083,thetimes.co.uk,Pound falls after Bank expert warns of Brexit-induced rate cut
+2019-09-28,europe,monetary_policy,stressed,-0.0224,telegraph.co.uk,Bank of England hawk Saunders says rates could be cut even if UK gets Brexit deal
+2019-09-28,europe,trade_tariffs,calm,-0.0500,marketoracle.co.uk,Trade War - There Are Two Sides to Every Trade. And Both Sides Benefit :: The Market Oracle ::
+2019-09-28,europe,trade_tariffs,calm,-0.0391,sicilianews24.it,"Dazi USA, Bertinelli incontra Conte: ""Rischio per Parmigiano Raggiano"" -"
+2019-09-28,europe,trade_tariffs,calm,-0.0238,zazoom.it,Con dazi Usa -90% export di parmigiano
+2019-09-28,europe,trade_tariffs,stressed,0.0800,larioja.com,Calviño avisa de un «otoño inestable» en España por la guerra comercial
+2019-09-28,europe,trade_tariffs,stressed,0.0693,affaritaliani.it,"Coldiretti, record storico parmigiano all'estero: +16%. Ma rischi dai dazi Usa"
+2019-09-28,europe,trade_tariffs,stressed,0.0444,zazoom.it,Dazi Usa | Bertinelli incontra Conte | rischio per parmigiano reggiano
+2019-09-28,us,energy,calm,-0.0317,gdnonline.com,International Business: Oil prices headed for weekly loss on demand jitters
+2019-09-28,us,energy,calm,0.0085,reuters.com,"Malaysia palm oil prices forecast at 2,200-2,300 rgt/T in Q4 2019 - MPOB"
+2019-09-28,us,energy,calm,0.0523,aljazeera.com,Oil shipping rates jump as US sanctions hit crude trade
+2019-09-28,us,energy,stressed,0.0856,ibtimes.com,The Attack On The Saudi Oil Infrastructure And The Future Of Oil Prices
+2019-09-28,us,energy,stressed,0.0523,aljazeera.com,Oil shipping rates jump as US sanctions hit crude trade
+2019-09-28,us,energy,stressed,0.0085,reuters.com,"Malaysia palm oil prices forecast at 2,200-2,300 rgt/T in Q4 2019 - MPOB"
+2019-09-28,us,equity_markets,calm,-0.0999,globenewswire.com,Aileron Presents Positive Interim Phase 2a Data for ALRN-6924 in Combination with Pfizer's Palbociclib at the 2019 Congress of the European Society for Medical Oncology Nasdaq:ALRN
+2019-09-28,us,equity_markets,calm,-0.0453,sleepreviewmag.com,"ResMed Celebrates 30th Anniversary, 20 Years Listed on the New York Stock Exchange by Ringing The Opening Bell"
+2019-09-28,us,equity_markets,calm,-0.0164,yahoo.com,Las Vegas Sands Set to Join S&P 500; Nektar Therapeutics to Join S&P MidCap 400; The Pennant Group to Join S&P SmallCap 600
+2019-09-28,us,equity_markets,stressed,0.1007,wccftech.com,Chinese Tech Stocks Tumble as Trump Investigates Scorched Earth Policy
+2019-09-28,us,equity_markets,stressed,0.0916,freerepublic.com,China Stocks Sink As White House Mulls Limits On U.S. Portfolio Flows To China
+2019-09-28,us,equity_markets,stressed,0.0780,newsbusters.org,"CNBC: Wall Street Dems Oppose Warren, Threaten to 'Sit Out' Election"
+2019-09-28,us,geopolitics,calm,-0.1098,reuters.com,Trump envoy to Ukraine Volker resigns - sources
+2019-09-28,us,geopolitics,calm,-0.1070,reuters.com,Trump envoy to Ukraine Volker resigns: sources
+2019-09-28,us,geopolitics,calm,-0.0930,thehawkeye.com,Giuliani cancels paid appearance at Kremlin-backed summit in Armenia - News - The Hawk Eye Newspaper
+2019-09-28,us,geopolitics,stressed,0.1510,newsherald.com,LETTER TO THE EDITOR: Iran threatens neighbors and U.S. - News - Panama City News Herald
+2019-09-28,us,geopolitics,stressed,0.1350,nationalinterest.org,The U.S. Army Plans to Deploy Super-Charged Lasers to Shootdown Cruise Missiles
+2019-09-28,us,geopolitics,stressed,0.1017,zerohedge.com,Israel Believed Behind Overnight Attack On Iran's 'Land Bridge' From Iraq To Syria
+2019-09-28,us,growth_labor,calm,-0.0947,bignewsnetwork.com,Increase in internet traffic to have an impact of GDP Growth
+2019-09-28,us,growth_labor,calm,-0.0799,freerepublic.com,"Dallas Fed's Kaplan: U.S. needs more, not less, immigration for economic growth"
+2019-09-28,us,growth_labor,calm,-0.0701,magicvalley.com,Reader Comment: Why Providing Students Access To Career Pathways Is Imperative To Economic Growth
+2019-09-28,us,growth_labor,stressed,0.1488,rawstory.com,China's foreign minister warns of Donald Trump causing a global recession – Raw Story
+2019-09-28,us,growth_labor,stressed,0.1317,wsbtv.com,Red Sox owners intend to slash payroll after 2019 failure
+2019-09-28,us,growth_labor,stressed,0.1311,malaymail.com,"In swipe at Trump, China tells UN tariffs could plunge world into recession | Money"
+2019-09-28,us,monetary_policy,calm,-0.0809,stgeorgeutah.com,Officials say changes to Lake Powell Pipeline plans will simplify permitting process
+2019-09-28,us,monetary_policy,calm,-0.0694,nasdaq.com,Peru's central bank chief signals no rate cut for now
+2019-09-28,us,monetary_policy,calm,-0.0618,reuters.com,UPDATE 1-Peru's central bank chief signals no rate cut for now
+2019-09-28,us,monetary_policy,stressed,-0.0026,kfgo.com,ECB's Visco says new stimulus was necessary to counter deflation risk | News
+2019-09-28,us,monetary_policy,stressed,-0.0047,bhpioneer.com,Bindi Irwin: My dad 'truly would've loved' Chandler Powell
+2019-09-28,us,monetary_policy,stressed,-0.0182,investmentwatchblog.com,"Ron Paul: Warren's ""Wealth Tax"" Won't Save The Empire – Nor Will The Fed – Investment Watch"
+2019-09-28,us,trade_tariffs,calm,-0.0116,pbs.org,Impact of U.S.-China trade war felt in both countries
+2019-09-28,us,trade_tariffs,calm,0.0401,yahoo.com,"Donald Trump won't use Huawei ban as trade war bargaining chip, US official Robert Strayer says"
+2019-09-28,us,trade_tariffs,calm,0.0623,washingtonpost.com,AP Explains: A look at where the US-China tariff war stands
+2019-09-28,us,trade_tariffs,stressed,0.1139,msn.com,"China takes a swipe at Trump, says tariffs could lead to global recession"
+2019-09-28,us,trade_tariffs,stressed,0.1131,malaymail.com,"In swipe at Trump, China tells UN tariffs could plunge world into recession | Money"
+2019-09-28,us,trade_tariffs,stressed,0.1093,yahoo.com,REFILE-FEATURE-Battle to woo trade war's corporate refugees intensifies
+2019-09-29,europe,energy,calm,-0.0087,eldiariomontanes.es,La factura de la luz subirá en Cantabria por la 'resurrección' de una tasa de 2013
+2019-09-29,europe,energy,calm,0.0297,zazoom.it,Bollette | perché i no del M5s ci costringono a pagare importi più cari
+2019-09-29,europe,energy,stressed,0.0297,zazoom.it,Bollette | perché i no del M5s ci costringono a pagare importi più cari
+2019-09-29,europe,energy,stressed,-0.0087,eldiariomontanes.es,La factura de la luz subirá en Cantabria por la 'resurrección' de una tasa de 2013
+2019-09-29,europe,equity_markets,calm,-0.0695,financial.de,dpa-AFX KUNDEN-INFO: Finanzanalysen in den dpa-AFX Diensten « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2019-09-29,europe,equity_markets,calm,-0.0472,financial.de,IGC-Ernteprognosen 2019/20: Nur geringfügige Revisionen « Finanzportal financial.de – Aktien – Börse – Kurse – Rohstoffe
+2019-09-29,europe,equity_markets,calm,0.0382,handelsblatt.com,Nasdaq greift bei IPOs von chinesischen Kleinunternehmen hart durch
+2019-09-29,europe,equity_markets,stressed,0.0494,zazoom.it,Trump va alla guerra sui mercati dei capitali | delisting dei colossi cinesi da Wall Street
+2019-09-29,europe,equity_markets,stressed,0.0408,multiplayer.it,"Scontro Stati Uniti-Cina, governo Trump valuta esclusione società cinesi dalla borsa USA"
+2019-09-29,europe,equity_markets,stressed,0.0382,handelsblatt.com,Nasdaq greift bei IPOs von chinesischen Kleinunternehmen hart durch
+2019-09-29,europe,geopolitics,calm,-0.0820,rundschau-online.de,Im Krieg zerstört: Königliche Hochzeitsräume in Dresden feierlich wiedereröffnet
+2019-09-29,europe,geopolitics,calm,-0.0519,ostsee-zeitung.de,Eine Grundschullehrerin kritisiert: Mit Quereinsteigern kriegen wir den Lehrermangel nicht in den Griff!
+2019-09-29,europe,geopolitics,calm,-0.0331,esdiario.com,"Guerra abierta entre los jugadores y la directiva del Barça: ""No nos queremos enfadar"""
+2019-09-29,europe,geopolitics,stressed,0.1419,focustech.it,"Iniziata l'""invasione"" dell'Area 51: ci sono già stati alcuni arresti e persino un festival"
+2019-09-29,europe,geopolitics,stressed,0.1106,zazoom.it,Trump va alla guerra sui mercati dei capitali | delisting dei colossi cinesi da Wall Street
+2019-09-29,europe,geopolitics,stressed,0.1075,swr.de,Iran wirft USA Cyberkrieg vor
+2019-09-29,europe,growth_labor,calm,-0.0567,exchangerates.org.uk,Outlook For Pound To US Dollar Exchange Rate Forecast: USD Could Rise Higher On Improved US Non-farm Payrolls In September
+2019-09-29,europe,growth_labor,calm,-0.0479,lopinionista.it,"Istat, nel 2018 il rapporto debito/Pil al 2,2%"
+2019-09-29,europe,growth_labor,calm,-0.0269,cronicadecantabria.com,"CaixaBank rebaja su previsión de crecimiento del PIB al 2,2% este año y al 1,7% en 2020"
+2019-09-29,europe,growth_labor,stressed,0.0878,welt.de,Rezession: Allianz-Ökonom Michael Heise sieht Gefahren für Deutschland
+2019-09-29,europe,growth_labor,stressed,0.0455,handelsblatt.com,Chinas Zentralbank kündigt Maßnahmen gegen Konjunkturabkühlung an
+2019-09-29,europe,growth_labor,stressed,0.0043,rga.de,Volkswirte glauben nicht an baldige Konjunkturbelebung
+2019-09-29,europe,inflation,calm,-0.0232,exchangerates.org.uk,The Pound To Euro Rate Five Day Forecast: GBP/EUR Tipped To Rise As Eurozone Inflation Misses ECB's Target
+2019-09-29,europe,inflation,stressed,-0.0232,exchangerates.org.uk,The Pound To Euro Rate Five Day Forecast: GBP/EUR Tipped To Rise As Eurozone Inflation Misses ECB's Target
+2019-09-29,europe,monetary_policy,calm,-0.0288,handelsblatt.com,Chinas Zentralbank kündigt Maßnahmen gegen Konjunkturabkühlung an
+2019-09-29,europe,monetary_policy,calm,0.0116,eleconomista.es,Los desafíos que afronta Christine Lagarde en el BCE
+2019-09-29,europe,monetary_policy,calm,0.0221,exchangerates.org.uk,Pound Australian Dollar (GBP/AUD) Exchange Rate Recovery Forecast As Markets Brace For RBA Rate Cut
+2019-09-29,europe,monetary_policy,stressed,0.0473,exchangerates.org.uk,The Pound To Euro Rate Five Day Forecast: GBP/EUR Tipped To Rise As Eurozone Inflation Misses ECB's Target
+2019-09-29,europe,monetary_policy,stressed,0.0353,elperiodicodearagon.com,Los 'halcones' sobrevuelan el BCE
+2019-09-29,europe,monetary_policy,stressed,0.0221,exchangerates.org.uk,Pound Australian Dollar (GBP/AUD) Exchange Rate Recovery Forecast As Markets Brace For RBA Rate Cut
+2019-09-29,europe,trade_tariffs,calm,-0.1103,mi-lorenteggio.com,"DAZI, PRESIDENTE FONTANA: CONTE E GOVERNO INTERVENGANO CONCRETAMENTE, IN LOMBARDIA A RISCHIO INTERO SISTEMA PRODUTTIVO"
+2019-09-29,europe,trade_tariffs,calm,0.0276,gazzettadimantova.gelocal.it,"Conte tratta con l'Ue per alzare il deficit. E avverte: ""I dazi di Trump ci fanno male"""
+2019-09-29,europe,trade_tariffs,calm,0.0386,handelsblatt.com,Airbus-Subventionen: Hohe Kosten durch US-Strafzölle erwartet
+2019-09-29,europe,trade_tariffs,stressed,0.0838,meteoweb.eu,"Dazi, Coldiretti: ""Il rischio si abbatte sul record storico del Made in Italy negli Usa"""
+2019-09-29,europe,trade_tariffs,stressed,0.0386,handelsblatt.com,Airbus-Subventionen: Hohe Kosten durch US-Strafzölle erwartet
+2019-09-29,europe,trade_tariffs,stressed,0.0276,gazzettadimantova.gelocal.it,"Conte tratta con l'Ue per alzare il deficit. E avverte: ""I dazi di Trump ci fanno male"""
+2019-09-29,us,energy,calm,0.0003,oilprice.com,How Many Wells From 1 Onshore Rig? - Infrastructure - Oil Price Community
+2019-09-29,us,energy,calm,0.0025,10news.com,SoCal gas prices rise sharply as U.S. prices fall
+2019-09-29,us,energy,calm,0.0104,peakoil.com,"What Is Crude Oil, How Is It Formed? : Peak Oil Discussion - Page 3 - Peak Oil News and Message Boards"
+2019-09-29,us,energy,stressed,0.0973,mauinews.com,"Oil price increase a sham driven be greed | News, Sports, Jobs"
+2019-09-29,us,energy,stressed,0.0464,oilprice.com,OPEC's No.2 Prepares For Oil Export Boom
+2019-09-29,us,energy,stressed,0.0104,peakoil.com,"What Is Crude Oil, How Is It Formed? : Peak Oil Discussion - Page 3 - Peak Oil News and Message Boards"
+2019-09-29,us,equity_markets,calm,-0.0559,ssuchronicle.com,"Sodexo Ranks Best In Class* for the 15th Consecutive Year on the Prestigious Dow Jones Sustainability Index with Leading Scores in Labor Practices, Climate Strategy and Stakeholder Engagement."
+2019-09-29,us,equity_markets,calm,-0.0540,mondovisione.com,Amman Stock Exchange Launches Its New Index ASE20 Next Tuesday
+2019-09-29,us,equity_markets,calm,-0.0509,mondovisione.com,The Saudi Stock Exchange (Tadawul) Announces The Quarterly Update (2nd Quarter 2019) To The Number Of Free Float Shares For All Companies
+2019-09-29,us,equity_markets,stressed,0.1150,nbcnews.com,Trump's impeachment inquiry news now — like Bill Clinton's scandal then — sends Wall Street swinging wildly
+2019-09-29,us,equity_markets,stressed,0.0702,businessinsider.com,We spoke to 5 money managers about how Trump impeachment proceedings could impact the stock market. Here's what they said.
+2019-09-29,us,equity_markets,stressed,0.0267,investing.com,S&P 500 Earnings Estimates Going Forward Barely Showing Any Growth In 2019
+2019-09-29,us,geopolitics,calm,-0.0923,indystar.com,Schiff: Trump-Ukraine whistleblower agrees to testify before Congress
+2019-09-29,us,geopolitics,calm,-0.0564,austinglobe.com,"J-K: Pak violates ceasefire in Mendhar, Balakote sectors"
+2019-09-29,us,geopolitics,calm,-0.0564,nbclosangeles.com,Who's Who in the Trump-Ukraine Affair
+2019-09-29,us,geopolitics,stressed,0.1815,yahoo.com,Why the Middle East Fears Iran's Missiles (To a Point)
+2019-09-29,us,geopolitics,stressed,0.1464,zerohedge.com,China May Have Accidentally Revealed New Supersonic Cruise Missile In Now-Deleted Footage
+2019-09-29,us,geopolitics,stressed,0.1053,smallwarsjournal.com,Yemen War: Houthi Rebels Claim Mass Capture of Saudi Troops
+2019-09-29,us,growth_labor,calm,-0.0767,gdnonline.com,UAE Business: UAE tourism sector contributes over 44bn to GDP in 2018
+2019-09-29,us,growth_labor,calm,-0.0046,nypost.com,Mets owners may have no choice but to raise payroll
+2019-09-29,us,growth_labor,calm,0.0566,searchenginejournal.com,WeWork Selling Conductor SEO Company - Layoffs Possible - Search Engine Journal
+2019-09-29,us,growth_labor,stressed,0.0811,greenwichtime.com,Payroll CEO accused of $70 million bank fraud after company's sudden collapse
+2019-09-29,us,growth_labor,stressed,0.0699,nbcnews.com,"Amid historically low unemployment rate, companies are fighting for holiday help"
+2019-09-29,us,growth_labor,stressed,0.0596,bendbulletin.com,"Fearing recession, world's wealthiest families are stockpiling cash;"
+2019-09-29,us,monetary_policy,calm,-0.0982,bloomberg.com,Philippines to Cut as Thailand Holds: Rate Decision
+2019-09-29,us,monetary_policy,calm,-0.0537,reuters.com,China plans to step up efforts to lift economy - central bank
+2019-09-29,us,monetary_policy,calm,-0.0278,statesman.com,Hein: Federal Reserve's current policies will not result in price stability - News - Austin American-Statesman
+2019-09-29,us,monetary_policy,stressed,0.0891,wtma.com,'Helicopter money' and other extreme measures could be central banks' next options
+2019-09-29,us,monetary_policy,stressed,0.0340,wibqam.com,India government may seek $4.3 billion interim dividend from central bank: media reports | News
+2019-09-29,us,monetary_policy,stressed,0.0242,justjared.com,Glen Powell's Mom Claps Back at Troll Who Criticized His Name | Glen Powell
+2019-09-29,us,trade_tariffs,calm,-0.0145,telegraphherald.com,"If you are looking to buy a new car, this trade deal could mean higher prices"
+2019-09-29,us,trade_tariffs,calm,0.0078,reuters.com,China urges 'calm and rational' resolution to U.S.-Sino trade war
+2019-09-29,us,trade_tariffs,calm,0.0083,nbcnews.com,"Apple will make the new Mac Pro in Austin, avoiding some China tariffs"
+2019-09-29,us,trade_tariffs,stressed,0.1104,nypost.com,Trump's trade war with China making it more expensive to raise kids
+2019-09-29,us,trade_tariffs,stressed,0.0909,nbcnews.com,"Trump lifts some tariffs, in sign trade war is inflicting harm on U.S. economy"
+2019-09-29,us,trade_tariffs,stressed,0.0860,nbcnews.com,Your electronics are about to become more expensive. So who will pay the price for the next round of tariffs?
+2019-09-30,europe,banking_stress,calm,-0.0166,finanzen.net,BNP Paribas Neutral (Credit Suisse Group) 30.09.2019 | Analyse
+2019-09-30,europe,banking_stress,calm,-0.0100,finanzen.net,Deutsche Bank Underperform (Credit Suisse Group) 30.09.2019 | Analyse
+2019-09-30,europe,banking_stress,calm,0.0004,finanzen.net,UBS Outperform (Credit Suisse Group) 30.09.2019 | Analyse
+2019-09-30,europe,banking_stress,stressed,0.0349,finanzen.net,Netflix unter Druck: Schwere Zeiten im Streaming-Geschäft: Credit Suisse streicht Ausblick für Netflix zusammen | Nachricht
+2019-09-30,europe,banking_stress,stressed,0.0152,finanzen.net,Société Générale (Societe Generale) Underperform (Credit Suisse Group) 30.09.2019 | Analyse
+2019-09-30,europe,banking_stress,stressed,0.0004,finanzen.net,UBS Outperform (Credit Suisse Group) 30.09.2019 | Analyse
+2019-09-30,europe,energy,calm,-0.0080,lindependant.fr,"Pour quatre millions de foyers français, les prix du gaz vont baisser"
+2019-09-30,europe,energy,calm,-0.0022,boerse-online.de,Ölpreise geben weiter nach - 30.09.19
+2019-09-30,europe,energy,calm,0.0349,forexcrunch.com,WTI pressured on a rapid recovery in Saudi crude production
+2019-09-30,europe,energy,stressed,0.0448,heraldscotland.com,Age Scotland warns older Scots face huge energy bill overpayments despite price cap
+2019-09-30,europe,energy,stressed,0.0446,bbc.com,News Daily: Tory conference and oil price warning
+2019-09-30,europe,energy,stressed,0.0349,forexcrunch.com,WTI pressured on a rapid recovery in Saudi crude production
+2019-09-30,europe,equity_markets,calm,-0.1725,noticiasbancarias.com,"El Ibex 35 avanza un 0,21% al inicio de sesión"
+2019-09-30,europe,equity_markets,calm,-0.1454,stern.de,Erneuerbare Energien: RWE setzt auf Ökostrom - Börse belohnt neuen Kurs
+2019-09-30,europe,equity_markets,calm,-0.1284,finanztreff.de,MÄRKTE EUROPA/Börsen ziehen etwas an - Anleger weiter zurückhaltend
+2019-09-30,europe,equity_markets,stressed,0.1213,milanofinanza.it,La paura di un bando della Cina da Wall Street manda l'Asia in rosso
+2019-09-30,europe,equity_markets,stressed,0.1033,hsj.co.uk,'About that bus…?': Ministers' tactics to see off threat of a Brexit drugs sell-off revealed | Expert Briefing
+2019-09-30,europe,equity_markets,stressed,0.1014,lainformacion.com,El BBVA sale de compras... y siembra el pánico en un Ibex a precio de saldo - Opinión - Daniel Toledo
+2019-09-30,europe,geopolitics,calm,-0.0564,elmundo.es,Stalin y lo que queda del comunismo
+2019-09-30,europe,geopolitics,calm,-0.0472,dailymail.co.uk,John Bolton condemns Donald Trump's North Korea policy saying Kim will NOT give up nuclear weapons
+2019-09-30,europe,geopolitics,calm,-0.0461,manduriaoggi.it,MANDURIA – Anche un volumetto per ricordare gli anni non facili di Manduria nel periodo della Grande Guerra
+2019-09-30,europe,geopolitics,stressed,0.1413,nuovaresistenza.org,'Now it's just ghosts': Yemenis living under the shadow of death by airstrike | World news | The Guardian
+2019-09-30,europe,geopolitics,stressed,0.1209,prealpina.it,"Parabiago: invasione di conigli nel parco | La Prealpina - Quotidiano storico di Varese, Altomilanese e Vco."
+2019-09-30,europe,geopolitics,stressed,0.1055,repubblica.it,"Somalia, attacco contro un convoglio militare italiano. Illesi i soldati"
+2019-09-30,europe,growth_labor,calm,-0.1163,noticiasdenavarra.com,"El PIB navarro crece un 2,8 % en el segundo trimestre, una décima menos que en el primero. Noticias de Navarra"
+2019-09-30,europe,growth_labor,calm,-0.1111,noticiasbancarias.com,El PIB de EE.UU. crece un 2% en el segundo trimestre del año
+2019-09-30,europe,growth_labor,calm,-0.1079,ln-online.de,Positive Entwicklung: Arbeitslosigkeit im Norden weiter gesunken
+2019-09-30,europe,growth_labor,stressed,0.1075,birminghammail.co.uk,Recession fears growing as latest official update shows UK economy decline
+2019-09-30,europe,growth_labor,stressed,0.1027,teleborsa.it,"IVA, appello delle associazioni al governo: ""Si rischia la recessione"""
+2019-09-30,europe,growth_labor,stressed,0.0967,t-online.de,Experten rechnen mit Rückgang der Arbeitslosigkeit
+2019-09-30,europe,inflation,calm,-0.0235,boerse-online.de,ROUNDUP: Inflation auf niedrigstem Stand seit Februar 2018 - 30.09.19
+2019-09-30,europe,inflation,calm,-0.0191,zazoom.it,"Istat: inflazione stabile allo 0,4%"
+2019-09-30,europe,inflation,calm,-0.0106,moz.de,Inflation auf niedrigstem Stand seit Februar 2018
+2019-09-30,europe,inflation,stressed,0.0477,faz.net,Inflation auf tiefstem Stand seit fast zwei Jahren
+2019-09-30,europe,inflation,stressed,0.0030,elpais.com,"El IPC se modera hasta el 0,1% en septiembre, el nivel más bajo en tres años | Economía"
+2019-09-30,europe,inflation,stressed,0.0030,tgcom24.mediaset.it,"Prezzi, Istat: ""carrello della spesa"" doppia l'inflazione a +0,8%"
+2019-09-30,europe,monetary_policy,calm,-0.0447,ln-online.de,Jetzt auch die IG BCE: Darum wollen immer mehr Beschäftigte weniger arbeiten
+2019-09-30,europe,monetary_policy,calm,-0.0061,finanznachrichten.de,"ÜBERBLICK am Abend/Konjunktur, Zentralbanken, Politik"
+2019-09-30,europe,monetary_policy,calm,-0.0023,finanzen.net,"ÜBERBLICK am Mittag/Konjunktur, Zentralbanken, Politik"
+2019-09-30,europe,monetary_policy,stressed,0.0447,finanza.lastampa.it,"Bank of England, massa monetaria M4 frena ad agosto"
+2019-09-30,europe,monetary_policy,stressed,0.0308,express.co.uk,Martin Lewis reveals best savings account deals now and how to boost the interest rate
+2019-09-30,europe,monetary_policy,stressed,0.0095,lopinion.fr,Patrick Artus (Natixis): «La crise ouverte à la Banque centrale européenne révèle le vice de fond de l'euro» – Economie
+2019-09-30,europe,trade_tariffs,calm,-0.0179,finanznachrichten.de,MÄRKTE ASIEN/Uneinheitlich - Meldungen zum Handelskonflikt verunsichern
+2019-09-30,europe,trade_tariffs,calm,0.0012,ilcittadinoonline.it,"NUBI SULL'ECONOMIA LOMBARDA, PESANO I DAZI E IL RALLENTAMENTO TEDESCO"
+2019-09-30,europe,trade_tariffs,calm,0.0046,boerse-online.de,DAX im Minus: Handelsstreit bremst Kauflaune an Europas Börsen - 30.09.19
+2019-09-30,europe,trade_tariffs,stressed,0.1185,venetoeconomia.it,"Dazi Usa, allarme per agroalimentare veneto. Zaia: «Governo batta un colpo»"
+2019-09-30,europe,trade_tariffs,stressed,0.0948,thetimes.co.uk,Industry leaders fear late changes to post‑Brexit tariffs
+2019-09-30,europe,trade_tariffs,stressed,0.0768,milanofinanza.it,Dove andrà il dollaro tra politiche espansive e guerra commerciale
+2019-09-30,us,banking_stress,calm,-0.0453,theepochtimes.com,Credit Suisse Saga Reveals Ever-Present Bank Surveillance State
+2019-09-30,us,banking_stress,calm,0.1421,zerohedge.com,Credit Suisse 'Spy' Found Dead As 'Espionage Scandal' Stuns Swiss Banking Establishment
+2019-09-30,us,banking_stress,stressed,0.1421,zerohedge.com,Credit Suisse 'Spy' Found Dead As 'Espionage Scandal' Stuns Swiss Banking Establishment
+2019-09-30,us,banking_stress,stressed,-0.0453,theepochtimes.com,Credit Suisse Saga Reveals Ever-Present Bank Surveillance State
+2019-09-30,us,energy,calm,-0.0660,wtma.com,SC gas prices down 2.7 cents in past week
+2019-09-30,us,energy,calm,-0.0653,centralmaine.com,Gas prices drop slightly in northern New England
+2019-09-30,us,energy,calm,-0.0592,mrtopstep.com,Oil prices fall as China's economic outlook still weak
+2019-09-30,us,energy,stressed,0.0758,seekingalpha.com,Oil Prices To Rise
+2019-09-30,us,energy,stressed,0.0466,yahoo.com,"Oil Prices Gain on China Data, Market Shakes Off Saudi Arabian Disruption"
+2019-09-30,us,energy,stressed,0.0452,marketwatch.com,Average U.S. gas prices spike 10 cents per gallon
+2019-09-30,us,equity_markets,calm,-0.1543,yahoo.com,US STOCKS SNAPSHOT-Wall Street opens higher on Apple boost
+2019-09-30,us,equity_markets,calm,-0.1156,ivpressonline.com,Stocks climb as markets cap turbulent quarter with calm end
+2019-09-30,us,equity_markets,calm,-0.1109,efe.com,"El IBEX 35 sube un 0,23 % tras la apertura y supera los 9.200 puntos | Economía"
+2019-09-30,us,equity_markets,stressed,0.1138,reuters.com,EXPLAINER-What delisting Chinese firms from U.S. stock markets could mean
+2019-09-30,us,equity_markets,stressed,0.1073,wtma.com,Lousy earnings might kill the stock market rally
+2019-09-30,us,equity_markets,stressed,0.1030,washingtonpost.com,WeWork says it is withdrawing its stock market IPO filing.
+2019-09-30,us,geopolitics,calm,-0.0989,mcall.com,"Transcripts of Trump-Putin calls can only be published on mutual accord, Kremlin says"
+2019-09-30,us,geopolitics,calm,-0.0785,reuters.com,Iraq reopens Syria crossing in win for mutual ally Iran
+2019-09-30,us,geopolitics,calm,-0.0566,sott.net,"Hey, NYT! If Sentsov is the proof that Crimean Russians never wanted to be with Russia, why does he say otherwise? -- Society's Child -- Sott.net"
+2019-09-30,us,geopolitics,stressed,0.1653,bignewsnetwork.com,Another US Airstrike in Libya Targets IS Fighters
+2019-09-30,us,geopolitics,stressed,0.1500,yahoo.com,Un Nobel de Física alerta de una posible guerra nuclear por el cambio climático
+2019-09-30,us,geopolitics,stressed,0.1291,ibtimes.com,Nuclear Missile That Can Reach US In 30 Minutes May Be Unveiled At Chinese Parade
+2019-09-30,us,growth_labor,calm,-0.0965,oleantimesherald.com,University of Toronto Improves Payroll Accuracy and Efficiency with Automated Time and Attendance from Kronos
+2019-09-30,us,growth_labor,calm,-0.0941,prnewswire.com,"New Report: U.S. Metro Areas Continue To Drive Nation's Economic Growth, Post Fifth Consecutive Year Of Increase"
+2019-09-30,us,growth_labor,calm,-0.0823,reuters.com,Turkish unemployment rate seen rising to 12.9% in 2019 - Albayrak
+2019-09-30,us,growth_labor,stressed,0.0845,masslive.com,"Boston Red Sox 'anticipate' ticket prices will increase in 2020 despite goal to reduce payroll, missing postseason"
+2019-09-30,us,growth_labor,stressed,0.0816,skift.com,Cathay Pacific Accused of Unfair Layoffs Related to Workers' Social Media Posts
+2019-09-30,us,growth_labor,stressed,0.0808,masslive.com,"Boston Red Sox: 'challenging, difficult' to have J.D. Martinez, Mookie Betts both on 2020 roster and keep payroll under $208M"
+2019-09-30,us,inflation,calm,-0.0580,yahoo.com,"Turkey Sees Slower Inflation, Surging Economy Under New Targets"
+2019-09-30,us,inflation,calm,-0.0237,reuters.com,Russia seen cutting rate further in 2019 as inflation slows: Reuters poll
+2019-09-30,us,inflation,calm,-0.0166,forextv.com,Euro Little Changed After German Consumer Inflation Data
+2019-09-30,us,inflation,stressed,0.0020,forextv.com,German Inflation Lowest Since Early 2018
+2019-09-30,us,inflation,stressed,0.0011,seekingalpha.com,"U.S. Personal Income, Expenditure And PCE Inflation - Looking Good But Slightly Under Fed Targets. Room For A Rate Cut"
+2019-09-30,us,inflation,stressed,-0.0048,masslive.com,Holyoke Finance Committee recommends modest adjustment to city retirees' cost of living base
+2019-09-30,us,monetary_policy,calm,-0.0591,seekingalpha.com,"U.S. Personal Income, Expenditure And PCE Inflation - Looking Good But Slightly Under Fed Targets. Room For A Rate Cut"
+2019-09-30,us,monetary_policy,calm,-0.0471,siouxcityjournal.com,Lebanon central bank chief seeks to ease demand for dollars
+2019-09-30,us,monetary_policy,calm,-0.0341,portcitydaily.com,Financial report: H2GO plant could contribute to rate increase for county's remaining customers
+2019-09-30,us,monetary_policy,stressed,0.0836,wtma.com,Negative interest rates are inflating real estate prices. These cities are at risk of a bubble
+2019-09-30,us,monetary_policy,stressed,0.0622,investmentwatchblog.com,"The Fed Has Revealed It's ""Late 2007"" For the Next Crisis… Are You Ready? – Investment Watch"
+2019-09-30,us,monetary_policy,stressed,0.0618,ktvz.com,Negative interest rates inflating European real estate prices
+2019-09-30,us,trade_tariffs,calm,-0.1353,agrinews-pubs.com,"U.S.-Japan trade agreement reached: Corn, beef, pork tariffs to be lifted"
+2019-09-30,us,trade_tariffs,calm,-0.0695,newsviewsnreviews.com,News Views and Reviews | China factory activity improves in September amid trade war
+2019-09-30,us,trade_tariffs,calm,-0.0624,newdelhitimes.com,China factory activity improves in September amid trade war - New Delhi Times - India's Only International Newspaper
+2019-09-30,us,trade_tariffs,stressed,0.1323,reuters.com,PRECIOUS-Gold prices dip as fears of widening trade war ease
+2019-09-30,us,trade_tariffs,stressed,0.1014,reuters.com,Stocks inch higher as investors downplay escalating trade war
+2019-09-30,us,trade_tariffs,stressed,0.0959,newsviewsnreviews.com,News Views and Reviews | Bremmer Says U.S.-China Trade War Getting 'Considerably Worse'
