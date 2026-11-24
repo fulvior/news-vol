@@ -109,13 +109,23 @@ def process_day(day: date, cfg: dict, domain_region: dict, patterns: dict,
     step = 24 * 60 // cfg["slots_per_day"]
     suffixes = [".gkg.csv.zip"] + ([".translation.gkg.csv.zip"] if cfg["include_translated"] else [])
     start = datetime(day.year, day.month, day.day)
-    urls = [f"{cfg['base_url']}{start + timedelta(minutes=i * step):%Y%m%d%H%M%S}{suffix}"
-            for i in range(cfg["slots_per_day"]) for suffix in suffixes]
+    # Each slot covers a window of the day (an hour with 24 slots). GDELT publishes
+    # a file every 15 minutes and some are missing during its outages, so every
+    # 15-minute file in the window is tried in turn until one exists.
+    slots = [[f"{cfg['base_url']}{start + timedelta(minutes=m):%Y%m%d%H%M%S}{suffix}"
+              for m in range(i * step, (i + 1) * step, 15)]
+             for i in range(cfg["slots_per_day"]) for suffix in suffixes]
 
-    results = [r for r in pool.map(lambda u: summarize_file(u, domain_region, patterns), urls)
-               if r is not None]
-    status = f"{len(results)}/{len(urls)} files"
-    if len(results) < len(urls) / 2:
+    def first_available(urls: list[str]) -> dict | None:
+        for url in urls:
+            result = summarize_file(url, domain_region, patterns)
+            if result is not None:
+                return result
+        return None
+
+    results = [r for r in pool.map(first_available, slots) if r is not None]
+    status = f"{len(results)}/{len(slots)} files"
+    if len(results) < len(slots) / 2:
         return None, status, len(results)
 
     rows = []
