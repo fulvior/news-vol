@@ -78,159 +78,236 @@ news:
     armed_conflict: [ARMEDCONFLICT]
 
 # ------------------------------------------------------------------- semantic
-# Topics defined by meaning rather than by GDELT's theme codes, scored on
-# headlines. Headlines exist in GDELT from the second half of 2019.
+# Topics defined by meaning rather than by GDELT's theme codes, measured on
+# headlines (GDELT has them from the second half of 2019).
 #
-# Two models: a fast static one screens every headline, and a slower
-# transformer re-scores the ones that pass and measures tone. Both are
-# multilingual, so English anchors also match German, French, Italian and
-# Spanish headlines; a few non-English anchors per topic help the fast model,
-# whose cross-language matching is weaker.
+# How a headline is assigned to a topic:
+#   1. keywords: precise multilingual patterns (regular expressions, case is
+#      ignored except inside (?-i:...)). A match makes the headline a clear
+#      example of the topic, unless it also matches an `exclude` pattern.
+#   2. a classifier per topic, trained on the clear examples, recognises
+#      headlines on the topic that use none of the keywords. The keywords are
+#      hidden from it during training, so it has to learn from the rest of
+#      the wording.
+#   3. a headline belongs to the topic if it matches the keywords or the
+#      classifier's probability reaches the topic's threshold. Thresholds are
+#      set from hand-labelled examples (data/labels/topic_labels.csv).
 #
-# Each topic has:
-#   anchors  sentences typical of headlines on the topic
-#   calm     headlines where the topic signals easing or good news
-#   stress   headlines where it signals worsening or risk
-# Tone is how much closer a headline is to "stress" than to "calm".
+# Tone: each topic has "calm" and "stress" sentences (English is enough: the
+# model is multilingual). A headline's tone is how much closer it is to the
+# stress sentences than to the calm ones, measured with the slower model.
 semantic:
-  screen_model: minishlab/potion-multilingual-128M
-  score_model: intfloat/multilingual-e5-small
-  score_prefix: "query: "          # the e5 models expect this before every text
-  screen_share: 0.05               # calibration: share of headlines passed to the second model per topic
+  languages: [eng, deu, fra, ita, spa]
+  screen_model: minishlab/potion-multilingual-128M     # fast, used for topics
+  score_model: intfloat/multilingual-e5-small          # slower, used for tone
+  score_prefix: "query: "                              # the e5 models expect this before every text
+
+  calibration:
+    start: "2019-08-01"            # first month with headlines
+    days_per_month: [5, 20]        # days sampled in every month
+    slots: ["080000", "160000"]    # UTC times of the files read on each day
+    max_headlines: 250000          # random subset used if the sample is larger
+    min_examples: 30               # fewer keyword matches than this: no classifier
+    target_precision: 0.80         # used to recommend thresholds from labels
+    drop_share: 0.02               # keyword-free headlines most similar to a topic, left out of its negatives
+    tone_sample: 1500              # headlines per topic scored for tone
+    # Days with major market events, added so that rarer topics have enough examples.
+    extra_days: [2020-03-09, 2020-03-12, 2020-03-16, 2020-03-18, 2022-02-24, 2022-02-25,
+                 2022-03-08, 2022-06-13, 2022-06-15, 2022-07-13, 2022-09-23, 2022-09-28,
+                 2023-03-10, 2023-03-13, 2023-03-15, 2023-03-17, 2023-03-20, 2023-05-01,
+                 2023-10-09, 2024-08-05, 2024-10-01, 2025-04-03, 2025-04-04, 2025-04-07,
+                 2025-04-09, 2025-06-13]
 
   topics:
     inflation:
-      anchors:
-        - Inflation rose more than expected last month
-        - Consumer prices climb as cost of living keeps rising
-        - Core inflation eases but remains above target
-        - Food and energy prices push inflation higher
-        - L'inflazione sale ancora, rincari su bollette e carrello della spesa
-        - Inflationsrate steigt auf höchsten Stand seit Jahren
-        - La inflación se modera en el último mes
-        - L'inflation ralentit mais les prix restent élevés
+      keywords:
+        - '\b(dis|de)?inflation(ary|s)?\b'
+        - '\bconsumer price(s| index)\b'
+        - '(?-i:\bCPI\b|\bHICP\b|\bPCE\b)'
+        - '\bcost[- ]of[- ]living\b'
+        - '\binflationsrate\b|\bteuerung(srate)?\b|\bverbraucherpreise\b'
+        - '\binflazione\b|\bcarovita\b|\bprezzi al consumo\b'
+        - '\binflaci[oó]n\b|\bprecios al consumo\b|(?-i:\bIPC\b)'
+        - '\bprix à la consommation\b|\bhausse des prix\b'
+      exclude:
+        - '\binflation reduction act\b'
       calm:
         - Inflation cools faster than expected
-        - Price pressures ease as inflation falls toward target
+        - Price pressures ease as inflation falls back toward target
+        - Consumer prices are stable and the cost of living stops rising
+        - Inflation slows for the third month in a row
+        - Easing prices bring relief to households
       stress:
         - Inflation surges to a multi-decade high
         - Prices soar as inflation spirals out of control
+        - Cost of living crisis deepens as prices keep climbing
+        - Inflation comes in far hotter than expected
+        - Runaway prices squeeze households
 
     monetary_policy:
-      anchors:
-        - The Federal Reserve raises interest rates by a quarter point
-        - ECB holds rates steady and signals cuts ahead
-        - Central bank chief warns rates may stay higher for longer
-        - Bond yields jump on expectations of more rate hikes
-        - La Bce alza i tassi di interesse
-        - EZB senkt den Leitzins
-        - La Reserva Federal recorta los tipos de interés
-        - La BCE maintient ses taux directeurs
+      keywords:
+        - '\bfederal reserve\b|(?-i:\bFed\b|\bFOMC\b)'
+        - '(?-i:\bECB\b|\bEZB\b|\bBCE\b|\bBoE\b|\bBoJ\b)'
+        - '\bbank of (england|japan|canada)\b|\beuropean central bank\b'
+        - '\bcentral banks?\b|\bzentralbank(en)?\b|\bnotenbank(en)?\b|\bbanc[ao] centrale?\b|\bbanque centrale\b'
+        - '\binterest rates?\b|\brate (hike|hikes|cut|cuts|rise|increase|decision)s?\b'
+        - '\bleitzins(en)?\b|\bzins(erhöhung|senkung|wende|entscheid)\w*'
+        - '\btass[io] (di interesse|d.interesse)\b|\b(taglio|rialzo|aumento) dei tassi\b'
+        - '\b(tipos|tasas) de inter[eé]s\b|\b(subida|bajada|recorte) de (los )?tipos\b'
+        - '\btaux (d.intérêt|directeurs?)\b|\b(hausse|baisse) des taux\b'
+        - '\bpowell\b|\blagarde\b'
+      exclude: []
       calm:
         - Central bank cuts rates to support the economy
         - Fed signals a pause in rate hikes
+        - Policymakers keep rates on hold as expected
+        - Central bank signals easing ahead
+        - Bond yields fall as rate cut hopes grow
       stress:
         - Central bank delivers surprise jumbo rate hike
         - Bond market sell-off as rate hike fears mount
+        - Yields spike after hawkish central bank warning
+        - Fed signals rates will stay higher for much longer
+        - Emergency rate move shocks markets
 
     equity_markets:
-      anchors:
-        - Stocks fall sharply as investors flee risk
-        - Wall Street rallies to a record high
-        - European shares slide on growth worries
-        - Market volatility spikes amid sell-off
-        - Borsa Milano chiude in calo, vendite sulle banche
-        - DAX schließt mit deutlichen Verlusten
-        - El Ibex 35 cae arrastrado por la banca
-        - Le CAC 40 recule dans un marché nerveux
+      keywords:
+        - '\bwall street\b|\bdow jones\b|(?-i:\bS&P ?500\b|\bNasdaq\b|\bNASDAQ\b)'
+        - '(?-i:\bFTSE\b|\bDAX\b|\bCAC ?40\b|\bIBEX\b|\bIbex\b|\bNikkei\b|\bVIX\b)'
+        - '\beuro ?stoxx\b|\bstoxx( europe)? ?600\b'
+        - '\bstock (market|markets|exchange|exchanges)\b|\bequit(y|ies) markets?\b'
+        - '\bstocks (fall|rise|slide|drop|jump|rally|tumble|plunge|surge|sink|climb|slip)\w*'
+        - '\bsell-?off\b|\bbear market\b|\bbull market\b'
+        - '\bbörsen?\b|\baktienmärkte?\b|\baktien\w* (fallen|steigen|brechen)'
+        - '\bborsa\b|\bborse\b|\bpiazza affari\b|(?-i:\bFtse ?Mib\b)'
+        - '\bbolsas? (de (madrid|valores|nueva york)|europeas|asiáticas|mundiales)\b|\bwall street\b'
+        - '\bbourses?\b|\bmarchés? actions?\b'
+      exclude: []
       calm:
         - Stocks rise to record highs in a calm market
         - Shares rebound as investor fears ease
+        - Markets steady as volatility falls
+        - Equities edge higher in quiet trading
+        - Investors return as stocks recover
       stress:
         - Stock market crash wipes out billions
         - Global markets plunge in panic selling
+        - Volatility spikes as stocks tumble
+        - Worst day for stocks in years as fear grips investors
+        - Sell-off deepens as investors flee risk
 
     trade_tariffs:
-      anchors:
-        - New tariffs announced on imports from China
-        - Trade war escalates as both sides raise duties
-        - Trade talks make progress toward a deal
-        - Exporters hit by retaliatory tariffs
-        - Dazi americani, colpite le esportazioni europee
-        - Zölle belasten die deutsche Exportwirtschaft
-        - Aranceles de Estados Unidos golpean a las exportaciones
-        - Les droits de douane menacent les exportateurs français
+      keywords:
+        - '\btariffs?\b|\btrade (war|wars|deal|talks|tensions|dispute|truce)\b|\bimport dut(y|ies)\b'
+        - '\bexport (controls?|ban|curbs)\b'
+        - '\b(straf)?zölle\b|\bzollstreit\b|\bhandels(streit|krieg|abkommen|konflikt)\b'
+        - '\bdazi\b|\bdazio\b|\bguerra commerciale\b'
+        - '\baranceles?\b|\barancelari[ao]s?\b|\bguerra comercial\b'
+        - '\bdroits de douane\b|\btarifs douaniers\b|\bguerre commerciale\b'
+      exclude: []
       calm:
-        - Trade deal reached, tariffs to be lifted
+        - Trade deal reached and tariffs to be lifted
         - Tariff truce eases trade tensions
+        - Trade talks make good progress
+        - Countries agree to cut import duties
+        - Exporters relieved as tariffs are suspended
       stress:
         - Trade war escalates with sweeping new tariffs
         - Retaliatory tariffs threaten global trade
+        - Talks collapse as tariffs are raised again
+        - Exporters brace for punishing new duties
+        - Fears of a global trade war intensify
 
     energy:
-      anchors:
-        - Oil prices jump after OPEC cuts output
-        - Natural gas prices soar in Europe
-        - Crude falls on fears of weaker demand
-        - Energy bills rise for households and businesses
-        - Prezzo del gas alle stelle, bollette in aumento
-        - Ölpreis steigt nach Förderkürzung der Opec
-        - El precio del petróleo se dispara
-        - Les prix de l'énergie flambent en Europe
+      keywords:
+        - '\boil prices?\b|\bcrude( oil)?\b|(?-i:\bOPEC\b|\bOPEP\b|\bWTI\b)|\bbrent crude\b'
+        - '\b(natural )?gas prices?\b|\benergy (prices?|bills?|crisis|costs?)\b'
+        - '\b(petrol|gasoline|diesel|fuel) prices?\b'
+        - '\b(öl|gas|strom|energie|sprit)preis(e|en)?\b|\benergiekrise\b'
+        - '\bprezz[oi] (del|dei) (petrolio|gas|carburanti|luce)\b|\bbollette\b|\bcaro (energia|bollette|carburanti)\b|\bcrisi energetica\b'
+        - '\bprecios? del (petr[oó]leo|gas|crudo|combustible|luz)\b|\bcrisis energ[eé]tica\b|\bfactura de la luz\b'
+        - '\bprix (du pétrole|du gaz|de l.énergie|de l.électricité|des carburants)\b|\bcrise énergétique\b'
+      exclude: []
       calm:
         - Oil prices fall as supply concerns ease
         - Gas prices drop as storage fills up
+        - Energy bills come down for households
+        - Crude steadies as supply returns
+        - Energy markets calm after weeks of turmoil
       stress:
         - Oil prices spike on supply disruption fears
         - Energy crisis deepens as gas prices hit records
+        - Crude soars after attack on oil facilities
+        - Households face soaring energy bills
+        - Fuel prices surge as supply tightens
 
     geopolitics:
-      anchors:
-        - Missile strikes escalate the conflict
-        - Troops mass at the border as tensions rise
-        - Sanctions imposed after the invasion
-        - Ceasefire talks resume between the warring sides
-        - Attacco missilistico, cresce la tensione internazionale
-        - Russland greift die Ukraine mit Drohnen an
-        - Escalada militar en Oriente Medio
-        - Les tensions géopolitiques s'intensifient
+      keywords:
+        - '\bmissiles?\b|\bair ?strikes?\b|\bceasefire\b|\bcease-fire\b|\binvasion\b|\btroops\b|\bdrone (attack|strike)s?\b|\bshelling\b'
+        - '\bwar (in|on) (ukraine|gaza|israel|iran)\b|\bukraine war\b|\bnuclear (threat|weapons?)\b'
+        - '\bkrieg\w*\b|\braketen\w*|\bluftangriff\w*|\bwaffenruhe\b|\btruppen\b'
+        - '\bmissil[ei]\b|\braid aere[oi]\b|\bcessate il fuoco\b|\btregua\b|\binvasione\b|\bguerra\b'
+        - '\bmisiles?\b|\bbombardeos?\b|\balto el fuego\b|\btropas\b|\binvasi[oó]n\b|\bguerra\b'
+        - '\bfrappes?\b|\bcessez-le-feu\b|\btroupes\b|\bguerre\b'
+      exclude:
+        - '\btrade war\b|\bprice war\b|\bculture war\b|\bstar wars\b|\bwar on drugs\b'
+        - '\bhandelskrieg\b|\bpreiskrieg\b|\bguerra (commerciale|comercial|dei prezzi|de precios)\b|\bguerre (commerciale|des prix)\b'
       calm:
         - Ceasefire agreed as peace talks advance
         - Tensions ease after diplomatic breakthrough
+        - Troops withdraw as both sides agree to talks
+        - Peace deal signed ending months of fighting
+        - Calm returns to the border region
       stress:
         - War escalates with massive missile attack
         - Fears of wider conflict as fighting spreads
+        - Invasion begins as troops cross the border
+        - Deadly strikes hit the capital overnight
+        - Nuclear threat raises alarm worldwide
 
     banking_stress:
-      anchors:
-        - Bank shares tumble amid fears over deposits
-        - Regulators step in to rescue a failing lender
-        - Credit markets tighten as defaults rise
-        - Bank run sparks contagion fears
-        - Crisi bancaria, titoli in caduta libera
-        - "Bankenkrise: Angst vor Ansteckung wächst"
-        - Rescate bancario para evitar el contagio
-        - Les banques chutent en Bourse, crainte de contagion
+      keywords:
+        - '\bbank(ing)? (run|failure|collapse|crisis|rescue|bailout|turmoil|contagion)s?\b'
+        - '\bbanks? (fail|fails|failed|collapses?|collapsed)\b|\bbank shares\b|\blenders? (collapse|fail)\w*'
+        - '\bcredit (crunch|crisis)\b|\bfinancial contagion\b|\bdeposit (flight|outflows?)\b'
+        - '\bsilicon valley bank\b|(?-i:\bSVB\b)|\bcredit suisse\b|\bfirst republic\b|\bsignature bank\b|\bsilvergate\b'
+        - '\bbanken(krise|pleite|rettung|beben|sterben)\b|\bbankaktien\b'
+        - '\bcrisi bancaria\b|\btitoli bancari\b|\bsalvataggio (della|di una) banca\b'
+        - '\bcrisis bancaria\b|\brescate bancario\b|\bquiebra (de|del) (un )?banco\b'
+        - '\bcrise bancaire\b|\bfaillite bancaire\b|\bvaleurs bancaires\b'
+      exclude: []
       calm:
         - Banks report strong results and solid capital
         - Fears of banking crisis ease after rescue
+        - Regulators say the banking system is sound
+        - Bank shares recover as deposits stabilise
+        - Lenders pass stress tests comfortably
       stress:
         - Bank collapse sparks fears of financial contagion
         - Depositors pull billions as bank crisis spreads
+        - Regulators seize failing lender
+        - Bank shares plunge as panic spreads
+        - Credit markets freeze as defaults rise
 
     growth_labor:
-      anchors:
-        - Economy slips into recession as output shrinks
-        - Unemployment rises as companies cut jobs
-        - GDP growth beats expectations
-        - Jobs report shows strong hiring last month
-        - Il Pil italiano rallenta, rischio recessione
-        - Deutsche Wirtschaft schrumpft, Rezession droht
-        - El paro baja y el empleo crece con fuerza
-        - La croissance française ralentit au troisième trimestre
+      keywords:
+        - '\brecessions?\b|(?-i:\bGDP\b)|\bgross domestic product\b|\beconomic growth\b'
+        - '\bunemployment\b|\bjobless\b|\bpayrolls?\b|\bjobs report\b|\blayoffs?\b|\bjob cuts\b'
+        - '\beconomy (shrinks|contracts|grows|slows|expands)\b'
+        - '\brezession\b|\bkonjunktur\w*|\bwirtschaftswachstum\b|\barbeitslos\w*|\bstellenabbau\b|(?-i:\bBIP\b)'
+        - '\brecessione\b|(?-i:\bPil\b|\bPIL\b)|\bdisoccupazione\b|\bcrescita economica\b|\blicenziamenti\b'
+        - '\brecesi[oó]n\b|(?-i:\bPIB\b)|\bdesempleo\b|\bcrecimiento econ[oó]mico\b|\bdespidos\b'
+        - '\brécession\b|\bchômage\b|\bcroissance économique\b|\blicenciements\b'
+      exclude: []
       calm:
         - Economy grows strongly and hiring picks up
         - Unemployment falls to a record low
+        - Growth beats expectations as recession fears fade
+        - Strong jobs report shows a resilient labour market
+        - Economy expands for another quarter
       stress:
         - Economy plunges into deep recession
         - Mass layoffs as unemployment soars
+        - Output shrinks as recession takes hold
+        - Job losses mount as companies cut staff
+        - Economists warn a severe downturn is coming
