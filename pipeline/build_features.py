@@ -11,6 +11,13 @@ data/features/<instrument>.csv with one row per trading day:
   <theme>_share_prev    the same two measures over the days from the previous
   <theme>_tone_prev     trading day up to the day before (so weekends are included)
 
+From the semantic layer (headlines from August 2019, see fetch_semantic.py), per topic:
+  sem_<topic>_share     share of the region's headlines on the topic, in %
+  sem_<topic>_tone      average semantic tone (positive: worsening news, negative: easing)
+  sem_<topic>_disp      dispersion of tone across the topic's headlines
+  sem_<topic>_nov       novelty: how far the day's coverage moved from the previous 20 days
+  ..._prev              the same over the days since the previous trading day
+
 Timing: news is bucketed by UTC day. The "_prev" columns only use days that
 ended before the trading day began, so they are safe for forecasting. The
 same-day columns include a few hours after the market close (about 3 hours for
@@ -99,10 +106,101 @@ def news_features(news: pd.DataFrame, region: str, themes: list[str],
     return out
 
 
+# ---------------------------------------------------------------- semantic layer
+SEMANTIC = DATA / "semantic"
+NOVELTY_DAYS = 20
+
+
+def load_semantic() -> pd.DataFrame:
+    """Daily semantic series with a novelty column added from the stored centroids."""
+    files = sorted(SEMANTIC.glob("series_*.csv"))
+    if not files:
+        return pd.DataFrame(columns=["date", "region", "topic", "headlines", "total", "tone", "tone_sd", "novelty"])
+    series = pd.concat([pd.read_csv(f, parse_dates=["date"]) for f in files], ignore_index=True)
+    series = series.drop_duplicates(["date", "region", "topic"], keep="last")
+
+    keys, vectors = [], []
+    for f in sorted(SEMANTIC.glob("centroids_*.npz")):
+        with np.load(f) as z:
+            if len(z["keys"]):
+                keys += z["keys"].tolist()
+                vectors.append(z["vectors"].astype(np.float32))
+    novelty = {}
+    if keys:
+        vectors = np.concatenate(vectors)
+        cent = pd.DataFrame({"key": keys})
+        parts = cent["key"].str.split("|", expand=True)
+        cent["date"], cent["region"], cent["topic"] = pd.to_datetime(parts[0]), parts[1], parts[2]
+        weights = series.set_index(["date", "region", "topic"])["headlines"]
+        for (region, topic), g in cent.groupby(["region", "topic"]):
+            g = g.sort_values("date")
+            dates = g["date"].to_numpy()
+            vec = vectors[g.index.to_numpy()]
+            w = np.array([weights.get((d, region, topic), 1) for d in g["date"]], dtype=float)
+            for i in range(len(g)):
+                past = (dates < dates[i]) & (dates >= dates[i] - np.timedelta64(NOVELTY_DAYS, "D"))
+                if past.sum() < 5:
+                    continue
+                ref = (vec[past] * w[past, None]).sum(axis=0)
+                norm = np.linalg.norm(ref)
+                if norm > 0:
+                    novelty[(g["date"].iloc[i], region, topic)] = 1 - float(vec[i] @ ref / norm)
+    series["novelty"] = [novelty.get((d, r, t), np.nan) for d, r, t in
+                         zip(series["date"], series["region"], series["topic"])]
+    return series
+
+
+def semantic_features(sem: pd.DataFrame, region: str, topics: list[str],
+                      trading_days: pd.DatetimeIndex) -> pd.DataFrame:
+    out = pd.DataFrame(index=trading_days)
+    names = [f"sem_{t}_{m}{suffix}" for t in topics for suffix in ("", "_prev")
+             for m in ("share", "tone", "disp", "nov")]
+    regional = sem[sem["region"] == region]
+    if regional.empty:
+        for name in names:
+            out[name] = np.nan
+        return out
+
+    n = regional["headlines"].fillna(0)
+    tone = regional["tone"].fillna(0)
+    regional = regional.assign(
+        tone_sum=n * tone,
+        sq_sum=n * (regional["tone_sd"].fillna(0) ** 2 + tone ** 2),
+        nov_n=np.where(regional["novelty"].notna(), n, 0),
+        nov_sum=n * regional["novelty"].fillna(0))
+    calendar = pd.date_range(regional["date"].min(), max(regional["date"].max(), trading_days.max()))
+    wide = lambda column: (regional.pivot(index="date", columns="topic", values=column)
+                           .reindex(index=calendar, columns=topics).fillna(0))
+    tables = {c: wide(c) for c in ("headlines", "tone_sum", "sq_sum", "nov_n", "nov_sum")}
+    total = regional.groupby("date")["total"].first().reindex(calendar).fillna(0).to_frame("total")
+
+    previous = trading_days.to_series().shift(1)
+    previous.iloc[0] = trading_days[0] - pd.Timedelta(days=1)
+    windows = {"": (trading_days, trading_days),
+               "_prev": (pd.DatetimeIndex(previous), trading_days - pd.Timedelta(days=1))}
+    with np.errstate(invalid="ignore", divide="ignore"):
+        for suffix, (first, last) in windows.items():
+            t_sum = window_sum(total, first, last)["total"].to_numpy()
+            t_sum = np.where(t_sum > 0, t_sum, np.nan)
+            sums = {c: window_sum(tab, first, last) for c, tab in tables.items()}
+            for t in topics:
+                count = sums["headlines"][t].to_numpy()
+                has = np.where(count > 0, count, np.nan)
+                mean = sums["tone_sum"][t].to_numpy() / has
+                out[f"sem_{t}_share{suffix}"] = 100 * count / t_sum
+                out[f"sem_{t}_tone{suffix}"] = mean
+                out[f"sem_{t}_disp{suffix}"] = np.sqrt(np.clip(sums["sq_sum"][t].to_numpy() / has - mean ** 2, 0, None))
+                nov_n = sums["nov_n"][t].to_numpy()
+                out[f"sem_{t}_nov{suffix}"] = sums["nov_sum"][t].to_numpy() / np.where(nov_n > 0, nov_n, np.nan)
+    return out
+
+
 def main() -> int:
     config = load_config()
     themes = list(config["news"]["themes"])
     news = load_news()
+    topics = list(config["semantic"]["topics"])
+    semantic = load_semantic()
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     written = 0
 
@@ -112,6 +210,7 @@ def main() -> int:
             continue
         table = load_volatility(key, spec["kind"])
         table = table.join(news_features(news, spec["news_region"], themes, table.index))
+        table = table.join(semantic_features(semantic, spec["news_region"], topics, table.index))
         table = table.dropna(subset=["vol"])
         table.to_csv(OUT_DIR / f"{key}.csv", float_format="%.5f", date_format="%Y-%m-%d")
         with_news = int(table[f"{themes[0]}_share"].notna().sum())
