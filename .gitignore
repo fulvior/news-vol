@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 .ipynb_checkpoints/
 .DS_Store
+# rebuilt on every run; see the commit step in daily-update.yml
+site/data/
+data/features/
+data/checks/
