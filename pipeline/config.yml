@@ -101,6 +101,8 @@ semantic:
   screen_model: minishlab/potion-multilingual-128M     # fast, used for topics
   score_model: intfloat/multilingual-e5-small          # slower, used for tone
   score_prefix: "query: "                              # the e5 models expect this before every text
+  slots_per_day: 12                # GDELT files read per day and feed for headlines (every 2 hours)
+  lookback_days: 10                # the daily job fills any missing day in this window
 
   calibration:
     start: "2019-08-01"            # first month with headlines
