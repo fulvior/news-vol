@@ -23,9 +23,10 @@ class TopicKeywords:
 
     def matches(self, titles: list[str]) -> np.ndarray:
         """True where a headline is a clear example of the topic."""
-        hit = np.array([bool(self.include.search(t)) for t in titles])
+        # dtype=bool keeps this working on a day with no headlines (an empty list).
+        hit = np.array([bool(self.include.search(t)) for t in titles], dtype=bool)
         if self.exclude is not None:
-            hit &= ~np.array([bool(self.exclude.search(t)) for t in titles])
+            hit &= ~np.array([bool(self.exclude.search(t)) for t in titles], dtype=bool)
         return hit
 
     def mask(self, title: str) -> str:
