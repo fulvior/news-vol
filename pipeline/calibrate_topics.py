@@ -51,6 +51,8 @@ LABELS = DATA / "labels" / "topic_labels.csv"
 BAND_SHARES = [0.0025, 0.005, 0.01, 0.02, 0.04]   # cumulative share of non-keyword headlines
 BAND_NAMES = ["top 0.25%", "0.25–0.5%", "0.5–1%", "1–2%", "2–4%"]
 PROVISIONAL_SHARE = 0.01                          # used for tone and timing until labels exist
+LABELS_PER_BAND = 12                              # the labelling sheet tops each band up to this many labels
+LABELS_KEYWORD = 15                               # and the keyword matches to this many
 HEADLINES_PER_DAY = 40_000
 BACKFILL_DAYS = 2_330
 
@@ -158,190 +160,223 @@ def band_of(prob: np.ndarray, edges: np.ndarray) -> np.ndarray:
     return band
 
 
+# ---------------------------------------------------------------- evaluation
+def evaluate_labels(y: np.ndarray, is_kw: np.ndarray, band: np.ndarray, counts: dict, target: float
+                    ) -> tuple[list[str], int | None, float | None]:
+    """Precision per group from the labels, and the lowest band down to which the
+    keyword-free additions keep the target precision (bands weighted by size)."""
+    rows = ["| Group | Labelled | On topic | Precision (95% interval) |", "|---|---|---|---|"]
+    k = y[is_kw]
+    lo, hi = wilson(int(k.sum()), len(k))
+    rows.append(f"| keyword matches | {len(k)} | {int(k.sum())} | "
+                f"{(k.mean() if len(k) else float('nan')):.0%} ({lo:.0%}–{hi:.0%}) |")
+    precision_by_band = {}
+    for b, band_name in enumerate(BAND_NAMES):
+        yb = y[(~is_kw) & (band == b)]
+        lo, hi = wilson(int(yb.sum()), len(yb))
+        precision_by_band[b] = (yb.mean() if len(yb) else float("nan"), len(yb))
+        rows.append(f"| {band_name} | {len(yb)} | {int(yb.sum())} | "
+                    f"{(yb.mean() if len(yb) else float('nan')):.0%} ({lo:.0%}–{hi:.0%}) |")
+    for last in range(len(BAND_NAMES) - 1, -1, -1):
+        used = range(last + 1)
+        if any(precision_by_band[b][1] < 5 for b in used):
+            continue
+        precision = sum(counts[b] * precision_by_band[b][0] for b in used) / max(sum(counts[b] for b in used), 1)
+        if precision >= target:
+            return rows, last, precision
+    return rows, None, None
+
+
 # ---------------------------------------------------------------- main
 def main() -> int:
     config = load_config()
     sem = config["semantic"]
     cal = sem["calibration"]
     topics = sem["topics"]
+    kinds = cal["classifier_models"]            # which embeddings the classifiers are trained on
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
     df = load_sample(config)
     titles = df["title"].tolist()
     print(f"{len(df):,} unique headlines in the sample", flush=True)
 
-    screen = ScreenModel(sem["screen_model"])
-    score = ScoreModel(sem["score_model"], sem["score_prefix"])
-    screen.encode(titles[:256]); score.encode(titles[:32])        # warm-up
+    encoders = {"screen": ScreenModel(sem["screen_model"]),
+                "score": ScoreModel(sem["score_model"], sem["score_prefix"])}
+    model_names = {"screen": sem["screen_model"], "score": sem["score_model"]}
+    for enc in encoders.values():
+        enc.encode(titles[:64])                   # warm-up
 
-    began = time.perf_counter()
-    raw = screen.encode(titles)
-    screen_speed = len(titles) / max(time.perf_counter() - began, 1e-9)
-    mean = raw.mean(axis=0)
-    X = centered(raw, mean)
-    del raw
-    print(f"Screening model: {screen_speed:,.0f} headlines a second", flush=True)
-
-    # Centering vector for the tone model, from a random subset of all headlines.
-    background = df.sample(min(3000, len(df)), random_state=2)["title"].tolist()
-    began = time.perf_counter()
-    score_mean = score.encode(background).mean(axis=0)
-    score_speed = len(background) / max(time.perf_counter() - began, 1e-9)
-    print(f"Tone model: {score_speed:,.0f} headlines a second", flush=True)
+    # Embeddings: every headline with each model used by a classifier, centred.
+    X, means, speed = {}, {}, {}
+    for kind in ["screen", "score"]:
+        texts = titles if kind in kinds else df.sample(min(3000, len(df)), random_state=2)["title"].tolist()
+        print(f"Embedding {len(texts):,} headlines with the {kind} model…", flush=True)
+        began = time.perf_counter()
+        raw = encoders[kind].encode(texts)
+        speed[kind] = len(texts) / max(time.perf_counter() - began, 1e-9)
+        means[kind] = raw.mean(axis=0)
+        if kind in kinds:
+            X[kind] = centered(raw, means[kind])
+        del raw
+        print(f"  {speed[kind]:,.0f} headlines a second", flush=True)
 
     groups = df["day"].to_numpy()
     labels = pd.read_csv(LABELS) if LABELS.exists() else None
-    model = {"mean": mean, "topics": np.array(list(topics))}
+    if labels is not None:
+        labels["value"] = pd.to_numeric(labels["label"], errors="coerce")
+        labels = labels[labels["value"].isin([0, 1])]
+    labelled = set() if labels is None else set(zip(labels["topic"], labels["title"]))
+
+    model = {"topics": np.array(list(topics))}
+    for kind in kinds:
+        model[f"mean_{kind}"] = means[kind].astype(np.float32)
+    model["mean_score"] = means["score"].astype(np.float32)
     summary, sections, sheet = [], [], []
     member_any = np.zeros(len(df), dtype=bool)
+    rng = np.random.default_rng(4)
 
     for name, spec in topics.items():
         print(f"Topic {name}…", flush=True)
         keywords = TopicKeywords(spec)
         kw = keywords.matches(titles)
-        df[f"{name}_kw"] = kw
-        prob = np.full(len(df), np.nan)
-        title_text = name.replace("_", " ").capitalize()
-        section = [f"## {title_text}", ""]
-
-        if kw.sum() < cal["min_examples"]:
-            warn(f"{name}: only {kw.sum()} keyword matches, no classifier trained")
-            section += [f"Only {kw.sum()} keyword matches: too few to train a classifier. "
-                        "The topic uses keywords only until its patterns are widened.", ""]
-            df[f"{name}_prob"] = prob
-            model[f"{name}_threshold"] = np.float32(np.inf)
-            member_any |= kw
-            summary.append((name, int(kw.sum()), None, kw.mean(), None))
-            sections.append(section)
-            continue
-
-        # Hide the keywords from the classifier in the clear examples.
-        Xt = X.copy()
-        idx = np.flatnonzero(kw)
-        Xt[idx] = centered(screen.encode([keywords.mask(titles[i]) for i in idx]), mean)
-        prob, fitted = fit_classifier(Xt, kw.astype(int), groups, cal["drop_share"])
-        del Xt
-        df[f"{name}_prob"] = prob
         new = ~kw
-        edges = band_edges(prob, new)
-        bands = band_of(prob, edges)
-        model[f"{name}_coef"] = fitted.coef_[0].astype(np.float32)
-        model[f"{name}_intercept"] = np.float32(fitted.intercept_[0])
-        model[f"{name}_edges"] = edges.astype(np.float32)
+        df[f"{name}_kw"] = kw
+        section = [f"## {name.replace('_', ' ').capitalize()}", "",
+                   f"Keyword matches: {kw.sum():,} ({kw.mean():.2%} of headlines).", ""]
+        mine = None if labels is None else labels[labels["topic"] == name]
+        if mine is not None and len(mine):
+            y_lab = mine["value"].astype(int).to_numpy()
+            lab_titles = mine["title"].astype(str).tolist()
+            lab_kw = keywords.matches(lab_titles)
+            k = y_lab[lab_kw]
+            lo, hi = wilson(int(k.sum()), len(k))
+            section += [f"Keyword precision from your labels: {k.mean() if len(k) else float('nan'):.0%} "
+                        f"({lo:.0%}–{hi:.0%}, {len(k)} labelled).", ""]
 
-        # How well the topic is recognised without its keywords: share of keyword
-        # matches (with keywords hidden) scoring above the 1% band edge.
-        provisional = edges[BAND_SHARES.index(PROVISIONAL_SHARE)]
-        recall = float((prob[kw] >= provisional).mean())
-        member = kw | (prob >= provisional)
-        member_any |= member
-
-        section += [f"Keyword matches: {kw.sum():,} ({kw.mean():.2%} of headlines). "
-                    f"With their keywords hidden, the classifier still places {recall:.0%} of them above the score of the "
-                    f"top 1% of keyword-free headlines ({provisional:.3f}).", ""]
         langs = sem["languages"]
         share = lambda mask: " · ".join(f"{l} {(df.loc[mask, 'language'] == l).mean():.0%}" for l in langs) if mask.any() else "–"
-        top_new = new & (bands >= 0) & (bands <= 2)
-        section += [f"Languages: all headlines {share(np.ones(len(df), bool))}; keyword matches {share(kw)}; "
-                    f"top 1% of keyword-free headlines {share(top_new)}.", ""]
+        section += [f"Languages: all headlines {share(np.ones(len(df), bool))}; keyword matches {share(kw)}.", ""]
+        section += ["**Keyword matches, random examples**", ""]
+        section += examples(df[kw].assign(_p=1.0), "_p", 6, random=True) + [""]
 
-        view = df.assign(_p=prob)
-        for b, band_name in enumerate(BAND_NAMES):
-            rows = view[new & (bands == b)]
-            k = 10 if b == 0 else 6
-            section += [f"**Without keywords, {band_name}** (score from {edges[b]:.3f})", ""]
-            section += examples(rows.sort_values("_p", ascending=False) if b == 0 else rows, "_p", k, random=b > 0) + [""]
-        section += ["**Keyword matches the classifier doubts most** (possible keyword errors)", ""]
-        section += examples(view[kw].sort_values("_p"), "_p", 6) + [""]
+        best = ("keywords", None, 0, None)          # kind, threshold, additions, precision
+        provisional_member = kw.copy()
+        if kw.sum() < cal["min_examples"]:
+            warn(f"{name}: only {kw.sum()} keyword matches, no classifier trained")
+            section += [f"Too few keyword matches to train a classifier: keywords only.", ""]
+        else:
+            for kind in kinds:
+                Xt = X[kind].copy()
+                idx = np.flatnonzero(kw)
+                Xt[idx] = centered(encoders[kind].encode([keywords.mask(titles[i]) for i in idx]), means[kind])
+                prob, fitted = fit_classifier(Xt, kw.astype(int), groups, cal["drop_share"])
+                del Xt
+                df[f"{name}_{kind}_prob"] = prob
+                edges = band_edges(prob, new)
+                bands = band_of(prob, edges)
+                counts = {b: int((new & (bands == b)).sum()) for b in range(len(BAND_NAMES))}
+                model[f"{name}_{kind}_coef"] = fitted.coef_[0].astype(np.float32)
+                model[f"{name}_{kind}_intercept"] = np.float32(fitted.intercept_[0])
+                model[f"{name}_{kind}_edges"] = edges.astype(np.float32)
+                provisional = edges[BAND_SHARES.index(PROVISIONAL_SHARE)]
+                recall = float((prob[kw] >= provisional).mean())
+                if kind == kinds[-1]:
+                    provisional_member |= prob >= provisional
 
-        # Tone
-        pool = view[member]
+                section += [f"### Classifier on the {kind} model ({model_names[kind]})", "",
+                            f"With their keywords hidden, {recall:.0%} of keyword matches still score above "
+                            f"the top 1% of keyword-free headlines.", ""]
+                view = df.assign(_p=prob)
+                for b in range(3):
+                    section += [f"**Without keywords, {BAND_NAMES[b]}**", ""]
+                    section += examples(view[new & (bands == b)], "_p", 6, random=True) + [""]
+
+                have = {b: 0 for b in range(len(BAND_NAMES))}
+                if mine is not None and len(mine):
+                    oof = dict(zip(titles, prob))
+                    missing = [t for t in lab_titles if t not in oof]
+                    if missing:
+                        oof.update(zip(missing, fitted.predict_proba(
+                            centered(encoders[kind].encode(missing), means[kind]))[:, 1]))
+                    lab_band = band_of(np.array([oof[t] for t in lab_titles]), edges)
+                    have = {b: int(((~lab_kw) & (lab_band == b)).sum()) for b in range(len(BAND_NAMES))}
+                    rows, last, precision = evaluate_labels(y_lab, lab_kw, lab_band, counts, cal["target_precision"])
+                    section += ["Checked against your labels:", ""] + rows + [""]
+                    if last is None:
+                        section += [f"No band reaches {cal['target_precision']:.0%} precision (or too few labels "
+                                    "in some bands; see the labelling sheet).", ""]
+                    else:
+                        additions = sum(counts[b] for b in range(last + 1))
+                        section += [f"Reaches {cal['target_precision']:.0%} precision down to the {BAND_NAMES[last]} band: "
+                                    f"{additions:,} keyword-free headlines added (estimated precision {precision:.0%}).", ""]
+                        if additions > best[2]:
+                            best = (kind, float(edges[last]), additions, precision)
+
+                # Labelling sheet: tops each band up to LABELS_PER_BAND labelled headlines.
+                for b, band_name in enumerate(BAND_NAMES):
+                    need = max(0, LABELS_PER_BAND - have[b])
+                    rows_b = [i for i in np.flatnonzero(new & (bands == b)) if (name, titles[i]) not in labelled]
+                    for i in rng.choice(rows_b, size=min(need, len(rows_b)), replace=False) if rows_b and need else []:
+                        labelled.add((name, titles[i]))
+                        sheet.append({"topic": name, "group": f"{kind} {band_name}", "score": round(float(prob[i]), 4),
+                                      "language": df.at[i, "language"], "title": titles[i], "label": ""})
+        # Keyword matches, topped up so keyword precision stays measured as patterns change.
+        have_kw = int(keywords.matches(mine["title"].astype(str).tolist()).sum()) if mine is not None and len(mine) else 0
+        need_kw = max(0, LABELS_KEYWORD - have_kw)
+        rows_k = [i for i in np.flatnonzero(kw) if (name, titles[i]) not in labelled]
+        for i in rng.choice(rows_k, size=min(need_kw, len(rows_k)), replace=False) if rows_k and need_kw else []:
+            labelled.add((name, titles[i]))
+            sheet.append({"topic": name, "group": "keyword", "score": "",
+                          "language": df.at[i, "language"], "title": titles[i], "label": ""})
+
+        kind, threshold, additions, precision = best
+        model[f"{name}_use"] = np.array(kind)
+        model[f"{name}_threshold"] = np.float32(threshold if threshold is not None else np.inf)
+        member = kw if kind == "keywords" else kw | (df[f"{name}_{kind}_prob"].to_numpy() >= threshold)
+        member_any |= member if labels is not None else provisional_member
+        section += [f"**Decision: {'keywords only' if kind == 'keywords' else f'keywords plus the {kind} classifier above {threshold:.4f}'}.**", ""]
+
+        # Tone, on the topic's headlines.
+        pool = df[member if labels is not None else provisional_member]
         pool = pool.sample(min(cal["tone_sample"], len(pool)), random_state=3)
         if len(pool) >= 20:
-            vectors = centered(score.encode(pool["title"].tolist()), score_mean)
-            calm = centered(score.encode(spec["calm"]), score_mean)
-            stress = centered(score.encode(spec["stress"]), score_mean)
+            score = encoders["score"]
+            vectors = centered(score.encode(pool["title"].tolist()), means["score"])
+            calm = centered(score.encode(spec["calm"]), means["score"])
+            stress = centered(score.encode(spec["stress"]), means["score"])
             pool = pool.assign(_tone=tone_scores(vectors, calm, stress))
             ordered = pool.sort_values("_tone")
             section += [f"**Tone** (standard deviation {pool['_tone'].std():.3f}; positive means closer to stress). Most stressed:", ""]
             section += examples(ordered.iloc[::-1], "_tone", 5) + ["", "Calmest:", ""]
             section += examples(ordered, "_tone", 5) + [""]
 
-        # Labelling sheet: keyword matches and each band of keyword-free headlines.
-        rng = np.random.default_rng(4)
-        to_label = [("keyword", np.flatnonzero(kw), 15)] + [
-            (BAND_NAMES[b], np.flatnonzero(new & (bands == b)), 12) for b in range(len(BAND_NAMES))]
-        for group, rows, k in to_label:
-            for i in rng.choice(rows, size=min(k, len(rows)), replace=False):
-                sheet.append({"topic": name, "group": group, "score": round(float(prob[i]), 4),
-                              "language": df.at[i, "language"], "title": titles[i], "label": ""})
-
-        # Evaluation against labels, if any.
-        threshold = None
-        if labels is not None:
-            value = pd.to_numeric(labels["label"], errors="coerce")      # blank or other text: not labelled
-            mine = labels[(labels["topic"] == name) & value.isin([0, 1])]
-            if len(mine):
-                y_lab = value[mine.index].astype(int).to_numpy()
-                lab_titles = mine["title"].astype(str).tolist()
-                lab_kw = keywords.matches(lab_titles)
-                # Score labelled headlines the same way as the sample: with their
-                # out-of-fold score when they are in it, otherwise with the final model.
-                oof = dict(zip(titles, prob))
-                missing = [t for t in lab_titles if t not in oof]
-                if missing:
-                    oof.update(zip(missing, fitted.predict_proba(centered(screen.encode(missing), mean))[:, 1]))
-                lab_band = band_of(np.array([oof[t] for t in lab_titles]), edges)
-                section += ["**Checked against your labels**", "",
-                            "| Group | Labelled | On topic | Precision (95% interval) |", "|---|---|---|---|"]
-                k_lab = y_lab[lab_kw]
-                lo, hi = wilson(int(k_lab.sum()), len(k_lab))
-                section.append(f"| keyword matches | {len(k_lab)} | {int(k_lab.sum())} | "
-                               f"{(k_lab.mean() if len(k_lab) else float('nan')):.0%} ({lo:.0%}–{hi:.0%}) |")
-                band_precision = {}
-                for b, band_name in enumerate(BAND_NAMES):
-                    yb = y_lab[(~lab_kw) & (lab_band == b)]
-                    lo, hi = wilson(int(yb.sum()), len(yb))
-                    band_precision[b] = (yb.mean() if len(yb) else float("nan"), len(yb))
-                    section.append(f"| {band_name} | {len(yb)} | {int(yb.sum())} | "
-                                   f"{(yb.mean() if len(yb) else float('nan')):.0%} ({lo:.0%}–{hi:.0%}) |")
-                # Precision of all keyword-free additions down to a band, each band weighted by its size.
-                counts = {b: int((new & (bands == b)).sum()) for b in range(len(BAND_NAMES))}
-                for last in range(len(BAND_NAMES) - 1, -1, -1):
-                    used = range(last + 1)
-                    if any(band_precision[b][1] < 5 for b in used):
-                        continue
-                    precision = sum(counts[b] * band_precision[b][0] for b in used) / max(sum(counts[b] for b in used), 1)
-                    if precision >= cal["target_precision"]:
-                        threshold = float(edges[last])
-                        section += ["", f"Recommended threshold: **{threshold:.4f}**, adding the keyword-free headlines down to "
-                                    f"the {BAND_NAMES[last]} band (estimated precision of those additions {precision:.0%}).", ""]
-                        break
-                if threshold is None:
-                    section += ["", f"No band reaches {cal['target_precision']:.0%} precision: the topic uses keywords only.", ""]
-        model[f"{name}_threshold"] = np.float32(threshold if threshold is not None else np.inf)
-        summary.append((name, int(kw.sum()), recall, member.mean(), threshold))
+        summary.append((name, int(kw.sum()), kind, threshold, additions, member.mean()))
         sections.append(section)
 
     # ---------------------------------------------------------------- report
     lines = ["# Topic calibration", "",
              f"{len(df):,} unique headlines (English, German, French, Italian, Spanish) from {df['day'].nunique()} days, "
-             f"{df['day'].min()} to {df['day'].max()}.", "",
-             "| Topic | Keyword matches | Recognised without keywords | Share of headlines (keywords + top 1%) | Threshold from labels |",
+             f"{df['day'].min()} to {df['day'].max()}. "
+             + ("Labels: none yet." if labels is None else f"Labels: {len(labels):,}."), "",
+             "| Topic | Keyword matches | Decision | Keyword-free headlines added | Share of headlines in the topic |",
              "|---|---|---|---|---|"]
-    for name, n_kw, recall, share_member, threshold in summary:
-        label = (f"{threshold:.4f}" if threshold is not None
-                 else ("not labelled yet" if labels is None else "keywords only"))
-        recall_text = "no classifier" if recall is None else f"{recall:.0%}"
-        lines.append(f"| {name.replace('_', ' ')} | {n_kw:,} | {recall_text} | {share_member:.1%} | {label} |")
+    for name, n_kw, kind, threshold, additions, share_member in summary:
+        decision = "keywords only" if kind == "keywords" else f"{kind} classifier ≥ {threshold:.4f}"
+        if labels is None:
+            decision = "not labelled yet"
+        lines.append(f"| {name.replace('_', ' ')} | {n_kw:,} | {decision} | {additions:,} | {share_member:.1%} |")
 
     union = member_any.mean()
-    per_day = HEADLINES_PER_DAY / screen_speed + HEADLINES_PER_DAY * union / score_speed
+    uses_score = any(kind == "score" for _, _, kind, *_ in summary)
+    per_day = (HEADLINES_PER_DAY / speed["screen"]
+               + (HEADLINES_PER_DAY / speed["score"] if uses_score else HEADLINES_PER_DAY * union / speed["score"]))
     lines += ["", "## Speed", "",
-              f"Screening model {screen_speed:,.0f} headlines a second; tone model {score_speed:,.0f}.",
-              f"Taking keyword matches plus the top 1% of keyword-free headlines per topic, {union:.1%} of headlines belong to at least one topic and need a tone score. "
-              f"For about {HEADLINES_PER_DAY:,} headlines a day that is roughly **{per_day / 60:.1f} minutes a day**; "
-              f"a backfill of {BACKFILL_DAYS:,} days about **{BACKFILL_DAYS * per_day / 3600:.1f} hours** of computing "
+              f"Screen model {speed['screen']:,.0f} headlines a second; score model {speed['score']:,.0f}.",
+              f"{union:.1%} of headlines belong to at least one topic. "
+              + ("Some topics use the score model's classifier, so every headline goes through it. "
+                 if uses_score else "Only topic headlines go through the score model, for tone. ")
+              + f"For about {HEADLINES_PER_DAY:,} headlines a day that is roughly **{per_day / 60:.1f} minutes a day**; "
+              f"a backfill of {BACKFILL_DAYS:,} days about **{BACKFILL_DAYS * per_day / 3600:.0f} hours** of computing "
               f"(downloading the files comes on top).", ""]
     for section in sections:
         lines += section
@@ -354,11 +389,12 @@ def main() -> int:
         with open(summary_file, "a", encoding="utf-8") as fh:
             fh.write(report + "\n")
 
-    pd.DataFrame(sheet).to_csv(OUT_DIR / "label_sheet.csv", index=False)
-    keep = ["day", "region", "language", "title"] + [c for n in topics for c in (f"{n}_kw", f"{n}_prob")]
-    df[keep].to_csv(OUT_DIR / "topic_scores.csv", index=False, float_format="%.3f")
+    pd.DataFrame(sheet, columns=["topic", "group", "score", "language", "title", "label"]).to_csv(
+        OUT_DIR / "label_sheet.csv", index=False)
+    keep = ["day", "region", "language", "title"] + [c for c in df.columns if c.endswith(("_kw", "_prob"))]
+    df[keep].to_csv(OUT_DIR / "topic_scores.csv", index=False, float_format="%.4f")
     np.savez(OUT_DIR / "topic_model.npz", **model)
-    print(f"Saved report, labelling sheet ({len(sheet)} rows), scores and model to {OUT_DIR}")
+    print(f"Saved report, labelling sheet ({len(sheet)} new rows), scores and model to {OUT_DIR}")
     return 0
 
 
