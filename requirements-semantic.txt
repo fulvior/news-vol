@@ -1,6 +1,7 @@
-# Extra packages for the semantic (headline embedding) steps.
+# Extra packages for the semantic (headline) steps.
 # torch is installed separately from PyTorch's CPU-only index in the workflows,
 # which avoids downloading several gigabytes of GPU libraries.
 -r requirements.txt
 model2vec>=0.10
 sentence-transformers>=5.0
+scikit-learn>=1.5
