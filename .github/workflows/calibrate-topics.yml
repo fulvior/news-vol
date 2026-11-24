@@ -1,7 +1,10 @@
-# One-off check: scores the sampled headlines against the topics in config.yml.
-# Needs data/checks/headline_sample.csv in the repository (from "Check headlines").
-# The report appears on the run's summary page; all scores can be downloaded
-# from the bottom of that page. Nothing is committed to the repository.
+# Calibrates the semantic topics on a large sample of GDELT headlines.
+# Start it by hand from the Actions tab; it takes about an hour and a half.
+# The report appears on the run's summary page. The labelling sheet, the scores
+# and the fitted model can be downloaded as "topic-calibration" at the bottom of
+# that page. Nothing is committed to the repository.
+# If data/labels/topic_labels.csv exists, the report also checks precision
+# against those labels and recommends a threshold per topic.
 
 name: Calibrate topics
 
@@ -14,7 +17,7 @@ permissions:
 jobs:
   calibrate:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
 
     steps:
       - name: Check out repository
@@ -38,13 +41,13 @@ jobs:
           key: hf-models-${{ hashFiles('pipeline/config.yml') }}
           restore-keys: hf-models-
 
-      - name: Score headlines against the topics
+      - name: Calibrate topics
         run: python -m pipeline.calibrate_topics
 
-      - name: Keep the scores
+      - name: Keep the results
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: topic-scores
-          path: data/checks/topic_scores.csv
+          name: topic-calibration
+          path: data/checks/
           if-no-files-found: ignore
