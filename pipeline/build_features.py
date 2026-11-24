@@ -6,12 +6,16 @@ data/features/<instrument>.csv with one row per trading day:
   vol, log_vol          the volatility measure, in annualized percentage points
   har_d, har_w, har_m   yesterday's log volatility and its 5- and 22-day averages
                         (the standard HAR baseline; all three use past values only)
+  ret                   the day's log return of the region's stock index, in %
+  neg_d, neg_w, neg_m   past negative returns (yesterday, 5- and 22-day averages):
+                        the leverage effect, added to the baseline in the LHAR model
   <theme>_share         share of the region's articles carrying the theme, in %,
   <theme>_tone          and their average tone, on the trading day itself
   <theme>_share_prev    the same two measures over the days from the previous
   <theme>_tone_prev     trading day up to the day before (so weekends are included)
 
 From the semantic layer (headlines from August 2019, see fetch_semantic.py), per topic:
+  sem_<topic>_n         number of headlines on the topic
   sem_<topic>_share     share of the region's headlines on the topic, in %
   sem_<topic>_tone      average semantic tone (positive: worsening news, negative: easing)
   sem_<topic>_disp      dispersion of tone across the topic's headlines
@@ -51,6 +55,20 @@ def load_volatility(key: str, kind: str) -> pd.DataFrame:
     out["har_w"] = lagged.rolling(5, min_periods=3).mean()
     out["har_m"] = lagged.rolling(22, min_periods=15).mean()
     return out
+
+
+def leverage_terms(price_key: str, index: pd.DatetimeIndex) -> pd.DataFrame:
+    """Past negative returns of the region's stock index (in %): falls in prices raise
+    volatility more than rises lower it (the leverage effect). Daily, weekly and
+    monthly averages of yesterday's and earlier negative returns, as in the LHAR model."""
+    prices = pd.read_csv(DATA / "vol" / f"{price_key}.csv", parse_dates=["date"]).set_index("date")["close"]
+    ret = 100 * np.log(prices / prices.shift(1))
+    neg = ret.clip(upper=0).shift(1)
+    out = pd.DataFrame({"ret": ret,
+                        "neg_d": neg,
+                        "neg_w": neg.rolling(5, min_periods=3).mean(),
+                        "neg_m": neg.rolling(22, min_periods=15).mean()})
+    return out.reindex(index)
 
 
 def load_news() -> pd.DataFrame:
@@ -154,7 +172,7 @@ def semantic_features(sem: pd.DataFrame, region: str, topics: list[str],
                       trading_days: pd.DatetimeIndex) -> pd.DataFrame:
     out = pd.DataFrame(index=trading_days)
     names = [f"sem_{t}_{m}{suffix}" for t in topics for suffix in ("", "_prev")
-             for m in ("share", "tone", "disp", "nov")]
+             for m in ("n", "share", "tone", "disp", "nov")]
     regional = sem[sem["region"] == region]
     if regional.empty:
         for name in names:
@@ -187,6 +205,7 @@ def semantic_features(sem: pd.DataFrame, region: str, topics: list[str],
                 count = sums["headlines"][t].to_numpy()
                 has = np.where(count > 0, count, np.nan)
                 mean = sums["tone_sum"][t].to_numpy() / has
+                out[f"sem_{t}_n{suffix}"] = np.where(np.isnan(t_sum), np.nan, count)   # headlines behind the measures
                 out[f"sem_{t}_share{suffix}"] = 100 * count / t_sum
                 out[f"sem_{t}_tone{suffix}"] = mean
                 out[f"sem_{t}_disp{suffix}"] = np.sqrt(np.clip(sums["sq_sum"][t].to_numpy() / has - mean ** 2, 0, None))
@@ -209,6 +228,9 @@ def main() -> int:
             warn(f"{key}: no volatility file yet, skipped")
             continue
         table = load_volatility(key, spec["kind"])
+        price_key = spec.get("returns_from", key)
+        if (DATA / "vol" / f"{price_key}.csv").exists():
+            table = table.join(leverage_terms(price_key, table.index))
         table = table.join(news_features(news, spec["news_region"], themes, table.index))
         table = table.join(semantic_features(semantic, spec["news_region"], topics, table.index))
         table = table.dropna(subset=["vol"])
