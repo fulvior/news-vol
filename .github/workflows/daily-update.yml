@@ -38,7 +38,16 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements-semantic.txt
+
+      - name: Cache models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-models-${{ hashFiles('pipeline/config.yml') }}
+          restore-keys: hf-models-
 
       - name: Fetch volatility indices and prices
         run: python -m pipeline.fetch_vol
@@ -48,6 +57,12 @@ jobs:
       - name: Fetch GDELT news series
         continue-on-error: true
         run: python -m pipeline.fetch_news
+
+      # Headline topics and tone; like the news step, a failure here does not
+      # stop the update, and the next run fills the gap.
+      - name: Fetch semantic news series
+        continue-on-error: true
+        run: python -m pipeline.fetch_semantic
 
       - name: Build aligned feature table
         run: python -m pipeline.build_features
