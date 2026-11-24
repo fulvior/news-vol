@@ -923,3 +923,207 @@ growth_labor,score 2–4%,0.894,fra,"Pétrole : les stocks débloqués commencen
 growth_labor,score 2–4%,0.894,eng,Excellus has options for people who have lost employer's insurance plan,0
 growth_labor,score 2–4%,0.9684,deu,Thüringen: Umsatz sinkt: Erste Corona-Auswirkungen auf Industrie,1
 growth_labor,keyword,,ita,Bankitalia:Pil fra -9 e -13%.Decreti evitano crisi liquidità,1
+tone:inflation,tone stressed,,eng,"Inflation may be cooling, but the housing market is still too hot for many buyers",1
+tone:inflation,tone stressed,,eng,Report finds Wyoming wages haven't risen with cost of living,1
+tone:inflation,tone stressed,,eng,"Inflation, unrest challenge Bangladesh's 'miracle economy'",1
+tone:inflation,tone stressed,,eng,Mum shares how she feeds family for 57p per portion during cost of living crisis,1
+tone:inflation,tone stressed,,eng,Cyprus HICP Inflation Remains Negative,0
+tone:inflation,tone stressed,,eng,Inflation Is a Worry for 9 in 10 Americans Polled,1
+tone:inflation,tone stressed,,eng,Jonah Goldberg: What do inflation and critical race theory have in common? More than you might think,0
+tone:inflation,tone stressed,,eng,Bill Kristol Tweets Dumb 'Inflation Subsides' Prediction Minutes Before News Inflation Spiked 9.1%,1
+tone:inflation,tone stressed,,eng,"Inflation divide: The wealthy splurge, the poorest pull back",1
+tone:inflation,tone stressed,,spa,Forex Hoy 20/10: El Loonie Sorprende Pese a la Inflación,0
+tone:inflation,tone stressed,,eng,Is the United States heading toward another Great Inflation?,1
+tone:inflation,tone stressed,,eng,Kenya's cost of living protests are escalating. Here's why,1
+tone:inflation,tone calm,,eng,Inflation eases back sharply to 3.9% in November | Clacton and Frinton Gazette,0
+tone:inflation,tone calm,,eng,"US UoM consumer sentiment jumps to 53.3, inflation expectations ease further",0
+tone:inflation,tone calm,,eng,"Rate of inflation eases to 3.4% in February, official figures show",0
+tone:inflation,tone calm,,fra,Gard : face au choc de l'inflation les entreprises résistent mieux que prévu mais la pression se fait sentir,0
+tone:inflation,tone calm,,fra,Royaume-Uni : L'inflation annuelle repasse sous les 3% en avril,0
+tone:inflation,tone calm,,eng,Cyprus Inflation Slows For Third Month,0
+tone:inflation,tone calm,,eng,"RBI policy balanced as growth outlook improves, inflation risks remain contained: Equirus",0
+tone:inflation,tone calm,,fra,L'inflation recule légèrement avril,0
+tone:inflation,tone calm,,eng,"Economists back RBI's neutral stance, see lower inflation and stable rates supporting growth",0
+tone:inflation,tone calm,,eng,Eurozone inflation expectations for next 12 months fall to 4.6% in February,0
+tone:inflation,tone calm,,eng,"Turkey Inflation Eases To 61.78%, Lowest In 9 Months",0
+tone:inflation,tone calm,,eng,Australia: Federal Budget must target new gas supply to ease cost-of-living pressures,1
+monetary_policy,keyword,,eng,Fed's recent rate cuts could improve borrowing options for state and local government projects | Ap,1
+tone:monetary_policy,tone stressed,,deu,"Blitz-Update Wall Street: Gespanntes Warten auf die Fed - Boeing, Intel, BioNTech, Nasdaq ...",0
+tone:monetary_policy,tone stressed,,eng,FinancialContent - The Gilded Fortress: Global Central Banks Defy Dollar Hegemony as Fed Independence Wavers,1
+tone:monetary_policy,tone stressed,,eng,'Sizzling' US Jobs Data Make Case for Bigger Fed Rate Increases,1
+tone:monetary_policy,tone stressed,,eng,"Asian stocks fall on concern about virus, tighter Fed policy",1
+tone:monetary_policy,tone stressed,,eng,European stocks head for flat to lower open as markets ponder Fed Powell's comments,0
+tone:monetary_policy,tone stressed,,eng,Key Events This Busy Week: Central Bank Bonanza And A Critical Fed Rate Hike,1
+tone:monetary_policy,tone stressed,,eng,Bank of England issues 'long queues' warning ahead of £20 and £50 September deadline,0
+tone:monetary_policy,tone stressed,,eng,"Mortgage interest rates for April 5, 2021: Rates move higher",1
+tone:monetary_policy,tone stressed,,deu,Die FED hat die Zinsen erhöht. Gold explodiert. Was kommt jetzt?,1
+tone:monetary_policy,tone stressed,,fra,La décision de la BCE enfonce les marchés dans le rouge ; le CAC 40 au plus bas depuis juillet 2016,1
+tone:monetary_policy,tone stressed,,eng,Goldman Sachs SLASHES chance of a US recession from 20% to 15% - as economists predict there will be no more interest rate hikes,0
+tone:monetary_policy,tone stressed,,ita,Tirate fuori le palle | che schifo | roba vergognosa Lagarde | Giletti epico,0
+tone:monetary_policy,tone calm,,eng,RBNZ May Start Laying Groundwork for a Rate Cut,0
+tone:monetary_policy,tone calm,,eng,US Fed official signals support for September rate pause,0
+tone:monetary_policy,tone calm,,eng,Freeport delays rate increase decision,0
+tone:monetary_policy,tone calm,,eng,"Atkins approve water, sewer rate increase",0
+tone:monetary_policy,tone calm,,eng,Fed's Logan Says 'Much Too Soon' to Think About Cutting Rates,1
+tone:monetary_policy,tone calm,,fra,Lagarde quitte ses fonctions de président de l'UDI,0
+tone:monetary_policy,tone calm,,fra,Le Portugal maintiendra une politique budgétaire conservatrice en raison de l'inflation et des taux de la BCE,0
+tone:monetary_policy,tone calm,,eng,The Fed prepares to cut again – Economic week ahead: 8-12 December,0
+tone:monetary_policy,tone calm,,eng,European Central Bank set to cut rates for the first time since 2019,0
+tone:monetary_policy,tone calm,,eng,"Mexico Likely to Hit Pause on Rate Cuts in May, Heath Says",0
+tone:monetary_policy,tone calm,,eng,Brownstown council discusses 19% waste collection rate increase,0
+tone:monetary_policy,tone calm,,eng,Fed's Kaplan says U.S. economy needs more fiscal support,0
+tone:equity_markets,tone stressed,,eng,Stock market news today: Stocks fall on Wall Street; bank fears,1
+tone:equity_markets,tone stressed,,ita,"Silicon Valley Bank sospesa a Wall Street, perde 62% - Economia",1
+tone:equity_markets,tone stressed,,eng,Market News: Europe Stocks Slide as Chip Sector Hurt By TSMC Outlook Cut,1
+tone:equity_markets,tone stressed,,fra,"Bourse Zurich: le SMI ouvre en baisse, plombé par les poids lourds",1
+tone:equity_markets,tone stressed,,eng,Why You Shouldn't Look at Your Investments During a Bull Market,0
+tone:equity_markets,tone stressed,,eng,"Stocks slide in US, Europe as virus worries dominate again",1
+tone:equity_markets,tone stressed,,eng,Stocks fall as Wall Street braces for huge hike in rates,1
+tone:equity_markets,tone stressed,,deu,Von wegen defensiv! Das ist die schlechteste DAX-Aktie,0
+tone:equity_markets,tone stressed,,eng,Asian stock markets tumble as Trump calls tariffs 'medicine',1
+tone:equity_markets,tone stressed,,ita,USA: a dicembre i non farm payrolls salgono oltre le attese. Futures Dow Jones calano di 150 punti,1
+tone:equity_markets,tone stressed,,eng,Stocks slip as Wall Street braces for big hike in rates,1
+tone:equity_markets,tone stressed,,ita,"Borsa: Milano prosegue pesante con le banche, male Prysmian",1
+tone:equity_markets,tone calm,,deu,EUREX/DAX-Futures mit freundlichem Wochenstart,0
+tone:equity_markets,tone calm,,eng,Wall Street Opens Higher on Upbeat Earnings,0
+tone:equity_markets,tone calm,,deu,DAX legt deutlich zu - Hoffen auf weiter lockere Geldpolitik,0
+tone:equity_markets,tone calm,,ita,Wall Street migliora | le Borse Ue riprendono tono Lavoro Usa sopra le stime,0
+tone:equity_markets,tone calm,,eng,Asian shares advance following rebound on Wall Street,0
+tone:equity_markets,tone calm,,eng,"Wall Street apre positiva in attesa della Fed, Dj +0,26%",0
+tone:equity_markets,tone calm,,eng,"Stocks rise early as GM, others report strong earnings",0
+tone:equity_markets,tone calm,,eng,"Stocks rise following encouraging employment data, earnings",0
+tone:equity_markets,tone calm,,deu,DAX-Überblick: Kurse wieder stabilisiert - dax_mdax - Börsennachrichten,0
+tone:equity_markets,tone calm,,ita,Borsa | Milano migliora +0 | 5% | bene le banche,0
+tone:equity_markets,tone calm,,deu,TRENDUMFRAGE/DAX zum Handelsschluss höher erwartet,0
+tone:equity_markets,tone calm,,eng,Wall Street climbs as investors cheer upbeat Apple earnings,0
+tone:trade_tariffs,tone stressed,,ita,Guerra dei dazi | le reazioni internazionali alle nuove imposte volute da Trump,1
+tone:trade_tariffs,tone stressed,,eng,Stock markets swing as global trade war escalates,1
+tone:trade_tariffs,tone stressed,,eng,China Blasts Australia as 'Dog of America' as CPC Moves to Impose Mega Food Tariffs,1
+tone:trade_tariffs,tone stressed,,fra,L'Europe devrait encore céder aux craintes d'une guerre commerciale,1
+tone:trade_tariffs,tone stressed,,eng,Dollar Weakened by Reports Trump Is Holding Off on New Tariffs,0
+tone:trade_tariffs,tone stressed,,eng,Maddow Blog | Trump's tariffs and burgeoning trade war add to economic chaos,1
+tone:trade_tariffs,tone stressed,,eng,"Global markets plunge, Dow drops 1,100 following Trump's tariff announcement",1
+tone:trade_tariffs,tone stressed,,spa,El activo refugio por excelencia se desactiva con los aranceles: por qué cae el oro si el mundo 'arde',1
+tone:trade_tariffs,tone stressed,,eng,"Pacific nations perplexed, worried by Trump tariffs",1
+tone:trade_tariffs,tone stressed,,ita,I dazi che non risparmiano nessuno: Trump 'colpisce' anche le isole disabitate,1
+tone:trade_tariffs,tone stressed,,eng,Hawaii businesses brace for fallout from Trump's new tariffs,1
+tone:trade_tariffs,tone stressed,,ita,"""I dazi ci porteranno in recessione. È la decisione più idiota che abbia mai preso un presidente americano""",1
+tone:trade_tariffs,tone calm,,spa,El Consejo de la UE y la Eurocámara logran un acuerdo para implementar el pacto arancelario con EEUU,0
+tone:trade_tariffs,tone calm,,eng,UK and U.S. agree to accelerated trade deal talks: joint statement,0
+tone:trade_tariffs,tone calm,,eng,EU gives upbeat assessment of state of Brexit trade talks,0
+tone:trade_tariffs,tone calm,,eng,"Indonesia Secures Trade Deal With US, Finalizing 19 Percent Tariff Rate",0
+tone:trade_tariffs,tone calm,,eng,Australia-UK trade deal can help spur post-pandemic recovery,0
+tone:trade_tariffs,tone calm,,eng,EU chief hails 'better progress' in post-Brexit trade talks,0
+tone:trade_tariffs,tone calm,,eng,Asian shares rise on optimism about US-China trade deal,0
+tone:trade_tariffs,tone calm,,eng,Trump signals openness to negotiations after announcing tariffs,0
+tone:trade_tariffs,tone calm,,eng,Agreement reached on US tariffs brings certainty for European businesses,0
+tone:trade_tariffs,tone calm,,eng,UK resumes tech-focused trade talks with South Korea,0
+tone:trade_tariffs,tone calm,,spa,Moreno tiende la mano a la UE y al Gobierno para afrontar los aranceles e impulsa ayudas por 11 millones para la marca Andalucía,0
+tone:trade_tariffs,tone calm,,eng,EU Seeks to Conclude Australian Free-Trade Deal the Summer,0
+tone:energy,tone stressed,,eng,"GRAPHIC-Gas price surge, just one more headwind for world economy",1
+tone:energy,tone stressed,,eng,"U.S. Oil Prices Reach Highest Level Since 2014 as Economy Weathers Omicron, Demand Climbs",1
+tone:energy,tone stressed,,eng,Local gas prices on the rise as Iran war continues,1
+tone:energy,tone stressed,,eng,Biden is under pressure on gas prices. So he's putting pressure on oil companies,1
+tone:energy,tone stressed,,eng,"Prolonged Ukraine crisis, high crude prices may push India's import bill up by 15 pc: Experts",1
+tone:energy,tone stressed,,eng,WTI Extends Gains After Surprise Crude Inventory Draw; Pump-Prices Set To Soar,1
+tone:energy,tone stressed,,eng,"City, school, and transit officials keep a close eye on rising gas prices",1
+tone:energy,tone stressed,,eng,"Asda, Tesco and Morrisons drivers issued RAC 'shop around' warning over petrol prices",1
+tone:energy,tone stressed,,deu,Ölpreis bricht um über 30 Prozent ein – stärkster Einbruch seit 1991,1
+tone:energy,tone stressed,,eng,White House Freaks Over OPEC Plan To Cut 2 Million Barrels Per Day,1
+tone:energy,tone stressed,,eng,Higher diesel prices are impacting almost everyone in the area,1
+tone:energy,tone stressed,,eng,Oil prices rise on possible easing in China Covid quarantine measure,0
+tone:energy,tone calm,,eng,Iowa Gas Prices Drop in the Last Week,0
+tone:energy,tone calm,,deu,Gaspreis fällt für Kunden des Eisenacher Energieversorgers,0
+tone:energy,tone calm,,eng,Florida gas prices drop as South Florida supply resumes,0
+tone:energy,tone calm,,spa,La OPEP+ subirá la producción de nuevo para recuperar cuota de mercado,0
+tone:energy,tone calm,,spa,La economía va bien… hasta que llega la factura de la luz,1
+tone:energy,tone calm,,eng,"Roanoke gas prices up very slightly over the last week, substantially lower over the last year",0
+tone:energy,tone calm,,eng,Rochester's gas prices hold steady while national average drops slightly,0
+tone:energy,tone calm,,ita,"Il prezzo del gas è poco mosso a 32,4 euro in avvio di giornata",0
+tone:energy,tone calm,,ita,"Il prezzo del gas scende, ma le bollette non calano a maggio (-0,2%)",0
+tone:energy,tone calm,,deu,Gaspreis seit August um die Hälfte gefallen: Das kommt davon bei Ihnen an,0
+tone:energy,tone calm,,eng,Montana Gas Prices Drop Slightly: What You Need To Know,0
+tone:energy,tone calm,,ita,Bollette della luce | slitta al 1 luglio la fine del mercato tutelato,0
+tone:geopolitics,tone stressed,,eng,"""F-16s in the sky. Carrying US missiles. Targets destroyed!"" : how pilots of Ukraine's Armed Forces train on simulator",0
+tone:geopolitics,tone stressed,,eng,"U.S. missile stockpiles dwindle. And, FDA weighs approval of flu shots with mRNA tech",1
+tone:geopolitics,tone stressed,,eng,Ukraine LIVE: Russia burns after drone attack hits airport as Ukraine targetted by strikes | World | News,1
+tone:geopolitics,tone stressed,,deu,Ukraine-Krieg: Luftalarm in der gesamten Ukraine am Dienstag,1
+tone:geopolitics,tone stressed,,eng,"Russian shelling kills three in Kharkiv, Ukraine",1
+tone:geopolitics,tone stressed,,spa,Israel bombardea las plantas nucleares de Irán y decapita al Estado Mayor mientras se prepara para una guerra larga y dura,1
+tone:geopolitics,tone stressed,,spa,La ONU cifra en más de 9.000 los civiles muertos desde el inicio de la invasión de Uc...,1
+tone:geopolitics,tone stressed,,eng,'Inflationary pressure!' Oil price hits HIGHEST level since 2014 after UAE drone attack,1
+tone:geopolitics,tone stressed,,eng,Russia launches largest missile and drone barrage on Kyiv since war in Ukraine began,1
+tone:geopolitics,tone stressed,,eng,"How the world is reacting to Israel attacks on Iran nuclear, military sites | Nuclear Weapons News",1
+tone:geopolitics,tone stressed,,eng,CNN Live Shot in Kyiv Interrupted By Multiple Explosions from Invasion,1
+tone:geopolitics,tone stressed,,spa,"La guerra contra Irán abre una herida económica en Estados Unidos con más inflación, más deuda y menos crecimiento",1
+tone:geopolitics,tone calm,,eng,Gaza ceasefire talks end with no breakthrough as Ramadan deadline looms,1
+tone:geopolitics,tone calm,,eng,"Scholz, Zelensky acknowledge Trump's 'leading role' in ceasefire deal",0
+tone:geopolitics,tone calm,,eng,The Latest | Hamas says it got a 'positive response' from mediators to its cease-fire amendments,0
+tone:geopolitics,tone calm,,eng,Pres. Trump speaks with Ukrainian Pres. Zelenskyy after Putin rejects ceasefire plan,1
+tone:geopolitics,tone calm,,eng,"Hezbollah rejects new ceasefire deal, hits prospects for ending war",1
+tone:geopolitics,tone calm,,eng,US negotiators in Gaza ceasefire deal say Israel didn't commit genocide,0
+tone:geopolitics,tone calm,,eng,Ethiopia's Tigray demands troop withdrawals before ceasefire talks,0
+tone:geopolitics,tone calm,,deu,"Ukraine-Krieg: „Produktiv"" – So liefen die Friedensgespräche n Abu Dhabi",0
+tone:geopolitics,tone calm,,eng,Pace of Gaza cease-fire talks frustrates chief Qatari negotiator,0
+tone:geopolitics,tone calm,,deu,Lawrow betritt erstmals seit Kriegsbeginn wieder EU-Boden,0
+tone:geopolitics,tone calm,,eng,A 'positive response' with conditions: Inside Hamas's response to ceasefire mediators,0
+tone:geopolitics,tone calm,,spa,"La emotiva experiencia de la paciente Barbara Guerra durante su quimioterapia en el hospital: ""Tener a mi fiel perra Joy a mi lado es una alegría inmensa que alivia por completo la tensión del tratamiento oncológico""",0
+banking_stress,screen 0.25–0.5%,0.9972,ita,Orgoglio e pregiudizio. Le banche ricordano a Meloni i 400 miliardi di Btp e i 25 di tasse,0
+banking_stress,screen 0.25–0.5%,0.9982,eng,If only we could've recorded famous sayings like these | Columns,0
+banking_stress,screen 0.25–0.5%,0.9977,eng,Take in the marvels and treasures with two cruises from Ambassdor!,0
+banking_stress,screen 0.5–1%,0.994,deu,Wie die Nasdaq von Backup aus der Cloud profitiert,0
+banking_stress,screen 0.5–1%,0.9944,deu,Palantir-Aktie explodiert nach Zahlen: Ungebrochene KI-Nachfrage,0
+banking_stress,screen 0.5–1%,0.9945,eng,What is The European Accessibility Act and why does it matter for business websites of all sizes?,0
+banking_stress,screen 0.5–1%,0.9968,eng,Cher relieved ABBA tour was shut down,0
+banking_stress,screen 0.5–1%,0.9879,eng,"37,800 student-loan borrowers are getting $3.3 million worth of checks in the mail after a debt relief company 'falsely' promised loan forgiveness but instead 'pocketed customers' payments,' a federal watchdog says",0
+tone:banking_stress,tone stressed,,eng,SVB Collapse: Markets See Potential Pause in Fed Rate Hikes,1
+tone:banking_stress,tone stressed,,eng,JPMorgan Chase buys troubled First Republic Bank after US government takeover,1
+tone:banking_stress,tone stressed,,eng,"First Republic bank collapses, JPMorgan to take over, FDIC says",1
+tone:banking_stress,tone stressed,,eng,Bank shares slide as Credit Suisse rescue takeover shakes traders,1
+tone:banking_stress,tone stressed,,eng,Oil tumbles below $70 as 'all hell breaks loose' with banking crisis,1
+tone:banking_stress,tone stressed,,eng,US Treasury Yield Spikes as Investors Fear Recurring Banking Crisis,1
+tone:banking_stress,tone stressed,,eng,SVB: Why did Silicon Valley Bank collapse and are other lenders at risk?,1
+tone:banking_stress,tone stressed,,eng,Regulators seize Signature Bank in third-largest US bank failure,1
+tone:banking_stress,tone stressed,,eng,"US stocks fall sharply, following Europe lower, as selloff in Credit Suisse spurs fresh worries over banks; Dow down 525",1
+tone:banking_stress,tone stressed,,eng,"Bitcoin Liquidity Unaffected By Silvergate Fiasco, But Market Depth Remains Low",0
+tone:banking_stress,tone stressed,,fra,Credit suisse : cette déroute que les autorités n'ont pas voulu voir,1
+tone:banking_stress,tone stressed,,eng,"Credit Suisse, UBS shares plunge; China's Xi arrives in Moscow; NCAA Tournament highlights",1
+tone:banking_stress,tone calm,,ita,una settimana fa forbes aveva premiato silicon valley bank definendola solida e affidabile,0
+tone:banking_stress,tone calm,,eng,Silicon Valley Bank Previously Asked Congress to Ease Regulatory Oversight,0
+tone:banking_stress,tone calm,,eng,SVB on Wine: The Annual SVB Direct to Consumer Survey is Open,0
+tone:banking_stress,tone calm,,eng,SVB FINANCIAL GROUP TO EXPLORE STRATEGIC ALTERNATIVES,1
+tone:banking_stress,tone calm,,eng,What You Need to Know About the SVB Receivership,1
+tone:banking_stress,tone calm,,fra,Wall Street stable après la reprise de First Republic par JPMorgan,0
+tone:banking_stress,tone calm,,eng,North Lake Foodbank receives 420kg of donations from food bank run,0
+tone:banking_stress,tone calm,,eng,SuperCom Announces it Has No Exposure to Silicon Valley Bank and Signature Bank,0
+tone:banking_stress,tone calm,,spa,Credit Suisse reafirma su apuesta por Caixabank en banca doméstica tras los resultados | Mercados,0
+tone:banking_stress,tone calm,,spa,"Grupo Piñero, galardonado con el premio 'Forbes-Credit Suisse Sustainability'",0
+tone:banking_stress,tone calm,,eng,Washington can't stop an instant bank run,1
+tone:banking_stress,tone calm,,eng,JPMorgan Chase Bank Agrees to Purchase First Republic Bank,1
+growth_labor,screen 0.25–0.5%,0.9956,deu,Börsencrash nach Trumps Zoll-Hammer: Dax fällt mehr als 5 Prozent,0
+growth_labor,screen 0.25–0.5%,0.993,deu,Merkel zurückhaltend : Arbeitgeber gegen pauschal höheres Kurzarbeitergeld,0
+growth_labor,screen 0.25–0.5%,0.9927,spa,La actividad económica española pierde impulso en julio,1
+tone:growth_labor,tone stressed,,eng,GE CMO Linda Boff on Making Marketing Cuts Amid Looming Recession,1
+tone:growth_labor,tone stressed,,eng,"US unemployment claims dropped to 206,000 last week with layoffs still sparse",0
+tone:growth_labor,tone stressed,,eng,IHS Markit downgrades global GDP forecasts,1
+tone:growth_labor,tone stressed,,ita,Borsa | Europa apre debole | pesano timori recessione,1
+tone:growth_labor,tone stressed,,eng,Powell's stark message: Inflation fight may cause recession,1
+tone:growth_labor,tone stressed,,eng,"Meta May Be Prepping for More Layoffs, Giving Thousands Poor Reviews",1
+tone:growth_labor,tone stressed,,deu,Weitere Kursverluste im Dax - Furcht vor Rezession belastet - Wirtschaft,1
+tone:growth_labor,tone stressed,,eng,"Uniper, which once imported and stored massive volumes of Russian natural gas, is on the brink of collapse. If it fails, much like Lehman Brothers during the 2008 recession, it may bring other companies with it. – Investment Watch",1
+tone:growth_labor,tone stressed,,eng,Economists Are Divided on the Risk of a U.S. Recession. And the Jobs Data Isn't Helping,1
+tone:growth_labor,tone stressed,,eng,Hellblade Staff Bid Farewell to Ninja Theory as Layoffs Begin,1
+tone:growth_labor,tone stressed,,eng,Snap to slash 10% of staff as tech layoffs continue,1
+tone:growth_labor,tone stressed,,eng,"Kenya's leader says climate change is eating away Africa's GDP, calls for talks on global carbon tax",1
+tone:growth_labor,tone calm,,eng,Strong Jobs Report Shows Economy Back on Track for Stronger Growth,0
+tone:growth_labor,tone calm,,eng,Thailand GDP Growth Exceeds Expectations,0
+tone:growth_labor,tone calm,,eng,Utah's job growth continues while unemployment rate slightly rises,0
+tone:growth_labor,tone calm,,eng,The Engineer - Kwarteng unveils incentives to boost economic growth,0
+tone:growth_labor,tone calm,,eng,Australia GDP Growth Tops Expectations,0
+tone:growth_labor,tone calm,,eng,"Wall St extends record rally on strong jobs report, Pfizer COVID-19 pill cheer",0
+tone:growth_labor,tone calm,,eng,U.S. economy grows steadily in third quarter; consumer spending solid in November,0
+tone:growth_labor,tone calm,,eng,"Raken and Sage Expand Partnership for Faster, Easier Payroll for Contractors",0
+tone:growth_labor,tone calm,,spa,Pilar Varela destaca el incremento en cinco puntos de la protección al desempleo,0
+tone:growth_labor,tone calm,,eng,"Wall Street Eyes Record Open on Strong Jobs Report, Pfizer COVID-19 Pill",0
+tone:growth_labor,tone calm,,eng,Indonesia Logs Fastest GDP Growth Since 2022,0
+tone:growth_labor,tone calm,,deu,Neues Produkt und innovative Lösungen für die GDP-konforme Pharmalogistik,0
