@@ -1,0 +1,98 @@
+# One-off job: builds the semantic news history from August 2019, one quarter
+# per job, up to 20 at a time. Start it by hand from the Actions tab. Each job
+# stops cleanly after five hours; if any quarter is unfinished, run the
+# workflow again and it continues where it stopped (finished quarters take a
+# minute). Needs data/semantic/topic_model.npz in the repository.
+
+name: Backfill semantic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        include:
+          - { quarter: 2019Q3, start: "2019-07-01", end: "2019-09-30" }
+          - { quarter: 2019Q4, start: "2019-10-01", end: "2019-12-31" }
+          - { quarter: 2020Q1, start: "2020-01-01", end: "2020-03-31" }
+          - { quarter: 2020Q2, start: "2020-04-01", end: "2020-06-30" }
+          - { quarter: 2020Q3, start: "2020-07-01", end: "2020-09-30" }
+          - { quarter: 2020Q4, start: "2020-10-01", end: "2020-12-31" }
+          - { quarter: 2021Q1, start: "2021-01-01", end: "2021-03-31" }
+          - { quarter: 2021Q2, start: "2021-04-01", end: "2021-06-30" }
+          - { quarter: 2021Q3, start: "2021-07-01", end: "2021-09-30" }
+          - { quarter: 2021Q4, start: "2021-10-01", end: "2021-12-31" }
+          - { quarter: 2022Q1, start: "2022-01-01", end: "2022-03-31" }
+          - { quarter: 2022Q2, start: "2022-04-01", end: "2022-06-30" }
+          - { quarter: 2022Q3, start: "2022-07-01", end: "2022-09-30" }
+          - { quarter: 2022Q4, start: "2022-10-01", end: "2022-12-31" }
+          - { quarter: 2023Q1, start: "2023-01-01", end: "2023-03-31" }
+          - { quarter: 2023Q2, start: "2023-04-01", end: "2023-06-30" }
+          - { quarter: 2023Q3, start: "2023-07-01", end: "2023-09-30" }
+          - { quarter: 2023Q4, start: "2023-10-01", end: "2023-12-31" }
+          - { quarter: 2024Q1, start: "2024-01-01", end: "2024-03-31" }
+          - { quarter: 2024Q2, start: "2024-04-01", end: "2024-06-30" }
+          - { quarter: 2024Q3, start: "2024-07-01", end: "2024-09-30" }
+          - { quarter: 2024Q4, start: "2024-10-01", end: "2024-12-31" }
+          - { quarter: 2025Q1, start: "2025-01-01", end: "2025-03-31" }
+          - { quarter: 2025Q2, start: "2025-04-01", end: "2025-06-30" }
+          - { quarter: 2025Q3, start: "2025-07-01", end: "2025-09-30" }
+          - { quarter: 2025Q4, start: "2025-10-01", end: "2025-12-31" }
+          - { quarter: 2026Q1, start: "2026-01-01", end: "2026-03-31" }
+          - { quarter: 2026Q2, start: "2026-04-01", end: "2026-06-30" }
+          - { quarter: 2026Q3, start: "2026-07-01", end: "2026-09-30" }
+          - { quarter: 2026Q4, start: "2026-10-01", end: "2026-12-31" }
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements-semantic.txt
+
+      - name: Cache models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-models-${{ hashFiles('pipeline/config.yml') }}
+          restore-keys: hf-models-
+
+      - name: Semantic series for ${{ matrix.quarter }}
+        run: >
+          python -m pipeline.fetch_semantic
+          --start ${{ matrix.start }}
+          --end ${{ matrix.end }}
+          --max-minutes 300
+
+      # Each quarter has its own files, so parallel jobs never edit the same
+      # file; the retry loop only handles two jobs pushing at the same moment.
+      - name: Commit ${{ matrix.quarter }}
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/semantic
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Backfill semantic ${{ matrix.quarter }}"
+          for attempt in 1 2 3 4 5 6 7 8; do
+            if git pull --rebase && git push; then exit 0; fi
+            sleep $((RANDOM % 30 + 5))
+          done
+          exit 1
