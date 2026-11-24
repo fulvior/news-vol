@@ -106,8 +106,8 @@ semantic:
     start: "2019-08-01"            # first month with headlines
     days_per_month: [5, 20]        # days sampled in every month
     slots: ["080000", "160000"]    # UTC times of the files read on each day
-    max_headlines: 200000          # random subset used if the sample is larger
-    classifier_models: [screen, score]   # embeddings the topic classifiers are trained on (compared)
+    max_headlines: 250000          # random subset used if the sample is larger
+    classifier_models: [screen]    # embeddings the topic classifiers are trained on; [screen, score] compares both
     min_examples: 30               # fewer keyword matches than this: no classifier
     target_precision: 0.80         # used to recommend thresholds from labels
     drop_share: 0.02               # keyword-free headlines most similar to a topic, left out of its negatives
@@ -162,6 +162,7 @@ semantic:
         - '\bpowell\b|\blagarde\b'
       exclude:
         - '\broyal bank of canada\b|\bcentral bank digital currenc|(?-i:\bCBDC\b)|\basalto al banco central\b'
+        - '\bcolin powell\b|\bpowell(’|'')s funeral\b'
       calm:
         - Central bank cuts rates to support the economy
         - Fed signals a pause in rate hikes
