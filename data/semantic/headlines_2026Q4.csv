@@ -4301,3 +4301,85 @@ date,region,topic,kind,tone,source,title
 2026-11-23,us,trade_tariffs,stressed,0.0271,politicaldog101.com,About the $170 Billion Trump Tariff Refunds ….
 2026-11-23,us,trade_tariffs,stressed,0.0141,k1047.com,Lowe's Puts $250 Million in Tariff Refunds Toward Customer Perks as Sales Climb
 2026-11-23,us,trade_tariffs,stressed,-0.0508,wbng.com,Southern Tier farms receive nearly $1.8M in state tariff relief payments
+2026-11-24,europe,energy,calm,-0.0745,newarkadvertiser.co.uk,Oil prices dip to near three-month low on recovering supplies
+2026-11-24,europe,energy,calm,-0.0342,leparisien.fr,Prix des carburants en Seine-Saint-Denis : où trouver les stations les moins chères ce mardi 24 novembre ?
+2026-11-24,europe,energy,calm,-0.0267,connexionfrance.com,France fuel prices fall at 90% of petrol stations after diesel release
+2026-11-24,europe,energy,stressed,0.0684,yorkpress.co.uk,Energy price shock for millions of households to be revealed
+2026-11-24,europe,energy,stressed,0.0636,bucksfreepress.co.uk,Martin Lewis warns energy prices could reach record high
+2026-11-24,europe,energy,stressed,0.0576,wz-net.de,Gaspreise steigen: Diese Faktoren treiben die Kosten nach oben
+2026-11-24,europe,equity_markets,calm,-0.1521,finanzen.net,NYSE-Handel: Dow Jones schlussendlich freundlich
+2026-11-24,europe,equity_markets,calm,-0.1431,aol.co.uk,Stocks climb as Huang's return to Nvidia lifts investor optimism
+2026-11-24,europe,equity_markets,calm,-0.1334,finanzen.net,Zurückhaltung in New York: NASDAQ 100 legt schlussendlich den Rückwärtsgang ein
+2026-11-24,europe,equity_markets,stressed,0.1580,finanznachrichten.de,Almonty Industries - Stock market panic meets billions in liquidity
+2026-11-24,europe,equity_markets,stressed,0.0994,brfm.net,FA chair had to sign NDA to view FIFA documents on World Cup sell-off
+2026-11-24,europe,equity_markets,stressed,0.0470,italiaoggi.it,"Pmi, un tesoro da 38,9 miliardi in Borsa ma poco valorizzato: AssoNEXT chiede più capitali"
+2026-11-24,europe,geopolitics,calm,-0.1029,qds.it,"Fieg, Riffeser Monti confermato presidente: Carlo Alberto Tregua, fondatore del QdS.it, eletto tesoriere"
+2026-11-24,europe,geopolitics,calm,-0.0692,diariodesevilla.es,El Kremlin cuestiona el papel de la UE en la paz de Ucrania
+2026-11-24,europe,geopolitics,calm,-0.0511,toulouse7.com,Gaza : Guterres dénonce un « prétendu cessez-le-feu » sans horizon politique
+2026-11-24,europe,geopolitics,stressed,0.1572,milanofinanza.it,"Difesa, Londra in allarme: la Russia prepara sabotaggi contro le aziende che riforniscono Kiev"
+2026-11-24,europe,geopolitics,stressed,0.1550,hampshirechronicle.co.uk,Four children among dozens wounded in fatal Russian air strike on Ukraine
+2026-11-24,europe,geopolitics,stressed,0.1487,zazoom.it,Attacchi incrociati Russia-Ucraina | colpito condominio a Zaporizhzhia 2 morti e 40 feriti Oltre 300 droni su Mosca
+2026-11-24,europe,growth_labor,calm,-0.0705,ansa.it,"Messico, il Pil cresce del 3,3% annuo nel terzo trimestre del 2026 - America Latina"
+2026-11-24,europe,growth_labor,calm,-0.0601,ideal.es,Frente Amplio Andaluz destinará el 1% del PIB a construir 125.000 viviendas públicas al año
+2026-11-24,europe,growth_labor,calm,-0.0498,ildispaccio.it,"Ponte sullo Stretto, lo studio TEHA: 146 mld di Pil aggiuntivo e 853mila occupati tra costruzione e gestione"
+2026-11-24,europe,growth_labor,stressed,0.0750,napolitoday.it,"Gls, lavoratori ancora in protesta contro i licenziamenti: interviene la polizia, attimi di tensione"
+2026-11-24,europe,growth_labor,stressed,0.0084,strettoweb.com,"Ponte sullo Stretto, Minasi sullo studio Ambrosetti: ""spazza via ogni scetticismo. 146 miliardi di PIL, 853mila occupati e una rivoluzione per Reggio Calabria"""
+2026-11-24,europe,growth_labor,stressed,-0.0202,elmundo.es,España gastará en pensiones un 43% más de PIB que la UE en 2050 pese a disparar cotizaciones y sin los ajustes de Alemania o Suecia
+2026-11-24,europe,inflation,calm,-0.0084,zazoom.it,Pensioni al via la raccolta di firme per la perequazione integrale all'inflazione
+2026-11-24,europe,inflation,calm,0.0018,abcbourse.com,L'or reflue avant des données clés sur l'inflation américaine
+2026-11-24,europe,inflation,calm,0.0089,diariodelaltoaragon.es,"La inflación industrial se dispara al 19,9 % en octubre por la energía y escala a máximos de cuatro años"
+2026-11-24,europe,inflation,stressed,0.0463,ilfattoquotidiano.it,"Carovita e stipendi bassi, continua la fuga dei lavoratori dai Tribunali del Nord: ""A rischio i servizi per le vittime di violenza"""
+2026-11-24,europe,inflation,stressed,0.0445,lindependant.fr,"Forte inflation, prix de l'énergie... les Français piochent dans leur épargne : le Livret A connaît sa pire année depuis 2008"
+2026-11-24,europe,inflation,stressed,0.0392,travelnostop.com,"Case vacanza, tariffe a +2,2%: crescita sotto la metà dell'inflazione"
+2026-11-24,europe,monetary_policy,calm,-0.0316,bfmtv.com,"Les prix de l'immobilier continuent de baisser: ils ont reculé de 1,2% sur un an au troisième trimestre, dans un contexte de hausse des taux d'intérêt"
+2026-11-24,europe,monetary_policy,calm,-0.0277,express.co.uk,DWP confirms full list of 2027 benefit rate increases
+2026-11-24,europe,monetary_policy,calm,-0.0148,ecb.co.uk,England and Wales Cricket Board (ECB) - The Official Website of the ECB
+2026-11-24,europe,monetary_policy,stressed,0.0119,finanza.lastampa.it,"Banca centrale di Israele ferma i tassi al 3,25%, pesano incertezze politiche e tensioni geopolitiche"
+2026-11-24,europe,monetary_policy,stressed,-0.0148,ecb.co.uk,England and Wales Cricket Board (ECB) - The Official Website of the ECB
+2026-11-24,europe,monetary_policy,stressed,-0.0277,express.co.uk,DWP confirms full list of 2027 benefit rate increases
+2026-11-24,europe,trade_tariffs,calm,0.0030,20minutos.es,"Trump prepara un aumento de los aranceles para la Unión Europea, China y otros países"
+2026-11-24,europe,trade_tariffs,calm,0.0064,elmundo.es,EEUU se prepara para elevar los aranceles a China y otros países
+2026-11-24,europe,trade_tariffs,calm,0.0081,zazoom.it,Trump è pronto a far ripartire la guerra dei dazi
+2026-11-24,europe,trade_tariffs,stressed,0.1032,teleborsa.it,Wall Street prosegue a luci e ombre tra i timori per nuovi dazi e AI
+2026-11-24,europe,trade_tariffs,stressed,0.0936,zazoom.it,Trump minaccia nuovi dazi | Usa pronti a colpire Ue e Cina
+2026-11-24,europe,trade_tariffs,stressed,0.0888,esmmagazine.com,"UK Raises Concerns With India Over High Scotch Tariffs, India Commerce Secretary Says"
+2026-11-24,us,energy,calm,-0.0600,whec.com,"AAA: Gas prices continue to drop, but NY average remains over $4"
+2026-11-24,us,energy,calm,-0.0548,mynewsla.com,Riverside County Gas Prices Keep Dropping
+2026-11-24,us,energy,calm,-0.0523,wgme.com,Gas prices continue to drop in Maine
+2026-11-24,us,energy,stressed,0.0621,wn.com,"Crude bombs go off in Hasina's hometown in Bangladesh, 30 injured in clashes"
+2026-11-24,us,energy,stressed,0.0507,realradio804.com,Virginia energy bills poised to rank among fifth-highest in the country
+2026-11-24,us,energy,stressed,0.0245,delcotimes.com,"Gas prices, rain to impact Thanksgiving holiday travel"
+2026-11-24,us,equity_markets,calm,-0.1137,staradvertiser.com,"Dow jumps 1,470 points as Wall Street rebounds | Honolulu Star-Advertiser"
+2026-11-24,us,equity_markets,calm,-0.0903,euronews.com,Nvidia-Chef Jensen Huang kehrt zurück: Börsen erholen sich deutlich
+2026-11-24,us,equity_markets,calm,-0.0734,news4jax.com,Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia's CEO
+2026-11-24,us,equity_markets,stressed,0.1359,katv.com,Nvidia turmoil adds to Wall Street's growing fears about the AI boom
+2026-11-24,us,equity_markets,stressed,0.0970,journal-news.net,Wall Street's sugar high quickly disappears as Nvidia and other AI stocks tumble again
+2026-11-24,us,equity_markets,stressed,0.0905,247wallst.com,S&P 500 Opens Lower as Tech Selloff Drags the Nasdaq Down 1.4%
+2026-11-24,us,geopolitics,calm,-0.0846,euronews.com,Von der Leyen et Kushner s'opposent sur l'ordre des pourparlers de paix en Ukraine
+2026-11-24,us,geopolitics,calm,-0.0809,wsls.com,North Korea reviews Switzerland relations after sanctions on youth camp linked to Russia-Ukraine war
+2026-11-24,us,geopolitics,calm,0.0046,staradvertiser.com,U.S. intelligence chief: Putin is 'not America's friend in Ukraine'
+2026-11-24,us,geopolitics,stressed,0.1845,katv.com,Western intelligence warns Russia could launch nuclear weapon into space soon
+2026-11-24,us,geopolitics,stressed,0.1845,wsws.org,"As Ukraine attacks Russian ships, Merz and Rutte drive escalation of war against Russia"
+2026-11-24,us,geopolitics,stressed,0.1708,foxnews.com,"Zelenskyy's Libya sea drone strike risks serious escalation, adviser warns"
+2026-11-24,us,growth_labor,calm,-0.0018,carscoops.com,"Renault Announces 2,000 New Factory Jobs And 1,000 Office Job Cuts"
+2026-11-24,us,growth_labor,calm,0.0616,massachusettssun.com,US recession fears rise as falling household wealth and market turmoil point to 25% risk: Report
+2026-11-24,us,growth_labor,calm,0.0679,ukiahdailyjournal.com,North Bay jobless rates fall in October as fewer residents work
+2026-11-24,us,growth_labor,stressed,0.1041,chroniclejournal.com,"Conservatives want answers on planned Parks Canada cuts, layoffs"
+2026-11-24,us,growth_labor,stressed,0.0990,ksisradio.com,62 Workers Face Sudden Unemployment as Missouri Plant Closes
+2026-11-24,us,growth_labor,stressed,0.0963,ibtimes.com,Businesses Are Learning the Cost of Rehiring AI-Driven Layoffs The Hard Way
+2026-11-24,us,inflation,calm,-0.0357,rttnews.com,Finland Producer Price Inflation Eases To 9.4%
+2026-11-24,us,inflation,calm,-0.0219,rttnews.com,Iceland Producer Price Inflation Eases To 12.1%
+2026-11-24,us,inflation,calm,0.0307,rttnews.com,Spain Producer Price Inflation Strongest Since 2022
+2026-11-24,us,inflation,stressed,0.0563,cullmantimes.com,Rising prices and cost of living fuel record-breaking $1 trillion-plus holiday spending estimates
+2026-11-24,us,inflation,stressed,0.0504,fox11online.com,"Shrinking guest list? Fewer Americans may host Thanksgiving, study citing inflation says"
+2026-11-24,us,inflation,stressed,0.0456,247wallst.com,"At 65 He Locked In $3,000 a Month for Life. The Check Will Never Shrink. At 3% Inflation, by 85 It Buys What $1,661 Gets You Today"
+2026-11-24,us,monetary_policy,calm,-0.0539,yellowhammernews.com,Data center revenue drove a $160 million rate cut for Alabama Power customers – Gudger says state lawmakers 'saw this coming'
+2026-11-24,us,monetary_policy,calm,-0.0450,newsroomamerica.com,Federal Reserve Releases Latest Industrial Production and Capacity Utilization Data
+2026-11-24,us,monetary_policy,calm,-0.0237,bendbulletin.com,Avion Water customers to see modest rate increase in new year
+2026-11-24,us,monetary_policy,stressed,0.0509,utahindependent.com,"SBI says 25 bps rate hike may be enough, cautions RBI amid calls for jumbo 50 bps hike"
+2026-11-24,us,monetary_policy,stressed,0.0356,journal-news.net,"The average US 30-year mortgage rate rises to 7.28% this week, ending a four-week slide"
+2026-11-24,us,monetary_policy,stressed,0.0332,kpbs.org,'That feeling of helplessness': SDG&E customers in debt brace for another rate hike
+2026-11-24,us,trade_tariffs,calm,-0.0251,wrfalp.com,167 WNY Farmers Receiving Nearly $2.2 Million In Tariff Relief Payments
+2026-11-24,us,trade_tariffs,calm,0.0703,northernpublicradio.org,"How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region"
+2026-11-24,us,trade_tariffs,stressed,0.0703,northernpublicradio.org,"How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region"
+2026-11-24,us,trade_tariffs,stressed,-0.0251,wrfalp.com,167 WNY Farmers Receiving Nearly $2.2 Million In Tariff Relief Payments
