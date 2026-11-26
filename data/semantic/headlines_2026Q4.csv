@@ -4383,3 +4383,87 @@ date,region,topic,kind,tone,source,title
 2026-11-24,us,trade_tariffs,calm,0.0703,northernpublicradio.org,"How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region"
 2026-11-24,us,trade_tariffs,stressed,0.0703,northernpublicradio.org,"How tariffs, fuel and fertilizer costs are squeezing the U.S.'s biggest apple region"
 2026-11-24,us,trade_tariffs,stressed,-0.0251,wrfalp.com,167 WNY Farmers Receiving Nearly $2.2 Million In Tariff Relief Payments
+2026-11-25,europe,energy,calm,-0.0305,thisisoxfordshire.co.uk,Inflation peak will be lower if energy prices stay at recent levels – Bank boss
+2026-11-25,europe,energy,calm,-0.0283,mirror.co.uk,Martin Lewis' MSE says £10 item could save money on energy bills
+2026-11-25,europe,energy,calm,-0.0249,bbc.co.uk,'I only use the washing machine on a Sunday' - how we're keeping our energy bills down
+2026-11-25,europe,energy,stressed,0.1027,witneygazette.co.uk,'Staggering' increase in energy price cap sees call for 'urgent' action
+2026-11-25,europe,energy,stressed,0.0685,thenational.scot,John Swinney hits out at Labour over Ofgem energy price cap rise
+2026-11-25,europe,energy,stressed,0.0581,finanznachrichten.de,Ölpreis bricht 25 % ein: Warum jetzt neue Preissprünge drohen
+2026-11-25,europe,equity_markets,calm,-0.1295,wallstreet-online.de,Aktien New York: Nasdaq mit deutlicher Erholung vom Tagestief - Dow im Plus | wallstreetONLINE
+2026-11-25,europe,equity_markets,calm,-0.0996,finanznachrichten.de,Toronto Stock Exchange: LongPoint ETFs (ANTU & SNDU) Opens the Market
+2026-11-25,europe,equity_markets,calm,-0.0914,finanznachrichten.de,Toronto Stock Exchange: Les FNB LongPoint (ANTU et SNDU) ouvrent les marchés
+2026-11-25,europe,equity_markets,stressed,0.1126,finanzen.net,Wall Street im Selloff: Droht jetzt ein Jahresendcrash wie 2018?
+2026-11-25,europe,equity_markets,stressed,0.0750,ilgiorno.it,"Borsa: l'Europa peggiora, pesano le banche i microchip, Milano -0,9%"
+2026-11-25,europe,equity_markets,stressed,0.0645,britainnews.net,Wall Street sobers up Tuesday after hectic Huang rally
+2026-11-25,europe,geopolitics,calm,-0.1200,focus.de,"„Nach der Trennung fing der Krieg erst richtig an"""
+2026-11-25,europe,geopolitics,calm,-0.0627,padovanews.it,"Ucraina, von der Leyen ""L'Ue vuole una pace duratura"" – Padovanews"
+2026-11-25,europe,geopolitics,calm,-0.0607,welt.de,"Russlands Schattenkrieg: „Weil er weiß: Das halte ich nicht ewig durch"" – Ex-Botschafter sieht Kalkül bei Putin"
+2026-11-25,europe,geopolitics,stressed,0.1690,20minutos.es,Alerta mundial por el Sputnik nuclear que podría lanzar Rusia al espacio: si estallara acabaría con un tercio de satélites en órbita
+2026-11-25,europe,geopolitics,stressed,0.1677,lbc.co.uk,US 'delays shipments' of Patriot missiles to Ukraine despite warnings Russia is plotting fresh wave of strikes
+2026-11-25,europe,geopolitics,stressed,0.1625,zazoom.it,Rischio guerra nel Mediterraneo l' allarme della Lega in pressing sugli alleati
+2026-11-25,europe,growth_labor,calm,-0.1447,finanzen.net,ROUNDUP/USA: Wirtschaftswachstum beschleunigt sich stärker als erwartet
+2026-11-25,europe,growth_labor,calm,-0.1172,bolsamania.com,"El PIB de EE.UU. acelera más de lo previsto: del 2,2% al 4,3% en el tercer trimestre"
+2026-11-25,europe,growth_labor,calm,-0.0792,sudouest.fr,"Lutte contre le chômage en Dordogne : des binômes de bénévoles écoutent, conseillent et orientent les chercheurs d'emploi"
+2026-11-25,europe,growth_labor,stressed,0.0576,largus.fr,"Arrêt de l'équipe de nuit, chômage technique : Stellantis Sochaux à l'épreuve de la « nouvelle concurrence »"
+2026-11-25,europe,growth_labor,stressed,0.0575,socialeurope.eu,Sweden's White-Collar Workers Now Bear the Brunt of Unemployment
+2026-11-25,europe,growth_labor,stressed,0.0531,laregion.es,Argentina entra en recesión tras dos trimestres de caída
+2026-11-25,europe,inflation,calm,-0.0412,finanzen.net,Fed-Lieblingsmaß steigt stärker als prognostiziert: Kern-PCE-Inflation im Oktober leicht über den Erwartungen
+2026-11-25,europe,inflation,calm,-0.0334,abcbourse.com,L'Europe attendue en hausse avant l'inflation PCE aux Etats-Unis
+2026-11-25,europe,inflation,calm,-0.0124,thisisoxfordshire.co.uk,Inflation peak will be lower if energy prices stay at recent levels – Bank boss
+2026-11-25,europe,inflation,stressed,0.0281,aol.co.uk,We know the bad news already. Here's the good news on cost of living and the economy
+2026-11-25,europe,inflation,stressed,0.0063,corriere.it,"Btp, cosa sapere sulle nuove emissioni: in arrivo uno «short term» e due indicizzati all'inflazione, l'asta"
+2026-11-25,europe,inflation,stressed,-0.0034,diariosur.es,El salario medio roza los 2.500 euros al mes tras subir dos puntos más que la inflación
+2026-11-25,europe,monetary_policy,calm,-0.0377,finanza.lastampa.it,"Bank of England, funzionari non escludono rialzo tassi a dicembre"
+2026-11-25,europe,monetary_policy,calm,-0.0328,northsomersettimes.co.uk,HMRC raises late tax interest rate to 8% for Somerset
+2026-11-25,europe,monetary_policy,calm,-0.0208,berliner-zeitung.de,Dedollarisierung ohne Ausverkauf? Notenbanken behalten Dollar – aber horten mehr Euro
+2026-11-25,europe,monetary_policy,stressed,0.0664,wallstreet-online.de,Der Inflationspoker der Fed: S&P 500: Heute könnte ein Zehntel die nächste Verkaufswelle auslösen! | wallstreetONLINE
+2026-11-25,europe,monetary_policy,stressed,0.0509,britainnews.net,"SBI says 25 bps rate hike may be enough, cautions RBI amid calls for jumbo 50 bps hike"
+2026-11-25,europe,monetary_policy,stressed,0.0139,finanzen.net,Fed-Lieblingsmaß steigt stärker als prognostiziert: Kern-PCE-Inflation im Oktober leicht über den Erwartungen
+2026-11-25,europe,trade_tariffs,calm,-0.0773,britainnews.net,"'No pullback, push back': India committed to UK trade deal concessions on Scotch, says Commerce Secretary"
+2026-11-25,europe,trade_tariffs,calm,-0.0232,bbc.com,"US announces new tariff proposals on EU, China, and other trade partners"
+2026-11-25,europe,trade_tariffs,calm,-0.0074,elpais.com,México conserva el trato preferente con Estados Unidos y se libra de los nuevos aranceles de Trump
+2026-11-25,europe,trade_tariffs,stressed,0.1093,zazoom.it,Nuovi dazi e timori tech affossano i mercati
+2026-11-25,europe,trade_tariffs,stressed,0.1017,zazoom.it,Trump torna all'attacco sui dazi | l'Europa rischia tariffe al 20%
+2026-11-25,europe,trade_tariffs,stressed,0.0883,quotidiano.net,"Borse, Wall Street trema tra dazi di Trump e selloff tech: Nvidia e i big dell'intelligenza artificiale sotto pressione, Europa in rosso · Quotidiano Nazionale"
+2026-11-25,us,energy,calm,-0.0680,kmaland.com,Iowa gas prices down again
+2026-11-25,us,energy,calm,-0.0597,louisianaradionetwork.com,Gas prices across Louisiana have dropped throughout the month of November
+2026-11-25,us,energy,calm,-0.0336,iheart.com,Gas Prices Fall Ahead Of Thanksgiving | News Radio 1190 KEX
+2026-11-25,us,energy,stressed,0.1158,rttnews.com,"Crude Oil Soars Amid Strait Of Hormuz Attacks, Saudi Arabia-Houthi Escalation"
+2026-11-25,us,energy,stressed,0.0410,milwaukeesun.com,"Sensex surges over 1,500 points, Nifty settles above 25,800 amid foreign inflows, falling oil prices"
+2026-11-25,us,energy,stressed,0.0317,wlds.com,GFL Tacks on 10% due to High Diesel Prices
+2026-11-25,us,equity_markets,calm,-0.1291,breitbart.com,Stocks Surge Higher on Jensen Huang's Return to Nvidia
+2026-11-25,us,equity_markets,calm,-0.0825,cnbc.com,Bullish hopes spring as traders bet against a higher VIX: Options Action Live
+2026-11-25,us,equity_markets,calm,-0.0067,kdhnews.com,"Wall Street tempers early slide as pullback in AI stocks eases despite hotter inflation, new tariffs"
+2026-11-25,us,equity_markets,stressed,0.1433,eastbaytimes.com,"Anxiety over the AI boom, inflation, tariffs drag Wall Street lower"
+2026-11-25,us,equity_markets,stressed,0.1359,wcyb.com,Nvidia turmoil adds to Wall Street's growing fears about the AI boom
+2026-11-25,us,equity_markets,stressed,0.1257,247wallst.com,Jim Cramer's Sell-Off Rule: Money You Need in the Next 5 Years Doesn't Belong in Stocks
+2026-11-25,us,geopolitics,calm,-0.1235,magnoliareporter.com,Poll: Ukraine and Russia should negotiate a peace
+2026-11-25,us,geopolitics,calm,-0.1030,aviationweek.com,Poland Cements CAMM-MR Missile Interest In UK Handshake Agreement
+2026-11-25,us,geopolitics,calm,-0.0969,dailyherald.com,Melania Trump reunites seventh group of Ukrainian and Russian children with families
+2026-11-25,us,geopolitics,stressed,0.1899,breitbart.com,Rogue Libyan Militia Threatens to Attack Ukraine for Sinking Russian Ship
+2026-11-25,us,geopolitics,stressed,0.1249,thebeatofthecapital.com,Police seek suspect following Jackson home invasion
+2026-11-25,us,geopolitics,stressed,0.1177,batonrougepost.com,Russia's Baltic bastion: Why is NATO threatening Kaliningrad?
+2026-11-25,us,growth_labor,calm,-0.1461,wsau.com,US third-quarter economic growth revised sharply higher; inflation broadening out
+2026-11-25,us,growth_labor,calm,-0.0526,wmtram.com,"New Jersey Layoff Notices Cover 4,045 Jobs Over 3 Months, With November Total Still Open to Rise"
+2026-11-25,us,growth_labor,calm,0.0230,motorcitybengals.com,"Breaking down Tigers' payroll after Troy Melton extension, ahead of CBA uncertainty"
+2026-11-25,us,growth_labor,stressed,0.0652,kelo.com,US weekly jobless claims fall more than expected
+2026-11-25,us,growth_labor,stressed,0.0345,ohiostandard.com,"US weekly jobless claims hit four-month low of 189,000"
+2026-11-25,us,growth_labor,stressed,0.0230,motorcitybengals.com,"Breaking down Tigers' payroll after Troy Melton extension, ahead of CBA uncertainty"
+2026-11-25,us,inflation,calm,-0.0427,theepochtimes.com,Fed's Preferred Inflation Measure Surges to 3.8 Percent in October
+2026-11-25,us,inflation,calm,-0.0425,washingtonexaminer.com,Inflation rose to 3.8% in October in Fed's preferred gauge
+2026-11-25,us,inflation,calm,-0.0258,kdhnews.com,"Wall Street tempers early slide as pullback in AI stocks eases despite hotter inflation, new tariffs"
+2026-11-25,us,inflation,stressed,0.0587,whmp.com,Inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed
+2026-11-25,us,inflation,stressed,0.0563,santafenewmexican.com,Rising prices and cost of living fuel record-breaking $1 trillion-plus holiday spending estimates
+2026-11-25,us,inflation,stressed,0.0336,dailyherald.com,"Inflation remains high despite retreating gas prices, a Fed challenge"
+2026-11-25,us,monetary_policy,calm,-0.0474,cpapracticeadvisor.com,IRS Ups Tax Interest Rates for Q1 of 2027
+2026-11-25,us,monetary_policy,calm,-0.0291,americanbanker.com,Fed's Bowman says decisive action key to supervision modernization
+2026-11-25,us,monetary_policy,calm,-0.0185,theepochtimes.com,Fed's Preferred Inflation Measure Surges to 3.8 Percent in October
+2026-11-25,us,monetary_policy,stressed,0.0520,rttnews.com,"Gold Slides Amid Rising Fed Rate Hike Expectations, Fresh U.S. Tariff Concerns"
+2026-11-25,us,monetary_policy,stressed,0.0413,whmp.com,Inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed
+2026-11-25,us,monetary_policy,stressed,0.0365,247wallst.com,"If the Fed Hikes on Dec. 9, These 4 Dividend Stocks Are Built to Handle It"
+2026-11-25,us,trade_tariffs,calm,-0.0374,iheart.com,Trump Administration Announces New Tariffs of Up to 20% on Trading Partners | NewsRadio 740 KTRH
+2026-11-25,us,trade_tariffs,calm,-0.0231,wcoapensacola.com,Trump Administration Prepares New Tariffs Following Trade Investigation
+2026-11-25,us,trade_tariffs,calm,-0.0122,abc7amarillo.com,"Trump administration proposes 20% tariff on Chinese goods, new levies on 13 partners"
+2026-11-25,us,trade_tariffs,stressed,0.1663,eastbaytimes.com,"Anxiety over the AI boom, inflation, tariffs drag Wall Street lower"
+2026-11-25,us,trade_tariffs,stressed,0.0978,theepochtimes.com,"Nasdaq Falls 1,000 Points as Sticky Inflation, New Tariffs Spook Markets"
+2026-11-25,us,trade_tariffs,stressed,0.0889,rttnews.com,"Gold Slides Amid Rising Fed Rate Hike Expectations, Fresh U.S. Tariff Concerns"
