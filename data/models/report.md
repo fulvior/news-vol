@@ -35,31 +35,31 @@ Main model, news coefficients significant after Holm adjustment (log volatility 
 
 ## VSTOXX
 
-**Explain** (2019-09-23 to 2026-11-25, 1777 days)
+**Explain** (2019-09-23 to 2026-11-26, 1778 days)
 
 | Model | R² | Gain over baseline | News jointly zero, p (HAC Wald) | Out-of-sample R² vs baseline | DM p (MSE) | DM p (QLIKE) |
 |---|---|---|---|---|---|---|
-| LHAR baseline | 0.9400 | – | – | – | – | – |
-| LHAR + attention | 0.9409 | +0.0010 | 0.0465 | – | – | – |
-| LHAR + attention + tone | 0.9627 | +0.0227 | 0.0000 | – | – | – |
-| LHAR + attention, tone, dispersion, novelty | 0.9633 | +0.0234 | 0.0000 | – | – | – |
-| LHAR + attention + tone, without equity-market news | 0.9422 | +0.0023 | 0.0000 | – | – | – |
-| LHAR + GDELT theme shares and tone | 0.9501 | +0.0102 | 0.0000 | – | – | – |
+| LHAR baseline | 0.9398 | – | – | – | – | – |
+| LHAR + attention | 0.9408 | +0.0010 | 0.0440 | – | – | – |
+| LHAR + attention + tone | 0.9626 | +0.0228 | 0.0000 | – | – | – |
+| LHAR + attention, tone, dispersion, novelty | 0.9633 | +0.0235 | 0.0000 | – | – | – |
+| LHAR + attention + tone, without equity-market news | 0.9420 | +0.0023 | 0.0000 | – | – | – |
+| LHAR + GDELT theme shares and tone | 0.9501 | +0.0103 | 0.0000 | – | – | – |
 
 Main model, news coefficients significant after Holm adjustment (log volatility per standard deviation of the regressor):
 
-- equity_markets tone: +0.0441 (95% bootstrap +0.0388 to +0.0501)
+- equity_markets tone: +0.0442 (95% bootstrap +0.0390 to +0.0501)
 
-**Forecast** (2019-09-23 to 2026-11-25, 1780 days)
+**Forecast** (2019-09-23 to 2026-11-26, 1781 days)
 
 | Model | R² | Gain over baseline | News jointly zero, p (HAC Wald) | Out-of-sample R² vs baseline | DM p (MSE) | DM p (QLIKE) |
 |---|---|---|---|---|---|---|
-| LHAR baseline | 0.9403 | – | – | – | – | – |
-| LHAR + attention | 0.9407 | +0.0004 | 0.2779 | -0.0256 | 0.969 | 0.965 |
-| LHAR + attention + tone | 0.9411 | +0.0008 | 0.0244 | -0.0446 | 0.992 | 0.990 |
-| LHAR + attention, tone, dispersion, novelty | 0.9417 | +0.0015 | 0.0082 | -0.0802 | 1.000 | 1.000 |
-| LHAR + attention + tone, without equity-market news | 0.9408 | +0.0005 | 0.2703 | -0.0447 | 0.996 | 0.994 |
-| LHAR + GDELT theme shares and tone | 0.9410 | +0.0007 | 0.0770 | -0.0432 | 0.998 | 0.994 |
+| LHAR baseline | 0.9401 | – | – | – | – | – |
+| LHAR + attention | 0.9405 | +0.0004 | 0.2687 | -0.0254 | 0.969 | 0.965 |
+| LHAR + attention + tone | 0.9409 | +0.0008 | 0.0324 | -0.0445 | 0.992 | 0.990 |
+| LHAR + attention, tone, dispersion, novelty | 0.9415 | +0.0015 | 0.0103 | -0.0802 | 1.000 | 1.000 |
+| LHAR + attention + tone, without equity-market news | 0.9406 | +0.0005 | 0.2715 | -0.0444 | 0.996 | 0.994 |
+| LHAR + GDELT theme shares and tone | 0.9408 | +0.0007 | 0.0800 | -0.0432 | 0.998 | 0.994 |
 
 Main model, news coefficients significant after Holm adjustment (log volatility per standard deviation of the regressor):
 
@@ -101,32 +101,32 @@ Main model, news coefficients significant after Holm adjustment (log volatility 
 
 ## EURO STOXX 50 realized volatility
 
-**Explain** (2019-09-23 to 2026-11-25, 1777 days)
+**Explain** (2019-09-23 to 2026-11-26, 1778 days)
 
 | Model | R² | Gain over baseline | News jointly zero, p (HAC Wald) | Out-of-sample R² vs baseline | DM p (MSE) | DM p (QLIKE) |
 |---|---|---|---|---|---|---|
-| LHAR baseline | 0.4838 | – | – | – | – | – |
-| LHAR + attention | 0.4942 | +0.0105 | 0.0000 | – | – | – |
-| LHAR + attention + tone | 0.5374 | +0.0536 | 0.0000 | – | – | – |
-| LHAR + attention, tone, dispersion, novelty | 0.5468 | +0.0630 | 0.0000 | – | – | – |
-| LHAR + attention + tone, without equity-market news | 0.4959 | +0.0121 | 0.0001 | – | – | – |
-| LHAR + GDELT theme shares and tone | 0.5279 | +0.0441 | 0.0000 | – | – | – |
+| LHAR baseline | 0.4839 | – | – | – | – | – |
+| LHAR + attention | 0.4944 | +0.0105 | 0.0000 | – | – | – |
+| LHAR + attention + tone | 0.5375 | +0.0536 | 0.0000 | – | – | – |
+| LHAR + attention, tone, dispersion, novelty | 0.5469 | +0.0630 | 0.0000 | – | – | – |
+| LHAR + attention + tone, without equity-market news | 0.4960 | +0.0121 | 0.0001 | – | – | – |
+| LHAR + GDELT theme shares and tone | 0.5280 | +0.0441 | 0.0000 | – | – | – |
 
 Main model, news coefficients significant after Holm adjustment (log volatility per standard deviation of the regressor):
 
-- equity_markets tone: +0.1126 (95% bootstrap +0.0881 to +0.1365)
+- equity_markets tone: +0.1125 (95% bootstrap +0.0892 to +0.1366)
 
-**Forecast** (2019-09-23 to 2026-11-25, 1780 days)
+**Forecast** (2019-09-23 to 2026-11-26, 1781 days)
 
 | Model | R² | Gain over baseline | News jointly zero, p (HAC Wald) | Out-of-sample R² vs baseline | DM p (MSE) | DM p (QLIKE) |
 |---|---|---|---|---|---|---|
 | LHAR baseline | 0.4831 | – | – | – | – | – |
-| LHAR + attention | 0.4889 | +0.0059 | 0.0029 | -0.0180 | 0.957 | 0.463 |
-| LHAR + attention + tone | 0.4974 | +0.0143 | 0.0000 | -0.0133 | 0.836 | 0.620 |
-| LHAR + attention, tone, dispersion, novelty | 0.5024 | +0.0193 | 0.0000 | -0.0474 | 0.996 | 0.916 |
-| LHAR + attention + tone, without equity-market news | 0.4939 | +0.0108 | 0.0000 | -0.0198 | 0.931 | 0.855 |
-| LHAR + GDELT theme shares and tone | 0.4913 | +0.0083 | 0.0034 | -0.0175 | 0.951 | 0.021 |
+| LHAR + attention | 0.4890 | +0.0058 | 0.0031 | -0.0181 | 0.958 | 0.465 |
+| LHAR + attention + tone | 0.4975 | +0.0143 | 0.0000 | -0.0133 | 0.836 | 0.620 |
+| LHAR + attention, tone, dispersion, novelty | 0.5025 | +0.0193 | 0.0000 | -0.0474 | 0.996 | 0.917 |
+| LHAR + attention + tone, without equity-market news | 0.4940 | +0.0108 | 0.0000 | -0.0198 | 0.931 | 0.855 |
+| LHAR + GDELT theme shares and tone | 0.4914 | +0.0083 | 0.0034 | -0.0175 | 0.952 | 0.021 |
 
 Main model, news coefficients significant after Holm adjustment (log volatility per standard deviation of the regressor):
 
-- equity_markets tone: +0.0383 (95% bootstrap +0.0120 to +0.0611)
+- equity_markets tone: +0.0384 (95% bootstrap +0.0138 to +0.0613)

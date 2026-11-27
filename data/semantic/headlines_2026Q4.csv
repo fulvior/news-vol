@@ -4467,3 +4467,85 @@ date,region,topic,kind,tone,source,title
 2026-11-25,us,trade_tariffs,stressed,0.1663,eastbaytimes.com,"Anxiety over the AI boom, inflation, tariffs drag Wall Street lower"
 2026-11-25,us,trade_tariffs,stressed,0.0978,theepochtimes.com,"Nasdaq Falls 1,000 Points as Sticky Inflation, New Tariffs Spook Markets"
 2026-11-25,us,trade_tariffs,stressed,0.0889,rttnews.com,"Gold Slides Amid Rising Fed Rate Hike Expectations, Fresh U.S. Tariff Concerns"
+2026-11-26,europe,energy,calm,-0.0420,leparisien.fr,Prix des carburants dans les Yvelines : où trouver les stations les moins chères ce jeudi 26 novembre ?
+2026-11-26,europe,energy,calm,-0.0233,wallstreet-online.de,Ölpreise kaum verändert nach deutlichen Vortagesgewinnen - Brent bei 95 Dollar
+2026-11-26,europe,energy,calm,-0.0009,strettoweb.com,"Messina, quasi 1,2 milioni di euro contro il disagio abitativo: aiuti per affitti e bollette a 489 beneficiari"
+2026-11-26,europe,energy,stressed,0.0955,heraldseries.co.uk,Energy bill crisis hits people in their 40s and 50s hardest
+2026-11-26,europe,energy,stressed,0.0435,quattroruote.it,"Stellantis, caro energia in Italia: costi in aumento del 57%"
+2026-11-26,europe,energy,stressed,0.0406,dailyecho.co.uk,Eastleigh MP warns of blow to families ahead of energy bill rise
+2026-11-26,europe,equity_markets,calm,-0.1266,boersennews.de,"DAX freundlich, Rechenzentren bei Siemens und Hochtief im Fokus"
+2026-11-26,europe,equity_markets,calm,-0.1215,finanzen.net,MÄRKTE EUROPA/Erholung auf breiter Front - DAX steigt um über 2%
+2026-11-26,europe,equity_markets,calm,-0.1158,4investors.de,DAX: NachbÃ¶rslich ins Plus gedreht - UBS
+2026-11-26,europe,equity_markets,stressed,0.1102,ibtimes.co.uk,South Korean Market Expert Weeps on Live TV as Stocks Plunge and Explains 'Tears of Anger'
+2026-11-26,europe,equity_markets,stressed,0.0554,quotidiano.net,"Trump promette dazi, l'Ue alza il muro. Ma le Borse bruciano 167 miliardi · Quotidiano Nazionale"
+2026-11-26,europe,equity_markets,stressed,0.0336,larazon.es,NVIDIA sustituyó a Enron en Wall Street cuando estalló su escándalo financiero y ahora una nueva coincidencia con Jensen Huang reaviva las comparaciones en plena fiebre de la IA
+2026-11-26,europe,geopolitics,calm,-0.0985,tagesspiegel.de,Wiedereinsetzung von Nvidia-Chef: Hegseth soll für Jensen Huangs Rückkehr Kriegsgesetz erwogen haben
+2026-11-26,europe,geopolitics,calm,-0.0839,web.de,Jolie und Pitt beenden Wein-Krieg
+2026-11-26,europe,geopolitics,calm,-0.0833,palermo.gds.it,Un biglietto scritto da un prigioniero di guerra nel 1945 consegnato dopo oltre 80 anni ai familiari a Palermo
+2026-11-26,europe,geopolitics,stressed,0.2118,zazoom.it,Molteplici esplosioni su Kiev | le forze russe colpiscono con missili balistici zone della città
+2026-11-26,europe,geopolitics,stressed,0.1803,negocios.com,Zelenski alerta de que Rusia prepara un nuevo ataque masivo contra Ucrania
+2026-11-26,europe,geopolitics,stressed,0.1607,analisidifesa.it,Libia: i giochi pericolosi dell'Ucraina – Analisi Difesa
+2026-11-26,europe,growth_labor,calm,-0.0770,latribunadealbacete.es,"El gasto en I+D interna sube un 9,5% en la región, pero no pasa del 0,58% del PIB"
+2026-11-26,europe,growth_labor,calm,-0.0312,finanzen.net,DIW: Konjunkturbarometer rutscht im November unter 100-Punkte-Marke
+2026-11-26,europe,growth_labor,calm,0.0026,bild.de,BMW: Stellenabbau geht weiter – jetzt wählt der Autobauer gezielt aus
+2026-11-26,europe,growth_labor,stressed,0.0869,zazoom.it,La Fiom-Cgil denuncia i licenziamenti Trasnova confermati per il 30 dicembre
+2026-11-26,europe,growth_labor,stressed,0.0672,europapress.es,Trump acusa al INE de EEUU de manipular las cifras del PIB del país antes de las elecciones
+2026-11-26,europe,growth_labor,stressed,0.0200,zazoom.it,Venezuela debito al 242% del Pil e il governo Rodríguez annuncia la ristrutturazione Con la consulenza di una banca Usa imposta da Trump
+2026-11-26,europe,inflation,calm,0.0099,europapress.es,"Pablo Hernández de Cos, primer español que presidirá el BCE ante la crisis de deuda, la IA y la inflación"
+2026-11-26,europe,inflation,calm,0.0336,laleggepertutti.it,Pensioni 2027: di quanto aumentano con l'inflazione?
+2026-11-26,europe,inflation,stressed,0.0336,laleggepertutti.it,Pensioni 2027: di quanto aumentano con l'inflazione?
+2026-11-26,europe,inflation,stressed,0.0099,europapress.es,"Pablo Hernández de Cos, primer español que presidirá el BCE ante la crisis de deuda, la IA y la inflación"
+2026-11-26,europe,monetary_policy,calm,-0.0366,ilpost.it,Christine Lagarde ha detto che lascerà il suo incarico con otto mesi d'anticipo
+2026-11-26,europe,monetary_policy,calm,-0.0346,europapress.es,"El primer ministro de Países Bajos defiende que Knot ""se ajusta mejor"" que De Cos a los desafíos del BCE"
+2026-11-26,europe,monetary_policy,calm,-0.0303,deutschlandfunk.de,Europäische Zentralbank - Spanier soll neuer EZB-Präsident werden
+2026-11-26,europe,monetary_policy,stressed,0.0566,hedgeweek.com,ECB contacts BNP Paribas and SocGen over hedge fund…
+2026-11-26,europe,monetary_policy,stressed,0.0241,formiche.net,"Hernàndez de Cos, ecco chi è il successore di Lagarde alla Bce"
+2026-11-26,europe,monetary_policy,stressed,0.0232,lexpress.fr,"Pablo Hernandez de Cos à la BCE : en coulisses, la volte-face d'Emmanuel Macron et les réticences de Pedro Sanchez"
+2026-11-26,europe,trade_tariffs,calm,-0.0137,az-online.de,"Trump-Zölle: Neue Abgaben für China, EU und zwölf Partner geplant"
+2026-11-26,europe,trade_tariffs,calm,0.0019,finanznachrichten.de,Indian utility's 300 MW round-the-clock renewables tender yields tariffs from $0.048/kWh
+2026-11-26,europe,trade_tariffs,calm,0.0122,ilgiornale.it,Trump rispolvera i dazi e le Borse tremano
+2026-11-26,europe,trade_tariffs,stressed,0.0932,diariosigloxxi.com,"EEUU esboza nuevos aranceles contra Brasil, que advierte que ""no cederá ante este tipo de amenazas"""
+2026-11-26,europe,trade_tariffs,stressed,0.0604,thueringer-allgemeine.de,"Trump: Neue Zölle gegen die EU, China und weitere Länder"
+2026-11-26,europe,trade_tariffs,stressed,0.0582,notiziegeopolitiche.net,Gli Usa minacciano dazi fino al 20 per cento contro 14 economie per «sovracapacità»: Pechino annuncia contromisure
+2026-11-26,us,energy,calm,-0.0470,mynewsla.com,"Riverside County Gas Prices Drop, Still Highest for Thanksgiving Day"
+2026-11-26,us,energy,calm,-0.0203,khqa.com,Gas prices continue to drop across Tri-States with Illinois now under $4 a gallon
+2026-11-26,us,energy,calm,-0.0137,stategazette.com,Elevated gas prices prompt slight dip in Tennessee holiday travel
+2026-11-26,us,energy,stressed,0.0830,aol.com,Oil prices rise after mine strikes on ships revive supply concerns
+2026-11-26,us,energy,stressed,0.0389,dailymail.com,"Soaring energy costs may force up interest rates before Christmas, warns Bank boss"
+2026-11-26,us,energy,stressed,0.0133,nbcmontana.com,"AAA: $800 airfares, higher gas prices may curb Thanksgiving travel"
+2026-11-26,us,equity_markets,calm,-0.0743,koco.com,Wall Street recovers most early losses as pullback in AI stocks eases
+2026-11-26,us,equity_markets,calm,-0.0639,santamariatimes.com,Global stocks rise and tech shares rebound as US closes for Thanksgiving
+2026-11-26,us,equity_markets,calm,-0.0633,933thedrive.com,"European stocks rally as tech and banks rebound, tariff fears ease"
+2026-11-26,us,equity_markets,stressed,0.0696,bravenewcoin.com,Bitcoin (BTC) Price Today: Whale Selling Near $60K Adds to Glassnode's Warning for Wall Street
+2026-11-26,us,equity_markets,stressed,0.0220,fool.com,Is Anthropic Joining the S&P 500? Here's What Investors Need to Know.
+2026-11-26,us,equity_markets,stressed,-0.0242,scnow.com,Enjoy the Wall Street Journal with a subscription to SCNow.com
+2026-11-26,us,geopolitics,calm,-0.0927,eldoradonews.com,Melania Trump reunites her seventh group of Ukrainian and Russian children with their families
+2026-11-26,us,geopolitics,calm,-0.0817,econotimes.com,Trump Says Ukraine-Russia Agreement Could Come Soon.
+2026-11-26,us,geopolitics,calm,-0.0764,euronews.com,"La Bulgarie accepte le prêt UE de 45 milliards à l'Ukraine, sans financer d'armes"
+2026-11-26,us,geopolitics,stressed,0.2174,cecildaily.com,Zelenskyy warns of imminent major Russian attack on Ukraine's power grid | World
+2026-11-26,us,geopolitics,stressed,0.1991,wral.com,Zelenskyy warns of imminent major Russian attack on Ukraine's power grid :: WRAL.com
+2026-11-26,us,geopolitics,stressed,0.1461,gdnonline.com,World News: UN rights chief warns over growing risk of atrocities against Palestinians
+2026-11-26,us,growth_labor,calm,-0.1291,telesurtv.net,Venezuela proyecta crecimiento económico sostenido y expansión petrolera en diez años
+2026-11-26,us,growth_labor,calm,-0.0291,econotimes.com,Trump Calls for Investigation After U.S. GDP Growth Is Revised to 4.3%
+2026-11-26,us,growth_labor,calm,-0.0236,kctv5.com,"After layoffs, Fairfax workers help put Thanksgiving dinner on the table for Kansas City families"
+2026-11-26,us,growth_labor,stressed,0.1080,euronews.com,Argentina enters technical recession as weak consumption undermines Milei's economic gains
+2026-11-26,us,growth_labor,stressed,0.0808,wtov9.com,Trump calls for probe into Commerce GDP revision he says hurt Republicans in midterms
+2026-11-26,us,growth_labor,stressed,0.0804,wdbo.com,Trump calls GDP figures 'fake' and demands an investigation
+2026-11-26,us,inflation,calm,-0.0423,clickorlando.com,South Korea's central bank raises key interest rate to fight inflation
+2026-11-26,us,inflation,calm,-0.0277,koco.com,Inflation returns to year's highest level ahead of Black Friday; president proposes new tariffs
+2026-11-26,us,inflation,calm,-0.0028,iheart.com,Inflation Increases Slightly Last Month | NEWSRADIO 1040 WHO
+2026-11-26,us,inflation,stressed,0.0587,eldoradonews.com,Inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed
+2026-11-26,us,inflation,stressed,0.0563,themorningsun.com,Rising prices and cost of living fuel record-breaking $1 trillion-plus holiday spending estimates
+2026-11-26,us,inflation,stressed,0.0483,miragenews.com,"Inflation Tops Business Concerns, Report Finds"
+2026-11-26,us,monetary_policy,calm,-0.0327,euronews.com,Eurozone-Staaten stellen sich hinter Hernández de Cos als neuen EZB-Chef
+2026-11-26,us,monetary_policy,calm,-0.0296,econotimes.com,Bank of England Court of Directors Approves £66 Million Payment in Lieu of Dividend
+2026-11-26,us,monetary_policy,calm,-0.0223,mymotherlode.com,Leaders choose Spain's former central bank head as next European Central Bank president
+2026-11-26,us,monetary_policy,stressed,0.0920,econotimes.com,Bank of England Estimates Potential Hyperscaler Exposure at Slightly More Than $4 Trillion
+2026-11-26,us,monetary_policy,stressed,0.0703,aol.com,ECB turns to crisis veteran De Cos as new strains loom
+2026-11-26,us,monetary_policy,stressed,0.0685,yahoo.com,Bank of England sees growing financial risks as AI borrowing surges
+2026-11-26,us,trade_tariffs,calm,-0.0362,aginfo.net,Pork gains Ground as Potato Trade Dispute Presses U.S.-Canada Ties - AG INFORMATION NETWORK OF THE WEST
+2026-11-26,us,trade_tariffs,calm,-0.0126,law360.com,US Proposes 'Excess Manufacturing' Tariffs On Key Partners
+2026-11-26,us,trade_tariffs,calm,-0.0030,kedm.org,Trump administration proposes new tariffs on goods from major U.S. trading partners
+2026-11-26,us,trade_tariffs,stressed,0.0999,cbs12.com,New trade war could be brewing following tariff proposal
+2026-11-26,us,trade_tariffs,stressed,0.0884,diariolibre.com,Principales socios comerciales EE.UU. rechazan nuevos aranceles
+2026-11-26,us,trade_tariffs,stressed,0.0882,newsroomamerica.com,"China, EU and other major economies reject new US tariffs of up to 20 percent"
